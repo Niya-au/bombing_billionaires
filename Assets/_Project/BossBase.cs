@@ -37,6 +37,8 @@ public abstract class BossBase : MonoBehaviour
 
     protected virtual void UpdatePhase()
     {
+        int oldPhase = currentPhase;
+
         float healthPercentage = (float)currentHP / maxHP;
 
         if (healthPercentage <= phaseThresholds[1])
@@ -51,6 +53,16 @@ public abstract class BossBase : MonoBehaviour
         {
             currentPhase = 1;
         }
+
+        if (currentPhase != oldPhase)
+        {
+            OnPhaseChange(currentPhase);
+        }
+    }
+
+    protected virtual void OnPhaseChange(int newPhase)
+    {
+        Debug.Log("Boss changed to phase " + newPhase);
     }
 
     protected abstract void Die();
