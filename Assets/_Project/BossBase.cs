@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public abstract class BossBase : MonoBehaviour
 {
@@ -12,15 +13,19 @@ public abstract class BossBase : MonoBehaviour
 
     protected int currentPhase = 1;
 
+    // Event called when any boss is defeated
+    public static UnityEvent<string> OnAnyBossDefeated =
+        new UnityEvent<string>();
+
     protected virtual void Start()
     {
         currentHP = maxHP;
         UpdatePhase();
     }
 
-    public virtual void TakeDamage(int damage)
+    public virtual void TakeDamage(int amount)
     {
-        currentHP -= damage;
+        currentHP -= amount;
 
         if (currentHP < 0)
         {
@@ -31,7 +36,7 @@ public abstract class BossBase : MonoBehaviour
 
         if (currentHP <= 0)
         {
-            Die();
+            OnDefeated();
         }
     }
 
@@ -63,6 +68,13 @@ public abstract class BossBase : MonoBehaviour
     protected virtual void OnPhaseChange(int newPhase)
     {
         Debug.Log("Boss changed to phase " + newPhase);
+    }
+
+    protected virtual void OnDefeated()
+    {
+        Debug.Log("Boss defeated: " + gameObject.name);
+
+        OnAnyBossDefeated.Invoke(gameObject.name);
     }
 
     protected abstract void Die();
