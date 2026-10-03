@@ -1,11 +1,18 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class RiddleShield : MonoBehaviour
 {
     public RiddleData riddle;
+
     public GameObject riddlePanel;
     public TMP_Text questionText;
+
+    public Button[] answerButtons;
+    public TMP_Text[] answerTexts;
+
+    private Rigidbody2D playerRb;
 
     private void Start()
     {
@@ -16,18 +23,46 @@ public class RiddleShield : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            questionText.text = riddle.question;
-            riddlePanel.SetActive(true);
+            playerRb = other.GetComponent<Rigidbody2D>();
+
+            // Stop player movement while the riddle is open
+            if (playerRb != null)
+            {
+                playerRb.linearVelocity = Vector2.zero;
+                playerRb.simulated = false;
+            }
+
+            OpenRiddle();
         }
     }
 
-    public void CheckAnswer(string answer)
+    private void OpenRiddle()
     {
-        if (answer.Trim().ToLower() == riddle.correctAnswer.Trim().ToLower())
+        questionText.text = riddle.question;
+
+        for (int i = 0; i < answerTexts.Length; i++)
+        {
+            answerTexts[i].text = riddle.answers[i];
+        }
+
+        riddlePanel.SetActive(true);
+    }
+
+    public void CheckAnswer(int answerIndex)
+    {
+        if (answerIndex == riddle.correctAnswerIndex)
         {
             Debug.Log("Correct answer!");
 
             riddlePanel.SetActive(false);
+
+            // Give player control back
+            if (playerRb != null)
+            {
+                playerRb.simulated = true;
+            }
+
+            // Disable the Riddle Shield
             gameObject.SetActive(false);
         }
         else
