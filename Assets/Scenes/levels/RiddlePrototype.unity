@@ -205,13 +205,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1403751222}
         m_TargetAssemblyTypeName: RiddleShield, Assembly-CSharp
         m_MethodName: CheckAnswer
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: Chef
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &108389521
@@ -654,6 +654,110 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515826315}
   m_CullTransparentMesh: 1
+--- !u!1 &549702323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 549702326}
+  - component: {fileID: 549702325}
+  - component: {fileID: 549702324}
+  m_Layer: 0
+  m_Name: RiddleShield02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &549702324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549702323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064345887ea91da43a46def6a0025643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleShield
+  riddle: {fileID: 11400000, guid: 133bdc25bd37ea5438b6fc0a2666cdce, type: 2}
+  riddlePanel: {fileID: 515826315}
+  questionText: {fileID: 1920567766}
+  answerButtons:
+  - {fileID: 1168496305}
+  - {fileID: 833336384}
+  - {fileID: 108389520}
+  - {fileID: 588301608}
+  answerTexts:
+  - {fileID: 1010024048}
+  - {fileID: 339180141}
+  - {fileID: 1242465154}
+  - {fileID: 761784039}
+--- !u!61 &549702325
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549702323}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &549702326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549702323}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.0037539117, w: 0.999993}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.43}
 --- !u!1 &588301606
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,13 +844,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1403751222}
         m_TargetAssemblyTypeName: RiddleShield, Assembly-CSharp
         m_MethodName: CheckAnswer
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
-          m_StringArgument: Idiot
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &588301609
@@ -1010,13 +1114,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1403751222}
         m_TargetAssemblyTypeName: RiddleShield, Assembly-CSharp
         m_MethodName: CheckAnswer
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: Doctor
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &833336385
@@ -1382,13 +1486,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1403751222}
         m_TargetAssemblyTypeName: RiddleShield, Assembly-CSharp
         m_MethodName: CheckAnswer
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Guard
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1168496306
@@ -1578,7 +1682,7 @@ GameObject:
   - component: {fileID: 1403751223}
   - component: {fileID: 1403751222}
   m_Layer: 0
-  m_Name: RiddleShield
+  m_Name: RiddleShield01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1599,6 +1703,16 @@ MonoBehaviour:
   riddle: {fileID: 11400000, guid: 51791ef1e27bfc64ebad057f713967d6, type: 2}
   riddlePanel: {fileID: 515826315}
   questionText: {fileID: 1920567766}
+  answerButtons:
+  - {fileID: 1168496305}
+  - {fileID: 833336384}
+  - {fileID: 108389520}
+  - {fileID: 588301608}
+  answerTexts:
+  - {fileID: 1010024048}
+  - {fileID: 339180141}
+  - {fileID: 1242465154}
+  - {fileID: 761784039}
 --- !u!61 &1403751223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1941,5 +2055,6 @@ SceneRoots:
   - {fileID: 1949740051}
   - {fileID: 1403751224}
   - {fileID: 200477556}
+  - {fileID: 549702326}
   - {fileID: 1128527304}
   - {fileID: 167922286}

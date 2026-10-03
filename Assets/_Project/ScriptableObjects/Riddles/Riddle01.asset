@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RiddleData
   question: I stand at the door and never let you pass. I watch every person who
     enters. Who am I?
-  correctAnswer: guard
+  answers:
+  - Guard
+  - 'Doctor '
+  - Chef
+  - Idiot
+  correctAnswerIndex: 0

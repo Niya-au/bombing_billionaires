@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6275be3af0987dc4388947748c28d920, type: 3}
   m_Name: Riddle02
   m_EditorClassIdentifier: Assembly-CSharp::RiddleData
-  question: 
+  question: "I love gold, towers, and hearing my own name. In this game, I\u2019m
+    the billionaire waiting at the top. Who am I?"
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswerIndex: 0
+  - Elon Tusk
+  - Donald Dump
+  - Jeff Bozos
+  - Nepstein
+  correctAnswerIndex: 1
