@@ -9,22 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 6275be3af0987dc4388947748c28d920, type: 3}
-=======
-  m_Script: {fileID: 11500000, guid: 3dcd458a86258ec478bd79f5ae5702ca, type: 3}
->>>>>>> 4385946e567fd0880929be6afa08db8b9feb7a33
   m_Name: Riddle01
   m_EditorClassIdentifier: Assembly-CSharp::RiddleData
   question: I stand at the door and never let you pass. I watch every person who
     enters. Who am I?
-<<<<<<< HEAD
   answers:
   - Guard
   - 'Doctor '
   - Chef
   - Idiot
   correctAnswerIndex: 0
-=======
-  correctAnswer: guard
->>>>>>> 4385946e567fd0880929be6afa08db8b9feb7a33
