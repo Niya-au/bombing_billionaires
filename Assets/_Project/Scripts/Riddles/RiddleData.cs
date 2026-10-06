@@ -1,5 +1,5 @@
 using UnityEngine;
-
+//helleo
 [CreateAssetMenu(fileName = "NewRiddle", menuName = "Riddles/Riddle")]
 public class RiddleData : ScriptableObject
 {
