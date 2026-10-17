@@ -5,7 +5,7 @@ public class NutProjectile : MonoBehaviour
 {
     [Header("Projectile Settings")]
     public float lifetime = 5f;
-    public int damage = 10;
+    public int damage = 5;
 
     void Start()
     {

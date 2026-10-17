@@ -3,6 +3,12 @@ using UnityEngine;
 
 public class MonkeyController : MonoBehaviour
 {
+    [Header("Phase Settings")]
+    public bool canBeGrabbed = false;
+
+    [Header("Phase Settings")]
+    public bool canRetreat = true;
+
     [Header("References")]
     public Transform player;
     public GameObject nutPrefab;
@@ -30,8 +36,7 @@ public class MonkeyController : MonoBehaviour
     {
         throwTimer = throwInterval;
 
-        if (retreatPoints.Length > 0 &&
-            retreatPoints[0] != null)
+        if (canRetreat && retreatPoints.Length > 0 && retreatPoints[0] != null)
         {
             transform.position = retreatPoints[0].position;
         }
@@ -54,8 +59,7 @@ public class MonkeyController : MonoBehaviour
         );
 
         // Retreat to the next vine.
-        if (distance < retreatDistance &&
-            currentPoint < retreatPoints.Length - 1)
+        if (canRetreat && distance < retreatDistance && currentPoint < retreatPoints.Length - 1)
         {
             StartJump();
             return;
