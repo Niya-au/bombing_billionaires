@@ -13,10 +13,16 @@ public class MoneySpawner : MonoBehaviour
     [SerializeField] private int collectionGoal = 1000;
 
     private int collectedMoney = 0;
-    private float spawnTimer;
+    private float spawnTimer = 0f;
+
+    public int CollectedMoney => collectedMoney;
+    public bool GoalReached => collectedMoney >= collectionGoal;
 
     private void Update()
     {
+        if (GoalReached)
+            return;
+
         spawnTimer += Time.deltaTime;
 
         if (spawnTimer >= spawnInterval)
@@ -43,10 +49,14 @@ public class MoneySpawner : MonoBehaviour
     {
         collectedMoney += amount;
 
-        Debug.Log("Money collected: $" + collectedMoney +
-                  " / $" + collectionGoal);
+        Debug.Log(
+            "Money collected: $" +
+            collectedMoney +
+            " / $" +
+            collectionGoal
+        );
 
-        if (collectedMoney >= collectionGoal)
+        if (GoalReached)
         {
             CollectionGoalReached();
         }
@@ -55,7 +65,5 @@ public class MoneySpawner : MonoBehaviour
     private void CollectionGoalReached()
     {
         Debug.Log("Collection goal reached!");
-
-        // Continue to the next phase or level here.
     }
 }
