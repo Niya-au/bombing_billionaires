@@ -1,8 +1,17 @@
 ## BossBase Usage
 
-To create a new boss, inherit from `BossBase`.
+`BossBase` is the base class used for the bosses in the game. It handles
+common boss functionality such as health, damage, phases and defeat events.
+This means that each new boss does not need to create its own health and
+phase system.
+
+To create a new boss, create a new script that inherits from `BossBase`.
 
 ### Example
+
+`DumpBoss` is an example of a boss that inherits from `BossBase`. The boss
+can use the functionality from the base class and add its own behaviour
+when phases change or when the boss is defeated.
 
 ```csharp
 public class DumpBoss : BossBase
