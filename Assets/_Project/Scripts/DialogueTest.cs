@@ -17,4 +17,4 @@ public class DialogueTest : MonoBehaviour
             dialogueBox.Hide();
         }
     }
-}
+} //hello

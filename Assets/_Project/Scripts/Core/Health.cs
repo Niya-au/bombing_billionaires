@@ -5,6 +5,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private int maxHP = 100;
     public int currentHP;
+    public int MaxHP => maxHP;
 
     public UnityEvent<int> OnDamaged;
     public UnityEvent OnDied;
