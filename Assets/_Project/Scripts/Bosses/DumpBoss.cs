@@ -3,40 +3,54 @@ using UnityEngine;
 
 public class DumpBoss : BossBase
 {
-    [Header("Attack Settings")]
-    [SerializeField] private float phase1AttackInterval = 3f;
-    [SerializeField] private float phase2AttackInterval = 1.5f;
-    [SerializeField] private float phase3AttackInterval = 1f;
-
-    [Header("Projectile")]
-    [SerializeField] private GameObject projectilePrefab;
-    [SerializeField] private Transform firePoint;
-    [SerializeField] private Transform player;
-
-    [Header("References")]
-    [SerializeField] private Animator animator;
+    [Header("Riddle Shields")]
     [SerializeField] private GameObject riddleShield;
+    [SerializeField] private GameObject riddleShield02;
     [SerializeField] private GameObject riddlePanel;
 
-    [Header("Testing Only")]
+    [Header("Player")]
+    [SerializeField] private Rigidbody2D playerRb;
+
+    [Header("Damage Test")]
     [SerializeField] private bool enableDamageTest = true;
     [SerializeField] private int testDamage = 10;
 
-    private float attackTimer;
-    private float currentAttackInterval;
-    private bool isDefeated;
     private bool shieldProtectingBoss;
+    private bool isDefeated;
+    private int riddleStep;
 
     protected override void Start()
     {
         base.Start();
 
-        currentAttackInterval = phase1AttackInterval;
+        isDefeated = false;
+        riddleStep = 1;
+        shieldProtectingBoss = true;
 
+        if (riddleShield02 != null)
+            riddleShield02.SetActive(false);
+
+        if (riddlePanel != null)
+            riddlePanel.SetActive(false);
+
+        // Open Riddle01 automatically at 100 HP.
         if (riddleShield != null)
-            riddleShield.SetActive(false);
+        {
+            riddleShield.SetActive(true);
 
-        Debug.Log("DumpBoss started with " + currentHP + " HP");
+            RiddleShield firstRiddle =
+                riddleShield.GetComponent<RiddleShield>();
+
+            if (firstRiddle != null)
+            {
+                firstRiddle.OpenRiddle(playerRb);
+                Debug.Log("100 HP: Riddle01 opened!");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("RiddleShield01 is missing!");
+        }
     }
 
     private void Update()
@@ -44,7 +58,6 @@ public class DumpBoss : BossBase
         if (isDefeated || currentHP <= 0)
             return;
 
-        // Temporary keyboard test for boss damage.
         if (enableDamageTest && Input.GetKeyDown(KeyCode.H))
         {
             TakeDamage(testDamage);
@@ -55,25 +68,30 @@ public class DumpBoss : BossBase
             );
         }
 
-        // Check if the riddle shield has been removed.
-        if (shieldProtectingBoss &&
+        // Riddle01 solved.
+        if (riddleStep == 1 &&
             riddleShield != null &&
             !riddleShield.activeSelf)
         {
+            riddleStep = 2;
             shieldProtectingBoss = false;
-            Debug.Log("Riddle solved! DumpBoss is vulnerable again.");
+
+            Debug.Log(
+                "Riddle01 solved! Boss fight can begin."
+            );
         }
 
-        // Pause boss attacks while answering a riddle.
-        if (riddlePanel != null && riddlePanel.activeInHierarchy)
-            return;
-
-        attackTimer += Time.deltaTime;
-
-        if (attackTimer >= currentAttackInterval)
+        // Riddle02 solved.
+        if (riddleStep == 3 &&
+            riddleShield02 != null &&
+            !riddleShield02.activeSelf)
         {
-            attackTimer = 0f;
-            Attack();
+            riddleStep = 4;
+            shieldProtectingBoss = false;
+
+            Debug.Log(
+                "Riddle02 solved! Boss is vulnerable again."
+            );
         }
     }
 
@@ -84,11 +102,13 @@ public class DumpBoss : BossBase
 
         if (shieldProtectingBoss)
         {
-            Debug.Log("DumpBoss is protected by the riddle shield!");
+            Debug.Log(
+                "DumpBoss is protected! Solve the riddle first."
+            );
             return;
         }
 
-        // Stop at 40 HP when entering phase 3.
+        // Stop at exactly 40 HP.
         if (currentPhase < 3 &&
             currentHP > maxHP * phaseThresholds[1] &&
             currentHP - amount <= maxHP * phaseThresholds[1])
@@ -100,73 +120,41 @@ public class DumpBoss : BossBase
         base.TakeDamage(amount);
     }
 
-    private void Attack()
-    {
-        if (projectilePrefab == null || firePoint == null)
-        {
-            Debug.LogWarning(
-                "DumpBoss needs a Projectile Prefab and Fire Point."
-            );
-            return;
-        }
-
-        GameObject projectileObject = Instantiate(
-            projectilePrefab,
-            firePoint.position,
-            Quaternion.identity
-        );
-
-        DumpProjectile projectile =
-            projectileObject.GetComponent<DumpProjectile>();
-
-        if (projectile != null && player != null)
-        {
-            Vector2 direction =
-                player.position - firePoint.position;
-
-            projectile.SetDirection(direction);
-        }
-
-        Debug.Log("DumpBoss attacks in phase " + currentPhase);
-    }
-
     protected override void OnPhaseChange(int newPhase)
     {
         base.OnPhaseChange(newPhase);
 
-        switch (newPhase)
+        if (newPhase == 3 && riddleStep == 2)
         {
-            case 1:
-                currentAttackInterval = phase1AttackInterval;
-                break;
+            riddleStep = 3;
+            shieldProtectingBoss = true;
 
-            case 2:
-                currentAttackInterval = phase2AttackInterval;
-                break;
+            if (riddleShield02 != null)
+            {
+                riddleShield02.SetActive(true);
 
-            case 3:
-                currentAttackInterval = phase3AttackInterval;
+                RiddleShield secondRiddle =
+                    riddleShield02.GetComponent<RiddleShield>();
 
-                if (riddleShield != null)
+                if (secondRiddle != null)
                 {
-                    riddleShield.SetActive(true);
-                    shieldProtectingBoss = true;
-                    Debug.Log("Phase 3: Riddle shield activated!");
-                }
-                else
-                {
-                    Debug.LogWarning(
-                        "Phase 3 has no riddle shield assigned."
+                    secondRiddle.OpenRiddle(playerRb);
+
+                    Debug.Log(
+                        "40 HP: Riddle02 opened!"
                     );
                 }
+            }
+            else
+            {
+                Debug.LogWarning(
+                    "RiddleShield02 is missing!"
+                );
 
-                break;
+                riddleStep = 4;
+                shieldProtectingBoss = false;
+            }
         }
-
-        attackTimer = 0f;
-
-        if (animator != null)
-            animator.SetTrigger("Phase" + newPhase);
     }
 
     protected override void OnDefeated()
@@ -182,7 +170,7 @@ public class DumpBoss : BossBase
 
     protected override void Die()
     {
-        Debug.Log("DumpBoss died!");
-        Destroy(gameObject);
+        Debug.Log("DumpBoss defeated!");
+        gameObject.SetActive(false);
     }
 }
