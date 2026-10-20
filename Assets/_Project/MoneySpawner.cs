@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class MoneySpawner : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class MoneySpawner : MonoBehaviour
 
     [Header("Collection Goal")]
     [SerializeField] private int collectionGoal = 1000;
+    [SerializeField] private TMP_Text moneyText;
 
     private int collectedMoney = 0;
     private float spawnTimer = 0f;
@@ -48,6 +50,7 @@ public class MoneySpawner : MonoBehaviour
     public void CollectMoney(int amount)
     {
         collectedMoney += amount;
+        moneyText.text = "Money: $" + collectedMoney + " / $" + collectionGoal;
 
         Debug.Log(
             "Money collected: $" +
