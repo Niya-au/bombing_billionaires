@@ -1352,6 +1352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthBarUI
   playerHealth: {fileID: 1396211393}
   fillImage: {fileID: 2054277764}
+  smoothSpeed: 5
 --- !u!114 &2040600731
 MonoBehaviour:
   m_ObjectHideFlags: 0
