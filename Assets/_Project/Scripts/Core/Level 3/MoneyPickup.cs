@@ -1,5 +1,6 @@
 using UnityEngine;
-//ny
+//ny 
+
 public class MoneyPickup : MonoBehaviour
 {
     [SerializeField] private int moneyValue = 100;
