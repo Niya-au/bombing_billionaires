@@ -1107,6 +1107,10 @@ PrefabInstance:
       propertyPath: riddleShield
       value: 
       objectReference: {fileID: 2130778574}
+    - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+      propertyPath: riddleShield02
+      value: 
+      objectReference: {fileID: 1588667116}
     - target: {fileID: 6508427164745999789, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: m_Name
       value: DumpBoss
@@ -1116,10 +1120,10 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4484474717884939490, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2130778577}
+      addedObject: {fileID: 1588667119}
     - targetCorrespondingSourceObject: {fileID: 4484474717884939490, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1588667119}
+      addedObject: {fileID: 2130778577}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
 --- !u!1 &1171426471
@@ -2368,7 +2372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1588667117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,7 +2443,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5, y: 5}
   m_EdgeRadius: 0
 --- !u!4 &1588667119
 Transform:
