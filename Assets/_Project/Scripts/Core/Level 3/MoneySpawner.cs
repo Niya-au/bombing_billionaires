@@ -4,7 +4,7 @@ using TMPro;
 public class MoneySpawner : MonoBehaviour
 {
     [Header("Money")]
-    [SerializeField] private GameObject moneyPrefab;
+    [SerializeField] private GameObject[] moneyPrefabs;
 
     [Header("Spawn Settings")]
     [SerializeField] private float spawnInterval = 1f;
@@ -36,6 +36,12 @@ public class MoneySpawner : MonoBehaviour
 
     private void SpawnMoney()
     {
+        if (moneyPrefabs == null || moneyPrefabs.Length == 0)
+        {
+            Debug.LogError("No money prefabs assigned!");
+            return;
+        }
+
         float randomX = Random.Range(-spawnWidth, spawnWidth);
 
         Vector3 spawnPosition = new Vector3(
@@ -44,13 +50,18 @@ public class MoneySpawner : MonoBehaviour
             transform.position.z
         );
 
-        Instantiate(moneyPrefab, spawnPosition, Quaternion.identity);
+        GameObject randomMoney =
+            moneyPrefabs[Random.Range(0, moneyPrefabs.Length)];
+
+        Instantiate(randomMoney, spawnPosition, Quaternion.identity);
     }
 
     public void CollectMoney(int amount)
     {
         collectedMoney += amount;
-        moneyText.text = "Money: $" + collectedMoney + " / $" + collectionGoal;
+
+        moneyText.text =
+            "Money: $" + collectedMoney + " / $" + collectionGoal;
 
         Debug.Log(
             "Money collected: $" +
