@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class MonkeyController : MonoBehaviour
 {
-    [Header("Phase Settings")]
-    public bool canBeGrabbed = false;
 
     [Header("Phase Settings")]
     public bool canRetreat = true;

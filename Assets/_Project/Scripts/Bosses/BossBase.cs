@@ -7,6 +7,9 @@ public abstract class BossBase : MonoBehaviour
     [SerializeField] protected int maxHP = 100;
     protected int currentHP;
 
+    public int CurrentHP => currentHP;
+    public int MaxHP => maxHP;
+
     [Header("Boss Phase")]
     [SerializeField]
     protected float[] phaseThresholds = { 0.7f, 0.4f };
