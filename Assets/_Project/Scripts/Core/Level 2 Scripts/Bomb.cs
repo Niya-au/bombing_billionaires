@@ -13,14 +13,15 @@ public class Bomb : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+
         BossBase boss =
             other.GetComponentInParent<BossBase>();
 
         if (boss != null)
         {
-            boss.TakeDamage(damage);
+            Debug.Log("Bomb hit Jaff! Damage: " + damage);
 
-            Debug.Log("Bomb hit Jaff!");
+            boss.TakeDamage(damage);
 
             Destroy(gameObject);
         }

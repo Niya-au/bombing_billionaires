@@ -35,6 +35,10 @@ public abstract class BossBase : MonoBehaviour
             currentHP = 0;
         }
 
+        Debug.Log(
+        "Jaff HP: " + currentHP + "/" + maxHP
+        );
+
         UpdatePhase();
 
         if (currentHP <= 0)

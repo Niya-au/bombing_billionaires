@@ -21,6 +21,11 @@ public class DroneController : MonoBehaviour
     public float damageCooldown = 1f;
 
     private Rigidbody2D rb;
+
+    [Header("Visuals")]
+    public SpriteRenderer droneSprite;
+
+    private Vector3 originalShootPointPosition;
     private int currentPoint = 0;
     private float shootTimer;
     private float nextDamageTime;
@@ -36,6 +41,16 @@ public class DroneController : MonoBehaviour
         {
             rb.position = patrolPoints[0].position;
         }
+
+        if (droneSprite == null)
+        {
+            droneSprite = GetComponentInChildren<SpriteRenderer>();
+        }
+
+        if (shootPoint != null)
+        {
+            originalShootPointPosition = shootPoint.localPosition;
+        }
     }
 
     void FixedUpdate()
@@ -45,6 +60,7 @@ public class DroneController : MonoBehaviour
 
     void Update()
     {
+        FacePlayer();
         ShootAtPlayer();
     }
 
@@ -73,6 +89,34 @@ public class DroneController : MonoBehaviour
         {
             currentPoint =
                 (currentPoint + 1) % patrolPoints.Length;
+        }
+    }
+
+    void FacePlayer()
+    {
+        if (player == null)
+            return;
+
+        // The drone sprite faces LEFT by default.
+        bool playerIsRight =
+            player.position.x > transform.position.x;
+
+        // Flip the artwork, not the whole drone.
+        if (droneSprite != null)
+        {
+            droneSprite.flipX = playerIsRight;
+        }
+
+        // Move the bullet spawn point to the drone's nose.
+        if (shootPoint != null)
+        {
+            Vector3 position = originalShootPointPosition;
+
+            position.x = playerIsRight
+                ? Mathf.Abs(originalShootPointPosition.x)
+                : -Mathf.Abs(originalShootPointPosition.x);
+
+            shootPoint.localPosition = position;
         }
     }
 
@@ -109,10 +153,17 @@ public class DroneController : MonoBehaviour
             player.position - shootPoint.position
         ).normalized;
 
+        // Calculate rotation toward the player.
+        float angle = Mathf.Atan2(
+            direction.y,
+            direction.x
+        ) * Mathf.Rad2Deg;
+
+        // Create the bullet facing its travel direction.
         GameObject bullet = Instantiate(
             bulletPrefab,
             shootPoint.position,
-            Quaternion.identity
+            Quaternion.Euler(0f, 0f, angle)
         );
 
         Rigidbody2D bulletRb =
