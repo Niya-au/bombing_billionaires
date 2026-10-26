@@ -10,29 +10,52 @@ public class HazardSpawner : MonoBehaviour
     [SerializeField] private float spawnWidth = 8f;
     [SerializeField] private float spawnHeight = 6f;
 
+    [Header("Hazard Phase")]
+    [SerializeField] private float hazardDuration = 15f;
+
     [Header("Level 3")]
     [SerializeField] private MoneySpawner moneySpawner;
+    [SerializeField] private Health playerHealth;
 
     private float spawnTimer = 0f;
-    private bool spawningEnabled = true;
+    private float hazardTimer = 0f;
+
+    private bool phaseStarted = false;
+    private bool phaseFinished = false;
 
     private void Update()
     {
-        // Stop spawning when HazardPhase tells us to stop
-        if (!spawningEnabled)
-            return;
-
-        // Wait until $1000 has been collected
+        // Vent på at spilleren har samlet $1000
         if (moneySpawner == null)
             return;
 
         if (!moneySpawner.GoalReached)
             return;
 
-        // Make sure a hazard prefab exists
-        if (hazardPrefab == null)
+        // Start hazard-fasen én gang
+        if (!phaseStarted)
+        {
+            StartHazardPhase();
+        }
+
+        // Fasen er allerede færdig
+        if (phaseFinished)
             return;
 
+        // Hvis spilleren er død, stop hazards
+        if (playerHealth != null && playerHealth.currentHP <= 0)
+        {
+            StopHazards();
+
+            Debug.Log("Player died during hazard phase.");
+
+            return;
+        }
+
+        // Tæl hazard-tiden
+        hazardTimer += Time.deltaTime;
+
+        // Spawn hazards
         spawnTimer += Time.deltaTime;
 
         if (spawnTimer >= spawnInterval)
@@ -40,15 +63,39 @@ public class HazardSpawner : MonoBehaviour
             SpawnHazard();
             spawnTimer = 0f;
         }
+
+        // Efter fx 15 sekunder
+        if (hazardTimer >= hazardDuration)
+        {
+            FinishHazardPhase();
+        }
+    }
+
+    private void StartHazardPhase()
+    {
+        phaseStarted = true;
+        hazardTimer = 0f;
+        spawnTimer = 0f;
+
+        Debug.Log("HAZARD PHASE STARTED!");
+
+        // Sørg for at hazards er aktive
+        enabled = true;
     }
 
     private void SpawnHazard()
     {
+        if (hazardPrefab == null)
+        {
+            Debug.LogWarning("Hazard Prefab is missing!");
+            return;
+        }
+
         float randomX = Random.Range(-spawnWidth, spawnWidth);
 
         Vector3 spawnPosition = new Vector3(
             transform.position.x + randomX,
-            spawnHeight,
+            transform.position.y + spawnHeight,
             0f
         );
 
@@ -59,10 +106,22 @@ public class HazardSpawner : MonoBehaviour
         );
     }
 
-    public void StopSpawning()
+    private void StopHazards()
     {
-        spawningEnabled = false;
+        // Stop nye hazards fra at spawne
+        phaseFinished = true;
 
         Debug.Log("Hazard spawning stopped.");
+    }
+
+    private void FinishHazardPhase()
+    {
+        phaseFinished = true;
+
+        Debug.Log("HAZARD PHASE COMPLETE!");
+        Debug.Log("Player survived 15 seconds!");
+
+        // Her går vi videre til boss-fighten
+        // Boss-systemet sættes på her bagefter.
     }
 }
