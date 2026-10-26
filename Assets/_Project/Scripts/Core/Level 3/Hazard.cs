@@ -7,7 +7,8 @@ public class Hazard : MonoBehaviour
     private void Update()
     {
         transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
-    }
+    } 
+    //test
 
     private void OnTriggerEnter2D(Collider2D other)
     {
