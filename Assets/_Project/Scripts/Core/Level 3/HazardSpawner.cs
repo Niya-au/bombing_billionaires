@@ -13,17 +13,23 @@ public class HazardSpawner : MonoBehaviour
     [Header("Level 3")]
     [SerializeField] private MoneySpawner moneySpawner;
 
-    private float spawnTimer;
+    private float spawnTimer = 0f;
+    private bool spawningEnabled = true;
 
     private void Update()
     {
-        // Hazards starter først efter $1000
+        // Stop spawning when HazardPhase tells us to stop
+        if (!spawningEnabled)
+            return;
+
+        // Wait until $1000 has been collected
         if (moneySpawner == null)
             return;
 
         if (!moneySpawner.GoalReached)
             return;
 
+        // Make sure a hazard prefab exists
         if (hazardPrefab == null)
             return;
 
@@ -51,5 +57,12 @@ public class HazardSpawner : MonoBehaviour
             spawnPosition,
             Quaternion.identity
         );
+    }
+
+    public void StopSpawning()
+    {
+        spawningEnabled = false;
+
+        Debug.Log("Hazard spawning stopped.");
     }
 }
