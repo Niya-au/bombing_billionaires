@@ -24,7 +24,6 @@ public class HazardSpawner : MonoBehaviour
     private bool phaseStarted = false;
     private bool phaseFinished = false;
 
-    // Bruges af andre scripts
     public float TimeRemaining
     {
         get
@@ -37,10 +36,13 @@ public class HazardSpawner : MonoBehaviour
 
     private void Update()
     {
-        // Vent på $1000
         if (moneySpawner == null)
+        {
+            Debug.LogWarning("HazardSpawner: MoneySpawner mangler!");
             return;
+        }
 
+        // Vent på $1000
         if (!moneySpawner.GoalReached)
             return;
 
@@ -50,34 +52,32 @@ public class HazardSpawner : MonoBehaviour
             StartHazardPhase();
         }
 
-        // Fasen er færdig
+        // Stop når fasen er færdig
         if (phaseFinished)
             return;
 
-        // Hvis spilleren dør
+        // Stop hvis spilleren er død
         if (playerHealth != null && playerHealth.currentHP <= 0)
         {
             StopSpawning();
 
             Debug.Log("PLAYER DIED DURING HAZARD PHASE!");
-
             return;
         }
 
-        // Tæl tiden
+        // Hazard timer
         hazardTimer += Time.deltaTime;
 
-        // Tæl spawn timer
+        // Spawn timer
         spawnTimer += Time.deltaTime;
 
-        // Spawn hazard
         if (spawnTimer >= spawnInterval)
         {
             SpawnHazard();
             spawnTimer = 0f;
         }
 
-        // 15 sekunder er gået
+        // 15 sekunder gået
         if (hazardTimer >= hazardDuration)
         {
             FinishHazardPhase();
@@ -99,23 +99,27 @@ public class HazardSpawner : MonoBehaviour
     {
         if (hazardPrefab == null)
         {
-            Debug.LogWarning("Hazard Prefab is missing!");
+            Debug.LogError("HazardSpawner: Hazard Prefab mangler!");
             return;
         }
 
         float randomX = Random.Range(-spawnWidth, spawnWidth);
 
+        // VIGTIGT:
+        // spawnHeight er den faktiske Y-position.
         Vector3 spawnPosition = new Vector3(
             transform.position.x + randomX,
-            transform.position.y + spawnHeight,
+            spawnHeight,
             0f
         );
 
-        Instantiate(
+        GameObject newHazard = Instantiate(
             hazardPrefab,
             spawnPosition,
             Quaternion.identity
         );
+
+        Debug.Log("HAZARD SPAWNED AT: " + spawnPosition);
     }
 
     public void StopSpawning()
@@ -132,6 +136,6 @@ public class HazardSpawner : MonoBehaviour
         Debug.Log("HAZARD PHASE COMPLETE!");
         Debug.Log("PLAYER SURVIVED " + hazardDuration + " SECONDS!");
 
-        // Her kan vi senere starte næste del af Level 3.
+        // Her starter vi næste del af Level 3 senere.
     }
 }
