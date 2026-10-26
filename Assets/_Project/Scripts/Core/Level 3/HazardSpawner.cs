@@ -1,4 +1,4 @@
- 
+
 using UnityEngine;
 
 public class HazardSpawner : MonoBehaviour
@@ -14,54 +14,66 @@ public class HazardSpawner : MonoBehaviour
     [Header("Hazard Phase")]
     [SerializeField] private float hazardDuration = 15f;
 
-    [Header("Level 3")]
-    [SerializeField] private MoneySpawner moneySpawner;
-    [SerializeField] private Health playerHealth;
+    private MoneySpawner moneySpawner;
+    private Health playerHealth;
 
-    private float spawnTimer;
-    private float hazardTimer;
+    private float spawnTimer = 0f;
+    private float hazardTimer = 0f;
 
-    private bool phaseStarted;
-    private bool phaseFinished;
+    private bool phaseStarted = false;
+    private bool phaseFinished = false;
 
-    public float TimeRemaining
-    {
-        get
-        {
-            return Mathf.Max(0f, hazardDuration - hazardTimer);
-        }
-    }
+    public float TimeRemaining =>
+        Mathf.Max(0f, hazardDuration - hazardTimer);
 
     public bool PhaseFinished => phaseFinished;
 
+    private void Start()
+    {
+        // Find automatisk
+        moneySpawner = FindFirstObjectByType<MoneySpawner>();
+        playerHealth = FindFirstObjectByType<Health>();
+
+        Debug.Log("HAZARD SPAWNER READY");
+
+        if (moneySpawner == null)
+            Debug.LogError("HAZARD ERROR: MoneySpawner blev ikke fundet!");
+
+        if (playerHealth == null)
+            Debug.LogError("HAZARD ERROR: Health blev ikke fundet!");
+
+        if (hazardPrefab == null)
+            Debug.LogError("HAZARD ERROR: Hazard Prefab mangler!");
+    }
+
     private void Update()
     {
-        // Vent på at $1000 er samlet
+        // Hvis MoneySpawner ikke blev fundet
         if (moneySpawner == null)
             return;
 
+        // Vent på $1000
         if (!moneySpawner.GoalReached)
             return;
 
-        // Start hazard phase
+        // Start fasen
         if (!phaseStarted)
         {
             phaseStarted = true;
-            phaseFinished = false;
-
-            spawnTimer = 0f;
             hazardTimer = 0f;
+            spawnTimer = 0f;
 
             Debug.Log("================================");
             Debug.Log("HAZARD PHASE STARTED!");
+            Debug.Log("SURVIVE FOR 15 SECONDS!");
             Debug.Log("================================");
         }
 
-        // Stop hvis fasen er færdig
+        // Fasen er færdig
         if (phaseFinished)
             return;
 
-        // Stop hvis spilleren er død
+        // Spilleren er død
         if (playerHealth != null && playerHealth.currentHP <= 0)
         {
             StopSpawning();
@@ -70,10 +82,9 @@ public class HazardSpawner : MonoBehaviour
 
         // Timer
         hazardTimer += Time.deltaTime;
-
-        // Spawn timer
         spawnTimer += Time.deltaTime;
 
+        // Spawn
         if (spawnTimer >= spawnInterval)
         {
             SpawnHazard();
@@ -91,12 +102,11 @@ public class HazardSpawner : MonoBehaviour
     {
         if (hazardPrefab == null)
         {
-            Debug.LogError("HAZARD PREFAB MANGLER!");
+            Debug.LogError("KAN IKKE SPAWNE: Hazard Prefab mangler!");
             return;
         }
 
-        // Spawn direkte i den synlige del af banen
-        float randomX = Random.Range(-8f, 8f);
+        float randomX = Random.Range(-spawnWidth, spawnWidth);
 
         Vector3 spawnPosition = new Vector3(
             randomX,
@@ -104,15 +114,13 @@ public class HazardSpawner : MonoBehaviour
             0f
         );
 
-        GameObject hazard = Instantiate(
+        Instantiate(
             hazardPrefab,
             spawnPosition,
             Quaternion.identity
         );
 
-        Debug.Log(
-            "HAZARD SPAWNED! Position: " + spawnPosition
-        );
+        Debug.Log("HAZARD SPAWNED!");
     }
 
     public void StopSpawning()
@@ -126,9 +134,9 @@ public class HazardSpawner : MonoBehaviour
     {
         phaseFinished = true;
 
-        Debug.Log("==============================");
+        Debug.Log("================================");
         Debug.Log("HAZARD PHASE COMPLETE!");
         Debug.Log("PLAYER SURVIVED 15 SECONDS!");
-        Debug.Log("==============================");
+        Debug.Log("================================");
     }
 }
