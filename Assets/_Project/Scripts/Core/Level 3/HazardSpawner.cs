@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class HazardSpawner : MonoBehaviour
@@ -22,6 +23,9 @@ public class HazardSpawner : MonoBehaviour
 
     private bool phaseStarted = false;
     private bool phaseFinished = false;
+
+    public bool PhaseStarted => phaseStarted;
+    public bool PhaseFinished => phaseFinished;
 
     private void Update()
     {
@@ -52,7 +56,7 @@ public class HazardSpawner : MonoBehaviour
             return;
         }
 
-        // Tæl hazard-tiden
+        // Tæl tiden i hazard-fasen
         hazardTimer += Time.deltaTime;
 
         // Spawn hazards
@@ -78,9 +82,6 @@ public class HazardSpawner : MonoBehaviour
         spawnTimer = 0f;
 
         Debug.Log("HAZARD PHASE STARTED!");
-
-        // Sørg for at hazards er aktive
-        enabled = true;
     }
 
     private void SpawnHazard()
@@ -108,10 +109,9 @@ public class HazardSpawner : MonoBehaviour
 
     private void StopHazards()
     {
-        // Stop nye hazards fra at spawne
         phaseFinished = true;
 
-        Debug.Log("Hazard spawning stopped.");
+        Debug.Log("Hazard spawning stopped because the player died.");
     }
 
     private void FinishHazardPhase()
@@ -121,7 +121,7 @@ public class HazardSpawner : MonoBehaviour
         Debug.Log("HAZARD PHASE COMPLETE!");
         Debug.Log("Player survived 15 seconds!");
 
-        // Her går vi videre til boss-fighten
+        // Her går vi videre til boss-fighten.
         // Boss-systemet sættes på her bagefter.
     }
 }
