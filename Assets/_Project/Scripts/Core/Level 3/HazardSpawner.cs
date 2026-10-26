@@ -42,14 +42,14 @@ public class HazardSpawner : MonoBehaviour
             StartHazardPhase();
         }
 
-        // Fasen er allerede færdig
+        // Fasen er færdig
         if (phaseFinished)
             return;
 
-        // Hvis spilleren er død, stop hazards
+        // Hvis spilleren er død
         if (playerHealth != null && playerHealth.currentHP <= 0)
         {
-            StopHazards();
+            StopSpawning();
 
             Debug.Log("Player died during hazard phase.");
 
@@ -68,7 +68,7 @@ public class HazardSpawner : MonoBehaviour
             spawnTimer = 0f;
         }
 
-        // Efter fx 15 sekunder
+        // Efter 15 sekunder
         if (hazardTimer >= hazardDuration)
         {
             FinishHazardPhase();
@@ -107,11 +107,12 @@ public class HazardSpawner : MonoBehaviour
         );
     }
 
-    private void StopHazards()
+    // Denne funktion kan kaldes fra HazardPhase
+    public void StopSpawning()
     {
         phaseFinished = true;
 
-        Debug.Log("Hazard spawning stopped because the player died.");
+        Debug.Log("Hazard spawning stopped.");
     }
 
     private void FinishHazardPhase()
@@ -121,7 +122,7 @@ public class HazardSpawner : MonoBehaviour
         Debug.Log("HAZARD PHASE COMPLETE!");
         Debug.Log("Player survived 15 seconds!");
 
-        // Her går vi videre til boss-fighten.
-        // Boss-systemet sættes på her bagefter.
+        // HazardPhase kan nu fortsætte til næste del:
+        // BOSS FIGHT
     }
 }
