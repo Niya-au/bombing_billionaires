@@ -3,102 +3,126 @@ using TMPro;
 
 public class HazardPhase : MonoBehaviour
 {
-    [Header("References")]
+    [Header("Level 3")]
     [SerializeField] private MoneySpawner moneySpawner;
     [SerializeField] private HazardSpawner hazardSpawner;
-    [SerializeField] private GameObject boss;
-    [SerializeField] private TMP_Text timerText;
+    [SerializeField] private Health playerHealth;
 
-    [Header("Survival Settings")]
-    [SerializeField] private float survivalTime = 15f;
+    [Header("UI")]
+    [SerializeField] private TMP_Text phaseText;
 
-    private float timer;
-    private bool phaseStarted;
-    private bool phaseFinished;
+    [Header("Settings")]
+    [SerializeField] private float hazardDuration = 15f;
+
+    private float timer = 0f;
+    private bool phaseStarted = false;
+    private bool phaseFinished = false;
 
     private void Start()
     {
-        timer = survivalTime;
-
-        if (timerText != null)
+        if (phaseText != null)
         {
-            timerText.text = "";
-        }
-
-        // Boss starter skjult
-        if (boss != null)
-        {
-            boss.SetActive(false);
+            phaseText.text = "";
         }
     }
 
     private void Update()
     {
-        if (phaseFinished)
+        // Vent på $1000
+        if (moneySpawner == null)
             return;
 
-        // Vent på at spilleren har samlet $1000
+        if (!moneySpawner.GoalReached)
+            return;
+
+        // Start hazard-fasen
         if (!phaseStarted)
         {
-            if (moneySpawner == null || !moneySpawner.GoalReached)
-                return;
-
             StartHazardPhase();
         }
 
-        timer -= Time.deltaTime;
+        if (phaseFinished)
+            return;
 
-        if (timer < 0f)
-            timer = 0f;
-
-        UpdateTimerUI();
-
-        // Survival-fasen er færdig
-        if (timer <= 0f)
+        // Spilleren døde
+        if (playerHealth != null && playerHealth.currentHP <= 0)
         {
-            FinishHazardPhase();
+            PlayerDied();
+            return;
+        }
+
+        // Tæl tiden
+        timer += Time.deltaTime;
+
+        // Vis countdown
+        if (phaseText != null)
+        {
+            int secondsLeft = Mathf.CeilToInt(hazardDuration - timer);
+
+            phaseText.text =
+                "HAZARD PHASE\n" +
+                "Survive " + secondsLeft + " seconds!";
+        }
+
+        // Spilleren overlevede
+        if (timer >= hazardDuration)
+        {
+            CompleteHazardPhase();
         }
     }
 
     private void StartHazardPhase()
     {
         phaseStarted = true;
-        timer = survivalTime;
+        timer = 0f;
 
-        Debug.Log("⚠️ HAZARD PHASE STARTED!");
+        Debug.Log("HAZARD PHASE STARTED!");
 
-        UpdateTimerUI();
-    }
-
-    private void UpdateTimerUI()
-    {
-        if (timerText != null)
+        if (phaseText != null)
         {
-            timerText.text = "SURVIVE: " + Mathf.CeilToInt(timer);
+            phaseText.text =
+                "HAZARD PHASE\n" +
+                "Survive 15 seconds!";
         }
     }
 
-    private void FinishHazardPhase()
+    private void PlayerDied()
     {
         phaseFinished = true;
 
-        Debug.Log("✅ HAZARD PHASE COMPLETE!");
-
-        // Stop hazards
         if (hazardSpawner != null)
         {
             hazardSpawner.StopSpawning();
         }
 
-        if (timerText != null)
+        if (phaseText != null)
         {
-            timerText.text = "BOSS INCOMING!";
+            phaseText.text =
+                "YOU DIED";
         }
 
-        // Start boss
-        if (boss != null)
+        Debug.Log("PLAYER DIED DURING HAZARD PHASE!");
+    }
+
+    private void CompleteHazardPhase()
+    {
+        phaseFinished = true;
+
+        if (hazardSpawner != null)
         {
-            boss.SetActive(true);
+            hazardSpawner.StopSpawning();
         }
+
+        if (phaseText != null)
+        {
+            phaseText.text =
+                "HAZARD PHASE COMPLETE!\n" +
+                "BOSS FIGHT!";
+        }
+
+        Debug.Log("HAZARD PHASE COMPLETE!");
+        Debug.Log("PLAYER SURVIVED 15 SECONDS!");
+
+        // Her kobler vi bossen på bagefter.
     }
 }

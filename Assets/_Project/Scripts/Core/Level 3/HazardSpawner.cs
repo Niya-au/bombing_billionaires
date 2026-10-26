@@ -125,4 +125,9 @@ public class HazardSpawner : MonoBehaviour
         // HazardPhase kan nu fortsætte til næste del:
         // BOSS FIGHT
     }
-}
+    public void StopSpawning()
+{
+    phaseFinished = true;
+
+    Debug.Log("Hazard spawning stopped.");
+}}
