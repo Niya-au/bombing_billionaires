@@ -8,7 +8,7 @@ public class HazardSpawner : MonoBehaviour
     [Header("Spawn Settings")]
     [SerializeField] private float spawnInterval = 2f;
     [SerializeField] private float spawnWidth = 8f;
-    [SerializeField] private float spawnHeight = 6f;
+    [SerializeField] private float spawnHeight = 3f;
 
     [Header("Level 3")]
     [SerializeField] private MoneySpawner moneySpawner;
@@ -23,13 +23,10 @@ public class HazardSpawner : MonoBehaviour
             return;
         }
 
-        // Start først hazards når $1000 er samlet
         if (!moneySpawner.GoalReached)
         {
             return;
         }
-
-        Debug.Log("HAZARDS STARTER!");
 
         spawnTimer += Time.deltaTime;
 
@@ -46,7 +43,7 @@ public class HazardSpawner : MonoBehaviour
 
         Vector3 spawnPosition = new Vector3(
             transform.position.x + randomX,
-            transform.position.y + spawnHeight,
+            spawnHeight,
             0f
         );
 
