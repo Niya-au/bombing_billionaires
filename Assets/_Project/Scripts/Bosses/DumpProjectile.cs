@@ -9,6 +9,7 @@ public class DumpProjectile : MonoBehaviour
     [SerializeField] private float hitDistance = 0.8f;
 
     private Transform player;
+    private Vector2 direction = Vector2.left;
 
     private void Start()
     {
@@ -22,28 +23,38 @@ public class DumpProjectile : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
+    // Denne skal være her, fordi DumpBoss bruger den
+    public void SetDirection(Vector2 newDirection)
+    {
+        if (newDirection.sqrMagnitude > 0.001f)
+        {
+            direction = newDirection.normalized;
+        }
+    }
+
     private void Update()
     {
-        if (player == null)
-            return;
-
-        // Flyv direkte mod spilleren
-        Vector2 direction =
-            (player.position - transform.position).normalized;
+        // Hvis der findes en spiller, så flyv mod spilleren
+        if (player != null)
+        {
+            direction = (player.position - transform.position).normalized;
+        }
 
         transform.position +=
             (Vector3)(direction * speed * Time.deltaTime);
 
-        // Ekstra sikkerhed:
-        // Hvis vi er tæt nok på spilleren, tæller det som et hit.
-        float distance = Vector2.Distance(
-            transform.position,
-            player.position
-        );
-
-        if (distance <= hitDistance)
+        // Sikkerheds-hit hvis projektilet kommer tæt nok på
+        if (player != null)
         {
-            HitPlayer();
+            float distance = Vector2.Distance(
+                transform.position,
+                player.position
+            );
+
+            if (distance <= hitDistance)
+            {
+                HitPlayer();
+            }
         }
     }
 
