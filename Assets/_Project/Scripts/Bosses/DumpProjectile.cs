@@ -31,8 +31,13 @@ public class DumpProjectile : MonoBehaviour
         {
             Debug.Log("DumpBoss projectile hit the player!");
 
-            // Connect to the player's health system later.
-            // Example: playerHealth.TakeDamage(damage);
+            Health health = other.GetComponentInParent<Health>();
+
+            if (health != null)
+            {
+                health.TakeDamage(damage);
+                Debug.Log("Player took " + damage + " damage.");
+            }
 
             Destroy(gameObject);
         }
