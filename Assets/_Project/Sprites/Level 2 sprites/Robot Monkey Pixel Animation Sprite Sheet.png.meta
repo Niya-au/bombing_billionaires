@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 79371ccacd03ddb4fb376606d305ae2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5284666486433426782
+    second: Robot Monkey Pixel Animation Sprite Sheet_0
+  - first:
+      213: -5549045712241997411
+    second: Robot Monkey Pixel Animation Sprite Sheet_1
+  - first:
+      213: -4514495514302637009
+    second: Robot Monkey Pixel Animation Sprite Sheet_2
+  - first:
+      213: 3531043239995512380
+    second: Robot Monkey Pixel Animation Sprite Sheet_3
+  - first:
+      213: 3642422782663371491
+    second: Robot Monkey Pixel Animation Sprite Sheet_4
+  - first:
+      213: -4328547030226468259
+    second: Robot Monkey Pixel Animation Sprite Sheet_5
+  - first:
+      213: 7621692685930575607
+    second: Robot Monkey Pixel Animation Sprite Sheet_6
+  - first:
+      213: 1035725588796499632
+    second: Robot Monkey Pixel Animation Sprite Sheet_7
+  - first:
+      213: 2948118309935357809
+    second: Robot Monkey Pixel Animation Sprite Sheet_8
+  - first:
+      213: -5484397919861434148
+    second: Robot Monkey Pixel Animation Sprite Sheet_9
+  - first:
+      213: 5500411299805329538
+    second: Robot Monkey Pixel Animation Sprite Sheet_10
+  - first:
+      213: -5221513267413304716
+    second: Robot Monkey Pixel Animation Sprite Sheet_11
+  - first:
+      213: 715650232399816925
+    second: Robot Monkey Pixel Animation Sprite Sheet_12
+  - first:
+      213: 8475375572341176489
+    second: Robot Monkey Pixel Animation Sprite Sheet_13
+  - first:
+      213: 1999043309573331288
+    second: Robot Monkey Pixel Animation Sprite Sheet_14
+  - first:
+      213: 6441283388984667250
+    second: Robot Monkey Pixel Animation Sprite Sheet_15
+  - first:
+      213: -3121963155313466122
+    second: Robot Monkey Pixel Animation Sprite Sheet_16
+  - first:
+      213: 2753861585815154392
+    second: Robot Monkey Pixel Animation Sprite Sheet_17
+  - first:
+      213: 7954045613976250300
+    second: Robot Monkey Pixel Animation Sprite Sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38195944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5da6488b28e65940800000000000000
+      internalID: 5284666486433426782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 842
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23440804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9949672354ddf2b0800000000000000
+      internalID: -5549045712241997411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 844
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.48258066, y: 0.26391852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c95e1af3a4951c0800000000000000
+      internalID: -4514495514302637009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 844
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c361a765e19c00130800000000000000
+      internalID: 3531043239995512380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 844
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaa072f83c7c8230800000000000000
+      internalID: 3642422782663371491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 844
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5287cdd869ede3c0800000000000000
+      internalID: -4328547030226468259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 840
+        width: 192
+        height: 174
+      alignment: 9
+      pivot: {x: 0.46095657, y: 0.45590425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6b51ccd11b5c960800000000000000
+      internalID: 7621692685930575607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 843
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b66ffc7fe2af5e00800000000000000
+      internalID: 1035725588796499632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 663
+        width: 192
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35081598}
+      border: {x: 0, y: 5, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f958babf1d9e820800000000000000
+      internalID: 2948118309935357809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 671
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.515213, y: 0.2938211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd894c3462183e3b0800000000000000
+      internalID: -5484397919861434148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 672
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.48478714, y: 0.31959337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288f07b4fe2655c40800000000000000
+      internalID: 5500411299805329538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 673
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.4847876, y: 0.08764182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a37d919557987b0800000000000000
+      internalID: -5221513267413304716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 673
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8ed9d38108ee900800000000000000
+      internalID: 715650232399816925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 673
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.3103126, y: 0.40354398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a83b67bd259e9570800000000000000
+      internalID: 8475375572341176489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 675
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.30983925, y: 0.4742288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8595db57c470ebb10800000000000000
+      internalID: 1999043309573331288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 677
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.086914696, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c2e0a6d19046950800000000000000
+      internalID: 6441283388984667250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 494
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.52219445, y: -0.051467896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4eea51d0f8ca4d0800000000000000
+      internalID: -3121963155313466122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 500
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de2b1f858ea73620800000000000000
+      internalID: 2753861585815154392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 500
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7ee44f752726e60800000000000000
+      internalID: 7954045613976250300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 496
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6602a4690e793924e929e857ef244b38
+      internalID: 698627894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 494
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014929acc7878bf4282520709856d5cd
+      internalID: 302176687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 498
+        width: 139
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5974db89083beff488f113b51b7b7478
+      internalID: 1346464352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 500
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1f3b238ff6d4949be480ed2366feb5
+      internalID: 25745804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 504
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c885eaf60f781d43bba8482d11750d6
+      internalID: 89232258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 192
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5143977, y: 0.55759084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99131e04ae0b87e45a9720bce8f2b3fb
+      internalID: -967572352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 336
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d955aa5704876bf45a7879704ee09018
+      internalID: 640138788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 333
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f693735f208e648add42d9f172c5cb
+      internalID: 1967045496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 327
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdfcf1fc0afb5a4983b3f0cc86aee57
+      internalID: 1930042588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 330
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0092051555f640ad4c5475f1c0930
+      internalID: -1703525464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 332
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107c7651a85d7784eb167bedb9983fd0
+      internalID: 1970006842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 331
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb367c4291cdcf49823e03d1454a290
+      internalID: -979459059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 172
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d99862da6361d409db3688d5f74953
+      internalID: 271186398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 172
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 6}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4755ffc1b31623499de24c69fabeba7
+      internalID: -503546220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 170
+        width: 226
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d111b60836ea8d4e8ad1d27149657c0
+      internalID: 842551076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 157
+        width: 218
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 19, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad4eb8864cc5e14c9225f33af60dbda
+      internalID: 626825513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 178
+        width: 229
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec2fbba3425f6f438083dd3f4fbb3f3
+      internalID: -2052006943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 167
+        width: 210
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 8, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012d7ca25af1b2147b067107693af713
+      internalID: 1600932504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 192
+        height: 170
+      alignment: 9
+      pivot: {x: 0.44374907, y: 0.5000003}
+      border: {x: 0, y: 0, z: 35, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74587b7021a888046979070031e891d9
+      internalID: 438907028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 3
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 21, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d5da1028619204f82201ec38c5c4c6
+      internalID: -454583575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2
+        width: 228
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a346cd5b5a061e84e8038eca874732e8
+      internalID: 1794792409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 241
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a7b98cbe9b1904e99335aa786347d9
+      internalID: -1477493935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 2
+        width: 235
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aab77c564f453c41b6391943d1fe555
+      internalID: -823028835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Monkey Pixel Animation Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 3
+        width: 192
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b56ae802b711544b5b43f421b20678
+      internalID: -343823612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":6.0},"gridSpriteSize":{"x":192.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Robot Monkey Pixel Animation Sprite Sheet_0: 5284666486433426782
+      Robot Monkey Pixel Animation Sprite Sheet_1: -5549045712241997411
+      Robot Monkey Pixel Animation Sprite Sheet_10: 5500411299805329538
+      Robot Monkey Pixel Animation Sprite Sheet_11: -5221513267413304716
+      Robot Monkey Pixel Animation Sprite Sheet_12: 715650232399816925
+      Robot Monkey Pixel Animation Sprite Sheet_13: 8475375572341176489
+      Robot Monkey Pixel Animation Sprite Sheet_14: 1999043309573331288
+      Robot Monkey Pixel Animation Sprite Sheet_15: 6441283388984667250
+      Robot Monkey Pixel Animation Sprite Sheet_16: -3121963155313466122
+      Robot Monkey Pixel Animation Sprite Sheet_17: 2753861585815154392
+      Robot Monkey Pixel Animation Sprite Sheet_18: 7954045613976250300
+      Robot Monkey Pixel Animation Sprite Sheet_19: 698627894
+      Robot Monkey Pixel Animation Sprite Sheet_2: -4514495514302637009
+      Robot Monkey Pixel Animation Sprite Sheet_20: 302176687
+      Robot Monkey Pixel Animation Sprite Sheet_21: 1346464352
+      Robot Monkey Pixel Animation Sprite Sheet_22: 25745804
+      Robot Monkey Pixel Animation Sprite Sheet_23: 89232258
+      Robot Monkey Pixel Animation Sprite Sheet_24: -967572352
+      Robot Monkey Pixel Animation Sprite Sheet_25: 640138788
+      Robot Monkey Pixel Animation Sprite Sheet_26: 642321468
+      Robot Monkey Pixel Animation Sprite Sheet_27: 1967045496
+      Robot Monkey Pixel Animation Sprite Sheet_28: 1930042588
+      Robot Monkey Pixel Animation Sprite Sheet_29: -1703525464
+      Robot Monkey Pixel Animation Sprite Sheet_3: 3531043239995512380
+      Robot Monkey Pixel Animation Sprite Sheet_30: 1970006842
+      Robot Monkey Pixel Animation Sprite Sheet_31: -979459059
+      Robot Monkey Pixel Animation Sprite Sheet_32: 271186398
+      Robot Monkey Pixel Animation Sprite Sheet_33: -503546220
+      Robot Monkey Pixel Animation Sprite Sheet_34: 842551076
+      Robot Monkey Pixel Animation Sprite Sheet_35: -2022746497
+      Robot Monkey Pixel Animation Sprite Sheet_36: 626825513
+      Robot Monkey Pixel Animation Sprite Sheet_37: -2052006943
+      Robot Monkey Pixel Animation Sprite Sheet_38: 1447154579
+      Robot Monkey Pixel Animation Sprite Sheet_39: 1600932504
+      Robot Monkey Pixel Animation Sprite Sheet_4: 3642422782663371491
+      Robot Monkey Pixel Animation Sprite Sheet_40: 438907028
+      Robot Monkey Pixel Animation Sprite Sheet_41: -454583575
+      Robot Monkey Pixel Animation Sprite Sheet_42: 1794792409
+      Robot Monkey Pixel Animation Sprite Sheet_43: -1996897241
+      Robot Monkey Pixel Animation Sprite Sheet_44: -1477493935
+      Robot Monkey Pixel Animation Sprite Sheet_45: -13221561
+      Robot Monkey Pixel Animation Sprite Sheet_46: -823028835
+      Robot Monkey Pixel Animation Sprite Sheet_47: -343823612
+      Robot Monkey Pixel Animation Sprite Sheet_5: -4328547030226468259
+      Robot Monkey Pixel Animation Sprite Sheet_6: 7621692685930575607
+      Robot Monkey Pixel Animation Sprite Sheet_7: 1035725588796499632
+      Robot Monkey Pixel Animation Sprite Sheet_8: 2948118309935357809
+      Robot Monkey Pixel Animation Sprite Sheet_9: -5484397919861434148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

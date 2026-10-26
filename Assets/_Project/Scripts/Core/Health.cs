@@ -14,8 +14,8 @@ public class Health : MonoBehaviour
     public int currentHP;
     public int MaxHP => maxHP;
 
-    public UnityEvent<int> OnDamaged;
-    public UnityEvent OnDied;
+    public UnityEvent<int> OnDamaged = new UnityEvent<int>();
+    public UnityEvent OnDied = new UnityEvent();
 
     private bool isDead;
 
@@ -55,18 +55,5 @@ public class Health : MonoBehaviour
 
             OnDied?.Invoke();
         }
-    }
-
-
-    private void UpdateHealthUI()
-    {
-        if (healthText == null)
-        {
-            Debug.LogWarning("Health UI is not assigned!");
-            return;
-        }
-
-        healthText.text =
-            "HP: " + currentHP + " / " + maxHP;
     }
 }

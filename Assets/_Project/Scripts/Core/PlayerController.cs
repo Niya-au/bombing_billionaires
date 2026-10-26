@@ -15,48 +15,57 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        // Get the Rigidbody2D attached to the player
         rb = GetComponent<Rigidbody2D>();
         vineSwing = GetComponent<VineSwing>();
     }
 
     void Update()
     {
-        // Let VineSwing control movement while attached
         if (vineSwing != null && vineSwing.IsSwinging())
         {
             return;
         }
 
-        Vector2 checkPos = 
+        Vector2 checkPos =
             (Vector2)transform.position + groundCheckOffset;
 
-        isGrounded = Physics2D.OverlapBox(checkPos, groundCheckSize, 0f, groundLayer);
+        isGrounded = Physics2D.OverlapBox(
+            checkPos,
+            groundCheckSize,
+            0f,
+            groundLayer
+        );
 
         // LEFT
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            rb.linearVelocity = new Vector2(-moveSpeed, rb.linearVelocity.y);
+            rb.linearVelocity =
+                new Vector2(-moveSpeed, rb.linearVelocity.y);
         }
 
         // RIGHT
         else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            rb.linearVelocity = new Vector2(moveSpeed, rb.linearVelocity.y);
+            rb.linearVelocity =
+                new Vector2(moveSpeed, rb.linearVelocity.y);
         }
 
-        // Only stop horizontal movement when on the ground
+        // Stop horizontal movement when grounded
         else if (isGrounded)
         {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            rb.linearVelocity =
+                new Vector2(0, rb.linearVelocity.y);
         }
 
-        // UP / JUMP
-        bool jumpPressed = (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space));
+        // JUMP
+        bool jumpPressed =
+            Input.GetKeyDown(KeyCode.UpArrow) ||
+            Input.GetKeyDown(KeyCode.Space);
 
         if (jumpPressed && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.linearVelocity =
+                new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 }
