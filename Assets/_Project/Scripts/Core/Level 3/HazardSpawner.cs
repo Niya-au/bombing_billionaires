@@ -1,4 +1,3 @@
-
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -6,11 +5,13 @@ using TMPro;
 
 public class HazardSpawner : MonoBehaviour
 {
-    [Header("Hazard")]
-    [SerializeField] private GameObject hazardPrefab;
+    [Header("Hazards")]
+    [SerializeField] private GameObject asteroidPrefab;
+    [SerializeField] private GameObject debrisPrefab;
+    [SerializeField] private GameObject laserPrefab;
 
     [Header("Spawn Settings")]
-    [SerializeField] private float spawnInterval = 2f;
+    [SerializeField] private float spawnInterval = 1.2f;
     [SerializeField] private float spawnWidth = 8f;
     [SerializeField] private float spawnHeight = 6f;
 
@@ -38,19 +39,19 @@ public class HazardSpawner : MonoBehaviour
 
     private void Awake()
     {
-        // Find MoneySpawner automatisk hvis feltet ikke er sat
+        // Find MoneySpawner automatisk
         if (moneySpawner == null)
         {
             moneySpawner = FindFirstObjectByType<MoneySpawner>();
         }
 
-        // Find Health automatisk hvis feltet ikke er sat
+        // Find Health automatisk
         if (playerHealth == null)
         {
             playerHealth = FindFirstObjectByType<Health>();
         }
 
-        // Find Phase Text automatisk hvis feltet ikke er sat
+        // Find Phase Text automatisk
         if (phaseText == null)
         {
             GameObject phaseObject = GameObject.Find("Phase Text");
@@ -63,9 +64,19 @@ public class HazardSpawner : MonoBehaviour
 
         Debug.Log("HAZARD SPAWNER READY");
 
-        if (hazardPrefab == null)
+        if (asteroidPrefab == null)
         {
-            Debug.LogError("HAZARD ERROR: Hazard Prefab mangler!");
+            Debug.LogError("HAZARD ERROR: Asteroid Prefab mangler!");
+        }
+
+        if (debrisPrefab == null)
+        {
+            Debug.LogError("HAZARD ERROR: Debris Prefab mangler!");
+        }
+
+        if (laserPrefab == null)
+        {
+            Debug.LogError("HAZARD ERROR: Laser Prefab mangler!");
         }
 
         if (moneySpawner == null)
@@ -87,7 +98,7 @@ public class HazardSpawner : MonoBehaviour
 
     private void Start()
     {
-        // Skjul phase text i starten
+        // Hazard tekst skal være skjult i starten
         if (phaseText != null)
         {
             phaseText.text = "";
@@ -108,20 +119,17 @@ public class HazardSpawner : MonoBehaviour
             return;
         }
 
-
         // Start hazard-fasen
         if (!phaseStarted)
         {
             StartHazardPhase();
         }
 
-
-        // Hvis fasen er færdig, stop her
+        // Hvis fasen er færdig, stop
         if (phaseFinished)
         {
             return;
         }
-
 
         // Hvis spilleren er død
         if (playerHealth != null && playerHealth.currentHP <= 0)
@@ -130,22 +138,18 @@ public class HazardSpawner : MonoBehaviour
             return;
         }
 
-
-        // Timer
+        // Timere
         hazardTimer += Time.deltaTime;
         spawnTimer += Time.deltaTime;
 
-
-        // Spawn hazard
+        // Spawn hazards
         if (spawnTimer >= spawnInterval)
         {
             SpawnHazard();
-
             spawnTimer = 0f;
         }
 
-
-        // Fasen er færdig efter 15 sekunder
+        // Hazard-fasen slutter efter 15 sekunder
         if (hazardTimer >= hazardDuration)
         {
             FinishHazardPhase();
@@ -166,7 +170,6 @@ public class HazardSpawner : MonoBehaviour
         Debug.Log("SURVIVE FOR " + hazardDuration + " SECONDS!");
         Debug.Log("==============================");
 
-
         if (phaseText != null)
         {
             phaseText.text =
@@ -178,42 +181,59 @@ public class HazardSpawner : MonoBehaviour
 
     private void SpawnHazard()
     {
-        if (hazardPrefab == null)
+        // Lav en liste over de hazards der faktisk findes
+        List<GameObject> availableHazards = new List<GameObject>();
+
+        if (asteroidPrefab != null)
         {
-            Debug.LogError("Cannot spawn hazard - Hazard Prefab is missing!");
+            availableHazards.Add(asteroidPrefab);
+        }
+
+        if (debrisPrefab != null)
+        {
+            availableHazards.Add(debrisPrefab);
+        }
+
+        if (laserPrefab != null)
+        {
+            availableHazards.Add(laserPrefab);
+        }
+
+        // Hvis ingen hazards er sat
+        if (availableHazards.Count == 0)
+        {
+            Debug.LogError("CANNOT SPAWN HAZARD - No hazard prefabs assigned!");
             return;
         }
 
+        // Vælg tilfældigt hazard
+        GameObject selectedHazard =
+            availableHazards[Random.Range(0, availableHazards.Count)];
 
-        float randomX = Random.Range(
-            -spawnWidth,
-            spawnWidth
-        );
+        // Tilfældig X-position
+        float randomX = Random.Range(-spawnWidth, spawnWidth);
 
-
+        // Spawn ovenfra
         Vector3 spawnPosition = new Vector3(
             transform.position.x + randomX,
             transform.position.y + spawnHeight,
             0f
         );
 
-
+        // Spawn hazard
         GameObject hazard = Instantiate(
-            hazardPrefab,
+            selectedHazard,
             spawnPosition,
             Quaternion.identity
         );
 
-
-        // Gem hazard så vi kan fjerne den senere
+        // Gem hazard så vi kan rydde den senere
         spawnedHazards.Add(hazard);
 
-
-        Debug.Log("HAZARD SPAWNED!");
+        Debug.Log("HAZARD SPAWNED: " + selectedHazard.name);
     }
 
 
-    // Denne funktion kan HazardPhase.cs kalde
     public void StopSpawning()
     {
         phaseFinished = true;
@@ -233,18 +253,15 @@ public class HazardSpawner : MonoBehaviour
 
         phaseFinished = true;
 
-
         Debug.Log("==============================");
         Debug.Log("PLAYER SURVIVED 15 SECONDS!");
         Debug.Log("HAZARD PHASE COMPLETE!");
         Debug.Log("==============================");
 
-
-        // Stop alle hazards
+        // Fjern alle hazards
         ClearHazards();
 
-
-        // Vis besked på skærmen
+        // Vis besked
         if (phaseText != null)
         {
             phaseText.text =
@@ -252,8 +269,7 @@ public class HazardSpawner : MonoBehaviour
                 "YOU SURVIVED!";
         }
 
-
-        // Send event til næste fase
+        // Send event
         OnHazardPhaseComplete?.Invoke();
     }
 
@@ -264,10 +280,7 @@ public class HazardSpawner : MonoBehaviour
 
         Debug.Log("PLAYER DIED DURING HAZARD PHASE!");
 
-
-        // Fjern alle hazards
         ClearHazards();
-
 
         if (phaseText != null)
         {
