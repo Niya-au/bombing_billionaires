@@ -11,53 +11,25 @@ public class HazardSpawner : MonoBehaviour
     [SerializeField] private float spawnWidth = 8f;
     [SerializeField] private float spawnHeight = 6f;
 
-    [Header("Hazard Phase")]
-    [SerializeField] private float hazardDuration = 15f;
-
-    [Header("Level 3")]
-    [SerializeField] private MoneySpawner moneySpawner;
-    [SerializeField] private Health playerHealth;
-
     private float spawnTimer = 0f;
-    private float hazardTimer = 0f;
 
-    private bool phaseStarted = false;
     private bool phaseFinished = false;
-
-    public bool PhaseStarted => phaseStarted;
-    public bool PhaseFinished => phaseFinished;
 
     private void Update()
     {
-        // Vent på at spilleren har samlet $1000
-        if (moneySpawner == null)
-            return;
-
-        if (!moneySpawner.GoalReached)
-            return;
-
-        // Start hazard-fasen én gang
-        if (!phaseStarted)
-        {
-            StartHazardPhase();
-        }
-
-        // Fasen er færdig
+        // Stop hvis hazard-fasen er færdig
         if (phaseFinished)
             return;
 
-        // Hvis spilleren er død
-        if (playerHealth != null && playerHealth.currentHP <= 0)
-        {
-            StopSpawning();
+        // Find MoneySpawner i scenen
+        MoneySpawner moneySpawner = FindFirstObjectByType<MoneySpawner>();
 
-            Debug.Log("Player died during hazard phase.");
-
+        if (moneySpawner == null)
             return;
-        }
 
-        // Tæl tiden i hazard-fasen
-        hazardTimer += Time.deltaTime;
+        // Vent på at spilleren har samlet $1000
+        if (!moneySpawner.GoalReached)
+            return;
 
         // Spawn hazards
         spawnTimer += Time.deltaTime;
@@ -67,21 +39,6 @@ public class HazardSpawner : MonoBehaviour
             SpawnHazard();
             spawnTimer = 0f;
         }
-
-        // Efter 15 sekunder
-        if (hazardTimer >= hazardDuration)
-        {
-            FinishHazardPhase();
-        }
-    }
-
-    private void StartHazardPhase()
-    {
-        phaseStarted = true;
-        hazardTimer = 0f;
-        spawnTimer = 0f;
-
-        Debug.Log("HAZARD PHASE STARTED!");
     }
 
     private void SpawnHazard()
@@ -107,27 +64,11 @@ public class HazardSpawner : MonoBehaviour
         );
     }
 
-    // Denne funktion kan kaldes fra HazardPhase
+    // Denne må KUN findes én gang
     public void StopSpawning()
     {
         phaseFinished = true;
 
         Debug.Log("Hazard spawning stopped.");
     }
-
-    private void FinishHazardPhase()
-    {
-        phaseFinished = true;
-
-        Debug.Log("HAZARD PHASE COMPLETE!");
-        Debug.Log("Player survived 15 seconds!");
-
-        // HazardPhase kan nu fortsætte til næste del:
-        // BOSS FIGHT
-    }
-    public void StopSpawning()
-{
-    phaseFinished = true;
-
-    Debug.Log("Hazard spawning stopped.");
-}}
+}
