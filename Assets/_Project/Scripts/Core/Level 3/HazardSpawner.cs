@@ -13,32 +13,18 @@ public class HazardSpawner : MonoBehaviour
     [Header("Level 3")]
     [SerializeField] private MoneySpawner moneySpawner;
 
-    [Header("Target")]
-    [SerializeField] private Transform player;
-
-    private float spawnTimer = 0f;
-
-    private void Start()
-    {
-        // Find player automatically hvis den ikke er sat i Inspector
-        if (player == null)
-        {
-            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-
-            if (playerObject != null)
-            {
-                player = playerObject.transform;
-            }
-        }
-    }
+    private float spawnTimer;
 
     private void Update()
     {
-        // Start først hazards efter $1000
-        if (moneySpawner == null || !moneySpawner.GoalReached)
+        // Hazards starter først efter $1000
+        if (moneySpawner == null)
             return;
 
-        if (hazardPrefab == null || player == null)
+        if (!moneySpawner.GoalReached)
+            return;
+
+        if (hazardPrefab == null)
             return;
 
         spawnTimer += Time.deltaTime;
@@ -60,20 +46,10 @@ public class HazardSpawner : MonoBehaviour
             0f
         );
 
-        GameObject hazard = Instantiate(
+        Instantiate(
             hazardPrefab,
             spawnPosition,
             Quaternion.identity
         );
-
-        DumpProjectile projectile = hazard.GetComponent<DumpProjectile>();
-
-        if (projectile != null)
-        {
-            Vector2 direction =
-                (player.position - spawnPosition).normalized;
-
-            projectile.SetDirection(direction);
-        }
     }
 }
