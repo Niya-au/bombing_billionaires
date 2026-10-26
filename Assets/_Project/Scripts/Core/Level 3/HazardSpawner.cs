@@ -17,9 +17,19 @@ public class HazardSpawner : MonoBehaviour
 
     private void Update()
     {
-        // Hazards starter først efter spilleren har samlet $1000
-        if (moneySpawner == null || !moneySpawner.GoalReached)
+        if (moneySpawner == null)
+        {
+            Debug.LogWarning("HazardSpawner: MoneySpawner mangler!");
             return;
+        }
+
+        // Start først hazards når $1000 er samlet
+        if (!moneySpawner.GoalReached)
+        {
+            return;
+        }
+
+        Debug.Log("HAZARDS STARTER!");
 
         spawnTimer += Time.deltaTime;
 
@@ -36,9 +46,11 @@ public class HazardSpawner : MonoBehaviour
 
         Vector3 spawnPosition = new Vector3(
             transform.position.x + randomX,
-            spawnHeight,
+            transform.position.y + spawnHeight,
             0f
         );
+
+        Debug.Log("Spawning hazard at: " + spawnPosition);
 
         Instantiate(
             hazardPrefab,
