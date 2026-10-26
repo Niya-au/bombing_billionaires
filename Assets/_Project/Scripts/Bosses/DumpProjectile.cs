@@ -16,7 +16,9 @@ public class DumpProjectile : MonoBehaviour
     public void SetDirection(Vector2 newDirection)
     {
         if (newDirection.sqrMagnitude > 0.001f)
+        {
             direction = newDirection.normalized;
+        }
     }
 
     private void Update()
@@ -27,17 +29,15 @@ public class DumpProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        Debug.Log("Hazard collided with: " + other.gameObject.name);
+
+        Health health = other.GetComponentInParent<Health>();
+
+        if (health != null)
         {
-            Debug.Log("DumpBoss projectile hit the player!");
+            Debug.Log("PLAYER HIT! Taking " + damage + " damage.");
 
-            Health health = other.GetComponentInParent<Health>();
-
-            if (health != null)
-            {
-                health.TakeDamage(damage);
-                Debug.Log("Player took " + damage + " damage.");
-            }
+            health.TakeDamage(damage);
 
             Destroy(gameObject);
         }
