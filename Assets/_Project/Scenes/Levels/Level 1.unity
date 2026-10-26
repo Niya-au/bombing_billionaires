@@ -1104,6 +1104,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 747770432}
     - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+      propertyPath: bossAnimator
+      value: 
+      objectReference: {fileID: 1794130639}
+    - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: riddleShield
       value: 
       objectReference: {fileID: 2130778574}
@@ -2584,6 +2588,11 @@ CanvasRenderer:
 --- !u!4 &1794130638 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4484474717884939490, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+  m_PrefabInstance: {fileID: 1039728084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1794130639 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7177834853104852281, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
   m_PrefabInstance: {fileID: 1039728084}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1878242394

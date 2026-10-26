@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class DumpBoss : BossBase
 {
+    [Header("Animator")]
+    [SerializeField] private Animator bossAnimator;
+
     [Header("Riddle Shields")]
     [SerializeField] private GameObject riddleShield;
     [SerializeField] private GameObject riddleShield02;
@@ -26,6 +29,10 @@ public class DumpBoss : BossBase
         isDefeated = false;
         riddleStep = 1;
         shieldProtectingBoss = true;
+
+        // Find Animator automatically if not assigned.
+        if (bossAnimator == null)
+            bossAnimator = GetComponent<Animator>();
 
         if (riddleShield02 != null)
             riddleShield02.SetActive(false);
@@ -51,6 +58,8 @@ public class DumpBoss : BossBase
         {
             Debug.LogWarning("RiddleShield01 is missing!");
         }
+
+        Debug.Log("DumpBoss started with " + currentHP + " HP");
     }
 
     private void Update()
@@ -58,6 +67,7 @@ public class DumpBoss : BossBase
         if (isDefeated || currentHP <= 0)
             return;
 
+        // Test damage by pressing H.
         if (enableDamageTest && Input.GetKeyDown(KeyCode.H))
         {
             TakeDamage(testDamage);
@@ -108,7 +118,7 @@ public class DumpBoss : BossBase
             return;
         }
 
-        // Stop at exactly 40 HP.
+        // Stop exactly at 40 HP so Riddle02 cannot be skipped.
         if (currentPhase < 3 &&
             currentHP > maxHP * phaseThresholds[1] &&
             currentHP - amount <= maxHP * phaseThresholds[1])
@@ -124,6 +134,13 @@ public class DumpBoss : BossBase
     {
         base.OnPhaseChange(newPhase);
 
+        // Tell Animator to switch phase.
+        if (bossAnimator != null)
+        {
+            bossAnimator.SetTrigger("Phase" + newPhase);
+        }
+
+        // Open Riddle02 automatically at 40 HP.
         if (newPhase == 3 && riddleStep == 2)
         {
             riddleStep = 3;
