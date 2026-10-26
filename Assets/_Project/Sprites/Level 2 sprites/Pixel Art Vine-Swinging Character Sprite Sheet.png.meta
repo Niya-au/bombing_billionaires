@@ -1,0 +1,1251 @@
+fileFormatVersion: 2
+guid: dcc889d4682b3b842985d62ebaaedf51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5934423360956827529
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_0
+  - first:
+      213: -5793001214932398667
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_1
+  - first:
+      213: -5559767042620426466
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_2
+  - first:
+      213: -7367270496588659722
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_3
+  - first:
+      213: 4626959964665036581
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_4
+  - first:
+      213: 2297353916489735038
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_5
+  - first:
+      213: -3542626302895846671
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_6
+  - first:
+      213: 2542626519177394620
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_7
+  - first:
+      213: 2972808226622234472
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_8
+  - first:
+      213: 6615207682254358127
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_9
+  - first:
+      213: -1506060454836902120
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_10
+  - first:
+      213: -1659185755042712209
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_11
+  - first:
+      213: -4697729587341509413
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_12
+  - first:
+      213: -5389654422058724062
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_13
+  - first:
+      213: -9066065132524503009
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_14
+  - first:
+      213: -4353548379936717185
+    second: Pixel Art Vine-Swinging Character Sprite Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9878c98da9e4b5250800000000000000
+      internalID: 5934423360956827529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd4c8076102b9fa0800000000000000
+      internalID: -5793001214932398667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e177fa6e45db7d2b0800000000000000
+      internalID: -5559767042620426466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f30e9e448232c990800000000000000
+      internalID: -7367270496588659722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f30dbb293463040800000000000000
+      internalID: 4626959964665036581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b19b31737d1ef10800000000000000
+      internalID: 2297353916489735038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa00fba52016dec0800000000000000
+      internalID: -3542626302895846671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb97e080959394320800000000000000
+      internalID: 2542626519177394620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f5d2dd459814920800000000000000
+      internalID: 2972808226622234472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 820
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66c4309650fdcb50800000000000000
+      internalID: 6615207682254358127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 616
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817ee2beef5691be0800000000000000
+      internalID: -1506060454836902120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 618
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f657a46b85369f8e0800000000000000
+      internalID: -1659185755042712209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 616
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcbaa774df4eceb0800000000000000
+      internalID: -4697729587341509413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 616
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2259317dbd91435b0800000000000000
+      internalID: -5389654422058724062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 616
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f108259cbcdde2280800000000000000
+      internalID: -9066065132524503009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 614
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76056580d61593c0800000000000000
+      internalID: -4353548379936717185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 616
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcd6a3d8767e0f48a611e1996f0ab8a
+      internalID: 513318608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 616
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce881cb10f80bd49bc17fb5a435d3b9
+      internalID: 2029425899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 616
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b80d11011694cf4faadd62ee1b05a0e
+      internalID: 2028585390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 616
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d30aa76a655414a970422db1610166
+      internalID: 1795444838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 412
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62419cf808f1651429f6cb86adf0cebe
+      internalID: 1001804270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 412
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e90f39349eac544b7830b5ab3f07d3
+      internalID: -1901397599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 416
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0936ea73d94b20499ceea00ffae11ce
+      internalID: -1572842805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 411
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3a6485e49396547bdf5ab0efcce0c1
+      internalID: 1842358052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 412
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d9859ae9015e044afdfd7823fae35e
+      internalID: 460013270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 411
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bd402d55a790142a24836723f1647c
+      internalID: -1781804641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 412
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e1031094d4f2b4d94db3903fa1f407
+      internalID: 1874074937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 412
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945ac843a0c1b3b4dbc240947d3718e9
+      internalID: -697325727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 413
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19634ebd352c961429088351e3681d96
+      internalID: 397467754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad824a398fd6a49449f6be3b709a644d
+      internalID: -1165729287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 208
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982f320baf59967469faa35237a6950e
+      internalID: 789807266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 208
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969ea3428e1e97b468106ef0daaa258b
+      internalID: -840522818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 209
+        width: 153
+        height: 204
+      alignment: 9
+      pivot: {x: 0.48294288, y: 0.4744143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993a23905ecf34b40b13c69909a677e0
+      internalID: -1807821120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 208
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82abfaa0ed4e69419cf95663c7d533b
+      internalID: -1648044137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 205
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9a463888bd3124fa246797590ed4af
+      internalID: 1319091438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 208
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cb2995f8138d5468d118252bcf07bd
+      internalID: -902601919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 209
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ece49fb3a25ed4783e945f397a1671
+      internalID: 1894883985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 208
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32681cd867a16c84e9fa3169fbb89881
+      internalID: -209685448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 208
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b920603589f43348bbf5b792ad6369f
+      internalID: -558094590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56327ff360bd6614aac4170f2f740a10
+      internalID: -2062525329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966ef88be1678c8448f0daf2279388c3
+      internalID: -2051942851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 12
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e471c0854803f148aa299083a64705d
+      internalID: -537609981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 14
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61a571e38b6f024c976a3d11a1f0637
+      internalID: -336413759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 12
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259926d90ae77994b97621fdaf9a1711
+      internalID: 1119975871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 3
+        width: 199
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b3f418f7d85c94889753265f02dca2
+      internalID: 1036258236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 4
+        width: 222
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eb12ab88d98a649abba689cdd0a7d2
+      internalID: 1693344876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Vine-Swinging Character Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 0
+        width: 243
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2db10798a558b84d88486b219e01131
+      internalID: -975604654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 57e97128d2c7e2144b06ded0278da5d9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":5.0},"gridSpriteSize":{"x":153.0,"y":204.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Pixel Art Vine-Swinging Character Sprite Sheet_0: 5934423360956827529
+      Pixel Art Vine-Swinging Character Sprite Sheet_1: -5793001214932398667
+      Pixel Art Vine-Swinging Character Sprite Sheet_10: -1506060454836902120
+      Pixel Art Vine-Swinging Character Sprite Sheet_11: -1659185755042712209
+      Pixel Art Vine-Swinging Character Sprite Sheet_12: -4697729587341509413
+      Pixel Art Vine-Swinging Character Sprite Sheet_13: -5389654422058724062
+      Pixel Art Vine-Swinging Character Sprite Sheet_14: -9066065132524503009
+      Pixel Art Vine-Swinging Character Sprite Sheet_15: -4353548379936717185
+      Pixel Art Vine-Swinging Character Sprite Sheet_16: 513318608
+      Pixel Art Vine-Swinging Character Sprite Sheet_17: 2029425899
+      Pixel Art Vine-Swinging Character Sprite Sheet_18: 2028585390
+      Pixel Art Vine-Swinging Character Sprite Sheet_19: 1795444838
+      Pixel Art Vine-Swinging Character Sprite Sheet_2: -5559767042620426466
+      Pixel Art Vine-Swinging Character Sprite Sheet_20: 1001804270
+      Pixel Art Vine-Swinging Character Sprite Sheet_21: -1901397599
+      Pixel Art Vine-Swinging Character Sprite Sheet_22: -1572842805
+      Pixel Art Vine-Swinging Character Sprite Sheet_23: 1842358052
+      Pixel Art Vine-Swinging Character Sprite Sheet_24: 460013270
+      Pixel Art Vine-Swinging Character Sprite Sheet_25: -1781804641
+      Pixel Art Vine-Swinging Character Sprite Sheet_26: 1874074937
+      Pixel Art Vine-Swinging Character Sprite Sheet_27: -697325727
+      Pixel Art Vine-Swinging Character Sprite Sheet_28: 397467754
+      Pixel Art Vine-Swinging Character Sprite Sheet_29: 621659561
+      Pixel Art Vine-Swinging Character Sprite Sheet_3: -7367270496588659722
+      Pixel Art Vine-Swinging Character Sprite Sheet_30: -1165729287
+      Pixel Art Vine-Swinging Character Sprite Sheet_31: 789807266
+      Pixel Art Vine-Swinging Character Sprite Sheet_32: -840522818
+      Pixel Art Vine-Swinging Character Sprite Sheet_33: -1807821120
+      Pixel Art Vine-Swinging Character Sprite Sheet_34: -1648044137
+      Pixel Art Vine-Swinging Character Sprite Sheet_35: 1319091438
+      Pixel Art Vine-Swinging Character Sprite Sheet_36: -902601919
+      Pixel Art Vine-Swinging Character Sprite Sheet_37: 1894883985
+      Pixel Art Vine-Swinging Character Sprite Sheet_38: -209685448
+      Pixel Art Vine-Swinging Character Sprite Sheet_39: -558094590
+      Pixel Art Vine-Swinging Character Sprite Sheet_4: 4626959964665036581
+      Pixel Art Vine-Swinging Character Sprite Sheet_40: -2062525329
+      Pixel Art Vine-Swinging Character Sprite Sheet_41: -2051942851
+      Pixel Art Vine-Swinging Character Sprite Sheet_42: -537609981
+      Pixel Art Vine-Swinging Character Sprite Sheet_43: -336413759
+      Pixel Art Vine-Swinging Character Sprite Sheet_44: 1119975871
+      Pixel Art Vine-Swinging Character Sprite Sheet_45: 1036258236
+      Pixel Art Vine-Swinging Character Sprite Sheet_46: 1693344876
+      Pixel Art Vine-Swinging Character Sprite Sheet_47: -1024086211
+      Pixel Art Vine-Swinging Character Sprite Sheet_48: -975604654
+      Pixel Art Vine-Swinging Character Sprite Sheet_49: -18283700
+      Pixel Art Vine-Swinging Character Sprite Sheet_5: 2297353916489735038
+      Pixel Art Vine-Swinging Character Sprite Sheet_6: -3542626302895846671
+      Pixel Art Vine-Swinging Character Sprite Sheet_7: 2542626519177394620
+      Pixel Art Vine-Swinging Character Sprite Sheet_8: 2972808226622234472
+      Pixel Art Vine-Swinging Character Sprite Sheet_9: 6615207682254358127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
