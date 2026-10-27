@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class DumpProjectile : MonoBehaviour
@@ -29,10 +30,14 @@ public class DumpProjectile : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("DumpBoss projectile hit the player!");
+            Health playerHealth = other.GetComponent<Health>();
 
-            // Connect to the player's health system later.
-            // Example: playerHealth.TakeDamage(damage);
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+
+                Debug.Log("Tyrone lost " + damage + " HP!");
+            }
 
             Destroy(gameObject);
         }
