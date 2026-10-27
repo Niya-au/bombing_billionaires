@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 90265068424455618}
   - component: {fileID: 7312076439790805481}
   - component: {fileID: 7531047239158948279}
-  - component: {fileID: 4370218312301390002}
+  - component: {fileID: 4217842862621979487}
   m_Layer: 0
   m_Name: coin
   m_TagString: Untagged
@@ -167,7 +167,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4370218312301390002
+--- !u!114 &4217842862621979487
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 750779658633111555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 670b56996370e4a8a9e07728a14b6d9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 464fffb4fe2404465b655f266c7d9df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoneyPickup
-  moneyValue: 50
+  moneyValue: 25
