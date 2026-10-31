@@ -8,12 +8,11 @@ public class EvidencePickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            EvidenceManager evidenceManager =
-                FindFirstObjectByType<EvidenceManager>();
+            EvidenceManager manager = FindFirstObjectByType<EvidenceManager>();
 
-            if (evidenceManager != null)
+            if (manager != null)
             {
-                evidenceManager.AddEvidence(evidenceAmount);
+                manager.AddEvidence(evidenceAmount);
             }
 
             Destroy(gameObject);
