@@ -27,6 +27,14 @@ public class Health : MonoBehaviour
         UpdateHealthUI();
     }
 
+    private void UpdateHealthUI()
+    {
+        if (healthText != null)
+        {
+            healthText.text = "HP: " + currentHP;
+        }
+    }
+
 
     public void TakeDamage(int amount)
     {
