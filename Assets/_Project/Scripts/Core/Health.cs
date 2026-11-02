@@ -56,4 +56,11 @@ public class Health : MonoBehaviour
             OnDied?.Invoke();
         }
     }
+    private void UpdateHealthUI()
+    {
+    if (healthText != null)
+    {
+        healthText.text = currentHP + " / " + maxHP + " HP";
+    }
+    }
 }

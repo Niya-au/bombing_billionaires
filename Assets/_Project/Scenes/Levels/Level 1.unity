@@ -1211,6 +1211,10 @@ PrefabInstance:
       propertyPath: riddleShield02
       value: 
       objectReference: {fileID: 1588667116}
+    - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 8801488754415889158, guid: a665cb22ffb1d1c4c890e33c57a33a57, type: 3}
     - target: {fileID: 6508427164745999789, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: m_Name
       value: DumpBoss
