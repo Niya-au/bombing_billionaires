@@ -15,8 +15,20 @@ public class HazardSpawner : MonoBehaviour
 
     [Header("Spawn Settings")]
     [SerializeField] private float spawnInterval = 0.7f;
+
+    [Tooltip("Hvor langt fra midten hazards må spawne til venstre/højre.")]
     [SerializeField] private float spawnWidth = 8f;
-    [SerializeField] private float spawnHeight = 6f;
+
+    [Tooltip("Hvor højt over toppen hazards spawner.")]
+    [SerializeField] private float spawnAboveScreen = 1f;
+
+    [Tooltip("Hvor hurtigt hazards falder.")]
+    [SerializeField] private float hazardFallSpeed = 3.5f;
+
+    [Header("Hazard Sizes")]
+    [SerializeField] private float asteroidScale = 1.5f;
+    [SerializeField] private float debrisScale = 1.5f;
+    [SerializeField] private float laserScale = 0.45f;
 
     [Header("Hazard Phase")]
     [SerializeField] private float hazardDuration = 15f;
@@ -71,10 +83,10 @@ public class HazardSpawner : MonoBehaviour
             alonBoss.SetActive(false);
         }
 
+
         Debug.Log("HAZARD SPAWNER READY");
 
 
-        // Advarsler hvis noget mangler
         if (asteroidPrefab == null)
         {
             Debug.LogWarning("HAZARD WARNING: Asteroid Prefab mangler!");
@@ -109,7 +121,6 @@ public class HazardSpawner : MonoBehaviour
 
     private void Start()
     {
-        // Skjul phase text i starten
         if (phaseText != null)
         {
             phaseText.text = "";
@@ -119,7 +130,7 @@ public class HazardSpawner : MonoBehaviour
 
     private void Update()
     {
-        // Vent på at spilleren når $1000
+        // Vent på at spilleren når målet
         if (moneySpawner == null)
         {
             return;
@@ -138,7 +149,6 @@ public class HazardSpawner : MonoBehaviour
         }
 
 
-        // Hvis hazard-fasen er færdig
         if (phaseFinished)
         {
             return;
@@ -158,16 +168,19 @@ public class HazardSpawner : MonoBehaviour
         spawnTimer += Time.deltaTime;
 
 
-        // Spawn hazards
+        // Bevæg alle hazards nedad
+        MoveHazards();
+
+
+        // Spawn nye hazards
         if (spawnTimer >= spawnInterval)
         {
             SpawnHazard();
-
             spawnTimer = 0f;
         }
 
 
-        // Hazard-fasen slutter efter 15 sekunder
+        // Hazard-fasen slutter efter tiden
         if (hazardTimer >= hazardDuration)
         {
             FinishHazardPhase();
@@ -200,7 +213,6 @@ public class HazardSpawner : MonoBehaviour
 
     private void SpawnHazard()
     {
-        // Lav liste med de hazards der er sat i Inspector
         List<GameObject> availableHazards = new List<GameObject>();
 
         if (asteroidPrefab != null)
@@ -219,7 +231,6 @@ public class HazardSpawner : MonoBehaviour
         }
 
 
-        // Hvis ingen hazards findes
         if (availableHazards.Count == 0)
         {
             Debug.LogError(
@@ -237,25 +248,66 @@ public class HazardSpawner : MonoBehaviour
             ];
 
 
-        // Tilfældig X-position
+        // Find kameraet
+        Camera cam = Camera.main;
+
+        if (cam == null)
+        {
+            Debug.LogError("HAZARD ERROR: Main Camera blev ikke fundet!");
+            return;
+        }
+
+
+        // Kameraets top
+        float topY =
+            cam.transform.position.y +
+            cam.orthographicSize +
+            spawnAboveScreen;
+
+
+        // X-position indenfor skærmen
+        float cameraHalfWidth =
+            cam.orthographicSize * cam.aspect;
+
         float randomX =
-            Random.Range(-spawnWidth, spawnWidth);
+            Random.Range(
+                -cameraHalfWidth + 0.5f,
+                cameraHalfWidth - 0.5f
+            );
 
 
-        // Spawn-position
+        // Spawn oven over skærmen
         Vector3 spawnPosition = new Vector3(
-            transform.position.x + randomX,
-            transform.position.y + spawnHeight,
+            cam.transform.position.x + randomX,
+            topY,
             0f
         );
 
 
-        // Spawn hazard
+        // Spawn
         GameObject hazard = Instantiate(
             selectedHazard,
             spawnPosition,
             Quaternion.identity
         );
+
+
+        // Sæt størrelse
+        if (selectedHazard == asteroidPrefab)
+        {
+            hazard.transform.localScale =
+                Vector3.one * asteroidScale;
+        }
+        else if (selectedHazard == debrisPrefab)
+        {
+            hazard.transform.localScale =
+                Vector3.one * debrisScale;
+        }
+        else if (selectedHazard == laserPrefab)
+        {
+            hazard.transform.localScale =
+                Vector3.one * laserScale;
+        }
 
 
         // Gem hazard
@@ -266,6 +318,46 @@ public class HazardSpawner : MonoBehaviour
             "HAZARD SPAWNED: " +
             selectedHazard.name
         );
+    }
+
+
+    private void MoveHazards()
+    {
+        for (int i = spawnedHazards.Count - 1; i >= 0; i--)
+        {
+            GameObject hazard = spawnedHazards[i];
+
+            if (hazard == null)
+            {
+                spawnedHazards.RemoveAt(i);
+                continue;
+            }
+
+
+            // Fald ned
+            hazard.transform.position +=
+                Vector3.down *
+                hazardFallSpeed *
+                Time.deltaTime;
+
+
+            // Fjern hazards der er faldet langt under skærmen
+            Camera cam = Camera.main;
+
+            if (cam != null)
+            {
+                float bottomY =
+                    cam.transform.position.y -
+                    cam.orthographicSize -
+                    3f;
+
+                if (hazard.transform.position.y < bottomY)
+                {
+                    Destroy(hazard);
+                    spawnedHazards.RemoveAt(i);
+                }
+            }
+        }
     }
 
 
@@ -295,11 +387,9 @@ public class HazardSpawner : MonoBehaviour
         Debug.Log("==============================");
 
 
-        // Fjern alle hazards
         ClearHazards();
 
 
-        // Vis besked
         if (phaseText != null)
         {
             phaseText.text =
@@ -308,22 +398,14 @@ public class HazardSpawner : MonoBehaviour
         }
 
 
-        // ==============================
-        // START ALON THRUSK BOSS FIGHT
-        // ==============================
-
+        // Start Alon boss fight
         if (alonBoss != null)
         {
-            // Gør Alon synlig
             alonBoss.SetActive(true);
 
-
-            // Find Alon-scriptet
             AlonThruskBoss boss =
                 alonBoss.GetComponent<AlonThruskBoss>();
 
-
-            // Start boss fight
             if (boss != null)
             {
                 boss.StartBossFight();
@@ -349,7 +431,6 @@ public class HazardSpawner : MonoBehaviour
         }
 
 
-        // Send event
         OnHazardPhaseComplete?.Invoke();
     }
 
@@ -363,11 +444,9 @@ public class HazardSpawner : MonoBehaviour
         );
 
 
-        // Fjern hazards
         ClearHazards();
 
 
-        // Alon skal ikke starte hvis BK dør
         if (alonBoss != null)
         {
             alonBoss.SetActive(false);
