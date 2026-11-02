@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -30,11 +31,11 @@ public class MoneySpawner : MonoBehaviour
 
     private void Start()
     {
-        // Sæt Money Bar op
+        // Money bar går lidt over målet
         if (moneyBar != null)
         {
             moneyBar.minValue = 0;
-            moneyBar.maxValue = collectionGoal;
+            moneyBar.maxValue = collectionGoal + 200;
             moneyBar.value = 0;
         }
 
@@ -56,7 +57,7 @@ public class MoneySpawner : MonoBehaviour
             }
         }
 
-        // Få money bar til at fylde gradvist
+        // Money bar bevæger sig gradvist mod det aktuelle beløb
         if (moneyBar != null)
         {
             moneyBar.value = Mathf.MoveTowards(
@@ -103,12 +104,6 @@ public class MoneySpawner : MonoBehaviour
     public void CollectMoney(int amount)
     {
         collectedMoney += amount;
-
-        // Sørg for at vi aldrig går over målet
-        if (collectedMoney > collectionGoal)
-        {
-            collectedMoney = collectionGoal;
-        }
 
         UpdateMoneyUI();
 
