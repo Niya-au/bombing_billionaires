@@ -18,6 +18,9 @@ public class MoneySpawner : MonoBehaviour
     [SerializeField] private Slider moneyBar;
     [SerializeField] private TMP_Text moneyText;
 
+    [Header("Money Bar Animation")]
+    [SerializeField] private float barSpeed = 500f;
+
     private int collectedMoney = 0;
     private float spawnTimer = 0f;
 
@@ -27,7 +30,7 @@ public class MoneySpawner : MonoBehaviour
 
     private void Start()
     {
-        // Sæt MoneyBar op
+        // Sæt Money Bar op
         if (moneyBar != null)
         {
             moneyBar.minValue = 0;
@@ -35,25 +38,32 @@ public class MoneySpawner : MonoBehaviour
             moneyBar.value = 0;
         }
 
-        // Opdater gammel tekst hvis den stadig findes
         UpdateMoneyUI();
     }
 
 
     private void Update()
     {
-        // Stop med at spawne penge når målet er nået
-        if (GoalReached)
+        // Spawn penge indtil målet er nået
+        if (!GoalReached)
         {
-            return;
+            spawnTimer += Time.deltaTime;
+
+            if (spawnTimer >= spawnInterval)
+            {
+                SpawnMoney();
+                spawnTimer = 0f;
+            }
         }
 
-        spawnTimer += Time.deltaTime;
-
-        if (spawnTimer >= spawnInterval)
+        // Få money bar til at fylde gradvist
+        if (moneyBar != null)
         {
-            SpawnMoney();
-            spawnTimer = 0f;
+            moneyBar.value = Mathf.MoveTowards(
+                moneyBar.value,
+                collectedMoney,
+                barSpeed * Time.deltaTime
+            );
         }
     }
 
@@ -66,12 +76,10 @@ public class MoneySpawner : MonoBehaviour
             return;
         }
 
-
         float randomX = Random.Range(
             -spawnWidth,
             spawnWidth
         );
-
 
         Vector3 spawnPosition = new Vector3(
             transform.position.x + randomX,
@@ -79,15 +87,10 @@ public class MoneySpawner : MonoBehaviour
             transform.position.z
         );
 
-
         GameObject randomMoney =
             moneyPrefabs[
-                Random.Range(
-                    0,
-                    moneyPrefabs.Length
-                )
+                Random.Range(0, moneyPrefabs.Length)
             ];
-
 
         Instantiate(
             randomMoney,
@@ -102,15 +105,12 @@ public class MoneySpawner : MonoBehaviour
         collectedMoney += amount;
 
         // Sørg for at vi aldrig går over målet
-        collectedMoney =
-            Mathf.Min(
-                collectedMoney,
-                collectionGoal
-            );
-
+        if (collectedMoney > collectionGoal)
+        {
+            collectedMoney = collectionGoal;
+        }
 
         UpdateMoneyUI();
-
 
         Debug.Log(
             "Money collected: $" +
@@ -118,7 +118,6 @@ public class MoneySpawner : MonoBehaviour
             " / $" +
             collectionGoal
         );
-
 
         if (GoalReached)
         {
@@ -129,15 +128,6 @@ public class MoneySpawner : MonoBehaviour
 
     private void UpdateMoneyUI()
     {
-        // Opdater MoneyBar
-        if (moneyBar != null)
-        {
-            moneyBar.value = collectedMoney;
-        }
-
-
-        // Den gamle tekst kan stadig bruges,
-        // hvis du har den sat i Inspector.
         if (moneyText != null)
         {
             moneyText.text =

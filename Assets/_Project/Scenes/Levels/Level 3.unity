@@ -538,7 +538,8 @@ MonoBehaviour:
   spawnInterval: 1
   spawnWidth: 8
   collectionGoal: 1000
-  moneyText: {fileID: 902082764}
+  moneyBar: {fileID: 1852153069}
+  moneyText: {fileID: 0}
 --- !u!1 &868713812
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &902082763
 RectTransform:
   m_ObjectHideFlags: 0
@@ -882,7 +883,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 902082763}
-  - {fileID: 1852153068}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -993,7 +993,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852153067}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1001,11 +1001,11 @@ RectTransform:
   - {fileID: 490028278}
   - {fileID: 307754703}
   - {fileID: 1093030057}
-  m_Father: {fileID: 1141266943}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 250, y: -22}
+  m_AnchoredPosition: {x: 0, y: 2000}
   m_SizeDelta: {x: 250, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852153069
@@ -1205,3 +1205,4 @@ SceneRoots:
   - {fileID: 1167316891}
   - {fileID: 1141266943}
   - {fileID: 228531507}
+  - {fileID: 1852153068}
