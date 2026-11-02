@@ -1,7 +1,6 @@
-
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MoneySpawner : MonoBehaviour
 {
@@ -16,14 +15,16 @@ public class MoneySpawner : MonoBehaviour
     [SerializeField] private int collectionGoal = 1000;
 
     [Header("UI")]
-    [SerializeField] private Slider moneyBar;
+    [SerializeField] private MoneyBar moneyBar;
     [SerializeField] private TMP_Text moneyText;
 
-    [Header("Money Bar Animation")]
-    [SerializeField] private float barSpeed = 500f;
+    [Header("Next Level")]
+    [SerializeField] private string nextLevelName = "Level 4";
+    [SerializeField] private float nextLevelDelay = 1f;
 
     private int collectedMoney = 0;
     private float spawnTimer = 0f;
+    private bool levelCompleted = false;
 
     public int CollectedMoney => collectedMoney;
     public bool GoalReached => collectedMoney >= collectionGoal;
@@ -31,40 +32,30 @@ public class MoneySpawner : MonoBehaviour
 
     private void Start()
     {
-        // Money bar går lidt over målet
-        if (moneyBar != null)
-        {
-            moneyBar.minValue = 0;
-            moneyBar.maxValue = collectionGoal + 200;
-            moneyBar.value = 0;
-        }
+        collectedMoney = 0;
+        levelCompleted = false;
 
         UpdateMoneyUI();
+
+        if (moneyBar != null)
+        {
+            moneyBar.SetMoney(0, collectionGoal);
+        }
     }
 
 
     private void Update()
     {
-        // Spawn penge indtil målet er nået
-        if (!GoalReached)
-        {
-            spawnTimer += Time.deltaTime;
+        // Stop spawning once the goal has been reached.
+        if (levelCompleted)
+            return;
 
-            if (spawnTimer >= spawnInterval)
-            {
-                SpawnMoney();
-                spawnTimer = 0f;
-            }
-        }
+        spawnTimer += Time.deltaTime;
 
-        // Money bar bevæger sig gradvist mod det aktuelle beløb
-        if (moneyBar != null)
+        if (spawnTimer >= spawnInterval)
         {
-            moneyBar.value = Mathf.MoveTowards(
-                moneyBar.value,
-                collectedMoney,
-                barSpeed * Time.deltaTime
-            );
+            SpawnMoney();
+            spawnTimer = 0f;
         }
     }
 
@@ -73,14 +64,11 @@ public class MoneySpawner : MonoBehaviour
     {
         if (moneyPrefabs == null || moneyPrefabs.Length == 0)
         {
-            Debug.LogError("No money prefabs assigned!");
+            Debug.LogError("MoneySpawner: No money prefabs assigned!");
             return;
         }
 
-        float randomX = Random.Range(
-            -spawnWidth,
-            spawnWidth
-        );
+        float randomX = Random.Range(-spawnWidth, spawnWidth);
 
         Vector3 spawnPosition = new Vector3(
             transform.position.x + randomX,
@@ -89,23 +77,29 @@ public class MoneySpawner : MonoBehaviour
         );
 
         GameObject randomMoney =
-            moneyPrefabs[
-                Random.Range(0, moneyPrefabs.Length)
-            ];
+            moneyPrefabs[Random.Range(0, moneyPrefabs.Length)];
 
-        Instantiate(
-            randomMoney,
-            spawnPosition,
-            Quaternion.identity
-        );
+        if (randomMoney != null)
+        {
+            Instantiate(
+                randomMoney,
+                spawnPosition,
+                Quaternion.identity
+            );
+        }
     }
 
 
     public void CollectMoney(int amount)
     {
-        collectedMoney += amount;
+        if (levelCompleted)
+            return;
 
-        UpdateMoneyUI();
+        if (amount <= 0)
+            return;
+
+        // Add the money.
+        collectedMoney += amount;
 
         Debug.Log(
             "Money collected: $" +
@@ -114,7 +108,12 @@ public class MoneySpawner : MonoBehaviour
             collectionGoal
         );
 
-        if (GoalReached)
+        UpdateMoneyUI();
+
+        // The important part:
+        // We DON'T need exactly 1000.
+        // 975 + 50 = 1025 -> goal reached.
+        if (collectedMoney >= collectionGoal)
         {
             CollectionGoalReached();
         }
@@ -123,6 +122,7 @@ public class MoneySpawner : MonoBehaviour
 
     private void UpdateMoneyUI()
     {
+        // Update text if you still have the old text.
         if (moneyText != null)
         {
             moneyText.text =
@@ -131,11 +131,68 @@ public class MoneySpawner : MonoBehaviour
                 " / $" +
                 collectionGoal;
         }
+
+        // Update the new money bar.
+        if (moneyBar != null)
+        {
+            moneyBar.SetMoney(
+                collectedMoney,
+                collectionGoal
+            );
+        }
     }
 
 
     private void CollectionGoalReached()
     {
-        Debug.Log("Collection goal reached!");
+        if (levelCompleted)
+            return;
+
+        levelCompleted = true;
+
+        Debug.Log("==============================");
+        Debug.Log(
+            "MONEY GOAL REACHED! $" +
+            collectedMoney
+        );
+        Debug.Log("LOADING NEXT LEVEL...");
+        Debug.Log("==============================");
+
+        // Make the bar look completely full.
+        if (moneyBar != null)
+        {
+            moneyBar.SetMoney(
+                collectionGoal,
+                collectionGoal
+            );
+        }
+
+        // Load Level 4.
+        Invoke(nameof(LoadNextLevel), nextLevelDelay);
+    }
+
+
+    private void LoadNextLevel()
+    {
+        // If a scene name has been entered, use it.
+        if (!string.IsNullOrEmpty(nextLevelName))
+        {
+            Debug.Log("Loading scene: " + nextLevelName);
+
+            SceneManager.LoadScene(nextLevelName);
+        }
+        else
+        {
+            // Otherwise load the next scene in Build Settings.
+            int nextSceneIndex =
+                SceneManager.GetActiveScene().buildIndex + 1;
+
+            Debug.Log(
+                "Loading next scene with build index: " +
+                nextSceneIndex
+            );
+
+            SceneManager.LoadScene(nextSceneIndex);
+        }
     }
 }
