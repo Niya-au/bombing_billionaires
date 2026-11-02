@@ -18,10 +18,6 @@ public class MoneySpawner : MonoBehaviour
     [SerializeField] private MoneyBar moneyBar;
     [SerializeField] private TMP_Text moneyText;
 
-    [Header("Next Level")]
-    [SerializeField] private string nextLevelName = "Level 4";
-    [SerializeField] private float nextLevelDelay = 1f;
-
     private int collectedMoney = 0;
     private float spawnTimer = 0f;
     private bool levelCompleted = false;
@@ -46,7 +42,7 @@ public class MoneySpawner : MonoBehaviour
 
     private void Update()
     {
-        // Stop spawning once the goal has been reached.
+        // Stop spawning money when the goal is reached.
         if (levelCompleted)
             return;
 
@@ -92,13 +88,13 @@ public class MoneySpawner : MonoBehaviour
 
     public void CollectMoney(int amount)
     {
+        // Don't collect more after the goal has been reached.
         if (levelCompleted)
             return;
 
         if (amount <= 0)
             return;
 
-        // Add the money.
         collectedMoney += amount;
 
         Debug.Log(
@@ -110,9 +106,9 @@ public class MoneySpawner : MonoBehaviour
 
         UpdateMoneyUI();
 
-        // The important part:
-        // We DON'T need exactly 1000.
-        // 975 + 50 = 1025 -> goal reached.
+        // It does NOT have to be exactly $1000.
+        // Example:
+        // $975 + $50 = $1025 -> goal reached.
         if (collectedMoney >= collectionGoal)
         {
             CollectionGoalReached();
@@ -122,7 +118,7 @@ public class MoneySpawner : MonoBehaviour
 
     private void UpdateMoneyUI()
     {
-        // Update text if you still have the old text.
+        // Old money text, if you still use it.
         if (moneyText != null)
         {
             moneyText.text =
@@ -132,7 +128,7 @@ public class MoneySpawner : MonoBehaviour
                 collectionGoal;
         }
 
-        // Update the new money bar.
+        // New MoneyBar.
         if (moneyBar != null)
         {
             moneyBar.SetMoney(
@@ -155,10 +151,10 @@ public class MoneySpawner : MonoBehaviour
             "MONEY GOAL REACHED! $" +
             collectedMoney
         );
-        Debug.Log("LOADING NEXT LEVEL...");
+        Debug.Log("STARTING HAZARD PHASE!");
         Debug.Log("==============================");
 
-        // Make the bar look completely full.
+        // Make the bar visually full.
         if (moneyBar != null)
         {
             moneyBar.SetMoney(
@@ -167,32 +163,11 @@ public class MoneySpawner : MonoBehaviour
             );
         }
 
-        // Load Level 4.
-        Invoke(nameof(LoadNextLevel), nextLevelDelay);
-    }
-
-
-    private void LoadNextLevel()
-    {
-        // If a scene name has been entered, use it.
-        if (!string.IsNullOrEmpty(nextLevelName))
-        {
-            Debug.Log("Loading scene: " + nextLevelName);
-
-            SceneManager.LoadScene(nextLevelName);
-        }
-        else
-        {
-            // Otherwise load the next scene in Build Settings.
-            int nextSceneIndex =
-                SceneManager.GetActiveScene().buildIndex + 1;
-
-            Debug.Log(
-                "Loading next scene with build index: " +
-                nextSceneIndex
-            );
-
-            SceneManager.LoadScene(nextSceneIndex);
-        }
+        // IMPORTANT:
+        // We do NOT load another scene here.
+        //
+        // HazardSpawner is watching GoalReached.
+        // When GoalReached becomes true,
+        // HazardSpawner will start the asteroid/debris/laser phase.
     }
 }
