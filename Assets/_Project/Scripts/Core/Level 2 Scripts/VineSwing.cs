@@ -52,6 +52,7 @@ public class VineSwing : MonoBehaviour
     }
 
 
+
     void Update()
     {
         if (regrabTimer > 0f)
@@ -60,11 +61,19 @@ public class VineSwing : MonoBehaviour
         if (momentumTimer > 0f)
             momentumTimer -= Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.K))
-            GrabVine();
-
-        if (Input.GetKeyUp(KeyCode.K))
-            ReleaseVine();
+        // Press Space once to grab a vine.
+        // Press Space again to release it.
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (attached)
+            {
+                ReleaseVine();
+            }
+            else
+            {
+                GrabVine();
+            }
+        }
     }
 
     void FixedUpdate()
