@@ -1,6 +1,6 @@
+
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 public class MoneySpawner : MonoBehaviour
 {
@@ -23,6 +23,7 @@ public class MoneySpawner : MonoBehaviour
     private bool levelCompleted = false;
 
     public int CollectedMoney => collectedMoney;
+
     public bool GoalReached => collectedMoney >= collectionGoal;
 
 
@@ -36,13 +37,13 @@ public class MoneySpawner : MonoBehaviour
         if (moneyBar != null)
         {
             moneyBar.SetMoney(0, collectionGoal);
+            moneyBar.gameObject.SetActive(true);
         }
     }
 
 
     private void Update()
     {
-        // Stop spawning money when the goal is reached.
         if (levelCompleted)
             return;
 
@@ -88,7 +89,6 @@ public class MoneySpawner : MonoBehaviour
 
     public void CollectMoney(int amount)
     {
-        // Don't collect more after the goal has been reached.
         if (levelCompleted)
             return;
 
@@ -106,9 +106,8 @@ public class MoneySpawner : MonoBehaviour
 
         UpdateMoneyUI();
 
-        // It does NOT have to be exactly $1000.
-        // Example:
-        // $975 + $50 = $1025 -> goal reached.
+        // Det er IKKE nødvendigt at ramme præcis $1000.
+        // Fx 975 + 50 = 1025 → bossfasen starter.
         if (collectedMoney >= collectionGoal)
         {
             CollectionGoalReached();
@@ -118,7 +117,6 @@ public class MoneySpawner : MonoBehaviour
 
     private void UpdateMoneyUI()
     {
-        // Old money text, if you still use it.
         if (moneyText != null)
         {
             moneyText.text =
@@ -128,7 +126,6 @@ public class MoneySpawner : MonoBehaviour
                 collectionGoal;
         }
 
-        // New MoneyBar.
         if (moneyBar != null)
         {
             moneyBar.SetMoney(
@@ -151,23 +148,30 @@ public class MoneySpawner : MonoBehaviour
             "MONEY GOAL REACHED! $" +
             collectedMoney
         );
-        Debug.Log("STARTING HAZARD PHASE!");
+        Debug.Log("STARTING BOSS PHASE!");
         Debug.Log("==============================");
 
-        // Make the bar visually full.
+        // Fyld baren helt.
         if (moneyBar != null)
         {
             moneyBar.SetMoney(
                 collectionGoal,
                 collectionGoal
             );
+
+            // MoneyBar skal væk under bosskampen.
+            moneyBar.gameObject.SetActive(false);
         }
 
-        // IMPORTANT:
-        // We do NOT load another scene here.
-        //
-        // HazardSpawner is watching GoalReached.
-        // When GoalReached becomes true,
-        // HazardSpawner will start the asteroid/debris/laser phase.
+        // Gammel Money Text skal også væk.
+        if (moneyText != null)
+        {
+            moneyText.gameObject.SetActive(false);
+        }
+
+        // VIGTIGT:
+        // Vi loader IKKE Level 4.
+        // HazardSpawner opdager GoalReached
+        // og starter bossfasen.
     }
 }

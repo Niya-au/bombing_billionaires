@@ -1,3 +1,4 @@
+
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -15,23 +16,8 @@ public class HazardSpawner : MonoBehaviour
 
     [Header("Spawn Settings")]
     [SerializeField] private float spawnInterval = 0.7f;
-
-    [Tooltip("Hvor langt fra midten hazards må spawne til venstre/højre.")]
     [SerializeField] private float spawnWidth = 8f;
-
-    [Tooltip("Hvor højt over toppen hazards spawner.")]
-    [SerializeField] private float spawnAboveScreen = 1f;
-
-    [Tooltip("Hvor hurtigt hazards falder.")]
-    [SerializeField] private float hazardFallSpeed = 3.5f;
-
-    [Header("Hazard Sizes")]
-    [SerializeField] private float asteroidScale = 1.5f;
-    [SerializeField] private float debrisScale = 1.5f;
-    [SerializeField] private float laserScale = 0.45f;
-
-    [Header("Hazard Phase")]
-    [SerializeField] private float hazardDuration = 15f;
+    [SerializeField] private float spawnHeight = 6f;
 
     [Header("Level 3")]
     [SerializeField] private MoneySpawner moneySpawner;
@@ -44,77 +30,89 @@ public class HazardSpawner : MonoBehaviour
     public UnityEvent OnHazardPhaseComplete;
 
     private float spawnTimer = 0f;
-    private float hazardTimer = 0f;
 
     private bool phaseStarted = false;
     private bool phaseFinished = false;
 
-    private List<GameObject> spawnedHazards = new List<GameObject>();
+    private List<GameObject> spawnedHazards =
+        new List<GameObject>();
 
 
     private void Awake()
     {
-        // Find MoneySpawner automatisk
         if (moneySpawner == null)
         {
-            moneySpawner = FindFirstObjectByType<MoneySpawner>();
+            moneySpawner =
+                FindFirstObjectByType<MoneySpawner>();
         }
 
-        // Find Health automatisk
         if (playerHealth == null)
         {
-            playerHealth = FindFirstObjectByType<Health>();
+            playerHealth =
+                FindFirstObjectByType<Health>();
         }
 
-        // Find Phase Text automatisk
         if (phaseText == null)
         {
-            GameObject phaseObject = GameObject.Find("Phase Text");
+            GameObject phaseObject =
+                GameObject.Find("Phase Text");
 
             if (phaseObject != null)
             {
-                phaseText = phaseObject.GetComponent<TMP_Text>();
+                phaseText =
+                    phaseObject.GetComponent<TMP_Text>();
             }
         }
 
-        // Alon skal være skjult ved spilstart
+        // Alon starter skjult.
         if (alonBoss != null)
         {
             alonBoss.SetActive(false);
         }
-
 
         Debug.Log("HAZARD SPAWNER READY");
 
 
         if (asteroidPrefab == null)
         {
-            Debug.LogWarning("HAZARD WARNING: Asteroid Prefab mangler!");
+            Debug.LogWarning(
+                "HAZARD WARNING: Asteroid Prefab mangler!"
+            );
         }
 
         if (debrisPrefab == null)
         {
-            Debug.LogWarning("HAZARD WARNING: Debris Prefab mangler!");
+            Debug.LogWarning(
+                "HAZARD WARNING: Debris Prefab mangler!"
+            );
         }
 
         if (laserPrefab == null)
         {
-            Debug.LogWarning("HAZARD WARNING: Laser Prefab mangler!");
+            Debug.LogWarning(
+                "HAZARD WARNING: Laser Prefab mangler!"
+            );
         }
 
         if (moneySpawner == null)
         {
-            Debug.LogError("HAZARD ERROR: MoneySpawner blev ikke fundet!");
+            Debug.LogError(
+                "HAZARD ERROR: MoneySpawner blev ikke fundet!"
+            );
         }
 
         if (playerHealth == null)
         {
-            Debug.LogWarning("HAZARD WARNING: Health blev ikke fundet!");
+            Debug.LogWarning(
+                "HAZARD WARNING: Health blev ikke fundet!"
+            );
         }
 
         if (alonBoss == null)
         {
-            Debug.LogWarning("BOSS WARNING: Alon Boss mangler!");
+            Debug.LogWarning(
+                "BOSS WARNING: Alon Boss mangler!"
+            );
         }
     }
 
@@ -130,60 +128,44 @@ public class HazardSpawner : MonoBehaviour
 
     private void Update()
     {
-        // Vent på at spilleren når målet
+        if (phaseFinished)
+            return;
+
         if (moneySpawner == null)
-        {
             return;
-        }
 
+
+        // Vent indtil BK har samlet omkring $1000.
         if (!moneySpawner.GoalReached)
-        {
             return;
-        }
 
 
-        // Start hazard-fasen
+        // Start boss/hazard-fasen én gang.
         if (!phaseStarted)
         {
             StartHazardPhase();
         }
 
 
-        if (phaseFinished)
-        {
-            return;
-        }
-
-
-        // Hvis BK er død
-        if (playerHealth != null && playerHealth.currentHP <= 0)
+        // Hvis BK er død.
+        if (playerHealth != null &&
+            playerHealth.currentHP <= 0)
         {
             PlayerDied();
             return;
         }
 
 
-        // Timere
-        hazardTimer += Time.deltaTime;
+        // Fortsæt med at spawn hazards
+        // HELE kampen igennem.
         spawnTimer += Time.deltaTime;
 
 
-        // Bevæg alle hazards nedad
-        MoveHazards();
-
-
-        // Spawn nye hazards
         if (spawnTimer >= spawnInterval)
         {
             SpawnHazard();
+
             spawnTimer = 0f;
-        }
-
-
-        // Hazard-fasen slutter efter tiden
-        if (hazardTimer >= hazardDuration)
-        {
-            FinishHazardPhase();
         }
     }
 
@@ -193,27 +175,57 @@ public class HazardSpawner : MonoBehaviour
         phaseStarted = true;
         phaseFinished = false;
 
-        hazardTimer = 0f;
         spawnTimer = 0f;
 
+
         Debug.Log("==============================");
-        Debug.Log("HAZARD PHASE STARTED!");
-        Debug.Log("SURVIVE FOR " + hazardDuration + " SECONDS!");
+        Debug.Log("BOSS / HAZARD PHASE STARTED!");
+        Debug.Log("ALON THRUSK HAS ARRIVED!");
         Debug.Log("==============================");
 
 
         if (phaseText != null)
         {
             phaseText.text =
-                "HAZARD PHASE\n" +
-                "SURVIVE " + hazardDuration + " SECONDS!";
+                "ALON THRUSK\n" +
+                "FIGHT!";
+        }
+
+
+        // Start Alon.
+        if (alonBoss != null)
+        {
+            alonBoss.SetActive(true);
+
+            AlonThruskBoss boss =
+                alonBoss.GetComponent<AlonThruskBoss>();
+
+            if (boss != null)
+            {
+                boss.StartBossFight();
+            }
+            else
+            {
+                Debug.LogError(
+                    "BOSS ERROR: " +
+                    "AlonThruskBoss script mangler!"
+                );
+            }
+        }
+        else
+        {
+            Debug.LogError(
+                "BOSS ERROR: Alon Boss er ikke sat!"
+            );
         }
     }
 
 
     private void SpawnHazard()
     {
-        List<GameObject> availableHazards = new List<GameObject>();
+        List<GameObject> availableHazards =
+            new List<GameObject>();
+
 
         if (asteroidPrefab != null)
         {
@@ -234,83 +246,46 @@ public class HazardSpawner : MonoBehaviour
         if (availableHazards.Count == 0)
         {
             Debug.LogError(
-                "CANNOT SPAWN HAZARD: Ingen hazard prefabs er sat!"
+                "CANNOT SPAWN HAZARD: " +
+                "Ingen hazard prefabs er sat!"
             );
 
             return;
         }
 
 
-        // Vælg tilfældig hazard
         GameObject selectedHazard =
             availableHazards[
-                Random.Range(0, availableHazards.Count)
+                Random.Range(
+                    0,
+                    availableHazards.Count
+                )
             ];
 
 
-        // Find kameraet
-        Camera cam = Camera.main;
-
-        if (cam == null)
-        {
-            Debug.LogError("HAZARD ERROR: Main Camera blev ikke fundet!");
-            return;
-        }
-
-
-        // Kameraets top
-        float topY =
-            cam.transform.position.y +
-            cam.orthographicSize +
-            spawnAboveScreen;
-
-
-        // X-position indenfor skærmen
-        float cameraHalfWidth =
-            cam.orthographicSize * cam.aspect;
-
         float randomX =
             Random.Range(
-                -cameraHalfWidth + 0.5f,
-                cameraHalfWidth - 0.5f
+                -spawnWidth,
+                spawnWidth
             );
 
 
-        // Spawn oven over skærmen
-        Vector3 spawnPosition = new Vector3(
-            cam.transform.position.x + randomX,
-            topY,
-            0f
-        );
+        Vector3 spawnPosition =
+            new Vector3(
+                transform.position.x + randomX,
+                transform.position.y + spawnHeight,
+                0f
+            );
 
 
-        // Spawn
-        GameObject hazard = Instantiate(
-            selectedHazard,
-            spawnPosition,
-            Quaternion.identity
-        );
+        GameObject hazard =
+            Instantiate(
+                selectedHazard,
+                spawnPosition,
+                Quaternion.identity
+            );
 
 
-        // Sæt størrelse
-        if (selectedHazard == asteroidPrefab)
-        {
-            hazard.transform.localScale =
-                Vector3.one * asteroidScale;
-        }
-        else if (selectedHazard == debrisPrefab)
-        {
-            hazard.transform.localScale =
-                Vector3.one * debrisScale;
-        }
-        else if (selectedHazard == laserPrefab)
-        {
-            hazard.transform.localScale =
-                Vector3.one * laserScale;
-        }
-
-
-        // Gem hazard
         spawnedHazards.Add(hazard);
 
 
@@ -321,115 +296,39 @@ public class HazardSpawner : MonoBehaviour
     }
 
 
-    private void MoveHazards()
-    {
-        for (int i = spawnedHazards.Count - 1; i >= 0; i--)
-        {
-            GameObject hazard = spawnedHazards[i];
-
-            if (hazard == null)
-            {
-                spawnedHazards.RemoveAt(i);
-                continue;
-            }
-
-
-            // Fald ned
-            hazard.transform.position +=
-                Vector3.down *
-                hazardFallSpeed *
-                Time.deltaTime;
-
-
-            // Fjern hazards der er faldet langt under skærmen
-            Camera cam = Camera.main;
-
-            if (cam != null)
-            {
-                float bottomY =
-                    cam.transform.position.y -
-                    cam.orthographicSize -
-                    3f;
-
-                if (hazard.transform.position.y < bottomY)
-                {
-                    Destroy(hazard);
-                    spawnedHazards.RemoveAt(i);
-                }
-            }
-        }
-    }
-
-
     public void StopSpawning()
     {
+        if (phaseFinished)
+            return;
+
         phaseFinished = true;
 
-        Debug.Log("HAZARD SPAWNING STOPPED!");
+        Debug.Log(
+            "HAZARD SPAWNING STOPPED!"
+        );
 
         ClearHazards();
     }
 
 
-    private void FinishHazardPhase()
+    public void BossDefeated()
     {
         if (phaseFinished)
-        {
             return;
-        }
 
         phaseFinished = true;
 
-
         Debug.Log("==============================");
-        Debug.Log("PLAYER SURVIVED 15 SECONDS!");
-        Debug.Log("HAZARD PHASE COMPLETE!");
+        Debug.Log("BOSS DEFEATED!");
         Debug.Log("==============================");
-
 
         ClearHazards();
-
 
         if (phaseText != null)
         {
             phaseText.text =
-                "HAZARD PHASE COMPLETE!\n" +
-                "GET READY...";
+                "ALON THRUSK DEFEATED!";
         }
-
-
-        // Start Alon boss fight
-        if (alonBoss != null)
-        {
-            alonBoss.SetActive(true);
-
-            AlonThruskBoss boss =
-                alonBoss.GetComponent<AlonThruskBoss>();
-
-            if (boss != null)
-            {
-                boss.StartBossFight();
-            }
-            else
-            {
-                Debug.LogError(
-                    "BOSS ERROR: AlonThruskBoss script mangler på alon_0!"
-                );
-            }
-
-
-            Debug.Log("==============================");
-            Debug.Log("ALON THRUSK HAS ARRIVED!");
-            Debug.Log("BOSS FIGHT STARTED!");
-            Debug.Log("==============================");
-        }
-        else
-        {
-            Debug.LogError(
-                "BOSS ERROR: Alon Boss er ikke sat!"
-            );
-        }
-
 
         OnHazardPhaseComplete?.Invoke();
     }
@@ -440,7 +339,7 @@ public class HazardSpawner : MonoBehaviour
         phaseFinished = true;
 
         Debug.Log(
-            "PLAYER DIED DURING HAZARD PHASE!"
+            "PLAYER DIED DURING BOSS FIGHT!"
         );
 
 
@@ -449,7 +348,13 @@ public class HazardSpawner : MonoBehaviour
 
         if (alonBoss != null)
         {
-            alonBoss.SetActive(false);
+            AlonThruskBoss boss =
+                alonBoss.GetComponent<AlonThruskBoss>();
+
+            if (boss != null)
+            {
+                boss.StopBossFight();
+            }
         }
 
 
@@ -462,11 +367,17 @@ public class HazardSpawner : MonoBehaviour
 
     private void ClearHazards()
     {
-        for (int i = spawnedHazards.Count - 1; i >= 0; i--)
+        for (
+            int i = spawnedHazards.Count - 1;
+            i >= 0;
+            i--
+        )
         {
             if (spawnedHazards[i] != null)
             {
-                Destroy(spawnedHazards[i]);
+                Destroy(
+                    spawnedHazards[i]
+                );
             }
         }
 
@@ -474,6 +385,8 @@ public class HazardSpawner : MonoBehaviour
         spawnedHazards.Clear();
 
 
-        Debug.Log("ALL HAZARDS CLEARED!");
+        Debug.Log(
+            "ALL HAZARDS CLEARED!"
+        );
     }
 }

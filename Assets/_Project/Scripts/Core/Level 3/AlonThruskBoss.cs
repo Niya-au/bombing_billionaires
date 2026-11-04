@@ -195,6 +195,14 @@ public class AlonThruskBoss : MonoBehaviour
         Debug.Log("ALON ATTACKED BK!");
     }
 
+public void StopBossFight()
+{
+    fightStarted = false;
+
+    attackTimer = 0f;
+
+    Debug.Log("ALON BOSS FIGHT STOPPED!");
+}
 
     public void TakeDamage(int amount)
     {
