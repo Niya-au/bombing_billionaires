@@ -19,11 +19,9 @@ public class Health : MonoBehaviour
 
     private bool isDead;
 
-
     private void Awake()
     {
         currentHP = maxHP;
-
         UpdateHealthUI();
     }
 
@@ -33,19 +31,17 @@ public class Health : MonoBehaviour
             return;
 
         currentHP -= amount;
-
         currentHP = Mathf.Max(currentHP, 0);
 
-        // Opdater teksten på skærmen
+        // Update health UI
         UpdateHealthUI();
 
-        // Send event videre hvis noget bruger den
+        // Notify listeners
         OnDamaged?.Invoke(currentHP);
 
         Debug.Log("Player HP: " + currentHP);
 
-
-        // Spilleren døde
+        // Player died
         if (currentHP <= 0)
         {
             isDead = true;
