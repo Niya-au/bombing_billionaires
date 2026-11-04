@@ -3,6 +3,16 @@ using UnityEngine;
 public class AlonProjectile : MonoBehaviour
 {
     [SerializeField] private int damage = 10;
+    [SerializeField] private float lifetime = 5f;
+
+
+    private void Start()
+    {
+        Destroy(gameObject, lifetime);
+
+        Debug.Log("🔴 RED PROJECTILE CREATED");
+    }
+
 
     public void SetDamage(int newDamage)
     {
@@ -12,26 +22,38 @@ public class AlonProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Health health =
-            other.GetComponent<Health>();
-
-        if (health != null)
+        // Må ikke ramme Alon selv
+        if (
+            other.GetComponentInParent<AlonThruskBoss>() != null
+        )
         {
-            // Bruger din eksisterende Health damage-funktion
-            other.gameObject.SendMessage(
-                "TakeDamage",
-                damage,
-                SendMessageOptions.DontRequireReceiver
-            );
-
-            Debug.Log("ALON PROJECTILE HIT BK!");
-
-            Destroy(gameObject);
             return;
         }
 
-        // Hvis den rammer noget andet
-        if (!other.CompareTag("Hazard"))
+
+        // Rammer BK
+        Health health =
+            other.GetComponentInParent<Health>();
+
+
+        if (health != null)
+        {
+            health.TakeDamage(damage);
+
+            Debug.Log(
+                "🔴 ALON PROJECTILE HIT BK! -" +
+                damage +
+                " HP"
+            );
+
+            Destroy(gameObject);
+
+            return;
+        }
+
+
+        // Rammer hazard
+        if (other.CompareTag("Hazard"))
         {
             Destroy(gameObject);
         }

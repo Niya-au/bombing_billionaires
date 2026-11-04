@@ -1,54 +1,81 @@
+
 using UnityEngine;
 
 public class AlonThruskBoss : MonoBehaviour
 {
     [Header("Boss")]
-    [SerializeField] private int maxHP = 200;
-    [SerializeField] private int currentHP = 200;
+    [SerializeField] private int maxHP = 70;
+    [SerializeField] private int currentHP = 70;
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 2f;
-    [SerializeField] private float moveRange = 2f;
+    [SerializeField] private float moveRangeX = 3f;
+    [SerializeField] private float moveRangeY = 2f;
 
     [Header("Attack")]
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private float attackInterval = 1.5f;
     [SerializeField] private float projectileSpeed = 7f;
     [SerializeField] private int damage = 10;
+    [SerializeField] private float projectileSpawnDistance = 0.7f;
 
     [Header("Player")]
     [SerializeField] private Transform player;
 
     private float attackTimer = 0f;
-    private float startY = 0f;
+
+    private Vector3 startPosition;
 
     private bool fightStarted = false;
     private bool bossDead = false;
 
 
+    // ==========================================
+    // AWAKE
+    // ==========================================
+
     private void Awake()
     {
         currentHP = maxHP;
+
         fightStarted = false;
         bossDead = false;
 
-        // Find BK automatisk
-        if (player == null)
-        {
-            GameObject playerObject = GameObject.Find("BK");
+        startPosition = transform.position;
 
-            if (playerObject != null)
-            {
-                player = playerObject.transform;
-            }
-        }
+        FindPlayer();
 
         Debug.Log("ALON READY - WAITING FOR BOSS FIGHT");
     }
 
 
-    // Denne funktion bliver kaldt af HazardSpawner
-    // efter de 15 sekunders hazard-fase
+    // ==========================================
+    // FIND BK
+    // ==========================================
+
+    private void FindPlayer()
+    {
+        if (player != null)
+        {
+            return;
+        }
+
+        GameObject playerObject =
+            GameObject.Find("BK");
+
+        if (playerObject != null)
+        {
+            player = playerObject.transform;
+
+            Debug.Log("🔴 ALON FOUND BK!");
+        }
+    }
+
+
+    // ==========================================
+    // START BOSS FIGHT
+    // ==========================================
+
     public void StartBossFight()
     {
         if (bossDead)
@@ -56,21 +83,13 @@ public class AlonThruskBoss : MonoBehaviour
             return;
         }
 
-        // Find BK igen hvis nødvendigt
-        if (player == null)
-        {
-            GameObject playerObject = GameObject.Find("BK");
-
-            if (playerObject != null)
-            {
-                player = playerObject.transform;
-            }
-        }
+        FindPlayer();
 
         currentHP = maxHP;
+
         attackTimer = 0f;
 
-        startY = transform.position.y;
+        startPosition = transform.position;
 
         fightStarted = true;
         bossDead = false;
@@ -82,76 +101,132 @@ public class AlonThruskBoss : MonoBehaviour
     }
 
 
+    // ==========================================
+    // UPDATE
+    // ==========================================
+
     private void Update()
     {
-        // Gør ingenting før HazardSpawner starter boss fighten
         if (!fightStarted || bossDead)
         {
             return;
         }
 
 
-        // ==============================
-        // ALON BEVÆGER SIG OP OG NED
-        // ==============================
+        // Find BK igen hvis nødvendigt
+        if (player == null)
+        {
+            FindPlayer();
+        }
+
+
+        // ==========================================
+        // ALON BEVÆGER SIG RUNDT
+        // ==========================================
+
+        MoveBoss();
+
+
+        // ==========================================
+        // ANGREB
+        // ==========================================
+
+        AttackTimer();
+    }
+
+
+    // ==========================================
+    // BOSS MOVEMENT
+    // ==========================================
+
+    private void MoveBoss()
+    {
+        float x =
+            startPosition.x +
+            Mathf.Sin(Time.time * moveSpeed) * moveRangeX;
 
         float y =
-            startY +
-            Mathf.Sin(Time.time * moveSpeed) * moveRange;
+            startPosition.y +
+            Mathf.Cos(Time.time * moveSpeed * 0.7f) * moveRangeY;
 
-        transform.position = new Vector3(
-            transform.position.x,
-            y,
-            transform.position.z
-        );
+        transform.position =
+            new Vector3(
+                x,
+                y,
+                startPosition.z
+            );
+    }
 
 
-        // ==============================
-        // ANGREBSTIMER
-        // ==============================
+    // ==========================================
+    // ATTACK TIMER
+    // ==========================================
+
+    private void AttackTimer()
+    {
+        if (player == null)
+        {
+            return;
+        }
 
         attackTimer += Time.deltaTime;
 
-
         if (attackTimer >= attackInterval)
         {
-            Attack();
-
             attackTimer = 0f;
+
+            Attack();
         }
     }
 
 
+    // ==========================================
+    // ALON SHOOTS
+    // ==========================================
+
     private void Attack()
     {
-        // Mangler projectile
         if (projectilePrefab == null)
         {
-            Debug.LogWarning(
-                "ALON WARNING: Projectile Prefab mangler!"
+            Debug.LogError(
+                "🔴 ALON ERROR: Projectile Prefab mangler på Alon!"
             );
 
             return;
         }
 
 
-        // Mangler BK
         if (player == null)
         {
             Debug.LogWarning(
-                "ALON WARNING: BK blev ikke fundet!"
+                "🔴 ALON ERROR: BK blev ikke fundet!"
             );
 
             return;
         }
 
 
-        // Spawn projectile
-        GameObject projectile = Instantiate(
-            projectilePrefab,
-            transform.position,
-            Quaternion.identity
-        );
+        // Retning fra Alon mod BK
+        Vector2 direction =
+            (
+                player.position -
+                transform.position
+            ).normalized;
+
+
+        // Spawn lidt foran Alon
+        Vector2 spawnPosition =
+            (Vector2)transform.position +
+            direction * projectileSpawnDistance;
+
+
+        // Opret rødt projectile
+        GameObject projectile =
+            Instantiate(
+                projectilePrefab,
+                spawnPosition,
+                Quaternion.identity
+            );
 
 
         // Find Rigidbody2D
@@ -159,23 +234,24 @@ public class AlonThruskBoss : MonoBehaviour
             projectile.GetComponent<Rigidbody2D>();
 
 
-        if (rb != null)
+        if (rb == null)
         {
-            Vector2 direction =
-                (player.position - transform.position).normalized;
-
-            rb.linearVelocity =
-                direction * projectileSpeed;
-        }
-        else
-        {
-            Debug.LogWarning(
-                "ALON WARNING: Projectile mangler Rigidbody2D!"
+            Debug.LogError(
+                "🔴 ALON ERROR: Rød projectile mangler Rigidbody2D!"
             );
+
+            Destroy(projectile);
+
+            return;
         }
 
 
-        // Find projectile-script
+        // Send projectile mod BK
+        rb.linearVelocity =
+            direction * projectileSpeed;
+
+
+        // Sæt damage
         AlonProjectile projectileScript =
             projectile.GetComponent<AlonProjectile>();
 
@@ -187,26 +263,35 @@ public class AlonThruskBoss : MonoBehaviour
         else
         {
             Debug.LogWarning(
-                "ALON WARNING: AlonProjectile script mangler på projectile!"
+                "🔴 ALON WARNING: AlonProjectile script mangler!"
             );
         }
 
 
-        Debug.Log("ALON ATTACKED BK!");
+        Debug.Log("🔴 ALON ATTACKED BK!");
     }
 
-public void StopBossFight()
-{
-    fightStarted = false;
 
-    attackTimer = 0f;
+    // ==========================================
+    // STOP BOSS FIGHT
+    // ==========================================
 
-    Debug.Log("ALON BOSS FIGHT STOPPED!");
-}
+    public void StopBossFight()
+    {
+        fightStarted = false;
+
+        attackTimer = 0f;
+
+        Debug.Log("ALON BOSS FIGHT STOPPED!");
+    }
+
+
+    // ==========================================
+    // TAKE DAMAGE
+    // ==========================================
 
     public void TakeDamage(int amount)
     {
-        // Kan ikke tage skade før boss fighten
         if (!fightStarted || bossDead)
         {
             return;
@@ -237,12 +322,17 @@ public void StopBossFight()
     }
 
 
+    // ==========================================
+    // DIE
+    // ==========================================
+
     private void Die()
     {
         if (bossDead)
         {
             return;
         }
+
 
         bossDead = true;
         fightStarted = false;
@@ -253,11 +343,6 @@ public void StopBossFight()
         Debug.Log("==============================");
 
 
-        // Stop bossens angreb
-        CancelInvoke();
-
-
-        // Skjul Alon
         gameObject.SetActive(false);
     }
 }

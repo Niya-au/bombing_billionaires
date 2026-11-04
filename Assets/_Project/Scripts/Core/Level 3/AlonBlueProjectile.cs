@@ -8,18 +8,44 @@ public class AlonBlueProjectile : MonoBehaviour
     private void Start()
     {
         Destroy(gameObject, lifetime);
+
+        Debug.Log("🔵 BLUE PROJECTILE CREATED");
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Health playerHealth = other.GetComponent<Health>();
+        // Rammer Alon
+        AlonThruskBoss boss =
+            other.GetComponentInParent<AlonThruskBoss>();
 
-        if (playerHealth != null)
+
+        if (boss != null)
         {
-            playerHealth.TakeDamage(damage);
+            boss.TakeDamage(damage);
 
-            Debug.Log("🔵 ALON PROJECTILE HIT BK! -" + damage + " HP");
+            Debug.Log(
+                "🔵 BK PROJECTILE HIT ALON! -" +
+                damage +
+                " HP"
+            );
 
+            Destroy(gameObject);
+
+            return;
+        }
+
+
+        // Rammer ikke BK med sit eget projectile
+        if (other.GetComponentInParent<PlayerController>() != null)
+        {
+            return;
+        }
+
+
+        // Rammer noget andet
+        if (!other.CompareTag("Hazard"))
+        {
             Destroy(gameObject);
         }
     }
