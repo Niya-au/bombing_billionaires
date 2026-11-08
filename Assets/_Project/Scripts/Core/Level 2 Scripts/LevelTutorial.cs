@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 
 public class LevelTutorial : MonoBehaviour
@@ -6,24 +7,24 @@ public class LevelTutorial : MonoBehaviour
     [Header("Tutorial UI")]
     public GameObject tutorialPanel;
 
+    [Header("Player Controls")]
+    public MonoBehaviour[] playerControlScripts;
+
     private bool gameStarted = false;
+    private bool canStart = false;
 
     void Start()
     {
-        // Show the tutorial when the level loads.
+        // Hide the tutorial while the cutscene plays.
         if (tutorialPanel != null)
-            tutorialPanel.SetActive(true);
-
-        // Pause the game until the player starts.
-        Time.timeScale = 0f;
+            tutorialPanel.SetActive(false);
     }
 
     void Update()
     {
-        if (gameStarted)
+        if (gameStarted || !canStart)
             return;
 
-        // Allow Enter as an alternative to clicking Start.
         if (Input.GetKeyDown(KeyCode.Return) ||
             Input.GetKeyDown(KeyCode.KeypadEnter))
         {
@@ -31,26 +32,52 @@ public class LevelTutorial : MonoBehaviour
         }
     }
 
-    public void StartLevel()
+    public void ShowTutorial()
     {
         if (gameStarted)
             return;
 
+        // Show the tutorial after the cutscene.
+        if (tutorialPanel != null)
+            tutorialPanel.SetActive(true);
+
+        // Pause gameplay.
+        Time.timeScale = 0f;
+
+        // Prevent the same Enter press from
+        // skipping both the cutscene and tutorial.
+        canStart = false;
+        StartCoroutine(AllowStartNextFrame());
+
+        Debug.Log("Tutorial shown!");
+    }
+
+    private IEnumerator AllowStartNextFrame()
+    {
+        yield return null;
+        canStart = true;
+    }
+
+    public void StartLevel()
+    {
+        if (gameStarted || !canStart)
+            return;
+
         gameStarted = true;
+        canStart = false;
 
-        // Resume gameplay.
-        Time.timeScale = 1f;
-
-        // Hide the tutorial.
         if (tutorialPanel != null)
             tutorialPanel.SetActive(false);
 
-        Debug.Log("Level 2 started!");
-    }
+        foreach (MonoBehaviour script in playerControlScripts)
+        {
+            if (script != null)
+                script.enabled = true;
+        }
 
-    void OnDisable()
-    {
-        // Avoid leaving the game paused.
         Time.timeScale = 1f;
+
+        Debug.Log("Gameplay started!");
     }
 }
+
