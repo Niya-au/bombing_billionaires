@@ -1,17 +1,14 @@
 using UnityEngine;
 using TMPro;
-using System.Collections;
 
 public class DialogueBox : MonoBehaviour
 {
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
-    [SerializeField] private float typingSpeed = 0.04f;
-
-    private Coroutine typingCoroutine;
 
     public void ShowLine(string text)
     {
+        dialogueText.text = text;
         dialoguePanel.SetActive(true);
 
         if (typingCoroutine != null)
@@ -35,11 +32,6 @@ public class DialogueBox : MonoBehaviour
 
     public void Hide()
     {
-        if (typingCoroutine != null)
-        {
-            StopCoroutine(typingCoroutine);
-        }
-
         dialoguePanel.SetActive(false);
     }
 }
