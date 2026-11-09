@@ -18,6 +18,9 @@ public class MoneySpawner : MonoBehaviour
     [SerializeField] private MoneyBar moneyBar;
     [SerializeField] private TMP_Text moneyText;
 
+    [Header("Boss UI")]
+    [SerializeField] private BossUIController bossUI;
+
     private int collectedMoney = 0;
     private float spawnTimer = 0f;
     private bool levelCompleted = false;
@@ -106,7 +109,7 @@ public class MoneySpawner : MonoBehaviour
 
         UpdateMoneyUI();
 
-        // Det er IKKE nødvendigt at ramme præcis $1000.
+        // Det er ikke nødvendigt at ramme præcis $1000.
         // Fx 975 + 50 = 1025 → bossfasen starter.
         if (collectedMoney >= collectionGoal)
         {
@@ -151,7 +154,8 @@ public class MoneySpawner : MonoBehaviour
         Debug.Log("STARTING BOSS PHASE!");
         Debug.Log("==============================");
 
-        // Fyld baren helt.
+
+        // Fyld moneybaren helt.
         if (moneyBar != null)
         {
             moneyBar.SetMoney(
@@ -159,18 +163,30 @@ public class MoneySpawner : MonoBehaviour
                 collectionGoal
             );
 
-            // MoneyBar skal væk under bosskampen.
+            // MoneyBar væk under bosskampen.
             moneyBar.gameObject.SetActive(false);
         }
 
-        // Gammel Money Text skal også væk.
+
+        // Gammel Money Text væk.
         if (moneyText != null)
         {
             moneyText.gameObject.SetActive(false);
         }
 
-        // VIGTIGT:
-        // Vi loader IKKE Level 4.
+
+        // SKIFT UI TIL BOSSFIGHT
+        if (bossUI != null)
+        {
+            bossUI.StartBossUI();
+        }
+        else
+        {
+            Debug.LogWarning(
+                "MoneySpawner: Boss UI er ikke assigned!"
+            );
+        }
+
         // HazardSpawner opdager GoalReached
         // og starter bossfasen.
     }

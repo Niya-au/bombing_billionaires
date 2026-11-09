@@ -1,16 +1,15 @@
-
 using UnityEngine;
 
 public class AlonThruskBoss : MonoBehaviour
 {
     [Header("Boss")]
-    [SerializeField] private int maxHP = 70;
-    [SerializeField] private int currentHP = 70;
+    [SerializeField] private int maxHP = 100;
+    [SerializeField] private int currentHP = 100;
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 2f;
-    [SerializeField] private float moveRangeX = 3f;
-    [SerializeField] private float moveRangeY = 2f;
+    [SerializeField] private float moveRangeX = 5f;
+    [SerializeField] private float moveRangeY = 2.5f;
 
     [Header("Attack")]
     [SerializeField] private GameObject projectilePrefab;
@@ -21,6 +20,9 @@ public class AlonThruskBoss : MonoBehaviour
 
     [Header("Player")]
     [SerializeField] private Transform player;
+
+    [Header("Health UI")]
+    [SerializeField] private HealthBar healthBar;
 
     private float attackTimer = 0f;
 
@@ -43,7 +45,20 @@ public class AlonThruskBoss : MonoBehaviour
 
         startPosition = transform.position;
 
+        // Find healthbar på Alon
+        if (healthBar == null)
+        {
+            healthBar = GetComponent<HealthBar>();
+        }
+
+        // Find BK
         FindPlayer();
+
+        // Opdater healthbar
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(currentHP, maxHP);
+        }
 
         Debug.Log("ALON READY - WAITING FOR BOSS FIGHT");
     }
@@ -60,8 +75,7 @@ public class AlonThruskBoss : MonoBehaviour
             return;
         }
 
-        GameObject playerObject =
-            GameObject.Find("BK");
+        GameObject playerObject = GameObject.Find("BK");
 
         if (playerObject != null)
         {
@@ -86,13 +100,20 @@ public class AlonThruskBoss : MonoBehaviour
         FindPlayer();
 
         currentHP = maxHP;
-
         attackTimer = 0f;
 
         startPosition = transform.position;
 
         fightStarted = true;
         bossDead = false;
+
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(
+                currentHP,
+                maxHP
+            );
+        }
 
         Debug.Log("==============================");
         Debug.Log("ALON THRUSK BOSS FIGHT STARTED!");
@@ -112,25 +133,12 @@ public class AlonThruskBoss : MonoBehaviour
             return;
         }
 
-
-        // Find BK igen hvis nødvendigt
         if (player == null)
         {
             FindPlayer();
         }
 
-
-        // ==========================================
-        // ALON BEVÆGER SIG RUNDT
-        // ==========================================
-
         MoveBoss();
-
-
-        // ==========================================
-        // ANGREB
-        // ==========================================
-
         AttackTimer();
     }
 
@@ -181,7 +189,7 @@ public class AlonThruskBoss : MonoBehaviour
 
 
     // ==========================================
-    // ALON SHOOTS
+    // ALON SHOOTS RED PROJECTILE
     // ==========================================
 
     private void Attack()
@@ -195,7 +203,6 @@ public class AlonThruskBoss : MonoBehaviour
             return;
         }
 
-
         if (player == null)
         {
             Debug.LogWarning(
@@ -205,22 +212,16 @@ public class AlonThruskBoss : MonoBehaviour
             return;
         }
 
-
-        // Retning fra Alon mod BK
         Vector2 direction =
             (
                 player.position -
                 transform.position
             ).normalized;
 
-
-        // Spawn lidt foran Alon
         Vector2 spawnPosition =
             (Vector2)transform.position +
             direction * projectileSpawnDistance;
 
-
-        // Opret rødt projectile
         GameObject projectile =
             Instantiate(
                 projectilePrefab,
@@ -228,16 +229,13 @@ public class AlonThruskBoss : MonoBehaviour
                 Quaternion.identity
             );
 
-
-        // Find Rigidbody2D
         Rigidbody2D rb =
             projectile.GetComponent<Rigidbody2D>();
-
 
         if (rb == null)
         {
             Debug.LogError(
-                "🔴 ALON ERROR: Rød projectile mangler Rigidbody2D!"
+                "🔴 ALON ERROR: Projectile mangler Rigidbody2D!"
             );
 
             Destroy(projectile);
@@ -245,16 +243,11 @@ public class AlonThruskBoss : MonoBehaviour
             return;
         }
 
-
-        // Send projectile mod BK
         rb.linearVelocity =
             direction * projectileSpeed;
 
-
-        // Sæt damage
         AlonProjectile projectileScript =
             projectile.GetComponent<AlonProjectile>();
-
 
         if (projectileScript != null)
         {
@@ -267,8 +260,48 @@ public class AlonThruskBoss : MonoBehaviour
             );
         }
 
-
         Debug.Log("🔴 ALON ATTACKED BK!");
+    }
+
+
+    // ==========================================
+    // TAKE DAMAGE FROM BK
+    // ==========================================
+
+    public void TakeDamage(int amount)
+    {
+        if (!fightStarted || bossDead)
+        {
+            return;
+        }
+
+        currentHP -= amount;
+
+        currentHP =
+            Mathf.Max(
+                currentHP,
+                0
+            );
+
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(
+                currentHP,
+                maxHP
+            );
+        }
+
+        Debug.Log(
+            "🔵 ALON HP: " +
+            currentHP +
+            " / " +
+            maxHP
+        );
+
+        if (currentHP <= 0)
+        {
+            Die();
+        }
     }
 
 
@@ -279,46 +312,9 @@ public class AlonThruskBoss : MonoBehaviour
     public void StopBossFight()
     {
         fightStarted = false;
-
         attackTimer = 0f;
 
         Debug.Log("ALON BOSS FIGHT STOPPED!");
-    }
-
-
-    // ==========================================
-    // TAKE DAMAGE
-    // ==========================================
-
-    public void TakeDamage(int amount)
-    {
-        if (!fightStarted || bossDead)
-        {
-            return;
-        }
-
-
-        currentHP -= amount;
-
-
-        if (currentHP < 0)
-        {
-            currentHP = 0;
-        }
-
-
-        Debug.Log(
-            "ALON HP: " +
-            currentHP +
-            " / " +
-            maxHP
-        );
-
-
-        if (currentHP <= 0)
-        {
-            Die();
-        }
     }
 
 
@@ -333,16 +329,32 @@ public class AlonThruskBoss : MonoBehaviour
             return;
         }
 
-
         bossDead = true;
-        fightStarted = false;
-
+        currentHP = 0;
 
         Debug.Log("==============================");
-        Debug.Log("ALON THRUSK DEFEATED!");
+        Debug.Log("🏆 ALON THRUSK DEFEATED!");
         Debug.Log("==============================");
 
+        // Stop Alons bevægelse og skydning
+        StopBossFight();
 
+        // Fortæl HazardSpawner at bossfighten er slut
+        HazardSpawner hazardSpawner =
+            FindFirstObjectByType<HazardSpawner>();
+
+        if (hazardSpawner != null)
+        {
+            hazardSpawner.BossDefeated();
+        }
+        else
+        {
+            Debug.LogWarning(
+                "ALON: Kunne ikke finde HazardSpawner!"
+            );
+        }
+
+        // Skjul Alon
         gameObject.SetActive(false);
     }
 }

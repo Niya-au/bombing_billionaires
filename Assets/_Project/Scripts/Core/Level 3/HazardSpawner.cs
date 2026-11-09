@@ -341,7 +341,7 @@ public class HazardSpawner : MonoBehaviour
         Debug.Log(
             "PLAYER DIED DURING BOSS FIGHT!"
         );
-
+        
 
         ClearHazards();
 
@@ -363,7 +363,6 @@ public class HazardSpawner : MonoBehaviour
             phaseText.text = "YOU DIED!";
         }
     }
-
 
     private void ClearHazards()
     {
