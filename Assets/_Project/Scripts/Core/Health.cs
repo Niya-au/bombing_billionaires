@@ -90,4 +90,12 @@ public class Health : MonoBehaviour
             );
         }
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            TakeDamage(10);
+        }
+    }
 }
