@@ -16,16 +16,21 @@ public class MonkeyGrabber : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
     }
 
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.H))
         {
-            TryGrabMonkey();
-        }
-
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            ThrowMonkey();
+            if (heldMonkey != null)
+            {
+                // Already holding a monkey: throw it.
+                ThrowMonkey();
+            }
+            else
+            {
+                // Not holding a monkey: try to grab one.
+                TryGrabMonkey();
+            }
         }
     }
 
