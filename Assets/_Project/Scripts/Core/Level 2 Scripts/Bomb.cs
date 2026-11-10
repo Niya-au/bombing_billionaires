@@ -55,7 +55,7 @@ public class Bomb : MonoBehaviour
 
         if (boss != null)
         {
-            Debug.Log("Bomb hit Jaff! Damage: " + damage);
+            Debug.Log("Bomb hit Boss! Damage: " + damage);
 
             // Deal damage only once.
             boss.TakeDamage(damage);
