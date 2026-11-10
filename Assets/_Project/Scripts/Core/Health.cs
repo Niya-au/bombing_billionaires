@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 using TMPro;
 
 public class Health : MonoBehaviour
@@ -10,6 +11,7 @@ public class Health : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private TMP_Text healthText;
+    [SerializeField] private Image healthBarFill;
 
     public int currentHP;
     public int MaxHP => maxHP;
@@ -25,14 +27,6 @@ public class Health : MonoBehaviour
         UpdateHealthUI();
     }
 
-    private void UpdateHealthUI()
-    {
-        if (healthText != null)
-        {
-            healthText.text = currentHP + " / " + maxHP + " HP";
-        }
-    }
-
     public void TakeDamage(int amount)
     {
         if (isDead)
@@ -41,15 +35,12 @@ public class Health : MonoBehaviour
         currentHP -= amount;
         currentHP = Mathf.Max(currentHP, 0);
 
-        // Update health UI
         UpdateHealthUI();
 
-        // Notify listeners
         OnDamaged?.Invoke(currentHP);
 
         Debug.Log("Player HP: " + currentHP);
 
-        // Player died
         if (currentHP <= 0)
         {
             isDead = true;
@@ -57,6 +48,20 @@ public class Health : MonoBehaviour
             Debug.Log("PLAYER DIED!");
 
             OnDied?.Invoke();
+        }
+    }
+
+    private void UpdateHealthUI()
+    {
+        if (healthText != null)
+        {
+            healthText.text = currentHP + " / " + maxHP + " HP";
+        }
+
+        if (healthBarFill != null)
+        {
+            healthBarFill.fillAmount =
+                (float)currentHP / maxHP;
         }
     }
 }
