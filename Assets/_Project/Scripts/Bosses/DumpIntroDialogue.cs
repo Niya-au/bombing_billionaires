@@ -12,6 +12,9 @@ public class DumpIntroDialogue : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private float triggerDistance = 4f;
 
+    [Header("Security Guard")]
+    [SerializeField] private SecurityGuardHealth securityGuard;
+
     private DumpBoss dumpBoss;
     private bool introStarted = false;
 
@@ -32,6 +35,10 @@ public class DumpIntroDialogue : MonoBehaviour
     private void Update()
     {
         if (introStarted || player == null)
+            return;
+
+        // Wait until Security Guard is defeated
+        if (securityGuard != null)
             return;
 
         float distance = Vector2.Distance(
@@ -63,10 +70,7 @@ public class DumpIntroDialogue : MonoBehaviour
             Debug.LogWarning("DialogueBox is missing!");
         }
 
-        // Start Riddle01 after dialogue
         if (dumpBoss != null)
-        {
             dumpBoss.StartFirstRiddle();
-        }
     }
 }
