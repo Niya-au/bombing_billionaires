@@ -11,8 +11,9 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private VineSwing vineSwing;
-    private bool isGrounded;
+    private Animator animator;
 
+    private bool isGrounded;
     private bool isFacingRight = true;
 
     public bool IsFacingRight => isFacingRight;
@@ -21,6 +22,9 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         vineSwing = GetComponent<VineSwing>();
+
+        // Finder Animator på Player > Visual
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -41,7 +45,8 @@ public class PlayerController : MonoBehaviour
         );
 
         // LEFT
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow) ||
+            Input.GetKey(KeyCode.A))
         {
             rb.linearVelocity =
                 new Vector2(-moveSpeed, rb.linearVelocity.y);
@@ -53,7 +58,8 @@ public class PlayerController : MonoBehaviour
         }
 
         // RIGHT
-        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.RightArrow) ||
+                 Input.GetKey(KeyCode.D))
         {
             rb.linearVelocity =
                 new Vector2(moveSpeed, rb.linearVelocity.y);
@@ -64,11 +70,11 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // Stop horizontal movement when grounded
+        // STOP
         else if (isGrounded)
         {
             rb.linearVelocity =
-                new Vector2(0, rb.linearVelocity.y);
+                new Vector2(0f, rb.linearVelocity.y);
         }
 
         // JUMP
@@ -80,6 +86,15 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity =
                 new Vector2(rb.linearVelocity.x, jumpForce);
+        }
+
+        // ANIMATION
+        if (animator != null)
+        {
+            animator.SetFloat(
+                "Speed",
+                Mathf.Abs(rb.linearVelocity.x)
+            );
         }
     }
 
