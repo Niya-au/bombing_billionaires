@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class MonkeyController : MonoBehaviour
 {
+    [Header("Phase Settings")]
+    public bool canBeGrabbed = false;
 
     [Header("Phase Settings")]
     public bool canRetreat = true;
@@ -29,9 +31,6 @@ public class MonkeyController : MonoBehaviour
     private Vector3 jumpStart;
     private Vector3 jumpEnd;
     private float throwTimer;
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
-    private Vector3 originalThrowPointPosition;
 
     void Start()
     {
@@ -41,49 +40,12 @@ public class MonkeyController : MonoBehaviour
         {
             transform.position = retreatPoints[0].position;
         }
-
-        animator = GetComponentInChildren<Animator>();
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-
-        if (throwPoint != null)
-        {
-            originalThrowPointPosition = throwPoint.localPosition;
-        }
     }
 
     void Update()
     {
         if (player == null)
             return;
-
-        // Face the next vine while jumping.
-        // Otherwise, face the player.
-        bool faceLeft;
-
-        if (isJumping)
-        {
-            faceLeft = jumpEnd.x < jumpStart.x;
-        }
-        else
-        {
-            faceLeft = player.position.x < transform.position.x;
-        }
-
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.flipX = faceLeft;
-        }
-
-        // Move the projectile spawn point to the correct side.
-        if (throwPoint != null)
-        {
-            Vector3 position = originalThrowPointPosition;
-            position.x = faceLeft
-                ? -Mathf.Abs(originalThrowPointPosition.x)
-                : Mathf.Abs(originalThrowPointPosition.x);
-
-            throwPoint.localPosition = position;
-        }
 
         if (isJumping)
         {
@@ -121,22 +83,11 @@ public class MonkeyController : MonoBehaviour
         if (retreatPoints[currentPoint + 1] == null)
             return;
 
-        jumpStart = transform.position;
-        jumpEnd = retreatPoints[currentPoint + 1].position;
-
-        // Face the destination vine immediately.
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.flipX = jumpEnd.x < jumpStart.x;
-        }
-
         isJumping = true;
         jumpTimer = 0f;
 
-        if (animator != null)
-        {
-            animator.SetBool("IsJumping", true);
-        }
+        jumpStart = transform.position;
+        jumpEnd = retreatPoints[currentPoint + 1].position;
     }
 
     void UpdateJump()
@@ -163,8 +114,6 @@ public class MonkeyController : MonoBehaviour
         {
             transform.position = jumpEnd;
             isJumping = false;
-            if (animator != null)
-                animator.SetBool("IsJumping", false);
             currentPoint++;
             throwTimer = throwInterval;
         }
@@ -174,9 +123,6 @@ public class MonkeyController : MonoBehaviour
     {
         if (nutPrefab == null || throwPoint == null)
             return;
-
-        if (animator != null)
-            animator.SetTrigger("Throw");
 
         GameObject nut = Instantiate(
             nutPrefab,

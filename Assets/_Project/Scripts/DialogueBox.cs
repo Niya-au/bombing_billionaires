@@ -29,7 +29,7 @@ public class DialogueBox : MonoBehaviour
         foreach (char letter in text)
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
+            yield return new WaitForSecondsRealtime(typingSpeed);
         }
     }
 
