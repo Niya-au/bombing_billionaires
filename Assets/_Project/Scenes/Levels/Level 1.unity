@@ -432,7 +432,7 @@ Transform:
   m_GameObject: {fileID: 106850062}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.07, y: 0.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -682,6 +682,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247244208}
   m_CullTransparentMesh: 1
+--- !u!114 &277525007 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 694626339802070953, guid: d66b5063cfaf96344a9595b1496b27a4, type: 3}
+  m_PrefabInstance: {fileID: 1458662229}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c27ebb293232e284882284d343ff5a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Runtime::SecurityGuardHealth
 --- !u!4 &315643655 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8991772908022147364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
@@ -1674,11 +1685,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4484474717884939490, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61
+      value: 30.58
       objectReference: {fileID: 0}
     - target: {fileID: 4484474717884939490, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 4484474717884939490, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1750,12 +1761,28 @@ PrefabInstance:
       objectReference: {fileID: 1588667116}
     - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: enableDamageTest
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 8801488754415889158, guid: 78bf135306757c9499813cabbbf4fcdc, type: 3}
+    - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+      propertyPath: escapeDestination
+      value: 
+      objectReference: {fileID: 2020911925}
+    - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+      propertyPath: securityGuards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+      propertyPath: 'securityGuards.Array.data[0]'
+      value: 
+      objectReference: {fileID: 146631013}
+    - target: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+      propertyPath: 'securityGuards.Array.data[1]'
+      value: 
+      objectReference: {fileID: 277525007}
     - target: {fileID: 6508427164745999789, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
       propertyPath: m_Name
       value: DumpBoss
@@ -2393,7 +2420,7 @@ Transform:
   m_GameObject: {fileID: 1360440006}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.08, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2714,6 +2741,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5035976665714076115, guid: 5078b0508297e7d46bcf7a1730e85609, type: 3}
   firePoint: {fileID: 241596901}
   shootCooldown: 0.3
+  dumpBoss: {fileID: 1794130644}
 --- !u!1001 &1458662229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3009,7 +3037,7 @@ Transform:
   m_GameObject: {fileID: 1485290454}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.97, y: 0.01, z: -10}
+  m_LocalPosition: {x: -6.58, y: 0.01, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3649,7 +3677,17 @@ MonoBehaviour:
   dialogueDuration: 4
   player: {fileID: 1396211388}
   triggerDistance: 4
-  securityGuard: {fileID: 146631013}
+--- !u!114 &1794130644 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5583392764962368364, guid: 827e18c382acc574dbbb180534ba738d, type: 3}
+  m_PrefabInstance: {fileID: 1039728084}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487466871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5adc03efa7ce3a4eaaa2a73111760d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DumpBoss
 --- !u!61 &1794130645
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3833,6 +3871,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878242394}
   m_CullTransparentMesh: 1
+--- !u!1 &2020911924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020911925}
+  m_Layer: 0
+  m_Name: DumpEscapePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2020911925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020911924}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 45.06, y: 0.94, z: 0}
+  m_LocalScale: {x: 2, y: 2.8, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2070824211
 GameObject:
   m_ObjectHideFlags: 0
@@ -4098,3 +4167,4 @@ SceneRoots:
   - {fileID: 169523295343902132}
   - {fileID: 1458662229}
   - {fileID: 467328473}
+  - {fileID: 2020911925}
