@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class BKWeapon : MonoBehaviour
@@ -8,13 +7,25 @@ public class BKWeapon : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private float shootCooldown = 0.3f;
 
+    [Header("Boss")]
+    [SerializeField] private DumpBoss dumpBoss;
+
     private float nextShootTime;
 
+    private void Start()
+    {
+        if (dumpBoss == null)
+            dumpBoss = FindFirstObjectByType<DumpBoss>();
+    }
+
     private void Update()
-    {        
-    if (Input.GetKeyDown(KeyCode.F) &&
-    Time.time >= nextShootTime)
-        
+    {
+        // BK cannot shoot during dialogue or riddles
+        if (dumpBoss != null && dumpBoss.IsInteractionActive)
+            return;
+
+        if (Input.GetKeyDown(KeyCode.F) &&
+            Time.time >= nextShootTime)
         {
             Shoot();
             nextShootTime = Time.time + shootCooldown;

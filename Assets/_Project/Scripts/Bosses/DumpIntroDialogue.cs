@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using System.Collections;
 
@@ -12,11 +11,8 @@ public class DumpIntroDialogue : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private float triggerDistance = 4f;
 
-    [Header("Security Guard")]
-    [SerializeField] private SecurityGuardHealth securityGuard;
-
     private DumpBoss dumpBoss;
-    private bool introStarted = false;
+    private bool introStarted;
 
     private void Start()
     {
@@ -37,10 +33,6 @@ public class DumpIntroDialogue : MonoBehaviour
         if (introStarted || player == null)
             return;
 
-        // Wait until Security Guard is defeated
-        if (securityGuard != null)
-            return;
-
         float distance = Vector2.Distance(
             transform.position,
             player.position
@@ -55,22 +47,24 @@ public class DumpIntroDialogue : MonoBehaviour
 
     private IEnumerator PlayIntro()
     {
+        if (dumpBoss != null)
+            dumpBoss.SetDialogueActive(true);
+
         if (dialogueBox != null)
         {
             dialogueBox.ShowLine(
-                "Donald Dump: Welcome, BK! Think you can defeat me?"
+                "Donald Dump: Nobody beats me! Not even China! You're fired!"
             );
 
             yield return new WaitForSeconds(dialogueDuration);
 
             dialogueBox.Hide();
         }
-        else
-        {
-            Debug.LogWarning("DialogueBox is missing!");
-        }
 
         if (dumpBoss != null)
-            dumpBoss.StartFirstRiddle();
+        {
+            dumpBoss.SetDialogueActive(false);
+            dumpBoss.FinishIntroAndEscape();
+        }
     }
 }
