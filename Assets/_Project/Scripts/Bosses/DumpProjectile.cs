@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class DumpProjectile : MonoBehaviour
@@ -11,24 +10,20 @@ public class DumpProjectile : MonoBehaviour
 
     private Transform player;
     private Vector2 direction = Vector2.left;
-    private bool hasHit = false;
 
     private void Start()
     {
-        // Find BK
-        GameObject playerObject =
-            GameObject.FindGameObjectWithTag("Player");
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
 
         if (playerObject != null)
         {
             player = playerObject.transform;
         }
 
-        // Fjern bomben efter 5 sekunder
         Destroy(gameObject, lifetime);
     }
 
-    // DumpBoss bruger denne metode, når bomben affyres
+    // Denne skal være her, fordi DumpBoss bruger den
     public void SetDirection(Vector2 newDirection)
     {
         if (newDirection.sqrMagnitude > 0.001f)
@@ -39,24 +34,16 @@ public class DumpProjectile : MonoBehaviour
 
     private void Update()
     {
-        if (hasHit)
-            return;
-
-        // Bomben følger BK, selv når han bevæger sig
+        // Hvis der findes en spiller, så flyv mod spilleren
         if (player != null)
         {
-            Vector2 targetPosition = player.position;
-            Vector2 currentPosition = transform.position;
-
-            direction =
-                (targetPosition - currentPosition).normalized;
+            direction = (player.position - transform.position).normalized;
         }
 
-        // Bevæg bomben mod BK
         transform.position +=
             (Vector3)(direction * speed * Time.deltaTime);
 
-        // Registrer træf, når bomben er tæt på BK
+        // Sikkerheds-hit hvis projektilet kommer tæt nok på
         if (player != null)
         {
             float distance = Vector2.Distance(
@@ -71,41 +58,24 @@ public class DumpProjectile : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (hasHit || !other.CompareTag("Player"))
-            return;
-
-        if (player == null)
-            player = other.transform;
-
-        HitPlayer();
-    }
-
     private void HitPlayer()
     {
-        if (hasHit)
-            return;
+        Health health = player.GetComponent<Health>();
 
-        hasHit = true;
-
-        Health health = null;
-
-        if (player != null)
+        if (health == null)
         {
-            health = player.GetComponent<Health>();
-
-            if (health == null)
-            {
-                health = player.GetComponentInParent<Health>();
-            }
+            health = player.GetComponentInParent<Health>();
         }
 
         if (health != null)
         {
-            health.TakeDamage(damage);
+            Debug.Log("💥 HAZARD HIT PLAYER! -" + damage + " HP");
 
-            Debug.Log("BK mistede " + damage + " HP!");
+            health.TakeDamage(damage);
+        }
+        else
+        {
+            Debug.LogWarning("Player has no Health component!");
         }
 
         Destroy(gameObject);

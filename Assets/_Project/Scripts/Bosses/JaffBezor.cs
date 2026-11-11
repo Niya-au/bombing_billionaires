@@ -1,6 +1,5 @@
 
 using UnityEngine;
-using System.Collections;
 
 public class JaffBezor : BossBase
 {
@@ -26,8 +25,6 @@ public class JaffBezor : BossBase
     [Header("Facing")]
     // Enable this if the original sprite faces left.
     public bool spriteFacesLeft = true;
-
-    public LevelEndingController endingController;
 
     private int currentPoint = 0;
     private bool isJumping = false;
@@ -292,16 +289,9 @@ public class JaffBezor : BossBase
 
         battleEnded = true;
 
-        Debug.Log("Jaff escaped! Starting drone cutscene.");
+        Debug.Log("Jaff escaped! Player loses.");
 
-        if (endingController != null)
-        {
-            endingController.TriggerJaffEscape();
-        }
-        else
-        {
-            Debug.LogError("EndingController is not assigned to Jaff!");
-        }
+        // Later: trigger Game Over screen.
     }
 
     public override void TakeDamage(int amount)
@@ -343,25 +333,7 @@ public class JaffBezor : BossBase
             animator.SetTrigger("Die");
         }
 
-        StartCoroutine(PlayVictoryEnding());
-    }
-
-    private IEnumerator PlayVictoryEnding()
-    {
-        // Wait for Jaff's death animation.
-        yield return new WaitForSeconds(deathAnimationDuration);
-
-        // Start the mission-success ending.
-        if (endingController != null)
-        {
-            endingController.TriggerMissionSuccess();
-        }
-        else
-        {
-            Debug.LogError("EndingController is not assigned to Jaff!");
-        }
-
-        // Remove Jaff after the animation.
-        Destroy(gameObject);
+        // Allow the death animation to finish.
+        Destroy(gameObject, deathAnimationDuration);
     }
 }
