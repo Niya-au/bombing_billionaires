@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: e65f5dad5dddbde4a9bc3352f0571534
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1652059052755051199
+    second: Clue_0
+  - first:
+      213: 5951299098065783316
+    second: Clue_1
+  - first:
+      213: -5134393051890649404
+    second: Clue_2
+  - first:
+      213: -2929164062152733224
+    second: Clue_3
+  - first:
+      213: 5714435796001307583
+    second: Clue_4
+  - first:
+      213: -1942320291675329838
+    second: Clue_5
+  - first:
+      213: 5245608733130902454
+    second: Clue_6
+  - first:
+      213: -4313575305796993990
+    second: Clue_7
+  - first:
+      213: -451753384020999210
+    second: Clue_8
+  - first:
+      213: -1604147580675130808
+    second: Clue_9
+  - first:
+      213: 8325005350453804792
+    second: Clue_10
+  - first:
+      213: -5230347675762817689
+    second: Clue_11
+  - first:
+      213: -6669572333318543179
+    second: Clue_12
+  - first:
+      213: -8354872633422675554
+    second: Clue_13
+  - first:
+      213: 3674449285785463936
+    second: Clue_14
+  - first:
+      213: -7555830040797412
+    second: Clue_15
+  - first:
+      213: 8394469880145079107
+    second: Clue_16
+  - first:
+      213: 1869195180914458244
+    second: Clue_17
+  - first:
+      213: -1712742398177462579
+    second: Clue_18
+  - first:
+      213: -7114650355663403641
+    second: Clue_19
+  - first:
+      213: 7623797215303742388
+    second: Clue_20
+  - first:
+      213: 6974975494593442497
+    second: Clue_21
+  - first:
+      213: 5230167314812305035
+    second: Clue_22
+  - first:
+      213: 982223231028554740
+    second: Clue_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1215
+        height: 1233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2ee6b94fa4de610800000000000000
+      internalID: 1652059052755051199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_1
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1179
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a40549ff2479250800000000000000
+      internalID: 5951299098065783316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 869
+        width: 35
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6f2d4f8b8feb8b0800000000000000
+      internalID: -5134393051890649404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 923
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddcb8a0ec48957d0800000000000000
+      internalID: -2929164062152733224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 791
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb3f608411cd4f40800000000000000
+      internalID: 5714435796001307583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_5
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 818
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2daa8ae4cfd7b05e0800000000000000
+      internalID: -1942320291675329838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_6
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 795
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb44f0b9552cc840800000000000000
+      internalID: 5245608733130902454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_7
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 769
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cb21a1d1a1324c0800000000000000
+      internalID: -4313575305796993990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_8
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 754
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d30953d0bc0bb9f0800000000000000
+      internalID: -451753384020999210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 755
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a7e86464cecb9e0800000000000000
+      internalID: -1604147580675130808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_10
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 650
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe760b224c588370800000000000000
+      internalID: 8325005350453804792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 328
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7650e5e10821a67b0800000000000000
+      internalID: -5230347675762817689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 108
+        width: 276
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b866ccbc4be073a0800000000000000
+      internalID: -6669572333318543179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_13
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 303
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91853d1b978d0c80800000000000000
+      internalID: -8354872633422675554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 216
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c2e6848244ef230800000000000000
+      internalID: 3674449285785463936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_15
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 200
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f5f6a330825eff0800000000000000
+      internalID: -7555830040797412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_16
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 228
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b63c351e52f7470800000000000000
+      internalID: 8394469880145079107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 215
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e37461d17b0f910800000000000000
+      internalID: 1869195180914458244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_18
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 216
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6b1e40ddd1b38e0800000000000000
+      internalID: -1712742398177462579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 186
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7858391523fa34d90800000000000000
+      internalID: -7114650355663403641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_20
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 196
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3bac9bc2b2dc960800000000000000
+      internalID: 7623797215303742388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_21
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 190
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2fb40e1471cc060800000000000000
+      internalID: 6974975494593442497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_22
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 128
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8efe335679459840800000000000000
+      internalID: 5230167314812305035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue_23
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 18
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbe79713de81ad00800000000000000
+      internalID: 982223231028554740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Clue_0: 1652059052755051199
+      Clue_1: 5951299098065783316
+      Clue_10: 8325005350453804792
+      Clue_11: -5230347675762817689
+      Clue_12: -6669572333318543179
+      Clue_13: -8354872633422675554
+      Clue_14: 3674449285785463936
+      Clue_15: -7555830040797412
+      Clue_16: 8394469880145079107
+      Clue_17: 1869195180914458244
+      Clue_18: -1712742398177462579
+      Clue_19: -7114650355663403641
+      Clue_2: -5134393051890649404
+      Clue_20: 7623797215303742388
+      Clue_21: 6974975494593442497
+      Clue_22: 5230167314812305035
+      Clue_23: 982223231028554740
+      Clue_3: -2929164062152733224
+      Clue_4: 5714435796001307583
+      Clue_5: -1942320291675329838
+      Clue_6: 5245608733130902454
+      Clue_7: -4313575305796993990
+      Clue_8: -451753384020999210
+      Clue_9: -1604147580675130808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
