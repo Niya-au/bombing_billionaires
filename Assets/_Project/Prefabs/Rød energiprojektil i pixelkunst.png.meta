@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 8ae2fa5d2a5ac40018d136144f431da5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4931876408402001503
+    second: "R\xF8d energiprojektil i pixelkunst_0"
+  - first:
+      213: -5932823558799327166
+    second: "R\xF8d energiprojektil i pixelkunst_1"
+  - first:
+      213: 7331327366522861667
+    second: "R\xF8d energiprojektil i pixelkunst_2"
+  - first:
+      213: 3766048398081919765
+    second: "R\xF8d energiprojektil i pixelkunst_3"
+  - first:
+      213: -4074359161883901416
+    second: "R\xF8d energiprojektil i pixelkunst_4"
+  - first:
+      213: -1880963384366327792
+    second: "R\xF8d energiprojektil i pixelkunst_5"
+  - first:
+      213: 8990725199841553790
+    second: "R\xF8d energiprojektil i pixelkunst_6"
+  - first:
+      213: 5127649539347052989
+    second: "R\xF8d energiprojektil i pixelkunst_7"
+  - first:
+      213: -8232038734500311741
+    second: "R\xF8d energiprojektil i pixelkunst_8"
+  - first:
+      213: -9197107067322393809
+    second: "R\xF8d energiprojektil i pixelkunst_9"
+  - first:
+      213: 1094416316718029455
+    second: "R\xF8d energiprojektil i pixelkunst_10"
+  - first:
+      213: 6987782578607807381
+    second: "R\xF8d energiprojektil i pixelkunst_11"
+  - first:
+      213: -5157451642488289617
+    second: "R\xF8d energiprojektil i pixelkunst_12"
+  - first:
+      213: 2457696805149540921
+    second: "R\xF8d energiprojektil i pixelkunst_13"
+  - first:
+      213: -1985323406461006279
+    second: "R\xF8d energiprojektil i pixelkunst_14"
+  - first:
+      213: -4067104595940683314
+    second: "R\xF8d energiprojektil i pixelkunst_15"
+  - first:
+      213: 7692409803138126479
+    second: "R\xF8d energiprojektil i pixelkunst_16"
+  - first:
+      213: 8105533961956545477
+    second: "R\xF8d energiprojektil i pixelkunst_17"
+  - first:
+      213: -8007380546890850651
+    second: "R\xF8d energiprojektil i pixelkunst_18"
+  - first:
+      213: 2857895335970198886
+    second: "R\xF8d energiprojektil i pixelkunst_19"
+  - first:
+      213: -5077549185794657394
+    second: "R\xF8d energiprojektil i pixelkunst_20"
+  - first:
+      213: 2409071542751549867
+    second: "R\xF8d energiprojektil i pixelkunst_21"
+  - first:
+      213: -7135557456005184698
+    second: "R\xF8d energiprojektil i pixelkunst_22"
+  - first:
+      213: 9211596908044449702
+    second: "R\xF8d energiprojektil i pixelkunst_23"
+  - first:
+      213: -6845347605257680043
+    second: "R\xF8d energiprojektil i pixelkunst_24"
+  - first:
+      213: 531013328437516976
+    second: "R\xF8d energiprojektil i pixelkunst_25"
+  - first:
+      213: -2690457392843292377
+    second: "R\xF8d energiprojektil i pixelkunst_26"
+  - first:
+      213: -7310460277303597704
+    second: "R\xF8d energiprojektil i pixelkunst_27"
+  - first:
+      213: -8064021279436018466
+    second: "R\xF8d energiprojektil i pixelkunst_28"
+  - first:
+      213: -7154187361789869921
+    second: "R\xF8d energiprojektil i pixelkunst_29"
+  - first:
+      213: -7375697452686668841
+    second: "R\xF8d energiprojektil i pixelkunst_30"
+  - first:
+      213: -5012829431695457421
+    second: "R\xF8d energiprojektil i pixelkunst_31"
+  - first:
+      213: 4169531070916003820
+    second: "R\xF8d energiprojektil i pixelkunst_32"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_0"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 1544
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e3ee6967b817440800000000000000
+      internalID: 4931876408402001503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_1"
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 658
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24082be18606aada0800000000000000
+      internalID: -5932823558799327166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_2"
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 644
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368f1b5956b1eb560800000000000000
+      internalID: 7331327366522861667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_3"
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 644
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b0a9e8011b34430800000000000000
+      internalID: 3766048398081919765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_4"
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 614
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8124d8cdde7f477c0800000000000000
+      internalID: -4074359161883901416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_5"
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 625
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018145784c975e5e0800000000000000
+      internalID: -1880963384366327792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_6"
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 610
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d65b13fe875cc70800000000000000
+      internalID: 8990725199841553790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_7"
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 609
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9f97da612192740800000000000000
+      internalID: 5127649539347052989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_8"
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 608
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d4adcd26ce1cd80800000000000000
+      internalID: -8232038734500311741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_9"
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 514
+        width: 175
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b9303c9df4d5080800000000000000
+      internalID: -9197107067322393809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_10"
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 136
+        width: 342
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a9e5277d5203f00800000000000000
+      internalID: 1094416316718029455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_11"
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 345
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bd49d7b3799f060800000000000000
+      internalID: 6987782578607807381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_12"
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 335
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa60b377e0d0d68b0800000000000000
+      internalID: -5157451642488289617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_13"
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 353
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9320d8c093e7b1220800000000000000
+      internalID: 2457696805149540921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_14"
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 304
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e8f9961e6b274e0800000000000000
+      internalID: -1985323406461006279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_15"
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 317
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1d89e1bedbe87c0800000000000000
+      internalID: -4067104595940683314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_16"
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 319
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82d7c6b5fde0ca60800000000000000
+      internalID: 7692409803138126479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_17"
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 297
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3d8458134ac7070800000000000000
+      internalID: 8105533961956545477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_18"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 289
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae923941d110e090800000000000000
+      internalID: -8007380546890850651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_19"
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 258
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665dfb19aa849a720800000000000000
+      internalID: 2857895335970198886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_20"
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 232
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83b223eaebe889b0800000000000000
+      internalID: -5077549185794657394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_21"
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 160
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba95538edcdbe6120800000000000000
+      internalID: 2409071542751549867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_22"
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 79
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643cb60bc4869fc90800000000000000
+      internalID: -7135557456005184698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_23"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7731e259a26df70800000000000000
+      internalID: 9211596908044449702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_24"
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 53
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b8b880f907001a0800000000000000
+      internalID: -6845347605257680043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_25"
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 31
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba148c0fc98e5700800000000000000
+      internalID: 531013328437516976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_26"
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7218040814399aad0800000000000000
+      internalID: -2690457392843292377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_27"
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 44
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87527ba3c170c8a90800000000000000
+      internalID: -7310460277303597704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_28"
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc66021f57d61090800000000000000
+      internalID: -8064021279436018466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_29"
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f900debbf7837bc90800000000000000
+      internalID: -7154187361789869921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_30"
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 15
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db8bd1be3244a990800000000000000
+      internalID: -7375697452686668841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_31"
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3734b24e03ade6ab0800000000000000
+      internalID: -5012829431695457421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xF8d energiprojektil i pixelkunst_32"
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 8
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce707e9fa662dd930800000000000000
+      internalID: 4169531070916003820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "R\xF8d energiprojektil i pixelkunst_0": 4931876408402001503
+      "R\xF8d energiprojektil i pixelkunst_1": -5932823558799327166
+      "R\xF8d energiprojektil i pixelkunst_10": 1094416316718029455
+      "R\xF8d energiprojektil i pixelkunst_11": 6987782578607807381
+      "R\xF8d energiprojektil i pixelkunst_12": -5157451642488289617
+      "R\xF8d energiprojektil i pixelkunst_13": 2457696805149540921
+      "R\xF8d energiprojektil i pixelkunst_14": -1985323406461006279
+      "R\xF8d energiprojektil i pixelkunst_15": -4067104595940683314
+      "R\xF8d energiprojektil i pixelkunst_16": 7692409803138126479
+      "R\xF8d energiprojektil i pixelkunst_17": 8105533961956545477
+      "R\xF8d energiprojektil i pixelkunst_18": -8007380546890850651
+      "R\xF8d energiprojektil i pixelkunst_19": 2857895335970198886
+      "R\xF8d energiprojektil i pixelkunst_2": 7331327366522861667
+      "R\xF8d energiprojektil i pixelkunst_20": -5077549185794657394
+      "R\xF8d energiprojektil i pixelkunst_21": 2409071542751549867
+      "R\xF8d energiprojektil i pixelkunst_22": -7135557456005184698
+      "R\xF8d energiprojektil i pixelkunst_23": 9211596908044449702
+      "R\xF8d energiprojektil i pixelkunst_24": -6845347605257680043
+      "R\xF8d energiprojektil i pixelkunst_25": 531013328437516976
+      "R\xF8d energiprojektil i pixelkunst_26": -2690457392843292377
+      "R\xF8d energiprojektil i pixelkunst_27": -7310460277303597704
+      "R\xF8d energiprojektil i pixelkunst_28": -8064021279436018466
+      "R\xF8d energiprojektil i pixelkunst_29": -7154187361789869921
+      "R\xF8d energiprojektil i pixelkunst_3": 3766048398081919765
+      "R\xF8d energiprojektil i pixelkunst_30": -7375697452686668841
+      "R\xF8d energiprojektil i pixelkunst_31": -5012829431695457421
+      "R\xF8d energiprojektil i pixelkunst_32": 4169531070916003820
+      "R\xF8d energiprojektil i pixelkunst_4": -4074359161883901416
+      "R\xF8d energiprojektil i pixelkunst_5": -1880963384366327792
+      "R\xF8d energiprojektil i pixelkunst_6": 8990725199841553790
+      "R\xF8d energiprojektil i pixelkunst_7": 5127649539347052989
+      "R\xF8d energiprojektil i pixelkunst_8": -8232038734500311741
+      "R\xF8d energiprojektil i pixelkunst_9": -9197107067322393809
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

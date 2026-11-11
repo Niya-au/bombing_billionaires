@@ -2498,7 +2498,7 @@ GameObject:
   - component: {fileID: 1396211395}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3369,18 +3369,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RiddleShield
   riddle: {fileID: 11400000, guid: 133bdc25bd37ea5438b6fc0a2666cdce, type: 2}
-  riddlePanel: {fileID: 747770432}
-  questionText: {fileID: 247244210}
+  riddlePanel: {fileID: 0}
+  questionText: {fileID: 0}
   answerButtons:
-  - {fileID: 1566542295}
-  - {fileID: 1620595359}
-  - {fileID: 1345078865}
-  - {fileID: 1275438805}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   answerTexts:
-  - {fileID: 1878242396}
-  - {fileID: 21651291}
-  - {fileID: 957795916}
-  - {fileID: 1171426473}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   lockoutTime: 2
 --- !u!61 &1588667118
 BoxCollider2D:
@@ -3426,7 +3426,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5, y: 5}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!4 &1588667119
 Transform:
@@ -3437,11 +3437,11 @@ Transform:
   m_GameObject: {fileID: 1588667116}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0037539117, w: 0.999993}
-  m_LocalPosition: {x: -492, y: -170.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1794130638}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.43}
 --- !u!1 &1620595357
 GameObject:
@@ -3940,18 +3940,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RiddleShield
   riddle: {fileID: 11400000, guid: 3253e4bf347578b42bcedc77ab6bcd5c, type: 2}
-  riddlePanel: {fileID: 747770432}
-  questionText: {fileID: 247244210}
+  riddlePanel: {fileID: 0}
+  questionText: {fileID: 0}
   answerButtons:
-  - {fileID: 1566542295}
-  - {fileID: 1620595359}
-  - {fileID: 1345078865}
-  - {fileID: 1275438805}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   answerTexts:
-  - {fileID: 1878242396}
-  - {fileID: 21651291}
-  - {fileID: 957795916}
-  - {fileID: 1171426473}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   lockoutTime: 2
 --- !u!61 &2130778576
 BoxCollider2D:
@@ -4007,12 +4007,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130778574}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -492.5, y: -173.3, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1794130638}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &169523295343902132
 PrefabInstance:
@@ -4091,6 +4091,8 @@ SceneRoots:
   - {fileID: 1396211388}
   - {fileID: 852387099}
   - {fileID: 1039728084}
+  - {fileID: 2130778577}
+  - {fileID: 1588667119}
   - {fileID: 1307874543}
   - {fileID: 106850065}
   - {fileID: 84793429}

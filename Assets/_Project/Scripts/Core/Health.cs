@@ -12,30 +12,35 @@ public class Health : MonoBehaviour
     [Header("UI")]
     [SerializeField] private TMP_Text healthText;
     [SerializeField] private Image healthBarFill;
+    [SerializeField] private HealthBar healthBar;
 
     public int currentHP;
     public int MaxHP => maxHP;
 
-    public UnityEvent<int> OnDamaged = new UnityEvent<int>();
-    public UnityEvent OnDied = new UnityEvent();
+    public UnityEvent<int> OnDamaged;
+    public UnityEvent OnDied;
 
     private bool isDead;
 
     private void Awake()
     {
         currentHP = maxHP;
+        isDead = false;
+
         UpdateHealthUI();
+        UpdateHealthBar();
     }
 
     public void TakeDamage(int amount)
     {
-        if (isDead)
+        if (isDead || amount <= 0)
             return;
 
         currentHP -= amount;
         currentHP = Mathf.Max(currentHP, 0);
 
         UpdateHealthUI();
+        UpdateHealthBar();
 
         OnDamaged?.Invoke(currentHP);
 
@@ -55,13 +60,26 @@ public class Health : MonoBehaviour
     {
         if (healthText != null)
         {
-            healthText.text = currentHP + " / " + maxHP + " HP";
+            healthText.text =
+                currentHP + " / " + maxHP + " HP";
         }
 
+        // Green health bar from main
         if (healthBarFill != null)
         {
             healthBarFill.fillAmount =
-                (float)currentHP / maxHP;
+                maxHP > 0
+                    ? (float)currentHP / maxHP
+                    : 0f;
+        }
+    }
+
+    private void UpdateHealthBar()
+    {
+        // Health bar from her branch
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(currentHP, maxHP);
         }
     }
 }
