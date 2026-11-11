@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 using TMPro;
 
 public class Health : MonoBehaviour
@@ -10,6 +11,7 @@ public class Health : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private TMP_Text healthText;
+    [SerializeField] private Image healthBarFill;
     [SerializeField] private HealthBar healthBar;
 
     public int currentHP;
@@ -20,41 +22,29 @@ public class Health : MonoBehaviour
 
     private bool isDead;
 
-
     private void Awake()
     {
         currentHP = maxHP;
+        isDead = false;
 
         UpdateHealthUI();
         UpdateHealthBar();
     }
 
-
     public void TakeDamage(int amount)
     {
-        if (isDead)
-            return;
-
-        if (amount <= 0)
+        if (isDead || amount <= 0)
             return;
 
         currentHP -= amount;
-
-        currentHP = Mathf.Max(
-            currentHP,
-            0
-        );
+        currentHP = Mathf.Max(currentHP, 0);
 
         UpdateHealthUI();
         UpdateHealthBar();
 
         OnDamaged?.Invoke(currentHP);
 
-        Debug.Log(
-            "Player HP: " +
-            currentHP
-        );
-
+        Debug.Log("Player HP: " + currentHP);
 
         if (currentHP <= 0)
         {
@@ -66,28 +56,30 @@ public class Health : MonoBehaviour
         }
     }
 
-
     private void UpdateHealthUI()
     {
         if (healthText != null)
         {
             healthText.text =
-                "HP: " +
-                currentHP +
-                " / " +
-                maxHP;
+                currentHP + " / " + maxHP + " HP";
+        }
+
+        // Green health bar from main
+        if (healthBarFill != null)
+        {
+            healthBarFill.fillAmount =
+                maxHP > 0
+                    ? (float)currentHP / maxHP
+                    : 0f;
         }
     }
 
-
     private void UpdateHealthBar()
     {
+        // Health bar from her branch
         if (healthBar != null)
         {
-            healthBar.SetHealth(
-                currentHP,
-                maxHP
-            );
+            healthBar.SetHealth(currentHP, maxHP);
         }
     }
 }

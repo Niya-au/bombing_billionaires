@@ -10,6 +10,24 @@ public class DialogueBox : MonoBehaviour
     {
         dialogueText.text = text;
         dialoguePanel.SetActive(true);
+
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+        }
+
+        typingCoroutine = StartCoroutine(TypeText(text));
+    }
+
+    private IEnumerator TypeText(string text)
+    {
+        dialogueText.text = "";
+
+        foreach (char letter in text)
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSecondsRealtime(typingSpeed);
+        }
     }
 
     public void Hide()
