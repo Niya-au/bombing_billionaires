@@ -1,0 +1,4225 @@
+fileFormatVersion: 2
+guid: a33a5e8d3f3808148afec0e1fc8d384a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1392683349622198837
+    second: Marp_0
+  - first:
+      213: 833659117396340945
+    second: Marp_1
+  - first:
+      213: 1137925542159834198
+    second: Marp_2
+  - first:
+      213: 1619131109829739803
+    second: Marp_3
+  - first:
+      213: -2897421761539137023
+    second: Marp_4
+  - first:
+      213: -7715143157055303090
+    second: Marp_5
+  - first:
+      213: -8820172565127384385
+    second: Marp_6
+  - first:
+      213: -127951098852038857
+    second: Marp_7
+  - first:
+      213: 3544904318898217299
+    second: Marp_8
+  - first:
+      213: -7517847168339948269
+    second: Marp_9
+  - first:
+      213: 1150898375957922545
+    second: Marp_10
+  - first:
+      213: -5795808688494301226
+    second: Marp_11
+  - first:
+      213: 3034911380074637635
+    second: Marp_12
+  - first:
+      213: -333010874814424621
+    second: Marp_13
+  - first:
+      213: -5228222866125320504
+    second: Marp_14
+  - first:
+      213: 2756257152720745779
+    second: Marp_15
+  - first:
+      213: -3880495224840947301
+    second: Marp_16
+  - first:
+      213: -7616164806542798050
+    second: Marp_17
+  - first:
+      213: 4143910459276436803
+    second: Marp_18
+  - first:
+      213: -1679052989872223426
+    second: Marp_19
+  - first:
+      213: 8334163929433577609
+    second: Marp_20
+  - first:
+      213: 40614018062230186
+    second: Marp_21
+  - first:
+      213: 5785264817071465014
+    second: Marp_22
+  - first:
+      213: -7123947359791318113
+    second: Marp_23
+  - first:
+      213: -79993945659259421
+    second: Marp_24
+  - first:
+      213: 9043237694193579941
+    second: Marp_25
+  - first:
+      213: -1399223694216202137
+    second: Marp_26
+  - first:
+      213: -1850534660780984203
+    second: Marp_27
+  - first:
+      213: 2298566967257395994
+    second: Marp_28
+  - first:
+      213: -714679986266181743
+    second: Marp_29
+  - first:
+      213: -3464108320907775699
+    second: Marp_30
+  - first:
+      213: -4450692534611489605
+    second: Marp_31
+  - first:
+      213: -7764310538879369516
+    second: Marp_32
+  - first:
+      213: 3109293635651425335
+    second: Marp_33
+  - first:
+      213: -2399072247072900648
+    second: Marp_34
+  - first:
+      213: 2148802950788124182
+    second: Marp_35
+  - first:
+      213: 8900877629410662331
+    second: Marp_36
+  - first:
+      213: 6449279219217047126
+    second: Marp_37
+  - first:
+      213: -2215407560259706399
+    second: Marp_38
+  - first:
+      213: 2900447650322920530
+    second: Marp_39
+  - first:
+      213: -2890589208543453151
+    second: Marp_40
+  - first:
+      213: -5366220245117544523
+    second: Marp_41
+  - first:
+      213: 6485990185123855782
+    second: Marp_42
+  - first:
+      213: -8185342774325466889
+    second: Marp_43
+  - first:
+      213: -2752579758352795667
+    second: Marp_44
+  - first:
+      213: -5544106300825674591
+    second: Marp_45
+  - first:
+      213: -6473285991777209886
+    second: Marp_46
+  - first:
+      213: -997251611733993646
+    second: Marp_47
+  - first:
+      213: 5482123110979467559
+    second: Marp_48
+  - first:
+      213: -3708876040832437283
+    second: Marp_49
+  - first:
+      213: 8209342963162045637
+    second: Marp_50
+  - first:
+      213: 2383072226042644804
+    second: Marp_51
+  - first:
+      213: 1336861831319997206
+    second: Marp_52
+  - first:
+      213: 3722465771282005838
+    second: Marp_53
+  - first:
+      213: 7711945357207811480
+    second: Marp_54
+  - first:
+      213: -5003358887690012898
+    second: Marp_55
+  - first:
+      213: -2855139643140089017
+    second: Marp_56
+  - first:
+      213: 3552165951162130154
+    second: Marp_57
+  - first:
+      213: 9023450247516817914
+    second: Marp_58
+  - first:
+      213: -3550227404718741484
+    second: Marp_59
+  - first:
+      213: -1032091656159581268
+    second: Marp_60
+  - first:
+      213: 1657180329198153108
+    second: Marp_61
+  - first:
+      213: -7070309891424488426
+    second: Marp_62
+  - first:
+      213: -5338829734889863606
+    second: Marp_63
+  - first:
+      213: -9102699275304325090
+    second: Marp_64
+  - first:
+      213: -1901662342295908856
+    second: Marp_65
+  - first:
+      213: -1911385219280467898
+    second: Marp_66
+  - first:
+      213: 4552260572787072403
+    second: Marp_67
+  - first:
+      213: 6390246812288352747
+    second: Marp_68
+  - first:
+      213: -5487618423769906260
+    second: Marp_69
+  - first:
+      213: -2049888088390029225
+    second: Marp_70
+  - first:
+      213: 5163860114460760781
+    second: Marp_71
+  - first:
+      213: -2706727064143006631
+    second: Marp_72
+  - first:
+      213: 2847443584687151981
+    second: Marp_73
+  - first:
+      213: 1008149155562554659
+    second: Marp_74
+  - first:
+      213: -8709935089379094991
+    second: Marp_75
+  - first:
+      213: 867710977096648033
+    second: Marp_76
+  - first:
+      213: 282859487507879017
+    second: Marp_77
+  - first:
+      213: -503484754219054446
+    second: Marp_78
+  - first:
+      213: -849105374223853424
+    second: Marp_79
+  - first:
+      213: 4645905144857204859
+    second: Marp_80
+  - first:
+      213: -2052909610757845528
+    second: Marp_81
+  - first:
+      213: -4745277730817398136
+    second: Marp_82
+  - first:
+      213: -5835906440295491163
+    second: Marp_83
+  - first:
+      213: 507573574705297210
+    second: Marp_84
+  - first:
+      213: 7060109556673722552
+    second: Marp_85
+  - first:
+      213: 9117300586805073932
+    second: Marp_86
+  - first:
+      213: 7247092127531984473
+    second: Marp_87
+  - first:
+      213: 9136515162280617917
+    second: Marp_88
+  - first:
+      213: -8264070072526919914
+    second: Marp_89
+  - first:
+      213: -1482044199139879788
+    second: Marp_90
+  - first:
+      213: -8447745477294700
+    second: Marp_91
+  - first:
+      213: 6662967989035612981
+    second: Marp_92
+  - first:
+      213: 5340304991902924664
+    second: Marp_93
+  - first:
+      213: -4524651024858712076
+    second: Marp_94
+  - first:
+      213: 1282126130586708767
+    second: Marp_95
+  - first:
+      213: -1913065547290583400
+    second: Marp_96
+  - first:
+      213: -5270492286554334623
+    second: Marp_97
+  - first:
+      213: -3238324469510519088
+    second: Marp_98
+  - first:
+      213: 4986412187287184883
+    second: Marp_99
+  - first:
+      213: -2423916116946916419
+    second: Marp_100
+  - first:
+      213: -4726904608883760671
+    second: Marp_101
+  - first:
+      213: 1409610631697289323
+    second: Marp_102
+  - first:
+      213: 6501347146249511156
+    second: Marp_103
+  - first:
+      213: 3953990019870654271
+    second: Marp_104
+  - first:
+      213: -9031358739158780458
+    second: Marp_105
+  - first:
+      213: -1343474629718605939
+    second: Marp_106
+  - first:
+      213: 2440557526329873120
+    second: Marp_107
+  - first:
+      213: 2684268771108743240
+    second: Marp_108
+  - first:
+      213: 5150020576997176653
+    second: Marp_109
+  - first:
+      213: 3549459129667539822
+    second: Marp_110
+  - first:
+      213: 6908874840865995414
+    second: Marp_111
+  - first:
+      213: 4925246681544930734
+    second: Marp_112
+  - first:
+      213: 5038211181118014979
+    second: Marp_113
+  - first:
+      213: 8509982926224579973
+    second: Marp_114
+  - first:
+      213: -6294413246351419151
+    second: Marp_115
+  - first:
+      213: 5221135273377321862
+    second: Marp_116
+  - first:
+      213: 9221104353071528168
+    second: Marp_117
+  - first:
+      213: 281551017791246652
+    second: Marp_118
+  - first:
+      213: -5135090893917631741
+    second: Marp_119
+  - first:
+      213: 5671007212898041692
+    second: Marp_120
+  - first:
+      213: 2965440341903217731
+    second: Marp_121
+  - first:
+      213: 608426294991600251
+    second: Marp_122
+  - first:
+      213: -1604968153463094729
+    second: Marp_123
+  - first:
+      213: 1950313493086806356
+    second: Marp_124
+  - first:
+      213: 8036308685352040370
+    second: Marp_125
+  - first:
+      213: -4856582107697793918
+    second: Marp_126
+  - first:
+      213: -3620295015432376152
+    second: Marp_127
+  - first:
+      213: 8222036253188602172
+    second: Marp_128
+  - first:
+      213: 162028785288016158
+    second: Marp_129
+  - first:
+      213: -5617078721852521541
+    second: Marp_130
+  - first:
+      213: -429715774580537207
+    second: Marp_131
+  - first:
+      213: -7825122788929652004
+    second: Marp_132
+  - first:
+      213: 4166624606378978693
+    second: Marp_133
+  - first:
+      213: -3695026810487159450
+    second: Marp_134
+  - first:
+      213: -7685600635043516037
+    second: Marp_135
+  - first:
+      213: -7997846402376492803
+    second: Marp_136
+  - first:
+      213: 1846425583126554537
+    second: Marp_137
+  - first:
+      213: -8745655848002124466
+    second: Marp_138
+  - first:
+      213: -3775420612254231537
+    second: Marp_139
+  - first:
+      213: -6222532651575526593
+    second: Marp_140
+  - first:
+      213: 1048260347535183865
+    second: Marp_141
+  - first:
+      213: -6966471075905246508
+    second: Marp_142
+  - first:
+      213: 3981075903050759794
+    second: Marp_143
+  - first:
+      213: -7150903418829375199
+    second: Marp_144
+  - first:
+      213: -8139579229629131792
+    second: Marp_145
+  - first:
+      213: 6490694518908615969
+    second: Marp_146
+  - first:
+      213: 4477531291135851527
+    second: Marp_147
+  - first:
+      213: 1970773248511702962
+    second: Marp_148
+  - first:
+      213: 1516588649242527912
+    second: Marp_149
+  - first:
+      213: 322661835172267343
+    second: Marp_150
+  - first:
+      213: 8108599555649557863
+    second: Marp_151
+  - first:
+      213: 4833580791828638265
+    second: Marp_152
+  - first:
+      213: 485435271942308039
+    second: Marp_153
+  - first:
+      213: -3241351018456124790
+    second: Marp_154
+  - first:
+      213: -7793237691560787017
+    second: Marp_155
+  - first:
+      213: 1615515261947654826
+    second: Marp_156
+  - first:
+      213: 7444485802272892783
+    second: Marp_157
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Marp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1143
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdea2d4fd13cace0800000000000000
+      internalID: -1392683349622198837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1073
+        width: 70
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0bc24ec80c19b00800000000000000
+      internalID: 833659117396340945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1012
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cd7496049bacf00800000000000000
+      internalID: 1137925542159834198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 799
+        width: 179
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b158f267a2f487610800000000000000
+      internalID: 1619131109829739803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1095
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10229f2524a4ac7d0800000000000000
+      internalID: -2897421761539137023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1135
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42de6cdc2e4ee490800000000000000
+      internalID: -7715143157055303090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1078
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2bfe588c3789580800000000000000
+      internalID: -8820172565127384385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1137
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737ad4c472d693ef0800000000000000
+      internalID: -127951098852038857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1117
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3512da242b7023130800000000000000
+      internalID: 3544904318898217299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1117
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31dcb67e4dd3ba790800000000000000
+      internalID: -7517847168339948269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1087
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2cb87a9ffc8ff00800000000000000
+      internalID: 1150898375957922545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1157
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfac2094b6219fa0800000000000000
+      internalID: -5795808688494301226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1059
+        width: 99
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349a32e02db2e1a20800000000000000
+      internalID: 3034911380074637635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1157
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9185caf58e06bf0800000000000000
+      internalID: -333010874814424621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1137
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce860ae00f9177b0800000000000000
+      internalID: -5228222866125320504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_15
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1119
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335bc81f641304620800000000000000
+      internalID: 2756257152720745779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_16
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1151
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9971ca1726b52ac0800000000000000
+      internalID: -3880495224840947301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_17
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1093
+        width: 189
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e135f2be572fd4690800000000000000
+      internalID: -7616164806542798050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_18
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1100
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345a23a7b90228930800000000000000
+      internalID: 4143910459276436803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_19
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1068
+        width: 71
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bcb93a33ec2b8e0800000000000000
+      internalID: -1679052989872223426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_20
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 0
+        width: 338
+        height: 1186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98813c100f5e8a370800000000000000
+      internalID: 8334163929433577609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_21
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1078
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa22087fb3a409000800000000000000
+      internalID: 40614018062230186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_22
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1137
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6322c1113b3694050800000000000000
+      internalID: 5785264817071465014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_23
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1119
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b7e0dde97a22d90800000000000000
+      internalID: -7123947359791318113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 998
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e54cc42eedc3eef0800000000000000
+      internalID: -79993945659259421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1032
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7b4dd05c8008d70800000000000000
+      internalID: 9043237694193579941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_26
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 851
+        height: 1055
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768fee8a675f49ce0800000000000000
+      internalID: -1399223694216202137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_27
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1018
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578f993d7849156e0800000000000000
+      internalID: -1850534660780984203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 923
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13f2d77a7626ef10800000000000000
+      internalID: 2298566967257395994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 835
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fe58ac652f416f0800000000000000
+      internalID: -714679986266181743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_30
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 953
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2131d4f5d30defc0800000000000000
+      internalID: -3464108320907775699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 994
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbccff578b6fb32c0800000000000000
+      internalID: -4450692534611489605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_32
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 898
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4def544b3b0af3490800000000000000
+      internalID: -7764310538879369516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 903
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734d26f761e662b20800000000000000
+      internalID: 3109293635651425335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_34
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 880
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9b8ba8088c4bed0800000000000000
+      internalID: -2399072247072900648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_35
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 963
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e890e16e412dd10800000000000000
+      internalID: 2148802950788124182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_36
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 916
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb75e3a8b05468b70800000000000000
+      internalID: 8900877629410662331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_37
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 957
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e9db6b741708950800000000000000
+      internalID: 6449279219217047126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_38
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 874
+        width: 95
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1610acf8a4141e0800000000000000
+      internalID: -2215407560259706399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_39
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 858
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2543d1f45c5704820800000000000000
+      internalID: 2900447650322920530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 837
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120a0390e6092e7d0800000000000000
+      internalID: -2890589208543453151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 819
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b752475e1b5785b0800000000000000
+      internalID: -5366220245117544523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 829
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad3af885bdd20a50800000000000000
+      internalID: 6485990185123855782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_43
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 819
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f825835d12d76e80800000000000000
+      internalID: -8185342774325466889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de773772b4fdcc9d0800000000000000
+      internalID: -2752579758352795667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 799
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acd74e71b06f03b0800000000000000
+      internalID: -5544106300825674591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677
+        width: 118
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e17b9affa44a26a0800000000000000
+      internalID: -6473285991777209886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_47
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 671
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257d8ea51fc0922f0800000000000000
+      internalID: -997251611733993646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 688
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729f3e48ce9641c40800000000000000
+      internalID: 5482123110979467559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_49
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 673
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3b93e24ec678cc0800000000000000
+      internalID: -3708876040832437283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_50
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 655
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc50a61ee17de170800000000000000
+      internalID: 8209342963162045637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534
+        width: 87
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4490f53409f521120800000000000000
+      internalID: 2383072226042644804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 143
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b4b99a0cc7d8210800000000000000
+      internalID: 1336861831319997206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_53
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 542
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f70d185ead8a330800000000000000
+      internalID: 3722465771282005838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_54
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 539
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89538975175560b60800000000000000
+      internalID: 7711945357207811480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_55
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 558
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17717fb99f709ab0800000000000000
+      internalID: -5003358887690012898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_56
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 598
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bdf7a2f918068d0800000000000000
+      internalID: -2855139643140089017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 566
+        width: 99
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee9146cc14db4130800000000000000
+      internalID: 3552165951162130154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 572
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af986ab113cb93d70800000000000000
+      internalID: 9023450247516817914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_59
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 584
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418e1ed3cfe0bbec0800000000000000
+      internalID: -3550227404718741484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_60
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 538
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caba6f26b164da1f0800000000000000
+      internalID: -1032091656159581268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_61
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 541
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49dee92babc7ff610800000000000000
+      internalID: 1657180329198153108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_62
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 517
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61476b52d9631ed90800000000000000
+      internalID: -7070309891424488426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_63
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 532
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46c89774aaa8e5b0800000000000000
+      internalID: -5338829734889863606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_64
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 517
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10b74ebc37bca180800000000000000
+      internalID: -9102699275304325090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_65
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 518
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e07b4dc20fb95e0800000000000000
+      internalID: -1901662342295908856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6480bdf15456975e0800000000000000
+      internalID: -1911385219280467898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_67
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 475
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d5dfd3fd0ec2f30800000000000000
+      internalID: 4552260572787072403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_68
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 477
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be105896e97bea850800000000000000
+      internalID: 6390246812288352747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 459
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca34e444e1018d3b0800000000000000
+      internalID: -5487618423769906260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_70
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 461
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7503536f4a55d83e0800000000000000
+      internalID: -2049888088390029225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_71
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 471
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcadd303a67b9a740800000000000000
+      internalID: 5163860114460760781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_72
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 438
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954f1d57316cf6ad0800000000000000
+      internalID: -2706727064143006631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_73
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 418
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b1e379ad6248720800000000000000
+      internalID: 2847443584687151981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 428
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3258ae9c05aadfd00800000000000000
+      internalID: 1008149155562554659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_75
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 338
+        width: 45
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e49d4fe28102780800000000000000
+      internalID: -8709935089379094991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_76
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 436
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1658d8d498aba0c00800000000000000
+      internalID: 867710977096648033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_77
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 419
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964914a843bece300800000000000000
+      internalID: 282859487507879017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_78
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 398
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ac2fa98434309f0800000000000000
+      internalID: -503484754219054446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_79
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 360
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0981380392f5734f0800000000000000
+      internalID: -849105374223853424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_80
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 338
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b789f5b3d12997040800000000000000
+      internalID: 4645905144857204859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_81
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 359
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed0bc6f5999283e0800000000000000
+      internalID: -2052909610757845528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_82
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 343
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aae0e9b03652eb0800000000000000
+      internalID: -4745277730817398136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_83
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 357
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9d5c33302b20fa0800000000000000
+      internalID: -5835906440295491163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_84
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 357
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a373fa91a734b0700800000000000000
+      internalID: 507573574705297210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_85
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 339
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8b0e85c3c8af160800000000000000
+      internalID: 7060109556673722552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_86
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 347
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c081af20498278e70800000000000000
+      internalID: 9117300586805073932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_87
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 337
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956e21ca4e7d29460800000000000000
+      internalID: 7247092127531984473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7e4bcf12c6bce70800000000000000
+      internalID: 9136515162280617917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 298
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617a810dd00205d80800000000000000
+      internalID: -8264070072526919914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_90
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 318
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494d6d037a8be6be0800000000000000
+      internalID: -1482044199139879788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_91
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 315
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4954cabf1dcf1eff0800000000000000
+      internalID: -8447745477294700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_92
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 278
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b3448851e977c50800000000000000
+      internalID: 6662967989035612981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_93
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 279
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f7e9298139c1a40800000000000000
+      internalID: 5340304991902924664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_94
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 299
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f770b29dd53531c0800000000000000
+      internalID: -4524651024858712076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_95
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 269
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bedda3ce60bc110800000000000000
+      internalID: 1282126130586708767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_96
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 270
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ed4b5450d6375e0800000000000000
+      internalID: -1913065547290583400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_97
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 278
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a1e7c80337bd6b0800000000000000
+      internalID: -5270492286554334623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_98
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 260
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6ce576d092f03d0800000000000000
+      internalID: -3238324469510519088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_99
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 260
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f56ee6177b433540800000000000000
+      internalID: 4986412187287184883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_100
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 240
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbe80452258c5ed0800000000000000
+      internalID: -2423916116946916419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_101
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 210
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1a35c6d49a66eb0800000000000000
+      internalID: -4726904608883760671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_102
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 220
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b605eeda661ff8310800000000000000
+      internalID: 1409610631697289323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 210
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0a3bda8cc693a50800000000000000
+      internalID: 6501347146249511156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_104
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 220
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f74d359f46fd630800000000000000
+      internalID: 3953990019870654271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_105
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 218
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d53251b31b2aa280800000000000000
+      internalID: -9031358739158780458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_106
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 220
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f7fda31f40b5de0800000000000000
+      internalID: -1343474629718605939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_107
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 212
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e25ccab32a9ed120800000000000000
+      internalID: 2440557526329873120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 197
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8486c97b930704520800000000000000
+      internalID: 2684268771108743240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_109
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 177
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d457ed5cd6c887740800000000000000
+      internalID: 5150020576997176653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_110
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 195
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63d998c546324130800000000000000
+      internalID: 3549459129667539822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_111
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 141
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a737f101141ef50800000000000000
+      internalID: 6908874840865995414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_112
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 119
+        width: 60
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea538a403cdf95440800000000000000
+      internalID: 4925246681544930734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 177
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306c0f920625be540800000000000000
+      internalID: 5038211181118014979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_114
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 165
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d51423268891670800000000000000
+      internalID: 8509982926224579973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_115
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 179
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8d5bd6080c5a8a0800000000000000
+      internalID: -6294413246351419151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_116
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 179
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683daed4ed2357840800000000000000
+      internalID: 5221135273377321862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8f2a9bd81f7ff70800000000000000
+      internalID: 9221104353071528168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31d891b82548e300800000000000000
+      internalID: 281551017791246652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_119
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 79
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b42b2f90e7cb8b0800000000000000
+      internalID: -5135090893917631741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_120
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f377b830773be40800000000000000
+      internalID: 5671007212898041692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_121
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 140
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34411c5874c572920800000000000000
+      internalID: 2965440341903217731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_122
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a3bf0ed70917800800000000000000
+      internalID: 608426294991600251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_123
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 98
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7328409c7f10ab9e0800000000000000
+      internalID: -1604968153463094729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_124
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 76
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451271ce9c7e01b10800000000000000
+      internalID: 1950313493086806356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_125
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 82
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b77bcfcb24b68f60800000000000000
+      internalID: 8036308685352040370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_126
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 131
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284b728ed44f99cb0800000000000000
+      internalID: -4856582107697793918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_127
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 88
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a039075dd022cdc0800000000000000
+      internalID: -3620295015432376152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_128
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 153
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39b0b9f86a8a1270800000000000000
+      internalID: 8222036253188602172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_129
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 86
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11fa7e5254af3200800000000000000
+      internalID: 162028785288016158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_130
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 96
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3439cb9a02c02b0800000000000000
+      internalID: -5617078721852521541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_131
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988cebd97c7590af0800000000000000
+      internalID: -429715774580537207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_132
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 80
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdab8026844976390800000000000000
+      internalID: -7825122788929652004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_133
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 39
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dee97f003d2d930800000000000000
+      internalID: 4166624606378978693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_134
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 18
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6654e5561b0a8bcc0800000000000000
+      internalID: -3695026810487159450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 39
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71f6b641f2475590800000000000000
+      internalID: -7685600635043516037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_136
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 60
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8963a4211f10190800000000000000
+      internalID: -7997846402376492803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_137
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 39
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7a37af842df9910800000000000000
+      internalID: 1846425583126554537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_138
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 52
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45040cb75031a680800000000000000
+      internalID: -8745655848002124466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_139
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 59
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0416e8c4f20b9bc0800000000000000
+      internalID: -3775420612254231537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_140
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 60
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b3293958f15a9a0800000000000000
+      internalID: -6222532651575526593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_141
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 59
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff46fe6b3b2c8e00800000000000000
+      internalID: 1048260347535183865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_142
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 39
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da62a6677f125f90800000000000000
+      internalID: -6966471075905246508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_143
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 39
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e3531f07f9f3730800000000000000
+      internalID: 3981075903050759794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_144
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1297c894a33e2cc90800000000000000
+      internalID: -7150903418829375199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_145
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 39
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3dec4e0d76a0f80800000000000000
+      internalID: -8139579229629131792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_146
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 40
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d7f199644931a50800000000000000
+      internalID: 6490694518908615969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_147
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 40
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c39de7cf2632e30800000000000000
+      internalID: 4477531291135851527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_148
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7f162f3d7995b10800000000000000
+      internalID: 1970773248511702962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a88d7c57510c0510800000000000000
+      internalID: 1516588649242527912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_150
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 4
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45c404ca335a7400800000000000000
+      internalID: 322661835172267343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_151
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 10
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765d16ca558878070800000000000000
+      internalID: 8108599555649557863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 19
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ae81aee14541340800000000000000
+      internalID: 4833580791828638265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_153
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c00191decc9cb600800000000000000
+      internalID: 485435271942308039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_154
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 20
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8272901c686403d0800000000000000
+      internalID: -3241351018456124790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_155
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 19
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b385502c9bd8d390800000000000000
+      internalID: -7793237691560787017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_156
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 9
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2bc9542967b6610800000000000000
+      internalID: 1615515261947654826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marp_157
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f672ae30560205760800000000000000
+      internalID: 7444485802272892783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Marp_0: -1392683349622198837
+      Marp_1: 833659117396340945
+      Marp_10: 1150898375957922545
+      Marp_100: -2423916116946916419
+      Marp_101: -4726904608883760671
+      Marp_102: 1409610631697289323
+      Marp_103: 6501347146249511156
+      Marp_104: 3953990019870654271
+      Marp_105: -9031358739158780458
+      Marp_106: -1343474629718605939
+      Marp_107: 2440557526329873120
+      Marp_108: 2684268771108743240
+      Marp_109: 5150020576997176653
+      Marp_11: -5795808688494301226
+      Marp_110: 3549459129667539822
+      Marp_111: 6908874840865995414
+      Marp_112: 4925246681544930734
+      Marp_113: 5038211181118014979
+      Marp_114: 8509982926224579973
+      Marp_115: -6294413246351419151
+      Marp_116: 5221135273377321862
+      Marp_117: 9221104353071528168
+      Marp_118: 281551017791246652
+      Marp_119: -5135090893917631741
+      Marp_12: 3034911380074637635
+      Marp_120: 5671007212898041692
+      Marp_121: 2965440341903217731
+      Marp_122: 608426294991600251
+      Marp_123: -1604968153463094729
+      Marp_124: 1950313493086806356
+      Marp_125: 8036308685352040370
+      Marp_126: -4856582107697793918
+      Marp_127: -3620295015432376152
+      Marp_128: 8222036253188602172
+      Marp_129: 162028785288016158
+      Marp_13: -333010874814424621
+      Marp_130: -5617078721852521541
+      Marp_131: -429715774580537207
+      Marp_132: -7825122788929652004
+      Marp_133: 4166624606378978693
+      Marp_134: -3695026810487159450
+      Marp_135: -7685600635043516037
+      Marp_136: -7997846402376492803
+      Marp_137: 1846425583126554537
+      Marp_138: -8745655848002124466
+      Marp_139: -3775420612254231537
+      Marp_14: -5228222866125320504
+      Marp_140: -6222532651575526593
+      Marp_141: 1048260347535183865
+      Marp_142: -6966471075905246508
+      Marp_143: 3981075903050759794
+      Marp_144: -7150903418829375199
+      Marp_145: -8139579229629131792
+      Marp_146: 6490694518908615969
+      Marp_147: 4477531291135851527
+      Marp_148: 1970773248511702962
+      Marp_149: 1516588649242527912
+      Marp_15: 2756257152720745779
+      Marp_150: 322661835172267343
+      Marp_151: 8108599555649557863
+      Marp_152: 4833580791828638265
+      Marp_153: 485435271942308039
+      Marp_154: -3241351018456124790
+      Marp_155: -7793237691560787017
+      Marp_156: 1615515261947654826
+      Marp_157: 7444485802272892783
+      Marp_16: -3880495224840947301
+      Marp_17: -7616164806542798050
+      Marp_18: 4143910459276436803
+      Marp_19: -1679052989872223426
+      Marp_2: 1137925542159834198
+      Marp_20: 8334163929433577609
+      Marp_21: 40614018062230186
+      Marp_22: 5785264817071465014
+      Marp_23: -7123947359791318113
+      Marp_24: -79993945659259421
+      Marp_25: 9043237694193579941
+      Marp_26: -1399223694216202137
+      Marp_27: -1850534660780984203
+      Marp_28: 2298566967257395994
+      Marp_29: -714679986266181743
+      Marp_3: 1619131109829739803
+      Marp_30: -3464108320907775699
+      Marp_31: -4450692534611489605
+      Marp_32: -7764310538879369516
+      Marp_33: 3109293635651425335
+      Marp_34: -2399072247072900648
+      Marp_35: 2148802950788124182
+      Marp_36: 8900877629410662331
+      Marp_37: 6449279219217047126
+      Marp_38: -2215407560259706399
+      Marp_39: 2900447650322920530
+      Marp_4: -2897421761539137023
+      Marp_40: -2890589208543453151
+      Marp_41: -5366220245117544523
+      Marp_42: 6485990185123855782
+      Marp_43: -8185342774325466889
+      Marp_44: -2752579758352795667
+      Marp_45: -5544106300825674591
+      Marp_46: -6473285991777209886
+      Marp_47: -997251611733993646
+      Marp_48: 5482123110979467559
+      Marp_49: -3708876040832437283
+      Marp_5: -7715143157055303090
+      Marp_50: 8209342963162045637
+      Marp_51: 2383072226042644804
+      Marp_52: 1336861831319997206
+      Marp_53: 3722465771282005838
+      Marp_54: 7711945357207811480
+      Marp_55: -5003358887690012898
+      Marp_56: -2855139643140089017
+      Marp_57: 3552165951162130154
+      Marp_58: 9023450247516817914
+      Marp_59: -3550227404718741484
+      Marp_6: -8820172565127384385
+      Marp_60: -1032091656159581268
+      Marp_61: 1657180329198153108
+      Marp_62: -7070309891424488426
+      Marp_63: -5338829734889863606
+      Marp_64: -9102699275304325090
+      Marp_65: -1901662342295908856
+      Marp_66: -1911385219280467898
+      Marp_67: 4552260572787072403
+      Marp_68: 6390246812288352747
+      Marp_69: -5487618423769906260
+      Marp_7: -127951098852038857
+      Marp_70: -2049888088390029225
+      Marp_71: 5163860114460760781
+      Marp_72: -2706727064143006631
+      Marp_73: 2847443584687151981
+      Marp_74: 1008149155562554659
+      Marp_75: -8709935089379094991
+      Marp_76: 867710977096648033
+      Marp_77: 282859487507879017
+      Marp_78: -503484754219054446
+      Marp_79: -849105374223853424
+      Marp_8: 3544904318898217299
+      Marp_80: 4645905144857204859
+      Marp_81: -2052909610757845528
+      Marp_82: -4745277730817398136
+      Marp_83: -5835906440295491163
+      Marp_84: 507573574705297210
+      Marp_85: 7060109556673722552
+      Marp_86: 9117300586805073932
+      Marp_87: 7247092127531984473
+      Marp_88: 9136515162280617917
+      Marp_89: -8264070072526919914
+      Marp_9: -7517847168339948269
+      Marp_90: -1482044199139879788
+      Marp_91: -8447745477294700
+      Marp_92: 6662967989035612981
+      Marp_93: 5340304991902924664
+      Marp_94: -4524651024858712076
+      Marp_95: 1282126130586708767
+      Marp_96: -1913065547290583400
+      Marp_97: -5270492286554334623
+      Marp_98: -3238324469510519088
+      Marp_99: 4986412187287184883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

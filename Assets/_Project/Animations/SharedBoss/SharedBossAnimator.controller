@@ -66,7 +66,7 @@ AnimatorStateMachine:
     m_Position: {x: 482.91748, y: -14.801422, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2836712616421785121}
-    m_Position: {x: 474.21075, y: 212.54074, z: 0}
+    m_Position: {x: 480, y: 210, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 6480735357587475185}
@@ -88,13 +88,13 @@ AnimatorController:
   m_Name: SharedBossAnimator
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Hit
+  - m_Name: BossHit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Defeat
+  - m_Name: BossDefeat
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -174,7 +174,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Hit
+    m_ConditionEvent: BossHit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3940278300027178937}
@@ -199,7 +199,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Defeat
+    m_ConditionEvent: BossDefeat
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 198128386371333467}
