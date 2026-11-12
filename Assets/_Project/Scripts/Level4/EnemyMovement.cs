@@ -10,12 +10,17 @@ public class EnemyMovement : MonoBehaviour
 
     private Transform player;
     private Rigidbody2D rb;
+    private Animator animator;
 
     private float firePointDistance;
+    private bool wasMoving;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        // Finder Animator på Enemy > Visual
+        animator = GetComponentInChildren<Animator>();
 
         GameObject playerObject =
             GameObject.FindGameObjectWithTag("Player");
@@ -25,7 +30,6 @@ public class EnemyMovement : MonoBehaviour
             player = playerObject.transform;
         }
 
-        // Gem hvor langt FirePoint er fra midten
         if (firePoint != null)
         {
             firePointDistance =
@@ -50,7 +54,7 @@ public class EnemyMovement : MonoBehaviour
             visualRenderer.flipX = direction < 0;
         }
 
-        // Flyt FirePoint til den rigtige side
+        // Flyt FirePoint til den side robotten vender
         if (firePoint != null)
         {
             Vector3 position = firePoint.localPosition;
@@ -61,8 +65,10 @@ public class EnemyMovement : MonoBehaviour
             firePoint.localPosition = position;
         }
 
-        // Bevæg robotten
-        if (distance > stopDistance)
+        bool isMoving = distance > stopDistance;
+
+        // Bevægelse
+        if (isMoving)
         {
             rb.linearVelocity =
                 new Vector2(
@@ -78,5 +84,31 @@ public class EnemyMovement : MonoBehaviour
                     rb.linearVelocity.y
                 );
         }
+
+        // Animation
+        if (animator != null)
+        {
+            if (isMoving)
+            {
+                animator.speed = 1f;
+            }
+            else
+            {
+                animator.speed = 0f;
+
+                // Når robotten stopper,
+                // vis første frame af walk-animationen
+                if (wasMoving)
+                {
+                    animator.Play(
+                        "Enemy_Walk",
+                        0,
+                        0f
+                    );
+                }
+            }
+        }
+
+        wasMoving = isMoving;
     }
 }

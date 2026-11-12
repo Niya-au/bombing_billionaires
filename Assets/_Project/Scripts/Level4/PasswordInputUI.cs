@@ -6,28 +6,33 @@ public class PasswordInputUI : MonoBehaviour
 {
     [SerializeField] private TMP_InputField passwordInput;
     [SerializeField] private TMP_Text attemptsText;
+    [SerializeField] private UploadProgress uploadProgress;
 
     [SerializeField] private string correctPassword = "MARP5";
     [SerializeField] private int maxAttempts = 3;
 
-    [SerializeField] private float dataUploadSpeed = 1f;
-    [SerializeField] private float wrongAttemptSpeedIncrease = 0.5f;
+    [SerializeField] private float dataUploadSpeed = 0.02f;
 
     public UnityEvent<float> OnDataUploadSpeedChanged;
     public UnityEvent OnPasswordCorrect;
     public UnityEvent OnOutOfAttempts;
 
     private int attemptsRemaining;
+    private int wrongAttempts = 0;
 
     private void Start()
     {
         attemptsRemaining = maxAttempts;
         UpdateAttemptsText();
+
+        if (uploadProgress != null)
+        {
+            uploadProgress.SetUploadSpeed(dataUploadSpeed);
+        }
     }
 
     public void SubmitPassword()
     {
-        // Stop hvis spilleren ikke har flere forsøg
         if (attemptsRemaining <= 0)
         {
             return;
@@ -35,30 +40,52 @@ public class PasswordInputUI : MonoBehaviour
 
         string attempt = passwordInput.text.Trim();
 
-        // Korrekt password
+        // KORREKT PASSWORD
         if (attempt.Equals(
             correctPassword,
             System.StringComparison.OrdinalIgnoreCase))
         {
             Debug.Log("Correct password!");
 
-            OnPasswordCorrect?.Invoke();
-            passwordInput.interactable = false;
+            if (uploadProgress != null)
+            {
+                uploadProgress.StopUpload();
+            }
 
+            OnPasswordCorrect?.Invoke();
+
+            passwordInput.interactable = false;
             return;
         }
 
-        // Forkert password
+        // FORKERT PASSWORD
         attemptsRemaining--;
-
-        // Sørger for at attempts aldrig går under 0
         attemptsRemaining = Mathf.Max(attemptsRemaining, 0);
 
-        // Øg upload-hastigheden
-        dataUploadSpeed += wrongAttemptSpeedIncrease;
+        wrongAttempts++;
+
+        // Bestem upload speed efter antal forkerte forsøg
+        if (wrongAttempts == 1)
+        {
+            dataUploadSpeed = 0.03f;
+        }
+        else if (wrongAttempts == 2)
+        {
+            dataUploadSpeed = 0.04f;
+        }
+        else if (wrongAttempts >= 3)
+        {
+            dataUploadSpeed = 0.06f;
+        }
+
+        if (uploadProgress != null)
+        {
+            uploadProgress.SetUploadSpeed(dataUploadSpeed);
+        }
 
         Debug.Log(
-            "Wrong password! Upload speed: " + dataUploadSpeed
+            "Wrong password! Upload speed: " +
+            dataUploadSpeed
         );
 
         OnDataUploadSpeedChanged?.Invoke(dataUploadSpeed);
@@ -66,7 +93,6 @@ public class PasswordInputUI : MonoBehaviour
         UpdateAttemptsText();
         passwordInput.text = "";
 
-        // Ingen forsøg tilbage
         if (attemptsRemaining <= 0)
         {
             passwordInput.interactable = false;
@@ -80,6 +106,7 @@ public class PasswordInputUI : MonoBehaviour
     private void UpdateAttemptsText()
     {
         attemptsText.text =
-            "Attempts remaining: " + attemptsRemaining;
+            "Attempts remaining: " +
+            attemptsRemaining;
     }
 }

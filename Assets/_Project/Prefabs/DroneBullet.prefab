@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8724671793131262322}
   - component: {fileID: 2750783871045303704}
   - component: {fileID: 7232238697701175615}
-  - component: {fileID: 5249580240463044180}
+  - component: {fileID: -2334683842483924585}
   m_Layer: 0
   m_Name: DroneBullet
   m_TagString: Untagged
@@ -157,7 +157,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &5249580240463044180
+--- !u!114 &-2334683842483924585
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,6 +168,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb36471096ad2334d8dd3fa4229a9527, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DroneBullet
+  m_EditorClassIdentifier: Game.Runtime::DroneBullet
   damage: 10
   lifetime: 5

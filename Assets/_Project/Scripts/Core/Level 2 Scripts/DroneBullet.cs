@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class DroneBullet : MonoBehaviour
@@ -17,6 +16,14 @@ public class DroneBullet : MonoBehaviour
         if (other.GetComponentInParent<BossBase>() != null ||
             other.GetComponentInParent<DroneController>() != null)
         {
+            return;
+        }
+
+        // Hvis Playerens kugle rammer denne kugle,
+        // forsvinder DroneBullet.
+        if (other.GetComponentInParent<Bullet>() != null)
+        {
+            Destroy(gameObject);
             return;
         }
 
