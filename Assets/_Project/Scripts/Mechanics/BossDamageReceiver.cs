@@ -11,7 +11,7 @@ public class BossDamageReceiver : MonoBehaviour
         if (other.CompareTag("PlayerAttack"))
         {
             Debug.Log("Boss takes damage!");
-            bossHealth.TakeDamage(10);
+            bossHealth.TakeDamage(3);
         }
     }
 }

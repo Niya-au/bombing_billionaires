@@ -64,12 +64,4 @@ public class Health : MonoBehaviour
         healthText.text = currentHP + " / " + maxHP + " HP";
     }
     }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            TakeDamage(10);
-        }
-    }
 }
