@@ -13,8 +13,8 @@ public class BKProjectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Rammer Alon
-        AlonThruskBoss boss =
-            other.GetComponentInParent<AlonThruskBoss>();
+        AlonTruskBoss boss =
+            other.GetComponentInParent<AlonTruskBoss>();
 
         if (boss != null)
         {
