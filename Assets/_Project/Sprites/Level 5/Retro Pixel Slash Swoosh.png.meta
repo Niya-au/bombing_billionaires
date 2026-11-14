@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 3577f640564e94dbfb17e37fe681e38f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1225086800432855305
+    second: Retro Pixel Slash Swoosh_0
+  - first:
+      213: 7362217187218892765
+    second: Retro Pixel Slash Swoosh_1
+  - first:
+      213: -4393839781100536267
+    second: Retro Pixel Slash Swoosh_2
+  - first:
+      213: -5283472370499410366
+    second: Retro Pixel Slash Swoosh_3
+  - first:
+      213: 3342062622205053570
+    second: Retro Pixel Slash Swoosh_4
+  - first:
+      213: -114487020289939294
+    second: Retro Pixel Slash Swoosh_5
+  - first:
+      213: 2590809310103516760
+    second: Retro Pixel Slash Swoosh_6
+  - first:
+      213: 4107989342372805146
+    second: Retro Pixel Slash Swoosh_7
+  - first:
+      213: -5401734696416871040
+    second: Retro Pixel Slash Swoosh_8
+  - first:
+      213: 2665003902257922977
+    second: Retro Pixel Slash Swoosh_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 1209
+        height: 1196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909f1d644f1600110800000000000000
+      internalID: 1225086800432855305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_1
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 972
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7257b6689db2660800000000000000
+      internalID: 7362217187218892765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_2
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 901
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eb587aff1f503c0800000000000000
+      internalID: -4393839781100536267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_3
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 900
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246aacf3fd55da6b0800000000000000
+      internalID: -5283472370499410366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 745
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a84a57f34616e20800000000000000
+      internalID: 3342062622205053570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_5
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 618
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8a93069a2496ef0800000000000000
+      internalID: -114487020289939294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_6
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 570
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856be71475764f320800000000000000
+      internalID: 2590809310103516760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_7
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 457
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ab835ba82820930800000000000000
+      internalID: 4107989342372805146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_8
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 240
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d7b29c9ee2905b0800000000000000
+      internalID: -5401734696416871040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Slash Swoosh_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 240
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a30d17edeefbf420800000000000000
+      internalID: 2665003902257922977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Retro Pixel Slash Swoosh_0: 1225086800432855305
+      Retro Pixel Slash Swoosh_1: 7362217187218892765
+      Retro Pixel Slash Swoosh_2: -4393839781100536267
+      Retro Pixel Slash Swoosh_3: -5283472370499410366
+      Retro Pixel Slash Swoosh_4: 3342062622205053570
+      Retro Pixel Slash Swoosh_5: -114487020289939294
+      Retro Pixel Slash Swoosh_6: 2590809310103516760
+      Retro Pixel Slash Swoosh_7: 4107989342372805146
+      Retro Pixel Slash Swoosh_8: -5401734696416871040
+      Retro Pixel Slash Swoosh_9: 2665003902257922977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
