@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6517700869574298595}
   - component: {fileID: 177809516117653345}
   - component: {fileID: 6009758430439513839}
+  - component: {fileID: 2668148865295280127}
   m_Layer: 0
   m_Name: astroid
   m_TagString: Untagged
@@ -82,9 +83,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 67ba9cf4a1eee4d48b3e6259bd2aa285, type: 3}
+  m_Sprite: {fileID: -8886147918807897591, guid: 2a27efc1c7ed4d947899e36bdece7125, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -170,4 +171,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hazard
   damage: 10
-  moveSpeed: 6
+--- !u!114 &2668148865295280127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6345502336247977925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b7c1c4946476249a4776cded8f2a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Runtime::HomingHazard
+  moveSpeed: 4
+  continuouslyFollowPlayer: 0
+  turnSpeed: 3
+  lifetime: 8
+  faceMovementDirection: 0
+  rotationOffset: -90

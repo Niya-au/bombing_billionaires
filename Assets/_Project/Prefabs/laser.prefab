@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -5118574895570306453}
   - component: {fileID: -7819843126579153637}
   - component: {fileID: 8734764233705673239}
+  - component: {fileID: 3911755886446822735}
   m_Layer: 0
   m_Name: laser
   m_TagString: Untagged
@@ -169,5 +170,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84295e779cfc548a2a8e665006cee28d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hazard
-  damage: 10
+  damage: 2
+--- !u!114 &3911755886446822735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464324071649313737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b7c1c4946476249a4776cded8f2a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Runtime::HomingHazard
   moveSpeed: 4
+  continuouslyFollowPlayer: 0
+  turnSpeed: 3
+  lifetime: 8
+  faceMovementDirection: 0
+  rotationOffset: -90
