@@ -119,6 +119,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &134734703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134734704}
+  m_Layer: 0
+  m_Name: BombThrowPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134734704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134734703}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.028777324, y: -0.10130256, z: 0}
+  m_LocalScale: {x: 0.959245, y: 0.9432273, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 228531507}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &152185791
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,6 +218,7 @@ GameObject:
   - component: {fileID: 228531508}
   - component: {fileID: 228531509}
   - component: {fileID: 228531510}
+  - component: {fileID: 228531511}
   m_Layer: 0
   m_Name: BK
   m_TagString: Player
@@ -338,7 +370,8 @@ Transform:
   m_LocalPosition: {x: -1.7, y: -2.1326, z: 0}
   m_LocalScale: {x: 1.0424864, y: 1.0601898, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 134734704}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &228531508
@@ -370,6 +403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Runtime::Health
   maxHP: 100
   healthText: {fileID: 0}
+  healthBarFill: {fileID: 0}
   currentHP: 0
   OnDamaged:
     m_PersistentCalls:
@@ -396,6 +430,23 @@ MonoBehaviour:
   fireKey: 32
   costPerShot: 100
   cooldown: 0.35
+--- !u!114 &228531511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228531502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6af8a3d592900d4692d6a3f25ce1e11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerBombThrower
+  bombPrefab: {fileID: 8801488754415889158, guid: 1b55fbffa6454a44f8403642c7a203e8, type: 3}
+  throwPoint: {fileID: 134734704}
+  throwForce: 20
+  throwCooldown: 1
+  momentumMultiplier: 0.5
 --- !u!1 &310284596
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,12 +471,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310284596}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.58, y: -0.95, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.12, y: -0.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1043251260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389759654
 GameObject:
@@ -1207,8 +1258,8 @@ MonoBehaviour:
   moveRadiusX: 3
   moveRadiusY: 1.5
   movementSpeed: 1
-  rocketPrefab: {fileID: 0}
-  firePoint: {fileID: 0}
+  rocketPrefab: {fileID: 5066721046830138726, guid: 9da540dde356f438ca45df9be21a5ca6, type: 3}
+  firePoint: {fileID: 310284597}
   OnAlonDefeated:
     m_PersistentCalls:
       m_Calls: []
@@ -1356,7 +1407,8 @@ Transform:
   m_LocalPosition: {x: -3.3, y: -2.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 310284597}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1141266939
@@ -2056,4 +2108,3 @@ SceneRoots:
   - {fileID: 152185793}
   - {fileID: 2016060354}
   - {fileID: 1043251260}
-  - {fileID: 310284597}
