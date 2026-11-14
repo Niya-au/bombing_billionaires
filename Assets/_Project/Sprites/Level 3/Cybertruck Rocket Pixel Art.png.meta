@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 2a27efc1c7ed4d947899e36bdece7125
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8886147918807897591
+    second: Cybertruck Rocket Pixel Art_0
+  - first:
+      213: -6000956899291917886
+    second: Cybertruck Rocket Pixel Art_1
+  - first:
+      213: -4473070045823353788
+    second: Cybertruck Rocket Pixel Art_2
+  - first:
+      213: 2152158768042208977
+    second: Cybertruck Rocket Pixel Art_3
+  - first:
+      213: -1327065615657207092
+    second: Cybertruck Rocket Pixel Art_4
+  - first:
+      213: -6393976052875979992
+    second: Cybertruck Rocket Pixel Art_5
+  - first:
+      213: -7958429261910716792
+    second: Cybertruck Rocket Pixel Art_6
+  - first:
+      213: 1572937479514833074
+    second: Cybertruck Rocket Pixel Art_7
+  - first:
+      213: 8208961452932624659
+    second: Cybertruck Rocket Pixel Art_8
+  - first:
+      213: -887949332418701702
+    second: Cybertruck Rocket Pixel Art_9
+  - first:
+      213: 8260144582388390984
+    second: Cybertruck Rocket Pixel Art_10
+  - first:
+      213: 6320236419799678822
+    second: Cybertruck Rocket Pixel Art_11
+  - first:
+      213: -3316905482544019373
+    second: Cybertruck Rocket Pixel Art_12
+  - first:
+      213: 381541671394403191
+    second: Cybertruck Rocket Pixel Art_13
+  - first:
+      213: 6453403571804724294
+    second: Cybertruck Rocket Pixel Art_14
+  - first:
+      213: -6887670130652287242
+    second: Cybertruck Rocket Pixel Art_15
+  - first:
+      213: -4898083459958695641
+    second: Cybertruck Rocket Pixel Art_16
+  - first:
+      213: 4712144158490664750
+    second: Cybertruck Rocket Pixel Art_17
+  - first:
+      213: -3460664530329442031
+    second: Cybertruck Rocket Pixel Art_18
+  - first:
+      213: 8434312774441896984
+    second: Cybertruck Rocket Pixel Art_19
+  - first:
+      213: -8070979065669892067
+    second: Cybertruck Rocket Pixel Art_20
+  - first:
+      213: -2441193406482869387
+    second: Cybertruck Rocket Pixel Art_21
+  - first:
+      213: 6725626825328812108
+    second: Cybertruck Rocket Pixel Art_22
+  - first:
+      213: -5127206216983725177
+    second: Cybertruck Rocket Pixel Art_23
+  - first:
+      213: 6521639591618383362
+    second: Cybertruck Rocket Pixel Art_24
+  - first:
+      213: -2256372135221244099
+    second: Cybertruck Rocket Pixel Art_25
+  - first:
+      213: 6860176783609453208
+    second: Cybertruck Rocket Pixel Art_26
+  - first:
+      213: -9081205500263451304
+    second: Cybertruck Rocket Pixel Art_27
+  - first:
+      213: 7798342103011971295
+    second: Cybertruck Rocket Pixel Art_28
+  - first:
+      213: 268042989391858249
+    second: Cybertruck Rocket Pixel Art_29
+  - first:
+      213: 1329244393882948549
+    second: Cybertruck Rocket Pixel Art_30
+  - first:
+      213: -5135030530586893767
+    second: Cybertruck Rocket Pixel Art_31
+  - first:
+      213: 1234829681512008892
+    second: Cybertruck Rocket Pixel Art_32
+  - first:
+      213: -6247204799978148108
+    second: Cybertruck Rocket Pixel Art_33
+  - first:
+      213: 5654648403579785811
+    second: Cybertruck Rocket Pixel Art_34
+  - first:
+      213: 3680801536642685183
+    second: Cybertruck Rocket Pixel Art_35
+  - first:
+      213: 3567517378450912119
+    second: Cybertruck Rocket Pixel Art_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1753
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ae0e57c8f0ea480800000000000000
+      internalID: -8886147918807897591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_1
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 853
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c196499e7158bca0800000000000000
+      internalID: -6000956899291917886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_2
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 856
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c324f1e767ce1c0800000000000000
+      internalID: -4473070045823353788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 823
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dee5653ff00edd10800000000000000
+      internalID: 2152158768042208977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 813
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccafd198ad0559de0800000000000000
+      internalID: -1327065615657207092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 475
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82319f918a80447a0800000000000000
+      internalID: -6393976052875979992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 332
+        width: 9
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88eccb970cafd8190800000000000000
+      internalID: -7958429261910716792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b04168cd4234d510800000000000000
+      internalID: 1572937479514833074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 162
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3117ce0d2f61ce170800000000000000
+      internalID: 8208961452932624659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 114
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7653a669ce5da3f0800000000000000
+      internalID: -887949332418701702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 118
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c90aacbbde1a270800000000000000
+      internalID: 8260144582388390984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 112
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f75aaa98df5b750800000000000000
+      internalID: 6320236419799678822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_12
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 98
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3580b6f890cf7f1d0800000000000000
+      internalID: -3316905482544019373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 100
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773e87ee0228b4500800000000000000
+      internalID: 381541671394403191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 96
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c58a16b581f8950800000000000000
+      internalID: 6453403571804724294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fee66432841a60a0800000000000000
+      internalID: -6887670130652287242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 51
+        width: 123
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72912f85b03860cb0800000000000000
+      internalID: -4898083459958695641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f94496526e46140800000000000000
+      internalID: 4712144158490664750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_18
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 59
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1196beee1ff39ffc0800000000000000
+      internalID: -3460664530329442031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_19
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 57
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c062d08c2bc0570800000000000000
+      internalID: 8434312774441896984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_20
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 15
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18c1293d4f1eff80800000000000000
+      internalID: -8070979065669892067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_21
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 51
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5731092e7832f1ed0800000000000000
+      internalID: -2441193406482869387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_22
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 17
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40ef87b6f9365d50800000000000000
+      internalID: 6725626825328812108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 13
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bb28a5c1188d8b0800000000000000
+      internalID: -5127206216983725177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_24
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 31
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e898bc7a4818a50800000000000000
+      internalID: 6521639591618383362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_25
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 31
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f4c0f6f71cfa0e0800000000000000
+      internalID: -2256372135221244099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_26
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 13
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a5c6b107e343f50800000000000000
+      internalID: 6860176783609453208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_27
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 35
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855397836b319f180800000000000000
+      internalID: -9081205500263451304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_28
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 31
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0500743d6493c60800000000000000
+      internalID: 7798342103011971295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a4c3fbda748b300800000000000000
+      internalID: 268042989391858249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_30
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 13
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3921dcbbc627210800000000000000
+      internalID: 1329244393882948549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 9
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932259160f4bcb8b0800000000000000
+      internalID: -5135030530586893767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_32
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 15
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcc1ac8d0ff22110800000000000000
+      internalID: 1234829681512008892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 17
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feef2265587d49a0800000000000000
+      internalID: -6247204799978148108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_34
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 17
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3525a1173c8597e40800000000000000
+      internalID: 5654648403579785811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_35
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 20
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff89c40fe75d41330800000000000000
+      internalID: 3680801536642685183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cybertruck Rocket Pixel Art_36
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 15
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7737998772e528130800000000000000
+      internalID: 3567517378450912119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cybertruck Rocket Pixel Art_0: -8886147918807897591
+      Cybertruck Rocket Pixel Art_1: -6000956899291917886
+      Cybertruck Rocket Pixel Art_10: 8260144582388390984
+      Cybertruck Rocket Pixel Art_11: 6320236419799678822
+      Cybertruck Rocket Pixel Art_12: -3316905482544019373
+      Cybertruck Rocket Pixel Art_13: 381541671394403191
+      Cybertruck Rocket Pixel Art_14: 6453403571804724294
+      Cybertruck Rocket Pixel Art_15: -6887670130652287242
+      Cybertruck Rocket Pixel Art_16: -4898083459958695641
+      Cybertruck Rocket Pixel Art_17: 4712144158490664750
+      Cybertruck Rocket Pixel Art_18: -3460664530329442031
+      Cybertruck Rocket Pixel Art_19: 8434312774441896984
+      Cybertruck Rocket Pixel Art_2: -4473070045823353788
+      Cybertruck Rocket Pixel Art_20: -8070979065669892067
+      Cybertruck Rocket Pixel Art_21: -2441193406482869387
+      Cybertruck Rocket Pixel Art_22: 6725626825328812108
+      Cybertruck Rocket Pixel Art_23: -5127206216983725177
+      Cybertruck Rocket Pixel Art_24: 6521639591618383362
+      Cybertruck Rocket Pixel Art_25: -2256372135221244099
+      Cybertruck Rocket Pixel Art_26: 6860176783609453208
+      Cybertruck Rocket Pixel Art_27: -9081205500263451304
+      Cybertruck Rocket Pixel Art_28: 7798342103011971295
+      Cybertruck Rocket Pixel Art_29: 268042989391858249
+      Cybertruck Rocket Pixel Art_3: 2152158768042208977
+      Cybertruck Rocket Pixel Art_30: 1329244393882948549
+      Cybertruck Rocket Pixel Art_31: -5135030530586893767
+      Cybertruck Rocket Pixel Art_32: 1234829681512008892
+      Cybertruck Rocket Pixel Art_33: -6247204799978148108
+      Cybertruck Rocket Pixel Art_34: 5654648403579785811
+      Cybertruck Rocket Pixel Art_35: 3680801536642685183
+      Cybertruck Rocket Pixel Art_36: 3567517378450912119
+      Cybertruck Rocket Pixel Art_4: -1327065615657207092
+      Cybertruck Rocket Pixel Art_5: -6393976052875979992
+      Cybertruck Rocket Pixel Art_6: -7958429261910716792
+      Cybertruck Rocket Pixel Art_7: 1572937479514833074
+      Cybertruck Rocket Pixel Art_8: 8208961452932624659
+      Cybertruck Rocket Pixel Art_9: -887949332418701702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
