@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -13,24 +12,54 @@ public class AlonTruskBoss : BossBase
     [SerializeField] private GameObject rocketPrefab;
     [SerializeField] private Transform firePoint;
 
+    [SerializeField, Min(0.1f)] private float phase1Interval = 2.5f;
+    [SerializeField, Min(0.1f)] private float phase2Interval = 1.5f;
+    [SerializeField, Min(0.1f)] private float phase3Interval = 0.8f;
+
     [Header("Boss Events")]
     public UnityEvent OnAlonDefeated;
 
     private Vector3 startPosition;
     private float movementTimer;
+    private float movementAngle;
     private float shootTimer;
-    private bool defeated = false;
+
+    private bool fightStarted;
+    private bool defeated;
+    private bool deathHandled;
 
     protected override void Start()
     {
         base.Start();
 
+        // Combat starts only when the manager calls StartBossFight().
+        // Do not reset fightStarted here: the manager may have
+        // already called it during this object's activation.
+    }
+
+    public void StartBossFight()
+    {
+        if (defeated || fightStarted)
+            return;
+
+        // Patrol around the position where Alon emerged.
         startPosition = transform.position;
+
+        movementTimer = 0f;
+        movementAngle = 0f;
+        shootTimer = 0f;
+        fightStarted = true;
+    }
+
+    public void StopBossFight()
+    {
+        fightStarted = false;
+        shootTimer = 0f;
     }
 
     private void Update()
     {
-        if (defeated || currentHP <= 0)
+        if (!fightStarted || defeated || currentHP <= 0)
             return;
 
         MoveAround();
@@ -41,39 +70,40 @@ public class AlonTruskBoss : BossBase
     {
         movementTimer += Time.deltaTime;
 
-        float phaseSpeed = movementSpeed;
+        float speedMultiplier = 1f;
 
         if (currentPhase == 2)
-            phaseSpeed *= 1.5f;
+            speedMultiplier = 1.5f;
         else if (currentPhase == 3)
-            phaseSpeed *= 2f;
+            speedMultiplier = 2f;
 
-        float x = Mathf.Sin(
-            movementTimer * phaseSpeed
-        ) * moveRadiusX;
+        // Accumulate the angle so changing phase doesn't
+        // suddenly teleport Alon to another patrol position.
+        movementAngle +=
+            movementSpeed * speedMultiplier * Time.deltaTime;
 
-        float y = Mathf.Sin(
-            movementTimer * phaseSpeed * 0.7f
-        ) * moveRadiusY;
+        float x = Mathf.Sin(movementAngle) * moveRadiusX;
+        float y = Mathf.Sin(movementAngle * 0.7f) * moveRadiusY;
 
-        transform.position = startPosition + new Vector3(x, y, 0f);
+        transform.position =
+            startPosition + new Vector3(x, y, 0f);
     }
 
     private void ShootRockets()
     {
-        shootTimer += Time.deltaTime;
-
-        float fireInterval = 2.5f;
+        float interval = phase1Interval;
 
         if (currentPhase == 2)
-            fireInterval = 1.5f;
+            interval = phase2Interval;
         else if (currentPhase == 3)
-            fireInterval = 0.8f;
+            interval = phase3Interval;
 
-        if (shootTimer >= fireInterval)
+        shootTimer += Time.deltaTime;
+
+        if (shootTimer >= interval)
         {
-            FireRocket();
             shootTimer = 0f;
+            FireRocket();
         }
     }
 
@@ -102,6 +132,7 @@ public class AlonTruskBoss : BossBase
             return;
 
         defeated = true;
+        StopBossFight();
 
         base.OnDefeated();
         Die();
@@ -109,6 +140,14 @@ public class AlonTruskBoss : BossBase
 
     protected override void Die()
     {
+        // Protect against BossBase also calling Die().
+        if (deathHandled)
+            return;
+
+        deathHandled = true;
+        defeated = true;
+        StopBossFight();
+
         OnAlonDefeated?.Invoke();
         gameObject.SetActive(false);
     }
