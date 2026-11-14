@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using TMPro;
 
@@ -12,17 +13,41 @@ public class MoneySpawner : MonoBehaviour
 
     [Header("Collection Goal")]
     [SerializeField] private int collectionGoal = 1000;
+
+    [Header("UI")]
+    [SerializeField] private MoneyBar moneyBar;
     [SerializeField] private TMP_Text moneyText;
+
+    [Header("Boss UI")]
+    [SerializeField] private BossUIController bossUI;
 
     private int collectedMoney = 0;
     private float spawnTimer = 0f;
+    private bool levelCompleted = false;
 
     public int CollectedMoney => collectedMoney;
+
     public bool GoalReached => collectedMoney >= collectionGoal;
+
+
+    private void Start()
+    {
+        collectedMoney = 0;
+        levelCompleted = false;
+
+        UpdateMoneyUI();
+
+        if (moneyBar != null)
+        {
+            moneyBar.SetMoney(0, collectionGoal);
+            moneyBar.gameObject.SetActive(true);
+        }
+    }
+
 
     private void Update()
     {
-        if (GoalReached)
+        if (levelCompleted)
             return;
 
         spawnTimer += Time.deltaTime;
@@ -34,11 +59,12 @@ public class MoneySpawner : MonoBehaviour
         }
     }
 
+
     private void SpawnMoney()
     {
         if (moneyPrefabs == null || moneyPrefabs.Length == 0)
         {
-            Debug.LogError("No money prefabs assigned!");
+            Debug.LogError("MoneySpawner: No money prefabs assigned!");
             return;
         }
 
@@ -53,15 +79,26 @@ public class MoneySpawner : MonoBehaviour
         GameObject randomMoney =
             moneyPrefabs[Random.Range(0, moneyPrefabs.Length)];
 
-        Instantiate(randomMoney, spawnPosition, Quaternion.identity);
+        if (randomMoney != null)
+        {
+            Instantiate(
+                randomMoney,
+                spawnPosition,
+                Quaternion.identity
+            );
+        }
     }
+
 
     public void CollectMoney(int amount)
     {
-        collectedMoney += amount;
+        if (levelCompleted)
+            return;
 
-        moneyText.text =
-            "Money: $" + collectedMoney + " / $" + collectionGoal;
+        if (amount <= 0)
+            return;
+
+        collectedMoney += amount;
 
         Debug.Log(
             "Money collected: $" +
@@ -70,14 +107,87 @@ public class MoneySpawner : MonoBehaviour
             collectionGoal
         );
 
-        if (GoalReached)
+        UpdateMoneyUI();
+
+        // Det er ikke nødvendigt at ramme præcis $1000.
+        // Fx 975 + 50 = 1025 → bossfasen starter.
+        if (collectedMoney >= collectionGoal)
         {
             CollectionGoalReached();
         }
     }
 
+
+    private void UpdateMoneyUI()
+    {
+        if (moneyText != null)
+        {
+            moneyText.text =
+                "Money: $" +
+                collectedMoney +
+                " / $" +
+                collectionGoal;
+        }
+
+        if (moneyBar != null)
+        {
+            moneyBar.SetMoney(
+                collectedMoney,
+                collectionGoal
+            );
+        }
+    }
+
+
     private void CollectionGoalReached()
     {
-        Debug.Log("Collection goal reached!");
+        if (levelCompleted)
+            return;
+
+        levelCompleted = true;
+
+        Debug.Log("==============================");
+        Debug.Log(
+            "MONEY GOAL REACHED! $" +
+            collectedMoney
+        );
+        Debug.Log("STARTING BOSS PHASE!");
+        Debug.Log("==============================");
+
+
+        // Fyld moneybaren helt.
+        if (moneyBar != null)
+        {
+            moneyBar.SetMoney(
+                collectionGoal,
+                collectionGoal
+            );
+
+            // MoneyBar væk under bosskampen.
+            moneyBar.gameObject.SetActive(false);
+        }
+
+
+        // Gammel Money Text væk.
+        if (moneyText != null)
+        {
+            moneyText.gameObject.SetActive(false);
+        }
+
+
+        // SKIFT UI TIL BOSSFIGHT
+        if (bossUI != null)
+        {
+            bossUI.StartBossUI();
+        }
+        else
+        {
+            Debug.LogWarning(
+                "MoneySpawner: Boss UI er ikke assigned!"
+            );
+        }
+
+        // HazardSpawner opdager GoalReached
+        // og starter bossfasen.
     }
 }
