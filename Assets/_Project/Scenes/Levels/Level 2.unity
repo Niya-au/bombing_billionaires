@@ -2201,6 +2201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHP: 100
   healthText: {fileID: 0}
+  healthBarFill: {fileID: 0}
   currentHP: 0
   OnDamaged:
     m_PersistentCalls:
@@ -20220,7 +20221,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 347dc9fcb5f925e4c9bb58b4a14eeb2f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
