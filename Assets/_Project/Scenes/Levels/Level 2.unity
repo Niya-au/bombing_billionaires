@@ -2419,7 +2419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6af8a3d592900d4692d6a3f25ce1e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBombThrower
-  bombPrefab: {fileID: 8801488754415889158, guid: a665cb22ffb1d1c4c890e33c57a33a57, type: 3}
+  bombPrefab: {fileID: 8801488754415889158, guid: 1b55fbffa6454a44f8403642c7a203e8, type: 3}
   throwPoint: {fileID: 180510020}
   throwForce: 20
   throwCooldown: 1

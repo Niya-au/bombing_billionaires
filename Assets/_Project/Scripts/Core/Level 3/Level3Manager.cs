@@ -27,8 +27,8 @@ public class Level3Manager : MonoBehaviour
     [SerializeField] private Transform entranceEnd;
     [SerializeField] private Collider2D[] bossColliders;
     [SerializeField] private Animator chrysalisAnimator;
-    [SerializeField, Min(0.1f)] private float hatchDuration = 1f;
 
+    [SerializeField, Min(0.1f)] private float hatchDuration = 1f;
     [SerializeField, Min(0.1f)] private float flyInDuration = 2f;
     [SerializeField, Min(0f)] private float shakeDuration = 1f;
     [SerializeField, Min(0f)] private float shakeAmount = 0.06f;
@@ -36,6 +36,43 @@ public class Level3Manager : MonoBehaviour
     [Header("UI")]
     [SerializeField] private TMP_Text phaseText;
     [SerializeField] private GameObject bossHealthUI;
+
+    [Header("Alon Dialogue")]
+    [SerializeField] private TMP_Text alonDialogueText;
+
+    [TextArea(2, 4)]
+    [SerializeField]
+    private string collectionDialogue =
+        "@MalcomXsSirmontGlasses_akaBk Welcome to my orbit." +
+        "My egregious wealth and equally sized ego has allowed me to build the real SpaceX!" +
+        "My next goal...UniverseX! Poor BK, bet the UN is giving you pennies!"+
+        "Here's some spare change, catch it you can!";
+
+    [TextArea(2, 4)]
+    [SerializeField]
+    private string hazardDialogue =
+        "Collecting my money? Let's see you dodge my space junk!";
+
+    [TextArea(2, 4)]
+    [SerializeField]
+    private string entranceDialogue =
+        "You thought the spacetruck was my final form?";
+
+    [TextArea(2, 4)]
+    [SerializeField]
+    private string hatchDialogue =
+        "Behold the next stage of billionaire evolution!";
+
+    [TextArea(2, 4)]
+    [SerializeField]
+    private string fightDialogue =
+        "Ah, you've dodged my spacetruck... Well, then, " +
+        "let's see how you fare against me!";
+
+    [TextArea(2, 4)]
+    [SerializeField]
+    private string playerDeathDialogue =
+        "Another failed launch. Space isn't for everyone, BK.";
 
     [Header("Settings")]
     [SerializeField, Min(1f)] private float hazardDuration = 15f;
@@ -64,6 +101,7 @@ public class Level3Manager : MonoBehaviour
             bossHealthUI.SetActive(false);
 
         SetPhaseText("COLLECT $1,000 TO CONTINUE!");
+        Say(collectionDialogue);
     }
 
     private void Update()
@@ -101,8 +139,12 @@ public class Level3Manager : MonoBehaviour
         phase = Phase.SurviveHazards;
         remainingTime = hazardDuration;
 
+        Say(hazardDialogue);
+
         if (hazardSpawner != null)
             hazardSpawner.StartSpawning();
+
+        // Money continues spawning.
     }
 
     private void BeginBossEntrance()
@@ -111,9 +153,6 @@ public class Level3Manager : MonoBehaviour
 
         if (hazardSpawner != null)
             hazardSpawner.StopSpawning();
-
-        // Do not invoke OnHazardPhaseComplete here:
-        // existing listeners could start combat too early.
 
         if (alonBoss == null ||
             chrysalisVisual == null ||
@@ -125,10 +164,12 @@ public class Level3Manager : MonoBehaviour
                 "Level3Manager: Assign all boss entrance references.",
                 this
             );
+
             enabled = false;
             return;
         }
 
+        Say(entranceDialogue);
         entranceRoutine = StartCoroutine(PlayBossEntrance());
     }
 
@@ -164,6 +205,7 @@ public class Level3Manager : MonoBehaviour
 
         alonBoss.transform.position = to;
         SetPhaseText("THE CHRYSALIS IS OPENING...");
+        Say(hatchDialogue);
 
         Vector3 originalLocalPosition =
             chrysalisVisual.transform.localPosition;
@@ -185,11 +227,8 @@ public class Level3Manager : MonoBehaviour
 
         chrysalisVisual.transform.localPosition = originalLocalPosition;
 
-        // Play the emergence animation before enabling combat.
         if (chrysalisAnimator == null)
-        {
             chrysalisAnimator = chrysalisVisual.GetComponent<Animator>();
-        }
 
         if (chrysalisAnimator == null ||
             !chrysalisAnimator.isActiveAndEnabled ||
@@ -200,15 +239,13 @@ public class Level3Manager : MonoBehaviour
                 chrysalisVisual
             );
 
+            entranceRoutine = null;
             yield break;
         }
-
-        Debug.Log("Triggering chrysalis Hatch animation.", chrysalisVisual);
 
         chrysalisAnimator.SetTrigger("Hatch");
         yield return new WaitForSeconds(hatchDuration);
 
-        // Replace the animated emergence sprite with the combat visual.
         chrysalisVisual.SetActive(false);
         alonVisual.SetActive(true);
 
@@ -218,7 +255,9 @@ public class Level3Manager : MonoBehaviour
             bossHealthUI.SetActive(true);
 
         phase = Phase.BossFight;
-        SetPhaseText("Ah, you've dodged my spacetruck...Well, then, let's see how you fare against me! ALON TRUSK — BOSS FIGHT!");
+
+        SetPhaseText("ALON TRUSK — BOSS FIGHT!");
+        Say(fightDialogue);
 
         alonBoss.StartBossFight();
         OnBossFightStarted?.Invoke();
@@ -252,6 +291,14 @@ public class Level3Manager : MonoBehaviour
             bossHealthUI.SetActive(false);
 
         SetPhaseText("YOU DIED!");
+        Say(playerDeathDialogue);
+    }
+
+    // Public so other scripts or UnityEvents can update Alon's dialogue.
+    public void Say(string message)
+    {
+        if (alonDialogueText != null)
+            alonDialogueText.text = message;
     }
 
     private void SetBossColliders(bool active)
