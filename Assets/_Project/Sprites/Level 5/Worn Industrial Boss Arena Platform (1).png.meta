@@ -1,0 +1,2847 @@
+fileFormatVersion: 2
+guid: 9facc13ae817d48fcb7b601570dcef22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5411210181455494647
+    second: Worn Industrial Boss Arena Platform (1)_0
+  - first:
+      213: 3969373926216284402
+    second: Worn Industrial Boss Arena Platform (1)_1
+  - first:
+      213: -2459701707787413622
+    second: Worn Industrial Boss Arena Platform (1)_2
+  - first:
+      213: -5689292927925655164
+    second: Worn Industrial Boss Arena Platform (1)_3
+  - first:
+      213: 8854775872935421479
+    second: Worn Industrial Boss Arena Platform (1)_4
+  - first:
+      213: 6384607070285106754
+    second: Worn Industrial Boss Arena Platform (1)_5
+  - first:
+      213: -3843097414393920558
+    second: Worn Industrial Boss Arena Platform (1)_6
+  - first:
+      213: 726044278931444009
+    second: Worn Industrial Boss Arena Platform (1)_7
+  - first:
+      213: 334614390972375241
+    second: Worn Industrial Boss Arena Platform (1)_8
+  - first:
+      213: -5557540115797066404
+    second: Worn Industrial Boss Arena Platform (1)_9
+  - first:
+      213: -1399777917424100357
+    second: Worn Industrial Boss Arena Platform (1)_10
+  - first:
+      213: -8657235041965851193
+    second: Worn Industrial Boss Arena Platform (1)_11
+  - first:
+      213: -5523474107269521714
+    second: Worn Industrial Boss Arena Platform (1)_12
+  - first:
+      213: -2811466832568114291
+    second: Worn Industrial Boss Arena Platform (1)_13
+  - first:
+      213: -7460178044457216018
+    second: Worn Industrial Boss Arena Platform (1)_14
+  - first:
+      213: 2941975450406309099
+    second: Worn Industrial Boss Arena Platform (1)_15
+  - first:
+      213: 6359392774592159967
+    second: Worn Industrial Boss Arena Platform (1)_16
+  - first:
+      213: 7623483861204314924
+    second: Worn Industrial Boss Arena Platform (1)_17
+  - first:
+      213: -4303033522785072092
+    second: Worn Industrial Boss Arena Platform (1)_18
+  - first:
+      213: -1506927366237435140
+    second: Worn Industrial Boss Arena Platform (1)_19
+  - first:
+      213: -2239522066082656478
+    second: Worn Industrial Boss Arena Platform (1)_20
+  - first:
+      213: -6114160567125919034
+    second: Worn Industrial Boss Arena Platform (1)_21
+  - first:
+      213: 7894099231498010337
+    second: Worn Industrial Boss Arena Platform (1)_22
+  - first:
+      213: -7748672739306797457
+    second: Worn Industrial Boss Arena Platform (1)_23
+  - first:
+      213: 4524162993007295282
+    second: Worn Industrial Boss Arena Platform (1)_24
+  - first:
+      213: -246980292725407714
+    second: Worn Industrial Boss Arena Platform (1)_25
+  - first:
+      213: 1495212029515836973
+    second: Worn Industrial Boss Arena Platform (1)_26
+  - first:
+      213: 586973953176082479
+    second: Worn Industrial Boss Arena Platform (1)_27
+  - first:
+      213: -7148580202865108824
+    second: Worn Industrial Boss Arena Platform (1)_28
+  - first:
+      213: -5324461468603999812
+    second: Worn Industrial Boss Arena Platform (1)_29
+  - first:
+      213: -1324230091117157759
+    second: Worn Industrial Boss Arena Platform (1)_30
+  - first:
+      213: -2098575199963301833
+    second: Worn Industrial Boss Arena Platform (1)_31
+  - first:
+      213: 5509087137054022821
+    second: Worn Industrial Boss Arena Platform (1)_32
+  - first:
+      213: -1387478251589893376
+    second: Worn Industrial Boss Arena Platform (1)_33
+  - first:
+      213: 630952448127307237
+    second: Worn Industrial Boss Arena Platform (1)_34
+  - first:
+      213: -6081128614662503774
+    second: Worn Industrial Boss Arena Platform (1)_35
+  - first:
+      213: 1166102705128398494
+    second: Worn Industrial Boss Arena Platform (1)_36
+  - first:
+      213: 8823014494119734069
+    second: Worn Industrial Boss Arena Platform (1)_37
+  - first:
+      213: 7343879766652057051
+    second: Worn Industrial Boss Arena Platform (1)_38
+  - first:
+      213: -7665288315151153128
+    second: Worn Industrial Boss Arena Platform (1)_39
+  - first:
+      213: 7573549636570114748
+    second: Worn Industrial Boss Arena Platform (1)_40
+  - first:
+      213: -674342421479606147
+    second: Worn Industrial Boss Arena Platform (1)_41
+  - first:
+      213: -535725318377010572
+    second: Worn Industrial Boss Arena Platform (1)_42
+  - first:
+      213: -1136945628307905546
+    second: Worn Industrial Boss Arena Platform (1)_43
+  - first:
+      213: -3861731111349048247
+    second: Worn Industrial Boss Arena Platform (1)_44
+  - first:
+      213: -2451983989790138639
+    second: Worn Industrial Boss Arena Platform (1)_45
+  - first:
+      213: -3067281760535359653
+    second: Worn Industrial Boss Arena Platform (1)_46
+  - first:
+      213: -6181428768830289571
+    second: Worn Industrial Boss Arena Platform (1)_47
+  - first:
+      213: -2357901544713554793
+    second: Worn Industrial Boss Arena Platform (1)_48
+  - first:
+      213: -650000645985740466
+    second: Worn Industrial Boss Arena Platform (1)_49
+  - first:
+      213: 3714337837742260377
+    second: Worn Industrial Boss Arena Platform (1)_50
+  - first:
+      213: -4833187151226548763
+    second: Worn Industrial Boss Arena Platform (1)_51
+  - first:
+      213: 8586040967539708001
+    second: Worn Industrial Boss Arena Platform (1)_52
+  - first:
+      213: -4309782135568282095
+    second: Worn Industrial Boss Arena Platform (1)_53
+  - first:
+      213: -2801813393364331507
+    second: Worn Industrial Boss Arena Platform (1)_54
+  - first:
+      213: 5227912730802691267
+    second: Worn Industrial Boss Arena Platform (1)_55
+  - first:
+      213: 3519288171530433761
+    second: Worn Industrial Boss Arena Platform (1)_56
+  - first:
+      213: -7014674738737684175
+    second: Worn Industrial Boss Arena Platform (1)_57
+  - first:
+      213: -4710693805522453007
+    second: Worn Industrial Boss Arena Platform (1)_58
+  - first:
+      213: 8689081625664503768
+    second: Worn Industrial Boss Arena Platform (1)_59
+  - first:
+      213: -1771758034564726332
+    second: Worn Industrial Boss Arena Platform (1)_60
+  - first:
+      213: -6440095363279493633
+    second: Worn Industrial Boss Arena Platform (1)_61
+  - first:
+      213: -566575365031466592
+    second: Worn Industrial Boss Arena Platform (1)_62
+  - first:
+      213: 4149525407875815183
+    second: Worn Industrial Boss Arena Platform (1)_63
+  - first:
+      213: 6882173849268302463
+    second: Worn Industrial Boss Arena Platform (1)_64
+  - first:
+      213: 3363161975244826139
+    second: Worn Industrial Boss Arena Platform (1)_65
+  - first:
+      213: -6256495361614616871
+    second: Worn Industrial Boss Arena Platform (1)_66
+  - first:
+      213: -4540605416642842889
+    second: Worn Industrial Boss Arena Platform (1)_67
+  - first:
+      213: 2504511317283838160
+    second: Worn Industrial Boss Arena Platform (1)_68
+  - first:
+      213: 1016722706657581544
+    second: Worn Industrial Boss Arena Platform (1)_69
+  - first:
+      213: -6268907855061646564
+    second: Worn Industrial Boss Arena Platform (1)_70
+  - first:
+      213: -5578339153643063826
+    second: Worn Industrial Boss Arena Platform (1)_71
+  - first:
+      213: 8498387806607312278
+    second: Worn Industrial Boss Arena Platform (1)_72
+  - first:
+      213: 3691394982344754874
+    second: Worn Industrial Boss Arena Platform (1)_73
+  - first:
+      213: -938463393608354407
+    second: Worn Industrial Boss Arena Platform (1)_74
+  - first:
+      213: -3270647035355480365
+    second: Worn Industrial Boss Arena Platform (1)_75
+  - first:
+      213: 955781002556935860
+    second: Worn Industrial Boss Arena Platform (1)_76
+  - first:
+      213: 5683148287378627739
+    second: Worn Industrial Boss Arena Platform (1)_77
+  - first:
+      213: -2205692085851760636
+    second: Worn Industrial Boss Arena Platform (1)_78
+  - first:
+      213: -9093333782256877022
+    second: Worn Industrial Boss Arena Platform (1)_79
+  - first:
+      213: -2730596310498672229
+    second: Worn Industrial Boss Arena Platform (1)_80
+  - first:
+      213: -1332743865268651630
+    second: Worn Industrial Boss Arena Platform (1)_81
+  - first:
+      213: -809394910556995086
+    second: Worn Industrial Boss Arena Platform (1)_82
+  - first:
+      213: 6430490771315286765
+    second: Worn Industrial Boss Arena Platform (1)_83
+  - first:
+      213: -6011572111204585347
+    second: Worn Industrial Boss Arena Platform (1)_84
+  - first:
+      213: -1846264586520055201
+    second: Worn Industrial Boss Arena Platform (1)_85
+  - first:
+      213: 7757616021929910372
+    second: Worn Industrial Boss Arena Platform (1)_86
+  - first:
+      213: 290492674352249012
+    second: Worn Industrial Boss Arena Platform (1)_87
+  - first:
+      213: 8109821278153482321
+    second: Worn Industrial Boss Arena Platform (1)_88
+  - first:
+      213: -6458701964391058911
+    second: Worn Industrial Boss Arena Platform (1)_89
+  - first:
+      213: 7966557603049628222
+    second: Worn Industrial Boss Arena Platform (1)_90
+  - first:
+      213: 5494671466399875795
+    second: Worn Industrial Boss Arena Platform (1)_91
+  - first:
+      213: -8023345056749400314
+    second: Worn Industrial Boss Arena Platform (1)_92
+  - first:
+      213: 1761008520346645202
+    second: Worn Industrial Boss Arena Platform (1)_93
+  - first:
+      213: -976987954810950199
+    second: Worn Industrial Boss Arena Platform (1)_94
+  - first:
+      213: -2102594760750048676
+    second: Worn Industrial Boss Arena Platform (1)_95
+  - first:
+      213: -2884057217267031691
+    second: Worn Industrial Boss Arena Platform (1)_96
+  - first:
+      213: 8176321419327309841
+    second: Worn Industrial Boss Arena Platform (1)_97
+  - first:
+      213: -4568452169817940927
+    second: Worn Industrial Boss Arena Platform (1)_98
+  - first:
+      213: -51067966192480569
+    second: Worn Industrial Boss Arena Platform (1)_99
+  - first:
+      213: -7401698024084704664
+    second: Worn Industrial Boss Arena Platform (1)_100
+  - first:
+      213: 5446864110693653780
+    second: Worn Industrial Boss Arena Platform (1)_101
+  - first:
+      213: -1818034177987963306
+    second: Worn Industrial Boss Arena Platform (1)_102
+  - first:
+      213: 3442729800237120504
+    second: Worn Industrial Boss Arena Platform (1)_103
+  - first:
+      213: -8058246832006801004
+    second: Worn Industrial Boss Arena Platform (1)_104
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 110
+        width: 2082
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdb1ae7dfa781b40800000000000000
+      internalID: 5411210181455494647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 626
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8b1d42e8c061730800000000000000
+      internalID: 3969373926216284402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 626
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87d8ed24526dddd0800000000000000
+      internalID: -2459701707787413622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 610
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48969d7a9329b01b0800000000000000
+      internalID: -5689292927925655164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 600
+        width: 112
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726e308edbb72ea70800000000000000
+      internalID: 8854775872935421479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_5
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 574
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e8ac6ad4eaa9850800000000000000
+      internalID: 6384607070285106754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_6
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 596
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d304d163439aaac0800000000000000
+      internalID: -3843097414393920558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_7
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 610
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921d9e8cc6d631a00800000000000000
+      internalID: 726044278931444009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_8
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 609
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c064a6040ac4a400800000000000000
+      internalID: 334614390972375241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_9
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 602
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dbee4b5b6afd2b0800000000000000
+      internalID: -5557540115797066404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_10
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 626
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb1083866df29ce0800000000000000
+      internalID: -1399777917424100357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 580
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdbf8ae8925bd780800000000000000
+      internalID: -8657235041965851193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_12
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 590
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eced126609da853b0800000000000000
+      internalID: -5523474107269521714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 600
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d832cf2cfc9abf8d0800000000000000
+      internalID: -2811466832568114291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_14
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 540
+        width: 59
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee795f2289f187890800000000000000
+      internalID: -7460178044457216018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_15
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 626
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec436bb51ff3d820800000000000000
+      internalID: 2941975450406309099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_16
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 632
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd060c4f80a114850800000000000000
+      internalID: 6359392774592159967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_17
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 586
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ba10a4e2e0cc960800000000000000
+      internalID: 7623483861204314924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_18
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 596
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c4cc93fcd8844c0800000000000000
+      internalID: -4303033522785072092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 600
+        width: 91
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa4a116b81561be0800000000000000
+      internalID: -1506927366237435140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 586
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f8e70eb8e9be0e0800000000000000
+      internalID: -2239522066082656478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 530
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca32c0cb53262ba0800000000000000
+      internalID: -6114160567125919034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 610
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee7f132d697d8d60800000000000000
+      internalID: 7894099231498010337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 592
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f668dd4a23f277490800000000000000
+      internalID: -7748672739306797457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 594
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bfa28a54e09ce30800000000000000
+      internalID: 4524162993007295282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 614
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1084997bbc829cf0800000000000000
+      internalID: -246980292725407714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 576
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2eae2b3b6f00c410800000000000000
+      internalID: 1495212029515836973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 594
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28977353b9552800800000000000000
+      internalID: 586973953176082479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 602
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8d5d72e242bcc90800000000000000
+      internalID: -7148580202865108824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 612
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb99a972186bb16b0800000000000000
+      internalID: -5324461468603999812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 618
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182241a8fb36f9de0800000000000000
+      internalID: -1324230091117157759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 622
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7383ebf69fc50e2e0800000000000000
+      internalID: -2098575199963301833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 624
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac57c01095347c40800000000000000
+      internalID: 5509087137054022821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 586
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0038760a1efaebce0800000000000000
+      internalID: -1387478251589893376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 610
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed8acc98e791c800800000000000000
+      internalID: 630952448127307237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 596
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a204918ebd7b9ba0800000000000000
+      internalID: -6081128614662503774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 570
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9edcc66b34de2010800000000000000
+      internalID: 1166102705128398494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 520
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b2122afe4a17a70800000000000000
+      internalID: 8823014494119734069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 624
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5797cfcb3bae560800000000000000
+      internalID: 7343879766652057051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_39
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 610
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818867ac3ec6f9590800000000000000
+      internalID: -7665288315151153128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_40
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 625
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbaec80a447aa1960800000000000000
+      internalID: 7573549636570114748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_41
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 582
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d783bb6f32144a6f0800000000000000
+      internalID: -674342421479606147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_42
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 612
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a84fc49a8b098f0800000000000000
+      internalID: -535725318377010572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_43
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 618
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f326cf89f1c830f0800000000000000
+      internalID: -1136945628307905546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_44
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 570
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c27f9b300686ac0800000000000000
+      internalID: -3861731111349048247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_45
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 626
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe1d9d6d8dc8fdd0800000000000000
+      internalID: -2451983989790138639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_46
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 625
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f414d6d73de65d0800000000000000
+      internalID: -3067281760535359653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_47
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 545
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d598d7d0947273aa0800000000000000
+      internalID: -6181428768830289571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_48
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 596
+        width: 170
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794f00ca90d074fd0800000000000000
+      internalID: -2357901544713554793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_49
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 548
+        width: 130
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49de383bdbbaf6f0800000000000000
+      internalID: -650000645985740466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_50
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 580
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9908b62859afb8330800000000000000
+      internalID: 3714337837742260377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_51
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 548
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edc82ea4e11decb0800000000000000
+      internalID: -4833187151226548763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2125
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160d729e4ceb72770800000000000000
+      internalID: 8586040967539708001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_53
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 516
+        width: 58
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ec02e5bf39034c0800000000000000
+      internalID: -4309782135568282095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_54
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 496
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0456993095fd19d0800000000000000
+      internalID: -2801813393364331507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_55
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 514
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc9c341ee64d8840800000000000000
+      internalID: 5227912730802691267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_56
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 514
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e43e4e22f507d030800000000000000
+      internalID: 3519288171530433761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_57
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 488
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13162ae8d7ed6ae90800000000000000
+      internalID: -7014674738737684175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_58
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 500
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd733431f040aeb0800000000000000
+      internalID: -4710693805522453007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_59
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 520
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df3b1aa3b1d59870800000000000000
+      internalID: 8689081625664503768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_60
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 518
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c143d964737967e0800000000000000
+      internalID: -1771758034564726332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_61
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 500
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5e510636f20a6a0800000000000000
+      internalID: -6440095363279493633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_62
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 497
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9efc415be1328f0800000000000000
+      internalID: -566575365031466592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_63
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 482
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0755e29f53169930800000000000000
+      internalID: 4149525407875815183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_64
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 486
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72be1017a4628f50800000000000000
+      internalID: 6882173849268302463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_65
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 224
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16a1986ff95cae20800000000000000
+      internalID: 3363161975244826139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_66
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 128
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6e410fd967c29a0800000000000000
+      internalID: -6256495361614616871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_67
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 120
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fee9c34e678cf0c0800000000000000
+      internalID: -4540605416642842889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_68
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 82
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d816aa06cfc1c220800000000000000
+      internalID: 2504511317283838160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_69
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 83
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e916653aef1c1e00800000000000000
+      internalID: 1016722706657581544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_70
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 68
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c130569158d5009a0800000000000000
+      internalID: -6268907855061646564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_71
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 98
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5b3765812c592b0800000000000000
+      internalID: -5578339153643063826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_72
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69507580fa650f570800000000000000
+      internalID: 8498387806607312278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_73
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 79
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab68158bd287a3330800000000000000
+      internalID: 3691394982344754874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_74
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 70
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99534450488e9f2f0800000000000000
+      internalID: -938463393608354407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_75
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 61
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3deb3f799d35c92d0800000000000000
+      internalID: -3270647035355480365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_76
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 60
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be097402cd934d00800000000000000
+      internalID: 955781002556935860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_77
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 75
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c921bb1499ede40800000000000000
+      internalID: 5683148287378627739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_78
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 79
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4085ae2fbbec361e0800000000000000
+      internalID: -2205692085851760636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_79
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 71
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22205848a1dfdc180800000000000000
+      internalID: -9093333782256877022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_80
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 83
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b910cb77f19fa1ad0800000000000000
+      internalID: -2730596310498672229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_81
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 69
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299b4160484218de0800000000000000
+      internalID: -1332743865268651630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_82
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 66
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1cd310e9374c4f0800000000000000
+      internalID: -809394910556995086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_83
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2ecab4941bd3950800000000000000
+      internalID: 6430490771315286765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_84
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70710af30b929ca0800000000000000
+      internalID: -6011572111204585347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_85
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 66
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52b617f320c066e0800000000000000
+      internalID: -1846264586520055201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_86
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460e20b9ba698ab60800000000000000
+      internalID: 7757616021929910372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_87
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 65
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b87e985c89080400800000000000000
+      internalID: 290492674352249012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_88
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 63
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1502e3c1c7fdb8070800000000000000
+      internalID: 8109821278153482321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_89
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 47
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1227a5678c41e56a0800000000000000
+      internalID: -6458701964391058911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_90
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 38
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32e57c6ee5ee8e60800000000000000
+      internalID: 7966557603049628222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_91
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d24d30369ef04c40800000000000000
+      internalID: 5494671466399875795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_92
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 47
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fc01e2e2a57a090800000000000000
+      internalID: -8023345056749400314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_93
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 38
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2b2b54beb507810800000000000000
+      internalID: 1761008520346645202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_94
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 33
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd68a3a1aa0172f0800000000000000
+      internalID: -976987954810950199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_95
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a55e2843512d2e0800000000000000
+      internalID: -2102594760750048676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_96
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 47
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571a5e4cd35c9f7d0800000000000000
+      internalID: -2884057217267031691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_97
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 47
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1180c68c201287170800000000000000
+      internalID: 8176321419327309841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_98
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 47
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c93acc4f89990c0800000000000000
+      internalID: -4568452169817940927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_99
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 31
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce02bf84f19a4ff0800000000000000
+      internalID: -51067966192480569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_100
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 25
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86278bbecd2e74990800000000000000
+      internalID: -7401698024084704664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_101
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 23
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d18b9cc06279b40800000000000000
+      internalID: 5446864110693653780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_102
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 15
+        width: 56
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65612872c8b05c6e0800000000000000
+      internalID: -1818034177987963306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_103
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 34
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbf8c0538807cf20800000000000000
+      internalID: 3442729800237120504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worn Industrial Boss Arena Platform (1)_104
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 33
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49951d1633b5b2090800000000000000
+      internalID: -8058246832006801004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: af5e828e017764ef69cc038a5a2b2f92
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Worn Industrial Boss Arena Platform (1)_0: 5411210181455494647
+      Worn Industrial Boss Arena Platform (1)_1: 3969373926216284402
+      Worn Industrial Boss Arena Platform (1)_10: -1399777917424100357
+      Worn Industrial Boss Arena Platform (1)_100: -7401698024084704664
+      Worn Industrial Boss Arena Platform (1)_101: 5446864110693653780
+      Worn Industrial Boss Arena Platform (1)_102: -1818034177987963306
+      Worn Industrial Boss Arena Platform (1)_103: 3442729800237120504
+      Worn Industrial Boss Arena Platform (1)_104: -8058246832006801004
+      Worn Industrial Boss Arena Platform (1)_11: -8657235041965851193
+      Worn Industrial Boss Arena Platform (1)_12: -5523474107269521714
+      Worn Industrial Boss Arena Platform (1)_13: -2811466832568114291
+      Worn Industrial Boss Arena Platform (1)_14: -7460178044457216018
+      Worn Industrial Boss Arena Platform (1)_15: 2941975450406309099
+      Worn Industrial Boss Arena Platform (1)_16: 6359392774592159967
+      Worn Industrial Boss Arena Platform (1)_17: 7623483861204314924
+      Worn Industrial Boss Arena Platform (1)_18: -4303033522785072092
+      Worn Industrial Boss Arena Platform (1)_19: -1506927366237435140
+      Worn Industrial Boss Arena Platform (1)_2: -2459701707787413622
+      Worn Industrial Boss Arena Platform (1)_20: -2239522066082656478
+      Worn Industrial Boss Arena Platform (1)_21: -6114160567125919034
+      Worn Industrial Boss Arena Platform (1)_22: 7894099231498010337
+      Worn Industrial Boss Arena Platform (1)_23: -7748672739306797457
+      Worn Industrial Boss Arena Platform (1)_24: 4524162993007295282
+      Worn Industrial Boss Arena Platform (1)_25: -246980292725407714
+      Worn Industrial Boss Arena Platform (1)_26: 1495212029515836973
+      Worn Industrial Boss Arena Platform (1)_27: 586973953176082479
+      Worn Industrial Boss Arena Platform (1)_28: -7148580202865108824
+      Worn Industrial Boss Arena Platform (1)_29: -5324461468603999812
+      Worn Industrial Boss Arena Platform (1)_3: -5689292927925655164
+      Worn Industrial Boss Arena Platform (1)_30: -1324230091117157759
+      Worn Industrial Boss Arena Platform (1)_31: -2098575199963301833
+      Worn Industrial Boss Arena Platform (1)_32: 5509087137054022821
+      Worn Industrial Boss Arena Platform (1)_33: -1387478251589893376
+      Worn Industrial Boss Arena Platform (1)_34: 630952448127307237
+      Worn Industrial Boss Arena Platform (1)_35: -6081128614662503774
+      Worn Industrial Boss Arena Platform (1)_36: 1166102705128398494
+      Worn Industrial Boss Arena Platform (1)_37: 8823014494119734069
+      Worn Industrial Boss Arena Platform (1)_38: 7343879766652057051
+      Worn Industrial Boss Arena Platform (1)_39: -7665288315151153128
+      Worn Industrial Boss Arena Platform (1)_4: 8854775872935421479
+      Worn Industrial Boss Arena Platform (1)_40: 7573549636570114748
+      Worn Industrial Boss Arena Platform (1)_41: -674342421479606147
+      Worn Industrial Boss Arena Platform (1)_42: -535725318377010572
+      Worn Industrial Boss Arena Platform (1)_43: -1136945628307905546
+      Worn Industrial Boss Arena Platform (1)_44: -3861731111349048247
+      Worn Industrial Boss Arena Platform (1)_45: -2451983989790138639
+      Worn Industrial Boss Arena Platform (1)_46: -3067281760535359653
+      Worn Industrial Boss Arena Platform (1)_47: -6181428768830289571
+      Worn Industrial Boss Arena Platform (1)_48: -2357901544713554793
+      Worn Industrial Boss Arena Platform (1)_49: -650000645985740466
+      Worn Industrial Boss Arena Platform (1)_5: 6384607070285106754
+      Worn Industrial Boss Arena Platform (1)_50: 3714337837742260377
+      Worn Industrial Boss Arena Platform (1)_51: -4833187151226548763
+      Worn Industrial Boss Arena Platform (1)_52: 8586040967539708001
+      Worn Industrial Boss Arena Platform (1)_53: -4309782135568282095
+      Worn Industrial Boss Arena Platform (1)_54: -2801813393364331507
+      Worn Industrial Boss Arena Platform (1)_55: 5227912730802691267
+      Worn Industrial Boss Arena Platform (1)_56: 3519288171530433761
+      Worn Industrial Boss Arena Platform (1)_57: -7014674738737684175
+      Worn Industrial Boss Arena Platform (1)_58: -4710693805522453007
+      Worn Industrial Boss Arena Platform (1)_59: 8689081625664503768
+      Worn Industrial Boss Arena Platform (1)_6: -3843097414393920558
+      Worn Industrial Boss Arena Platform (1)_60: -1771758034564726332
+      Worn Industrial Boss Arena Platform (1)_61: -6440095363279493633
+      Worn Industrial Boss Arena Platform (1)_62: -566575365031466592
+      Worn Industrial Boss Arena Platform (1)_63: 4149525407875815183
+      Worn Industrial Boss Arena Platform (1)_64: 6882173849268302463
+      Worn Industrial Boss Arena Platform (1)_65: 3363161975244826139
+      Worn Industrial Boss Arena Platform (1)_66: -6256495361614616871
+      Worn Industrial Boss Arena Platform (1)_67: -4540605416642842889
+      Worn Industrial Boss Arena Platform (1)_68: 2504511317283838160
+      Worn Industrial Boss Arena Platform (1)_69: 1016722706657581544
+      Worn Industrial Boss Arena Platform (1)_7: 726044278931444009
+      Worn Industrial Boss Arena Platform (1)_70: -6268907855061646564
+      Worn Industrial Boss Arena Platform (1)_71: -5578339153643063826
+      Worn Industrial Boss Arena Platform (1)_72: 8498387806607312278
+      Worn Industrial Boss Arena Platform (1)_73: 3691394982344754874
+      Worn Industrial Boss Arena Platform (1)_74: -938463393608354407
+      Worn Industrial Boss Arena Platform (1)_75: -3270647035355480365
+      Worn Industrial Boss Arena Platform (1)_76: 955781002556935860
+      Worn Industrial Boss Arena Platform (1)_77: 5683148287378627739
+      Worn Industrial Boss Arena Platform (1)_78: -2205692085851760636
+      Worn Industrial Boss Arena Platform (1)_79: -9093333782256877022
+      Worn Industrial Boss Arena Platform (1)_8: 334614390972375241
+      Worn Industrial Boss Arena Platform (1)_80: -2730596310498672229
+      Worn Industrial Boss Arena Platform (1)_81: -1332743865268651630
+      Worn Industrial Boss Arena Platform (1)_82: -809394910556995086
+      Worn Industrial Boss Arena Platform (1)_83: 6430490771315286765
+      Worn Industrial Boss Arena Platform (1)_84: -6011572111204585347
+      Worn Industrial Boss Arena Platform (1)_85: -1846264586520055201
+      Worn Industrial Boss Arena Platform (1)_86: 7757616021929910372
+      Worn Industrial Boss Arena Platform (1)_87: 290492674352249012
+      Worn Industrial Boss Arena Platform (1)_88: 8109821278153482321
+      Worn Industrial Boss Arena Platform (1)_89: -6458701964391058911
+      Worn Industrial Boss Arena Platform (1)_9: -5557540115797066404
+      Worn Industrial Boss Arena Platform (1)_90: 7966557603049628222
+      Worn Industrial Boss Arena Platform (1)_91: 5494671466399875795
+      Worn Industrial Boss Arena Platform (1)_92: -8023345056749400314
+      Worn Industrial Boss Arena Platform (1)_93: 1761008520346645202
+      Worn Industrial Boss Arena Platform (1)_94: -976987954810950199
+      Worn Industrial Boss Arena Platform (1)_95: -2102594760750048676
+      Worn Industrial Boss Arena Platform (1)_96: -2884057217267031691
+      Worn Industrial Boss Arena Platform (1)_97: 8176321419327309841
+      Worn Industrial Boss Arena Platform (1)_98: -4568452169817940927
+      Worn Industrial Boss Arena Platform (1)_99: -51067966192480569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

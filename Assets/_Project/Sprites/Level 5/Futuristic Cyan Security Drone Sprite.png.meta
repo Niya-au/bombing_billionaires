@@ -1,0 +1,2639 @@
+fileFormatVersion: 2
+guid: 832ea6d0fcf92481ea6f766156ed7a3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -667564223051453624
+    second: Futuristic Cyan Security Drone Sprite_0
+  - first:
+      213: 1512674918256468438
+    second: Futuristic Cyan Security Drone Sprite_1
+  - first:
+      213: -5757731787878620728
+    second: Futuristic Cyan Security Drone Sprite_2
+  - first:
+      213: -5998603133218878911
+    second: Futuristic Cyan Security Drone Sprite_3
+  - first:
+      213: -7176078563898085736
+    second: Futuristic Cyan Security Drone Sprite_4
+  - first:
+      213: 8249498642367833788
+    second: Futuristic Cyan Security Drone Sprite_5
+  - first:
+      213: -5578715735803774360
+    second: Futuristic Cyan Security Drone Sprite_6
+  - first:
+      213: 4317327897349657142
+    second: Futuristic Cyan Security Drone Sprite_7
+  - first:
+      213: -3774275105536263962
+    second: Futuristic Cyan Security Drone Sprite_8
+  - first:
+      213: 7316229569919373812
+    second: Futuristic Cyan Security Drone Sprite_9
+  - first:
+      213: -7376013823551371627
+    second: Futuristic Cyan Security Drone Sprite_10
+  - first:
+      213: -7720732138269938739
+    second: Futuristic Cyan Security Drone Sprite_11
+  - first:
+      213: -8942546480068654846
+    second: Futuristic Cyan Security Drone Sprite_12
+  - first:
+      213: 1695884718305851609
+    second: Futuristic Cyan Security Drone Sprite_13
+  - first:
+      213: -1171850702785427618
+    second: Futuristic Cyan Security Drone Sprite_14
+  - first:
+      213: 213106172311971540
+    second: Futuristic Cyan Security Drone Sprite_15
+  - first:
+      213: 8032311711656363332
+    second: Futuristic Cyan Security Drone Sprite_16
+  - first:
+      213: -4000251137917900186
+    second: Futuristic Cyan Security Drone Sprite_17
+  - first:
+      213: -5147723710881364199
+    second: Futuristic Cyan Security Drone Sprite_18
+  - first:
+      213: -186312156742703607
+    second: Futuristic Cyan Security Drone Sprite_19
+  - first:
+      213: -811680835842867475
+    second: Futuristic Cyan Security Drone Sprite_20
+  - first:
+      213: 330595182367522797
+    second: Futuristic Cyan Security Drone Sprite_21
+  - first:
+      213: -8401326491769446113
+    second: Futuristic Cyan Security Drone Sprite_22
+  - first:
+      213: 2175660903731833484
+    second: Futuristic Cyan Security Drone Sprite_23
+  - first:
+      213: -3188758543552203388
+    second: Futuristic Cyan Security Drone Sprite_24
+  - first:
+      213: 7323536843736292152
+    second: Futuristic Cyan Security Drone Sprite_25
+  - first:
+      213: -838194768819563178
+    second: Futuristic Cyan Security Drone Sprite_26
+  - first:
+      213: -846546369576825352
+    second: Futuristic Cyan Security Drone Sprite_27
+  - first:
+      213: -2356480544547671982
+    second: Futuristic Cyan Security Drone Sprite_28
+  - first:
+      213: 392552257616842651
+    second: Futuristic Cyan Security Drone Sprite_29
+  - first:
+      213: 9046468319960185377
+    second: Futuristic Cyan Security Drone Sprite_30
+  - first:
+      213: 8039483150855165790
+    second: Futuristic Cyan Security Drone Sprite_31
+  - first:
+      213: -7757289976538623693
+    second: Futuristic Cyan Security Drone Sprite_32
+  - first:
+      213: 1470283309040841098
+    second: Futuristic Cyan Security Drone Sprite_33
+  - first:
+      213: -6430265647691904426
+    second: Futuristic Cyan Security Drone Sprite_34
+  - first:
+      213: 7077242816827984060
+    second: Futuristic Cyan Security Drone Sprite_35
+  - first:
+      213: -2157798513636687909
+    second: Futuristic Cyan Security Drone Sprite_36
+  - first:
+      213: -76552409683336176
+    second: Futuristic Cyan Security Drone Sprite_37
+  - first:
+      213: 1632189880809033140
+    second: Futuristic Cyan Security Drone Sprite_38
+  - first:
+      213: -57074385570971963
+    second: Futuristic Cyan Security Drone Sprite_39
+  - first:
+      213: 3699513775544794919
+    second: Futuristic Cyan Security Drone Sprite_40
+  - first:
+      213: -7990265260605838192
+    second: Futuristic Cyan Security Drone Sprite_41
+  - first:
+      213: 7185930265484835791
+    second: Futuristic Cyan Security Drone Sprite_42
+  - first:
+      213: -5394836864650801604
+    second: Futuristic Cyan Security Drone Sprite_43
+  - first:
+      213: -534697229277477273
+    second: Futuristic Cyan Security Drone Sprite_44
+  - first:
+      213: 3743379430244700179
+    second: Futuristic Cyan Security Drone Sprite_45
+  - first:
+      213: 6325976008991520560
+    second: Futuristic Cyan Security Drone Sprite_46
+  - first:
+      213: -1491414438302891615
+    second: Futuristic Cyan Security Drone Sprite_47
+  - first:
+      213: -3337049316586372117
+    second: Futuristic Cyan Security Drone Sprite_48
+  - first:
+      213: -4530503131699874999
+    second: Futuristic Cyan Security Drone Sprite_49
+  - first:
+      213: 109436500902079442
+    second: Futuristic Cyan Security Drone Sprite_50
+  - first:
+      213: 4131600341085385164
+    second: Futuristic Cyan Security Drone Sprite_51
+  - first:
+      213: 1932505655756274187
+    second: Futuristic Cyan Security Drone Sprite_52
+  - first:
+      213: 3922025824430066294
+    second: Futuristic Cyan Security Drone Sprite_53
+  - first:
+      213: -8975272849488280700
+    second: Futuristic Cyan Security Drone Sprite_54
+  - first:
+      213: -24720633484679891
+    second: Futuristic Cyan Security Drone Sprite_55
+  - first:
+      213: 7835166918248393519
+    second: Futuristic Cyan Security Drone Sprite_56
+  - first:
+      213: -5537478775687664509
+    second: Futuristic Cyan Security Drone Sprite_57
+  - first:
+      213: 5984109681371972975
+    second: Futuristic Cyan Security Drone Sprite_58
+  - first:
+      213: -6015875940859474616
+    second: Futuristic Cyan Security Drone Sprite_59
+  - first:
+      213: -7055415250598487090
+    second: Futuristic Cyan Security Drone Sprite_60
+  - first:
+      213: -1437848231071934306
+    second: Futuristic Cyan Security Drone Sprite_61
+  - first:
+      213: -3883255219446213990
+    second: Futuristic Cyan Security Drone Sprite_62
+  - first:
+      213: -2675049761394373982
+    second: Futuristic Cyan Security Drone Sprite_63
+  - first:
+      213: -7589251935448404884
+    second: Futuristic Cyan Security Drone Sprite_64
+  - first:
+      213: 4962945892988290260
+    second: Futuristic Cyan Security Drone Sprite_65
+  - first:
+      213: 5211200423193520140
+    second: Futuristic Cyan Security Drone Sprite_66
+  - first:
+      213: -6733375918136894371
+    second: Futuristic Cyan Security Drone Sprite_67
+  - first:
+      213: 1006435131273768144
+    second: Futuristic Cyan Security Drone Sprite_68
+  - first:
+      213: 8067121219680496778
+    second: Futuristic Cyan Security Drone Sprite_69
+  - first:
+      213: -1043606966396799746
+    second: Futuristic Cyan Security Drone Sprite_70
+  - first:
+      213: 4538799148158510012
+    second: Futuristic Cyan Security Drone Sprite_71
+  - first:
+      213: -6936649221832285937
+    second: Futuristic Cyan Security Drone Sprite_72
+  - first:
+      213: 8347331901313961004
+    second: Futuristic Cyan Security Drone Sprite_73
+  - first:
+      213: -3048632439359181531
+    second: Futuristic Cyan Security Drone Sprite_74
+  - first:
+      213: -3986170426488579798
+    second: Futuristic Cyan Security Drone Sprite_75
+  - first:
+      213: 3096842867356545027
+    second: Futuristic Cyan Security Drone Sprite_76
+  - first:
+      213: -1814888026961486083
+    second: Futuristic Cyan Security Drone Sprite_77
+  - first:
+      213: -2479249696394086435
+    second: Futuristic Cyan Security Drone Sprite_78
+  - first:
+      213: -6492607167825366033
+    second: Futuristic Cyan Security Drone Sprite_79
+  - first:
+      213: 1975333885219764720
+    second: Futuristic Cyan Security Drone Sprite_80
+  - first:
+      213: -3866168338275855380
+    second: Futuristic Cyan Security Drone Sprite_81
+  - first:
+      213: 969308623136522410
+    second: Futuristic Cyan Security Drone Sprite_82
+  - first:
+      213: 2602400002750465091
+    second: Futuristic Cyan Security Drone Sprite_83
+  - first:
+      213: -8708737651203367276
+    second: Futuristic Cyan Security Drone Sprite_84
+  - first:
+      213: -7769486699244594563
+    second: Futuristic Cyan Security Drone Sprite_85
+  - first:
+      213: -854625297317377748
+    second: Futuristic Cyan Security Drone Sprite_86
+  - first:
+      213: 4657020639818927485
+    second: Futuristic Cyan Security Drone Sprite_87
+  - first:
+      213: 7848204683260049331
+    second: Futuristic Cyan Security Drone Sprite_88
+  - first:
+      213: -719892423771361649
+    second: Futuristic Cyan Security Drone Sprite_89
+  - first:
+      213: 3246512627509841291
+    second: Futuristic Cyan Security Drone Sprite_90
+  - first:
+      213: -7512931458746084905
+    second: Futuristic Cyan Security Drone Sprite_91
+  - first:
+      213: 9017939344078740883
+    second: Futuristic Cyan Security Drone Sprite_92
+  - first:
+      213: 5413510963256675122
+    second: Futuristic Cyan Security Drone Sprite_93
+  - first:
+      213: -9152277220392125282
+    second: Futuristic Cyan Security Drone Sprite_94
+  - first:
+      213: -7419669339860207002
+    second: Futuristic Cyan Security Drone Sprite_95
+  - first:
+      213: -6402747244165108356
+    second: Futuristic Cyan Security Drone Sprite_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1393
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b224440e55cb6f0800000000000000
+      internalID: -667564223051453624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 749
+        width: 623
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1e15bd2d91ef410800000000000000
+      internalID: 1512674918256468438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 959
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c12587d17d6810b0800000000000000
+      internalID: -5757731787878620728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 931
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a81f77b3ea0cca0800000000000000
+      internalID: -5998603133218878911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 783
+        width: 129
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e2f8e0192796c90800000000000000
+      internalID: -7176078563898085736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 832
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6e669be4b1c7270800000000000000
+      internalID: 8249498642367833788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 847
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ab888789b6492b0800000000000000
+      internalID: -5578715735803774360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 781
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632196439da3aeb30800000000000000
+      internalID: 4317327897349657142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 789
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e839e9d9c41f9bc0800000000000000
+      internalID: -3774275105536263962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 757
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1d042e708788560800000000000000
+      internalID: 7316229569919373812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 791
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59689dcd18223a990800000000000000
+      internalID: -7376013823551371627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 353
+        width: 165
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb6a74c6037ad490800000000000000
+      internalID: -7720732138269938739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 770
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20986142b51b5e380800000000000000
+      internalID: -8942546480068654846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 725
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d832a68a2ef88710800000000000000
+      internalID: 1695884718305851609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 731
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57ceaa9effbcbfe0800000000000000
+      internalID: -1171850702785427618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 733
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d629144fea15f200800000000000000
+      internalID: 213106172311971540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 721
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445cc7ad1f0887f60800000000000000
+      internalID: 8032311711656363332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 703
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a2d08c8c04c78c0800000000000000
+      internalID: -4000251137917900186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 687
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9178f0b0f8c9f88b0800000000000000
+      internalID: -5147723710881364199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 657
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906a300a4161a6df0800000000000000
+      internalID: -186312156742703607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 631
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deef79c84945cb4f0800000000000000
+      internalID: -811680835842867475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 631
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defb8791192869400800000000000000
+      internalID: 330595182367522797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 615
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11e000611e786b80800000000000000
+      internalID: -8401326491769446113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 455
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a24a69010813e10800000000000000
+      internalID: 2175660903731833484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 431
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4853419dff04fb3d0800000000000000
+      internalID: -3188758543552203388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 427
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b136625fd62a560800000000000000
+      internalID: 7323536843736292152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 401
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6555be77c422e54f0800000000000000
+      internalID: -838194768819563178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 381
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd0a73ef867044f0800000000000000
+      internalID: -846546369576825352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 386
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250fd1e0e691c4fd0800000000000000
+      internalID: -2356480544547671982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 383
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f870fc230a27500800000000000000
+      internalID: 392552257616842651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 353
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a3d0bb1038b8d70800000000000000
+      internalID: 9046468319960185377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 349
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57d578a45bf19f60800000000000000
+      internalID: 8039483150855165790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 358
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33197b0cdd1985490800000000000000
+      internalID: -7757289976538623693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 71
+        width: 169
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81b09231ee776410800000000000000
+      internalID: 1470283309040841098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 367
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a4de1667b13c6a0800000000000000
+      internalID: -6430265647691904426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 339
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8873658da673260800000000000000
+      internalID: 7077242816827984060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 353
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfb1d13fa5fd02e0800000000000000
+      internalID: -2157798513636687909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 349
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014ef1e2df700fef0800000000000000
+      internalID: -76552409683336176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 183
+        width: 65
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd0c938c04b6a610800000000000000
+      internalID: 1632189880809033140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 273
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ceb442162b353ff0800000000000000
+      internalID: -57074385570971963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 247
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ff2019d20575330800000000000000
+      internalID: 3699513775544794919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 233
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ce1786410ec1190800000000000000
+      internalID: -7990265260605838192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 175
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbb3f6f08d89b360800000000000000
+      internalID: 7185930265484835791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 199
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e8e456470b125b0800000000000000
+      internalID: -5394836864650801604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 167
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766c782f3bf5498f0800000000000000
+      internalID: -534697229277477273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 171
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3105d3f22c723f330800000000000000
+      internalID: 3743379430244700179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 165
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0373599e9a16ac750800000000000000
+      internalID: 6325976008991520560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 159
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a14110687e6d4be0800000000000000
+      internalID: -1491414438302891615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 149
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3c8e6b35b60b1d0800000000000000
+      internalID: -3337049316586372117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 149
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943fb35c76b6021c0800000000000000
+      internalID: -4530503131699874999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 81
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbeab1faebc48100800000000000000
+      internalID: 109436500902079442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 125
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1f64cbe94665930800000000000000
+      internalID: 4131600341085385164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 81
+        width: 75
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a39c1b7a3a1da10800000000000000
+      internalID: 1932505655756274187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 119
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a001125b5dd6630800000000000000
+      internalID: 3922025824430066294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 123
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4830b0c75ec617380800000000000000
+      internalID: -8975272849488280700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 113
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25e58ef6bc28aff0800000000000000
+      internalID: -24720633484679891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 93
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b6616bcca1cbc60800000000000000
+      internalID: 7835166918248393519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 121
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c2fdf646ce623b0800000000000000
+      internalID: -5537478775687664509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 105
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65072fcc04db0350800000000000000
+      internalID: 5984109681371972975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 123
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d804c84b0538ca0800000000000000
+      internalID: -6015875940859474616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 125
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb1435f531261e90800000000000000
+      internalID: -7055415250598487090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 85
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e989802e6acbb0ce0800000000000000
+      internalID: -1437848231071934306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_62
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 90
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a921ab8c3f7eb1ac0800000000000000
+      internalID: -3883255219446213990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_63
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 67
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa489f3a6050ead0800000000000000
+      internalID: -2675049761394373982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_64
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 81
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ce6a4039f8da690800000000000000
+      internalID: -7589251935448404884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_65
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 109
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d40d0faefcefd440800000000000000
+      internalID: 4962945892988290260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_66
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 9
+        width: 91
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08a0ddbc27e15840800000000000000
+      internalID: 5211200423193520140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_67
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 95
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cd744074e3e82a0800000000000000
+      internalID: -6733375918136894371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_68
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 74
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dceb096b6397fd00800000000000000
+      internalID: 1006435131273768144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_69
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 77
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c6213020c24ff60800000000000000
+      internalID: 8067121219680496778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_70
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 87
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4bbca4efc5481f0800000000000000
+      internalID: -1043606966396799746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_71
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 99
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb365d417cd0dfe30800000000000000
+      internalID: 4538799148158510012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_72
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 99
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f016231e8421cbf90800000000000000
+      internalID: -6936649221832285937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 95
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cca10632ea7d370800000000000000
+      internalID: 8347331901313961004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_74
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 79
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d6341e2f411b5d0800000000000000
+      internalID: -3048632439359181531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_75
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 71
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a291bf2ed174ea8c0800000000000000
+      internalID: -3986170426488579798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_76
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 73
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3003df91e223afa20800000000000000
+      internalID: 3096842867356545027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_77
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 89
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfed9d584f830d6e0800000000000000
+      internalID: -1814888026961486083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_78
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 57
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd77fe8698fe79dd0800000000000000
+      internalID: -2479249696394086435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_79
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 83
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe33d9f1e20a5e5a0800000000000000
+      internalID: -6492607167825366033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_80
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 55
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9f05de3bbc96b10800000000000000
+      internalID: 1975333885219764720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_81
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 65
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce39433516c985ac0800000000000000
+      internalID: -3866168338275855380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_82
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 53
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa086cf9e0da37d00800000000000000
+      internalID: 969308623136522410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_83
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 63
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344ca6fa3059d1420800000000000000
+      internalID: 2602400002750465091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_84
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 31
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e14f14f39542780800000000000000
+      internalID: -8708737651203367276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_85
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 62
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a5764f20d3d2490800000000000000
+      internalID: -7769486699244594563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_86
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 63
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29c551f1d2c324f0800000000000000
+      internalID: -854625297317377748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_87
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 65
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dc114199f01a040800000000000000
+      internalID: 4657020639818927485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_88
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7b54ee39c6aec60800000000000000
+      internalID: 7848204683260049331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_89
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 29
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eec9c97ad6206f0800000000000000
+      internalID: -719892423771361649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_90
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 29
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d4b81b80eed0d20800000000000000
+      internalID: 3246512627509841291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_91
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 23
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1159bb4a4bcb790800000000000000
+      internalID: -7512931458746084905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_92
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 15
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d15d9ed08262d70800000000000000
+      internalID: 9017939344078740883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_93
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 23
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bc8900a87a02b40800000000000000
+      internalID: 5413510963256675122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_94
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cb0a0eb549cf080800000000000000
+      internalID: -9152277220392125282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_95
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 73
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a76c6eb0a080990800000000000000
+      internalID: -7419669339860207002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Futuristic Cyan Security Drone Sprite_96
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 0
+        width: 84
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d6decfd4fd427a0800000000000000
+      internalID: -6402747244165108356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Futuristic Cyan Security Drone Sprite_0: -667564223051453624
+      Futuristic Cyan Security Drone Sprite_1: 1512674918256468438
+      Futuristic Cyan Security Drone Sprite_10: -7376013823551371627
+      Futuristic Cyan Security Drone Sprite_11: -7720732138269938739
+      Futuristic Cyan Security Drone Sprite_12: -8942546480068654846
+      Futuristic Cyan Security Drone Sprite_13: 1695884718305851609
+      Futuristic Cyan Security Drone Sprite_14: -1171850702785427618
+      Futuristic Cyan Security Drone Sprite_15: 213106172311971540
+      Futuristic Cyan Security Drone Sprite_16: 8032311711656363332
+      Futuristic Cyan Security Drone Sprite_17: -4000251137917900186
+      Futuristic Cyan Security Drone Sprite_18: -5147723710881364199
+      Futuristic Cyan Security Drone Sprite_19: -186312156742703607
+      Futuristic Cyan Security Drone Sprite_2: -5757731787878620728
+      Futuristic Cyan Security Drone Sprite_20: -811680835842867475
+      Futuristic Cyan Security Drone Sprite_21: 330595182367522797
+      Futuristic Cyan Security Drone Sprite_22: -8401326491769446113
+      Futuristic Cyan Security Drone Sprite_23: 2175660903731833484
+      Futuristic Cyan Security Drone Sprite_24: -3188758543552203388
+      Futuristic Cyan Security Drone Sprite_25: 7323536843736292152
+      Futuristic Cyan Security Drone Sprite_26: -838194768819563178
+      Futuristic Cyan Security Drone Sprite_27: -846546369576825352
+      Futuristic Cyan Security Drone Sprite_28: -2356480544547671982
+      Futuristic Cyan Security Drone Sprite_29: 392552257616842651
+      Futuristic Cyan Security Drone Sprite_3: -5998603133218878911
+      Futuristic Cyan Security Drone Sprite_30: 9046468319960185377
+      Futuristic Cyan Security Drone Sprite_31: 8039483150855165790
+      Futuristic Cyan Security Drone Sprite_32: -7757289976538623693
+      Futuristic Cyan Security Drone Sprite_33: 1470283309040841098
+      Futuristic Cyan Security Drone Sprite_34: -6430265647691904426
+      Futuristic Cyan Security Drone Sprite_35: 7077242816827984060
+      Futuristic Cyan Security Drone Sprite_36: -2157798513636687909
+      Futuristic Cyan Security Drone Sprite_37: -76552409683336176
+      Futuristic Cyan Security Drone Sprite_38: 1632189880809033140
+      Futuristic Cyan Security Drone Sprite_39: -57074385570971963
+      Futuristic Cyan Security Drone Sprite_4: -7176078563898085736
+      Futuristic Cyan Security Drone Sprite_40: 3699513775544794919
+      Futuristic Cyan Security Drone Sprite_41: -7990265260605838192
+      Futuristic Cyan Security Drone Sprite_42: 7185930265484835791
+      Futuristic Cyan Security Drone Sprite_43: -5394836864650801604
+      Futuristic Cyan Security Drone Sprite_44: -534697229277477273
+      Futuristic Cyan Security Drone Sprite_45: 3743379430244700179
+      Futuristic Cyan Security Drone Sprite_46: 6325976008991520560
+      Futuristic Cyan Security Drone Sprite_47: -1491414438302891615
+      Futuristic Cyan Security Drone Sprite_48: -3337049316586372117
+      Futuristic Cyan Security Drone Sprite_49: -4530503131699874999
+      Futuristic Cyan Security Drone Sprite_5: 8249498642367833788
+      Futuristic Cyan Security Drone Sprite_50: 109436500902079442
+      Futuristic Cyan Security Drone Sprite_51: 4131600341085385164
+      Futuristic Cyan Security Drone Sprite_52: 1932505655756274187
+      Futuristic Cyan Security Drone Sprite_53: 3922025824430066294
+      Futuristic Cyan Security Drone Sprite_54: -8975272849488280700
+      Futuristic Cyan Security Drone Sprite_55: -24720633484679891
+      Futuristic Cyan Security Drone Sprite_56: 7835166918248393519
+      Futuristic Cyan Security Drone Sprite_57: -5537478775687664509
+      Futuristic Cyan Security Drone Sprite_58: 5984109681371972975
+      Futuristic Cyan Security Drone Sprite_59: -6015875940859474616
+      Futuristic Cyan Security Drone Sprite_6: -5578715735803774360
+      Futuristic Cyan Security Drone Sprite_60: -7055415250598487090
+      Futuristic Cyan Security Drone Sprite_61: -1437848231071934306
+      Futuristic Cyan Security Drone Sprite_62: -3883255219446213990
+      Futuristic Cyan Security Drone Sprite_63: -2675049761394373982
+      Futuristic Cyan Security Drone Sprite_64: -7589251935448404884
+      Futuristic Cyan Security Drone Sprite_65: 4962945892988290260
+      Futuristic Cyan Security Drone Sprite_66: 5211200423193520140
+      Futuristic Cyan Security Drone Sprite_67: -6733375918136894371
+      Futuristic Cyan Security Drone Sprite_68: 1006435131273768144
+      Futuristic Cyan Security Drone Sprite_69: 8067121219680496778
+      Futuristic Cyan Security Drone Sprite_7: 4317327897349657142
+      Futuristic Cyan Security Drone Sprite_70: -1043606966396799746
+      Futuristic Cyan Security Drone Sprite_71: 4538799148158510012
+      Futuristic Cyan Security Drone Sprite_72: -6936649221832285937
+      Futuristic Cyan Security Drone Sprite_73: 8347331901313961004
+      Futuristic Cyan Security Drone Sprite_74: -3048632439359181531
+      Futuristic Cyan Security Drone Sprite_75: -3986170426488579798
+      Futuristic Cyan Security Drone Sprite_76: 3096842867356545027
+      Futuristic Cyan Security Drone Sprite_77: -1814888026961486083
+      Futuristic Cyan Security Drone Sprite_78: -2479249696394086435
+      Futuristic Cyan Security Drone Sprite_79: -6492607167825366033
+      Futuristic Cyan Security Drone Sprite_8: -3774275105536263962
+      Futuristic Cyan Security Drone Sprite_80: 1975333885219764720
+      Futuristic Cyan Security Drone Sprite_81: -3866168338275855380
+      Futuristic Cyan Security Drone Sprite_82: 969308623136522410
+      Futuristic Cyan Security Drone Sprite_83: 2602400002750465091
+      Futuristic Cyan Security Drone Sprite_84: -8708737651203367276
+      Futuristic Cyan Security Drone Sprite_85: -7769486699244594563
+      Futuristic Cyan Security Drone Sprite_86: -854625297317377748
+      Futuristic Cyan Security Drone Sprite_87: 4657020639818927485
+      Futuristic Cyan Security Drone Sprite_88: 7848204683260049331
+      Futuristic Cyan Security Drone Sprite_89: -719892423771361649
+      Futuristic Cyan Security Drone Sprite_9: 7316229569919373812
+      Futuristic Cyan Security Drone Sprite_90: 3246512627509841291
+      Futuristic Cyan Security Drone Sprite_91: -7512931458746084905
+      Futuristic Cyan Security Drone Sprite_92: 9017939344078740883
+      Futuristic Cyan Security Drone Sprite_93: 5413510963256675122
+      Futuristic Cyan Security Drone Sprite_94: -9152277220392125282
+      Futuristic Cyan Security Drone Sprite_95: -7419669339860207002
+      Futuristic Cyan Security Drone Sprite_96: -6402747244165108356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
