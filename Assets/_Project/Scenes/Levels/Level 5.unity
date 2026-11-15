@@ -1625,6 +1625,7 @@ GameObject:
   - component: {fileID: 219947440}
   - component: {fileID: 219947439}
   - component: {fileID: 219947441}
+  - component: {fileID: 219947442}
   m_Layer: 0
   m_Name: BossCollider
   m_TagString: Untagged
@@ -1720,6 +1721,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Runtime::BossContactDamage
   damage: 10
   damageCooldown: 1
+--- !u!114 &219947442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219947437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e5fa1e5dbc24151adaecd37815d4bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Runtime::BossCloseRange
+  damage: 20
+  damageCooldown: 0.5
+  knockbackForce: 10
 --- !u!1 &231804286
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,7 +2267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Runtime::CameraFollow
   target: {fileID: 1662407501}
   smoothSpeed: 5
-  offsetX: 0
+  offset: {x: 0, y: 0, z: -10}
 --- !u!1 &248301168
 GameObject:
   m_ObjectHideFlags: 0
@@ -5654,6 +5670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Runtime::Health
   maxHP: 100
   healthText: {fileID: 0}
+  healthBar: {fileID: 0}
   currentHP: 0
   OnDamaged:
     m_PersistentCalls:
@@ -9010,7 +9027,6 @@ MonoBehaviour:
   bulletSpeed: 8
   contactDamage: 15
   damageCooldown: 1
-  droneSprite: {fileID: 0}
 --- !u!50 &1506668085
 Rigidbody2D:
   serializedVersion: 5
@@ -9789,6 +9805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Runtime::Health
   maxHP: 100
   healthText: {fileID: 0}
+  healthBar: {fileID: 0}
   currentHP: 0
   OnDamaged:
     m_PersistentCalls:
@@ -9842,8 +9859,8 @@ MonoBehaviour:
   playerVisual: {fileID: 1403851109}
   crouchSize: {x: 1, y: 0.8}
   crouchOffset: {x: 0, y: -0.4}
-  visualDownAmount: 0.25
-  crouchScaleY: 0.75
+  visualDownAmount: 0.4
+  crouchScaleY: 0.85
 --- !u!1 &1686908876
 GameObject:
   m_ObjectHideFlags: 0
@@ -12367,7 +12384,6 @@ MonoBehaviour:
   bulletSpeed: 8
   contactDamage: 15
   damageCooldown: 1
-  droneSprite: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
