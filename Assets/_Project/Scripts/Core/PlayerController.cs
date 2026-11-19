@@ -11,12 +11,15 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private VineSwing vineSwing;
+    private Animator animator;
     private bool isGrounded;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         vineSwing = GetComponent<VineSwing>();
+
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -66,6 +69,15 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity =
                 new Vector2(rb.linearVelocity.x, jumpForce);
+        }
+
+        // ANIMATION
+        if (animator != null)
+        {
+            animator.SetFloat(
+                "Speed",
+                Mathf.Abs(rb.linearVelocity.x)
+            );
         }
     }
 }
