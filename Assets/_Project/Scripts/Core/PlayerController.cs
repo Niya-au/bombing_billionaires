@@ -13,10 +13,6 @@ public class PlayerController : MonoBehaviour
     private VineSwing vineSwing;
     private bool isGrounded;
 
-    private bool isFacingRight = true;
-
-    public bool IsFacingRight => isFacingRight;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -45,11 +41,6 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity =
                 new Vector2(-moveSpeed, rb.linearVelocity.y);
-
-            if (isFacingRight)
-            {
-                Flip();
-            }
         }
 
         // RIGHT
@@ -57,11 +48,6 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity =
                 new Vector2(moveSpeed, rb.linearVelocity.y);
-
-            if (!isFacingRight)
-            {
-                Flip();
-            }
         }
 
         // Stop horizontal movement when grounded
@@ -81,14 +67,5 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity =
                 new Vector2(rb.linearVelocity.x, jumpForce);
         }
-    }
-
-    private void Flip()
-    {
-        isFacingRight = !isFacingRight;
-
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
     }
 }
