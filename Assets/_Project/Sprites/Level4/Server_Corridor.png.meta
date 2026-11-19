@@ -1,0 +1,5525 @@
+fileFormatVersion: 2
+guid: 9ce0d46344d09874790f2b9ba28b03c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3867153301394215630
+    second: Server_Corridor_0
+  - first:
+      213: -2353059510313735685
+    second: Server_Corridor_1
+  - first:
+      213: -1555475050014183322
+    second: Server_Corridor_2
+  - first:
+      213: -7568218919669483538
+    second: Server_Corridor_3
+  - first:
+      213: -5050909582399707586
+    second: Server_Corridor_4
+  - first:
+      213: -993050410486926831
+    second: Server_Corridor_5
+  - first:
+      213: 6118135973117111398
+    second: Server_Corridor_6
+  - first:
+      213: -6156483343626763224
+    second: Server_Corridor_7
+  - first:
+      213: -713422261616102909
+    second: Server_Corridor_8
+  - first:
+      213: -769405657686166193
+    second: Server_Corridor_9
+  - first:
+      213: 2266339512289194024
+    second: Server_Corridor_10
+  - first:
+      213: 3336866978614495100
+    second: Server_Corridor_11
+  - first:
+      213: 6089223946914514262
+    second: Server_Corridor_12
+  - first:
+      213: 1280449857475821795
+    second: Server_Corridor_13
+  - first:
+      213: 8510359770444270867
+    second: Server_Corridor_14
+  - first:
+      213: -9118052129637299346
+    second: Server_Corridor_15
+  - first:
+      213: -8084620864797034209
+    second: Server_Corridor_16
+  - first:
+      213: -8913259710926965221
+    second: Server_Corridor_17
+  - first:
+      213: 7593704521056856396
+    second: Server_Corridor_18
+  - first:
+      213: 232302256284011581
+    second: Server_Corridor_19
+  - first:
+      213: 3452724104998685250
+    second: Server_Corridor_20
+  - first:
+      213: 58690579641791347
+    second: Server_Corridor_21
+  - first:
+      213: 7593824642577659391
+    second: Server_Corridor_22
+  - first:
+      213: 3471066872298802993
+    second: Server_Corridor_23
+  - first:
+      213: -7913171439882945189
+    second: Server_Corridor_24
+  - first:
+      213: -4625944210225752528
+    second: Server_Corridor_25
+  - first:
+      213: 1853402498318263399
+    second: Server_Corridor_26
+  - first:
+      213: -1262645308624009051
+    second: Server_Corridor_27
+  - first:
+      213: -4182880633064774760
+    second: Server_Corridor_28
+  - first:
+      213: -8661087457786774476
+    second: Server_Corridor_29
+  - first:
+      213: -7700111055128786123
+    second: Server_Corridor_30
+  - first:
+      213: -5286443086313779150
+    second: Server_Corridor_31
+  - first:
+      213: 8692258248033906183
+    second: Server_Corridor_32
+  - first:
+      213: 4152046034670663068
+    second: Server_Corridor_33
+  - first:
+      213: -3475667413917076074
+    second: Server_Corridor_34
+  - first:
+      213: -1994049755528187769
+    second: Server_Corridor_35
+  - first:
+      213: 7378941545979485892
+    second: Server_Corridor_36
+  - first:
+      213: -2903444236941708044
+    second: Server_Corridor_37
+  - first:
+      213: -7631626936664431867
+    second: Server_Corridor_38
+  - first:
+      213: 2128511040125275566
+    second: Server_Corridor_39
+  - first:
+      213: 6315813287530648896
+    second: Server_Corridor_40
+  - first:
+      213: 5759439797548115247
+    second: Server_Corridor_41
+  - first:
+      213: -4102242501897981148
+    second: Server_Corridor_42
+  - first:
+      213: 8164165536094026512
+    second: Server_Corridor_43
+  - first:
+      213: -4297192280062390014
+    second: Server_Corridor_44
+  - first:
+      213: -2040594437092290755
+    second: Server_Corridor_45
+  - first:
+      213: 8378225605922358778
+    second: Server_Corridor_46
+  - first:
+      213: -7878645875630588554
+    second: Server_Corridor_47
+  - first:
+      213: -6689095662358157276
+    second: Server_Corridor_48
+  - first:
+      213: -160009851231324725
+    second: Server_Corridor_49
+  - first:
+      213: -7106261676500777524
+    second: Server_Corridor_50
+  - first:
+      213: 5803083043181734721
+    second: Server_Corridor_51
+  - first:
+      213: 1688313961048168132
+    second: Server_Corridor_52
+  - first:
+      213: -9125697660475770077
+    second: Server_Corridor_53
+  - first:
+      213: 1667270308709429644
+    second: Server_Corridor_54
+  - first:
+      213: -7226910045448865071
+    second: Server_Corridor_55
+  - first:
+      213: 4789601237999763854
+    second: Server_Corridor_56
+  - first:
+      213: 8948502438650544699
+    second: Server_Corridor_57
+  - first:
+      213: 5625229400241863552
+    second: Server_Corridor_58
+  - first:
+      213: 7313808364703097803
+    second: Server_Corridor_59
+  - first:
+      213: 955983732758850770
+    second: Server_Corridor_60
+  - first:
+      213: -5023976924895675722
+    second: Server_Corridor_61
+  - first:
+      213: -4829817470127634588
+    second: Server_Corridor_62
+  - first:
+      213: 2169828130552649558
+    second: Server_Corridor_63
+  - first:
+      213: -4704159703523622402
+    second: Server_Corridor_64
+  - first:
+      213: 5191353754944067744
+    second: Server_Corridor_65
+  - first:
+      213: -2232124498265922278
+    second: Server_Corridor_66
+  - first:
+      213: -1863670098539050303
+    second: Server_Corridor_67
+  - first:
+      213: 8338635699018784007
+    second: Server_Corridor_68
+  - first:
+      213: -1349872342697228475
+    second: Server_Corridor_69
+  - first:
+      213: -4131496581984466328
+    second: Server_Corridor_70
+  - first:
+      213: 3411330897883427407
+    second: Server_Corridor_71
+  - first:
+      213: 7329404742427763435
+    second: Server_Corridor_72
+  - first:
+      213: 758191643209487548
+    second: Server_Corridor_73
+  - first:
+      213: 7399711452134422181
+    second: Server_Corridor_74
+  - first:
+      213: 2852848658597667435
+    second: Server_Corridor_75
+  - first:
+      213: -1851532503874664661
+    second: Server_Corridor_76
+  - first:
+      213: -1506933211271186099
+    second: Server_Corridor_77
+  - first:
+      213: -1413477088160600231
+    second: Server_Corridor_78
+  - first:
+      213: 2931756066871312373
+    second: Server_Corridor_79
+  - first:
+      213: -2989088921399152152
+    second: Server_Corridor_80
+  - first:
+      213: 3168808056584259193
+    second: Server_Corridor_81
+  - first:
+      213: -1958509854665833611
+    second: Server_Corridor_82
+  - first:
+      213: 7859686650994066873
+    second: Server_Corridor_83
+  - first:
+      213: 6812042884606167454
+    second: Server_Corridor_84
+  - first:
+      213: -2868799465289705179
+    second: Server_Corridor_85
+  - first:
+      213: 1000001227516496032
+    second: Server_Corridor_86
+  - first:
+      213: -5473154435571602488
+    second: Server_Corridor_87
+  - first:
+      213: 8209410373735724583
+    second: Server_Corridor_88
+  - first:
+      213: 3841883020615214650
+    second: Server_Corridor_89
+  - first:
+      213: -1459808522326488512
+    second: Server_Corridor_90
+  - first:
+      213: 6435413727759817333
+    second: Server_Corridor_91
+  - first:
+      213: 7383171744865243442
+    second: Server_Corridor_92
+  - first:
+      213: -7072191878580267281
+    second: Server_Corridor_93
+  - first:
+      213: 7485710359971838280
+    second: Server_Corridor_94
+  - first:
+      213: 3057553635971258638
+    second: Server_Corridor_95
+  - first:
+      213: -8354989077871111696
+    second: Server_Corridor_96
+  - first:
+      213: -8639558358831858045
+    second: Server_Corridor_97
+  - first:
+      213: -212371347149383158
+    second: Server_Corridor_98
+  - first:
+      213: -7909491002341812847
+    second: Server_Corridor_99
+  - first:
+      213: 4150741079468876372
+    second: Server_Corridor_100
+  - first:
+      213: -7566101233229807549
+    second: Server_Corridor_101
+  - first:
+      213: 4071501060850955186
+    second: Server_Corridor_102
+  - first:
+      213: 1298409683808238855
+    second: Server_Corridor_103
+  - first:
+      213: -8614152898962662734
+    second: Server_Corridor_104
+  - first:
+      213: -3896801716524357564
+    second: Server_Corridor_105
+  - first:
+      213: 7245582822956011411
+    second: Server_Corridor_106
+  - first:
+      213: -3950768070121085861
+    second: Server_Corridor_107
+  - first:
+      213: -112620160568499564
+    second: Server_Corridor_108
+  - first:
+      213: -2781068775820610873
+    second: Server_Corridor_109
+  - first:
+      213: -5642662310424971408
+    second: Server_Corridor_110
+  - first:
+      213: -199146485267561457
+    second: Server_Corridor_111
+  - first:
+      213: 223888613359486445
+    second: Server_Corridor_112
+  - first:
+      213: -705515901694321962
+    second: Server_Corridor_113
+  - first:
+      213: -6633997818305949453
+    second: Server_Corridor_114
+  - first:
+      213: 1085443082026121499
+    second: Server_Corridor_115
+  - first:
+      213: 2467538393487920188
+    second: Server_Corridor_116
+  - first:
+      213: 844470461213389330
+    second: Server_Corridor_117
+  - first:
+      213: 4327820163067382892
+    second: Server_Corridor_118
+  - first:
+      213: 4412161860586325882
+    second: Server_Corridor_119
+  - first:
+      213: 8591665051658235826
+    second: Server_Corridor_120
+  - first:
+      213: 81409715449863491
+    second: Server_Corridor_121
+  - first:
+      213: 3024421105570799459
+    second: Server_Corridor_122
+  - first:
+      213: -1165382557518188148
+    second: Server_Corridor_123
+  - first:
+      213: 7830237307341755329
+    second: Server_Corridor_124
+  - first:
+      213: -6854577198400392360
+    second: Server_Corridor_125
+  - first:
+      213: 5545927939359466346
+    second: Server_Corridor_126
+  - first:
+      213: -6327870914001365803
+    second: Server_Corridor_127
+  - first:
+      213: -448078062940821182
+    second: Server_Corridor_128
+  - first:
+      213: -6145174726668497502
+    second: Server_Corridor_129
+  - first:
+      213: 3299012559434194165
+    second: Server_Corridor_130
+  - first:
+      213: 4251294212974960255
+    second: Server_Corridor_131
+  - first:
+      213: -7490175837568204432
+    second: Server_Corridor_132
+  - first:
+      213: 5133061985670076153
+    second: Server_Corridor_133
+  - first:
+      213: 8804567265168965173
+    second: Server_Corridor_134
+  - first:
+      213: -8693118616313472379
+    second: Server_Corridor_135
+  - first:
+      213: 2270235220903402185
+    second: Server_Corridor_136
+  - first:
+      213: 5733527959608436314
+    second: Server_Corridor_137
+  - first:
+      213: 6233740126801998499
+    second: Server_Corridor_138
+  - first:
+      213: -4879548603694286032
+    second: Server_Corridor_139
+  - first:
+      213: 7613521190104527801
+    second: Server_Corridor_140
+  - first:
+      213: 2049473739200645315
+    second: Server_Corridor_141
+  - first:
+      213: 8439975837972771839
+    second: Server_Corridor_142
+  - first:
+      213: 8141688530959199588
+    second: Server_Corridor_143
+  - first:
+      213: 7778152276545116955
+    second: Server_Corridor_144
+  - first:
+      213: 394305533175262446
+    second: Server_Corridor_145
+  - first:
+      213: -5919142036395303976
+    second: Server_Corridor_146
+  - first:
+      213: 6004989946134097163
+    second: Server_Corridor_147
+  - first:
+      213: -7061583937548413571
+    second: Server_Corridor_148
+  - first:
+      213: -7467457851990805811
+    second: Server_Corridor_149
+  - first:
+      213: -4321695575432753631
+    second: Server_Corridor_150
+  - first:
+      213: -6956340478583855001
+    second: Server_Corridor_151
+  - first:
+      213: -649329402874397921
+    second: Server_Corridor_152
+  - first:
+      213: 4094909597013981616
+    second: Server_Corridor_153
+  - first:
+      213: -7157157680925224084
+    second: Server_Corridor_154
+  - first:
+      213: -2146697277731643967
+    second: Server_Corridor_155
+  - first:
+      213: 413077913133739983
+    second: Server_Corridor_156
+  - first:
+      213: 2804595145525887547
+    second: Server_Corridor_157
+  - first:
+      213: -1851504505746926784
+    second: Server_Corridor_158
+  - first:
+      213: -181455227974186581
+    second: Server_Corridor_159
+  - first:
+      213: 1850251343485970066
+    second: Server_Corridor_160
+  - first:
+      213: -7905125980740462224
+    second: Server_Corridor_161
+  - first:
+      213: -2117540807447795258
+    second: Server_Corridor_162
+  - first:
+      213: -8183617633828670638
+    second: Server_Corridor_163
+  - first:
+      213: -461589921090930295
+    second: Server_Corridor_164
+  - first:
+      213: 4426120990439794809
+    second: Server_Corridor_165
+  - first:
+      213: 9180393571879288127
+    second: Server_Corridor_166
+  - first:
+      213: 6885435027173860569
+    second: Server_Corridor_167
+  - first:
+      213: -7091369449127699784
+    second: Server_Corridor_168
+  - first:
+      213: -7300266442081630282
+    second: Server_Corridor_169
+  - first:
+      213: 3229238971708915967
+    second: Server_Corridor_170
+  - first:
+      213: -1940357824656512766
+    second: Server_Corridor_171
+  - first:
+      213: -2356584133057974070
+    second: Server_Corridor_172
+  - first:
+      213: 2022280449996315227
+    second: Server_Corridor_173
+  - first:
+      213: -8859280199945196573
+    second: Server_Corridor_174
+  - first:
+      213: -2352229830137410171
+    second: Server_Corridor_175
+  - first:
+      213: -6799417792659397204
+    second: Server_Corridor_176
+  - first:
+      213: -1839143954352310562
+    second: Server_Corridor_177
+  - first:
+      213: 6952286044309497057
+    second: Server_Corridor_178
+  - first:
+      213: -1154081111051562808
+    second: Server_Corridor_179
+  - first:
+      213: -1276432920326485401
+    second: Server_Corridor_180
+  - first:
+      213: 5449392002098891979
+    second: Server_Corridor_181
+  - first:
+      213: -5418135334141033008
+    second: Server_Corridor_182
+  - first:
+      213: 4661277409377588054
+    second: Server_Corridor_183
+  - first:
+      213: -964027905519196655
+    second: Server_Corridor_184
+  - first:
+      213: -9204497935145672082
+    second: Server_Corridor_185
+  - first:
+      213: 1076233753452237670
+    second: Server_Corridor_186
+  - first:
+      213: -7098990989429193288
+    second: Server_Corridor_187
+  - first:
+      213: 3142770949712658099
+    second: Server_Corridor_188
+  - first:
+      213: 4826726097411234129
+    second: Server_Corridor_189
+  - first:
+      213: 4062399857981548645
+    second: Server_Corridor_190
+  - first:
+      213: -8235982847248378072
+    second: Server_Corridor_191
+  - first:
+      213: -646811694159410347
+    second: Server_Corridor_192
+  - first:
+      213: -1115413132804755837
+    second: Server_Corridor_193
+  - first:
+      213: -28091750215219460
+    second: Server_Corridor_194
+  - first:
+      213: -1886213619137868415
+    second: Server_Corridor_195
+  - first:
+      213: 80780779193098572
+    second: Server_Corridor_196
+  - first:
+      213: -1525378360675803046
+    second: Server_Corridor_197
+  - first:
+      213: -8813928455924207533
+    second: Server_Corridor_198
+  - first:
+      213: -1089776004617113409
+    second: Server_Corridor_199
+  - first:
+      213: -6854500233760337274
+    second: Server_Corridor_200
+  - first:
+      213: 817067632921928329
+    second: Server_Corridor_201
+  - first:
+      213: 462904611065606119
+    second: Server_Corridor_202
+  - first:
+      213: 1481026974860509014
+    second: Server_Corridor_203
+  - first:
+      213: -5688777666344191546
+    second: Server_Corridor_204
+  - first:
+      213: 5230405970063897910
+    second: Server_Corridor_205
+  - first:
+      213: -8153782325895785407
+    second: Server_Corridor_206
+  - first:
+      213: -5333514632581211548
+    second: Server_Corridor_207
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Server_Corridor_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 612
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2d4954073eaa530800000000000000
+      internalID: 3867153301394215630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 538
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf92568a7d0485fd0800000000000000
+      internalID: -2353059510313735685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 564
+        width: 108
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660fbeaeea7d96ae0800000000000000
+      internalID: -1555475050014183322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_3
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 610
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7b5be9df848f690800000000000000
+      internalID: -7568218919669483538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 582
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36e274ee7097e9b0800000000000000
+      internalID: -5050909582399707586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_5
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 577
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112fedeb9e9f732f0800000000000000
+      internalID: -993050410486926831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_6
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 608
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c2f25904cf7e450800000000000000
+      internalID: 6118135973117111398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_7
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 512
+        width: 122
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82484857407cf8aa0800000000000000
+      internalID: -6156483343626763224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_8
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 590
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3023481ab3a6916f0800000000000000
+      internalID: -713422261616102909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_9
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 612
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45b07d71a58255f0800000000000000
+      internalID: -769405657686166193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 623
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820fd6267c7a37f10800000000000000
+      internalID: 2266339512289194024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_11
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 568
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c774c0b66deee4e20800000000000000
+      internalID: 3336866978614495100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_12
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 589
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65544a9eae4418450800000000000000
+      internalID: 6089223946914514262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_13
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 604
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0cb8b7c5215c110800000000000000
+      internalID: 1280449857475821795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_14
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 616
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d0b141f1fda1670800000000000000
+      internalID: 8510359770444270867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_15
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 618
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b8979c5eb267180800000000000000
+      internalID: -9118052129637299346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_16
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 592
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19bf0a5828adcf80800000000000000
+      internalID: -8084620864797034209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_17
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 512
+        width: 158
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16b563748dbd4480800000000000000
+      internalID: -8913259710926965221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_18
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 594
+        width: 118
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c492fda5702426960800000000000000
+      internalID: 7593704521056856396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_19
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 610
+        width: 23
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c845adbad493300800000000000000
+      internalID: 232302256284011581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_20
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 611
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a00e9b74a8aef20800000000000000
+      internalID: 3452724104998685250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_21
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 594
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373f53f65c280d000800000000000000
+      internalID: 58690579641791347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_22
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 578
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5f273574fa26960800000000000000
+      internalID: 7593824642577659391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_23
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 512
+        width: 128
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f0ffa0ee4bb2030800000000000000
+      internalID: 3471066872298802993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_24
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 576
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5db20f4084ce2290800000000000000
+      internalID: -7913171439882945189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_25
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 568
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03618b600485dcfb0800000000000000
+      internalID: -4625944210225752528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_26
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 600
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764e412a0cb98b910800000000000000
+      internalID: 1853402498318263399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_27
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 614
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8072618ce2a7ee0800000000000000
+      internalID: -1262645308624009051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8932050e93c63f5c0800000000000000
+      internalID: -4182880633064774760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 522
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c370678d2adc780800000000000000
+      internalID: -8661087457786774476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 592
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b8df3dac5b32590800000000000000
+      internalID: -7700111055128786123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 556
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23092f29508c2a6b0800000000000000
+      internalID: -5286443086313779150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 530
+        width: 61
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e2502b2da11a870800000000000000
+      internalID: 8692258248033906183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_33
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 594
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c953d9bbed70f9930800000000000000
+      internalID: 4152046034670663068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 566
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6957214e6e2f3cfc0800000000000000
+      internalID: -3475667413917076074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_35
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 544
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780b941ff46b354e0800000000000000
+      internalID: -1994049755528187769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_36
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 583
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce9a72ad34476660800000000000000
+      internalID: 7378941545979485892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_37
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 578
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f43fef79d4e4b7d0800000000000000
+      internalID: -2903444236941708044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 533
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50360d53cb3071690800000000000000
+      internalID: -7631626936664431867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_39
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 546
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0a2f738df98d10800000000000000
+      internalID: 2128511040125275566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_40
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 534
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045d4fee8b646a750800000000000000
+      internalID: 6315813287530648896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_41
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 563
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f256a162bf3adef40800000000000000
+      internalID: 5759439797548115247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_42
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 583
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4237cdbdd28e117c0800000000000000
+      internalID: -4102242501897981148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_43
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 594
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bfe5aac41fc4170800000000000000
+      internalID: 8164165536094026512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_44
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 585
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2019457836e4d54c0800000000000000
+      internalID: -4297192280062390014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_45
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 600
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fc976cb2a5ea3e0800000000000000
+      internalID: -2040594437092290755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_46
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 550
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af585118ccf654470800000000000000
+      internalID: 8378225605922358778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_47
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d31f7a15d69a290800000000000000
+      internalID: -7878645875630588554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_48
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 612
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42829887fee8b23a0800000000000000
+      internalID: -6689095662358157276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_49
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 516
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc53bc853e787cdf0800000000000000
+      internalID: -160009851231324725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_50
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 522
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc50333e7ac716d90800000000000000
+      internalID: -7106261676500777524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_51
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 568
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ba0fe1841b88050800000000000000
+      internalID: 5803083043181734721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_52
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 564
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6db9d3a981e6710800000000000000
+      internalID: 1688313961048168132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_53
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 564
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b7abbe3520b5180800000000000000
+      internalID: -9125697660475770077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_54
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 604
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c817e2f1385532710800000000000000
+      internalID: 1667270308709429644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_55
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 548
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da715d7a9bd4bb90800000000000000
+      internalID: -7226910045448865071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_56
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 568
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e814fb613f4187240800000000000000
+      internalID: 4789601237999763854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_57
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 518
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b328b778e877f2c70800000000000000
+      internalID: 8948502438650544699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_58
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 597
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08bff75f554d01e40800000000000000
+      internalID: 5625229400241863552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_59
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 575
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3a86d15fddf7560800000000000000
+      internalID: 7313808364703097803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_60
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 516
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dca422d326544d00800000000000000
+      internalID: 955983732758850770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_61
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 585
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba75dfda9f374ab0800000000000000
+      internalID: -5023976924895675722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_62
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 562
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4670113b99a09fcb0800000000000000
+      internalID: -4829817470127634588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_63
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 598
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6579d314037cc1e10800000000000000
+      internalID: 2169828130552649558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_64
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 594
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef184c06ca777beb0800000000000000
+      internalID: -4704159703523622402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_65
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 550
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8d4d23cb46b0840800000000000000
+      internalID: 5191353754944067744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_66
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 544
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15a96a5896e501e0800000000000000
+      internalID: -2232124498265922278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_67
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 564
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca00166be9e226e0800000000000000
+      internalID: -1863670098539050303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_68
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 596
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dd76ffcf8c8b370800000000000000
+      internalID: 8338635699018784007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_69
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 532
+        width: 53
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5474869914a444de0800000000000000
+      internalID: -1349872342697228475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_70
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 552
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a43109fb9f9a6c0800000000000000
+      internalID: -4131496581984466328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_71
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 520
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42f7aba06b775f20800000000000000
+      internalID: 3411330897883427407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_72
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 564
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be26877c7c647b560800000000000000
+      internalID: 7329404742427763435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_73
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 578
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4db2d4843a58a00800000000000000
+      internalID: 758191643209487548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_74
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 546
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6bcd04c5e01b660800000000000000
+      internalID: 7399711452134422181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_75
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 594
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62e9ad6dba579720800000000000000
+      internalID: 2852848658597667435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_76
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 564
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2706706ff80e46e0800000000000000
+      internalID: -1851532503874664661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_77
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 546
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4931f97a3c461be0800000000000000
+      internalID: -1506933211271186099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_78
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 546
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fa806c312526ce0800000000000000
+      internalID: -1413477088160600231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_79
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 512
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fff5f51c90bfa820800000000000000
+      internalID: 2931756066871312373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_80
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 554
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1b2fd767f9486d0800000000000000
+      internalID: -2989088921399152152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_81
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 554
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976c91e632ed9fb20800000000000000
+      internalID: 3168808056584259193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_82
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 522
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5738a8fe9a9f1d4e0800000000000000
+      internalID: -1958509854665833611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_83
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 554
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5816edd57331d60800000000000000
+      internalID: 7859686650994066873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_84
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 551
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e998dab69ec398e50800000000000000
+      internalID: 6812042884606167454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_85
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 514
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529939bf51aff28d0800000000000000
+      internalID: -2868799465289705179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_86
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 538
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8431571d7b0ed00800000000000000
+      internalID: 1000001227516496032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_87
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 530
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cba6e2f9037b04b0800000000000000
+      internalID: -5473154435571602488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_88
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 528
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726bce55d3fade170800000000000000
+      internalID: 8209410373735724583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_89
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 514
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36ef58804c115530800000000000000
+      internalID: 3841883020615214650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_90
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 495
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a44a222e7bdbbe0800000000000000
+      internalID: -1459808522326488512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_91
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 514
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57adbc960be2f4950800000000000000
+      internalID: 6435413727759817333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_92
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 516
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231d460959b467660800000000000000
+      internalID: 7383171744865243442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_93
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 515
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe612ddd4f68add90800000000000000
+      internalID: -7072191878580267281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_94
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 500
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849359159e592e760800000000000000
+      internalID: 7485710359971838280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_95
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 516
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0955c115dc9e6a20800000000000000
+      internalID: 3057553635971258638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_96
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 524
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1593743bd1d0c80800000000000000
+      internalID: -8354989077871111696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ef19d627f1a1880800000000000000
+      internalID: -8639558358831858045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_98
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 478
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a90bc82618d0df0800000000000000
+      internalID: -212371347149383158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_99
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 499
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1959443f6d7db3290800000000000000
+      internalID: -7909491002341812847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_100
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 487
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4522d5c25056a9930800000000000000
+      internalID: 4150741079468876372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_101
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 498
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34041bae30fcff690800000000000000
+      internalID: -7566101233229807549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_102
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 482
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3b5a2a4a0e08830800000000000000
+      internalID: 4071501060850955186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_103
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 482
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d31586ab0e40210800000000000000
+      internalID: 1298409683808238855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_104
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2badd600491647880800000000000000
+      internalID: -8614152898962662734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_105
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 484
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448ee662c77cbe9c0800000000000000
+      internalID: -3896801716524357564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_106
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 182
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f07f0503b7d8460800000000000000
+      internalID: 7245582822956011411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_107
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 146
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b542a7e4f5d0c29c0800000000000000
+      internalID: -3950768070121085861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_108
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 149
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49264c68f84ef6ef0800000000000000
+      internalID: -112620160568499564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_109
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 142
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c23841eea8a769d0800000000000000
+      internalID: -2781068775820610873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_110
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 130
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07772a7568c31b1b0800000000000000
+      internalID: -5642662310424971408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_111
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 140
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f040c57a35d7c3df0800000000000000
+      internalID: -199146485267561457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_112
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 144
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de50c84f1896b1300800000000000000
+      internalID: 223888613359486445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_113
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 144
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dade1086018536f0800000000000000
+      internalID: -705515901694321962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_114
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 144
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f05827f12e4fe3a0800000000000000
+      internalID: -6633997818305949453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_115
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 139
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1972107bb4401f00800000000000000
+      internalID: 1085443082026121499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_116
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 144
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c4c7568157e3220800000000000000
+      internalID: 2467538393487920188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_117
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 144
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2123fe7096928bb00800000000000000
+      internalID: 844470461213389330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_118
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 145
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c876f22818f0c30800000000000000
+      internalID: 4327820163067382892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_119
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 144
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7746c7e5d52b3d30800000000000000
+      internalID: 4412161860586325882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_120
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 132
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf2a3908d9bb3770800000000000000
+      internalID: 8591665051658235826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_121
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 146
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d97a274b9312100800000000000000
+      internalID: 81409715449863491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_122
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 142
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fddb0b8f6e8f920800000000000000
+      internalID: 3024421105570799459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_123
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 126
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8131b70dbab3dfe0800000000000000
+      internalID: -1165382557518188148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_124
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 110
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3dd1b38579aac60800000000000000
+      internalID: 7830237307341755329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_125
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 128
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8533adbea56afd0a0800000000000000
+      internalID: -6854577198400392360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_126
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 128
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a636f67c31817fc40800000000000000
+      internalID: 5545927939359466346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_127
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 122
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d41c622ee2ee28a0800000000000000
+      internalID: -6327870914001365803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_128
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 136
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24964c2306b18c9f0800000000000000
+      internalID: -448078062940821182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_129
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 138
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad47360524f7baa0800000000000000
+      internalID: -6145174726668497502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_130
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 130
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc90a2a17278cd20800000000000000
+      internalID: 3299012559434194165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_131
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 130
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7edb08ff81affa30800000000000000
+      internalID: 4251294212974960255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_132
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 128
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0718888a2cc8d0890800000000000000
+      internalID: -7490175837568204432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_133
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 114
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f61de90eac4c3740800000000000000
+      internalID: 5133061985670076153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_134
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 130
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ebd61774b103a70800000000000000
+      internalID: 8804567265168965173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_135
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 132
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58adc443da6db5780800000000000000
+      internalID: -8693118616313472379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_136
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 106
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca178ab7ee718f10800000000000000
+      internalID: 2270235220903402185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_137
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 128
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a562b3e3d45919f40800000000000000
+      internalID: 5733527959608436314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_138
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 117
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2b1281e91b28650800000000000000
+      internalID: 6233740126801998499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_139
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 106
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b7c8cd56c584cb0800000000000000
+      internalID: -4879548603694286032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_140
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 134
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3f61a2f29a8a960800000000000000
+      internalID: 7613521190104527801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_141
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 108
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8cb89d181317c10800000000000000
+      internalID: 2049473739200645315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_142
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 130
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff33f37ce41d02570800000000000000
+      internalID: 8439975837972771839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_143
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 126
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46de1b715961df070800000000000000
+      internalID: 8141688530959199588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_144
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 132
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b1e5cf84c81fb60800000000000000
+      internalID: 7778152276545116955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_145
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 130
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eece1e51bcad87500800000000000000
+      internalID: 394305533175262446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_146
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 128
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db5399cdabfadda0800000000000000
+      internalID: -5919142036395303976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_147
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 128
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d6d1b4a82065350800000000000000
+      internalID: 6004989946134097163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_148
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 114
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7592da92d6300e90800000000000000
+      internalID: -7061583937548413571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_149
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 108
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2f2ecd5a24e5890800000000000000
+      internalID: -7467457851990805811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_150
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 103
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e04fe75c04604c0800000000000000
+      internalID: -4321695575432753631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_151
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 106
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768a655e03d167f90800000000000000
+      internalID: -6956340478583855001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_152
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 128
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b747f295e1df6f0800000000000000
+      internalID: -649329402874397921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_153
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 95
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b93b5d259a04d830800000000000000
+      internalID: 4094909597013981616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_154
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 112
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c635efa620bacac90800000000000000
+      internalID: -7157157680925224084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_155
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 118
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdd18813366532e0800000000000000
+      internalID: -2146697277731643967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_156
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 118
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf65e46c2c8bb500800000000000000
+      internalID: 413077913133739983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_157
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 114
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b320bdbec6cebe620800000000000000
+      internalID: 2804595145525887547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_158
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0435be236722e46e0800000000000000
+      internalID: -1851504505746926784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_159
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba906f97e675b7df0800000000000000
+      internalID: -181455227974186581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_160
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 103
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296aba93bc96da910800000000000000
+      internalID: 1850251343485970066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_161
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 92
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079d04dbdc95b4290800000000000000
+      internalID: -7905125980740462224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_162
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 110
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c92ea6dadbfc92e0800000000000000
+      internalID: -2117540807447795258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_163
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 96
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253f406ee13fd6e80800000000000000
+      internalID: -8183617633828670638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_164
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9897971996a1899f0800000000000000
+      internalID: -461589921090930295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_165
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 101
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9786018179dbc6d30800000000000000
+      internalID: 4426120990439794809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_166
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 95
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3df426505f476f70800000000000000
+      internalID: 9180393571879288127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_167
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 108
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4eab63daafd8f50800000000000000
+      internalID: 6885435027173860569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_168
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 116
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba9fa5ce05669d90800000000000000
+      internalID: -7091369449127699784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_169
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b70502795e30ba90800000000000000
+      internalID: -7300266442081630282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_170
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 81
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0ce8b4cbf80dc20800000000000000
+      internalID: 3229238971708915967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_171
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209e234c6d67215e0800000000000000
+      internalID: -1940357824656512766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_172
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 112
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0f1c9773bbb4fd0800000000000000
+      internalID: -2356584133057974070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_173
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 110
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a5f32da55901c10800000000000000
+      internalID: 2022280449996315227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_174
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 95
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb6d9cb8938d0580800000000000000
+      internalID: -8859280199945196573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_175
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 95
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d0590ae633b5fd0800000000000000
+      internalID: -2352229830137410171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_176
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 94
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5e01dda8d93a1a0800000000000000
+      internalID: -6799417792659397204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_177
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 85
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6f506515c0a76e0800000000000000
+      internalID: -1839143954352310562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_178
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e429ff825b7b7060800000000000000
+      internalID: 6952286044309497057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_179
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c098c51851ebffe0800000000000000
+      internalID: -1154081111051562808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_180
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 106
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a43549503394ee0800000000000000
+      internalID: -1276432920326485401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_181
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 106
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc85fe572120ab40800000000000000
+      internalID: 5449392002098891979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_182
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 95
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5088fbe9aeec4b0800000000000000
+      internalID: -5418135334141033008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_183
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 87
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65311897b1f20b040800000000000000
+      internalID: 4661277409377588054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_184
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 79
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116e6f14ab51f92f0800000000000000
+      internalID: -964027905519196655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_185
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 95
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6263df35ed034080800000000000000
+      internalID: -9204497935145672082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_186
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6635ec985ec8fee00800000000000000
+      internalID: 1076233753452237670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_187
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 87
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5cf53ae415b7d90800000000000000
+      internalID: -7098990989429193288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_188
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 87
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be3a04178d5d9b20800000000000000
+      internalID: 3142770949712658099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_189
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 87
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159dd4000d9fbf240800000000000000
+      internalID: 4826726097411234129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_190
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 81
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5686696b52b806830800000000000000
+      internalID: 4062399857981548645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_191
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 96
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827dc8d8c39e3bd80800000000000000
+      internalID: -8235982847248378072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_192
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 85
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b4f0de0301607f0800000000000000
+      internalID: -646811694159410347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_193
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 85
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38eed595aa14580f0800000000000000
+      internalID: -1115413132804755837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_194
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf68d47b3b23c9ff0800000000000000
+      internalID: -28091750215219460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_195
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 79
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d88ccf4b2d2d5e0800000000000000
+      internalID: -1886213619137868415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_196
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 68
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41eb70d0bdfe1100800000000000000
+      internalID: 80780779193098572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_197
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 63
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50e9d77674c4dae0800000000000000
+      internalID: -1525378360675803046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_198
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3503eec74c2aea580800000000000000
+      internalID: -8813928455924207533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_199
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 67
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb07d086f7650e0f0800000000000000
+      internalID: -1089776004617113409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_200
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68212e5aa5cefd0a0800000000000000
+      internalID: -6854500233760337274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_201
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 67
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982e7c1eeaec65b00800000000000000
+      internalID: 817067632921928329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_202
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efa47b8a419c6600800000000000000
+      internalID: 462904611065606119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_203
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 47
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ff453df2aad8410800000000000000
+      internalID: 1481026974860509014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_204
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 53
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9f0675ad66d01b0800000000000000
+      internalID: -5688777666344191546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_205
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 53
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635bdb49482269840800000000000000
+      internalID: 5230405970063897910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_206
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 55
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1449f19dc22f7de80800000000000000
+      internalID: -8153782325895785407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Server_Corridor_207
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a16a823bc8bf5b0800000000000000
+      internalID: -5333514632581211548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Server_Corridor_0: 3867153301394215630
+      Server_Corridor_1: -2353059510313735685
+      Server_Corridor_10: 2266339512289194024
+      Server_Corridor_100: 4150741079468876372
+      Server_Corridor_101: -7566101233229807549
+      Server_Corridor_102: 4071501060850955186
+      Server_Corridor_103: 1298409683808238855
+      Server_Corridor_104: -8614152898962662734
+      Server_Corridor_105: -3896801716524357564
+      Server_Corridor_106: 7245582822956011411
+      Server_Corridor_107: -3950768070121085861
+      Server_Corridor_108: -112620160568499564
+      Server_Corridor_109: -2781068775820610873
+      Server_Corridor_11: 3336866978614495100
+      Server_Corridor_110: -5642662310424971408
+      Server_Corridor_111: -199146485267561457
+      Server_Corridor_112: 223888613359486445
+      Server_Corridor_113: -705515901694321962
+      Server_Corridor_114: -6633997818305949453
+      Server_Corridor_115: 1085443082026121499
+      Server_Corridor_116: 2467538393487920188
+      Server_Corridor_117: 844470461213389330
+      Server_Corridor_118: 4327820163067382892
+      Server_Corridor_119: 4412161860586325882
+      Server_Corridor_12: 6089223946914514262
+      Server_Corridor_120: 8591665051658235826
+      Server_Corridor_121: 81409715449863491
+      Server_Corridor_122: 3024421105570799459
+      Server_Corridor_123: -1165382557518188148
+      Server_Corridor_124: 7830237307341755329
+      Server_Corridor_125: -6854577198400392360
+      Server_Corridor_126: 5545927939359466346
+      Server_Corridor_127: -6327870914001365803
+      Server_Corridor_128: -448078062940821182
+      Server_Corridor_129: -6145174726668497502
+      Server_Corridor_13: 1280449857475821795
+      Server_Corridor_130: 3299012559434194165
+      Server_Corridor_131: 4251294212974960255
+      Server_Corridor_132: -7490175837568204432
+      Server_Corridor_133: 5133061985670076153
+      Server_Corridor_134: 8804567265168965173
+      Server_Corridor_135: -8693118616313472379
+      Server_Corridor_136: 2270235220903402185
+      Server_Corridor_137: 5733527959608436314
+      Server_Corridor_138: 6233740126801998499
+      Server_Corridor_139: -4879548603694286032
+      Server_Corridor_14: 8510359770444270867
+      Server_Corridor_140: 7613521190104527801
+      Server_Corridor_141: 2049473739200645315
+      Server_Corridor_142: 8439975837972771839
+      Server_Corridor_143: 8141688530959199588
+      Server_Corridor_144: 7778152276545116955
+      Server_Corridor_145: 394305533175262446
+      Server_Corridor_146: -5919142036395303976
+      Server_Corridor_147: 6004989946134097163
+      Server_Corridor_148: -7061583937548413571
+      Server_Corridor_149: -7467457851990805811
+      Server_Corridor_15: -9118052129637299346
+      Server_Corridor_150: -4321695575432753631
+      Server_Corridor_151: -6956340478583855001
+      Server_Corridor_152: -649329402874397921
+      Server_Corridor_153: 4094909597013981616
+      Server_Corridor_154: -7157157680925224084
+      Server_Corridor_155: -2146697277731643967
+      Server_Corridor_156: 413077913133739983
+      Server_Corridor_157: 2804595145525887547
+      Server_Corridor_158: -1851504505746926784
+      Server_Corridor_159: -181455227974186581
+      Server_Corridor_16: -8084620864797034209
+      Server_Corridor_160: 1850251343485970066
+      Server_Corridor_161: -7905125980740462224
+      Server_Corridor_162: -2117540807447795258
+      Server_Corridor_163: -8183617633828670638
+      Server_Corridor_164: -461589921090930295
+      Server_Corridor_165: 4426120990439794809
+      Server_Corridor_166: 9180393571879288127
+      Server_Corridor_167: 6885435027173860569
+      Server_Corridor_168: -7091369449127699784
+      Server_Corridor_169: -7300266442081630282
+      Server_Corridor_17: -8913259710926965221
+      Server_Corridor_170: 3229238971708915967
+      Server_Corridor_171: -1940357824656512766
+      Server_Corridor_172: -2356584133057974070
+      Server_Corridor_173: 2022280449996315227
+      Server_Corridor_174: -8859280199945196573
+      Server_Corridor_175: -2352229830137410171
+      Server_Corridor_176: -6799417792659397204
+      Server_Corridor_177: -1839143954352310562
+      Server_Corridor_178: 6952286044309497057
+      Server_Corridor_179: -1154081111051562808
+      Server_Corridor_18: 7593704521056856396
+      Server_Corridor_180: -1276432920326485401
+      Server_Corridor_181: 5449392002098891979
+      Server_Corridor_182: -5418135334141033008
+      Server_Corridor_183: 4661277409377588054
+      Server_Corridor_184: -964027905519196655
+      Server_Corridor_185: -9204497935145672082
+      Server_Corridor_186: 1076233753452237670
+      Server_Corridor_187: -7098990989429193288
+      Server_Corridor_188: 3142770949712658099
+      Server_Corridor_189: 4826726097411234129
+      Server_Corridor_19: 232302256284011581
+      Server_Corridor_190: 4062399857981548645
+      Server_Corridor_191: -8235982847248378072
+      Server_Corridor_192: -646811694159410347
+      Server_Corridor_193: -1115413132804755837
+      Server_Corridor_194: -28091750215219460
+      Server_Corridor_195: -1886213619137868415
+      Server_Corridor_196: 80780779193098572
+      Server_Corridor_197: -1525378360675803046
+      Server_Corridor_198: -8813928455924207533
+      Server_Corridor_199: -1089776004617113409
+      Server_Corridor_2: -1555475050014183322
+      Server_Corridor_20: 3452724104998685250
+      Server_Corridor_200: -6854500233760337274
+      Server_Corridor_201: 817067632921928329
+      Server_Corridor_202: 462904611065606119
+      Server_Corridor_203: 1481026974860509014
+      Server_Corridor_204: -5688777666344191546
+      Server_Corridor_205: 5230405970063897910
+      Server_Corridor_206: -8153782325895785407
+      Server_Corridor_207: -5333514632581211548
+      Server_Corridor_21: 58690579641791347
+      Server_Corridor_22: 7593824642577659391
+      Server_Corridor_23: 3471066872298802993
+      Server_Corridor_24: -7913171439882945189
+      Server_Corridor_25: -4625944210225752528
+      Server_Corridor_26: 1853402498318263399
+      Server_Corridor_27: -1262645308624009051
+      Server_Corridor_28: -4182880633064774760
+      Server_Corridor_29: -8661087457786774476
+      Server_Corridor_3: -7568218919669483538
+      Server_Corridor_30: -7700111055128786123
+      Server_Corridor_31: -5286443086313779150
+      Server_Corridor_32: 8692258248033906183
+      Server_Corridor_33: 4152046034670663068
+      Server_Corridor_34: -3475667413917076074
+      Server_Corridor_35: -1994049755528187769
+      Server_Corridor_36: 7378941545979485892
+      Server_Corridor_37: -2903444236941708044
+      Server_Corridor_38: -7631626936664431867
+      Server_Corridor_39: 2128511040125275566
+      Server_Corridor_4: -5050909582399707586
+      Server_Corridor_40: 6315813287530648896
+      Server_Corridor_41: 5759439797548115247
+      Server_Corridor_42: -4102242501897981148
+      Server_Corridor_43: 8164165536094026512
+      Server_Corridor_44: -4297192280062390014
+      Server_Corridor_45: -2040594437092290755
+      Server_Corridor_46: 8378225605922358778
+      Server_Corridor_47: -7878645875630588554
+      Server_Corridor_48: -6689095662358157276
+      Server_Corridor_49: -160009851231324725
+      Server_Corridor_5: -993050410486926831
+      Server_Corridor_50: -7106261676500777524
+      Server_Corridor_51: 5803083043181734721
+      Server_Corridor_52: 1688313961048168132
+      Server_Corridor_53: -9125697660475770077
+      Server_Corridor_54: 1667270308709429644
+      Server_Corridor_55: -7226910045448865071
+      Server_Corridor_56: 4789601237999763854
+      Server_Corridor_57: 8948502438650544699
+      Server_Corridor_58: 5625229400241863552
+      Server_Corridor_59: 7313808364703097803
+      Server_Corridor_6: 6118135973117111398
+      Server_Corridor_60: 955983732758850770
+      Server_Corridor_61: -5023976924895675722
+      Server_Corridor_62: -4829817470127634588
+      Server_Corridor_63: 2169828130552649558
+      Server_Corridor_64: -4704159703523622402
+      Server_Corridor_65: 5191353754944067744
+      Server_Corridor_66: -2232124498265922278
+      Server_Corridor_67: -1863670098539050303
+      Server_Corridor_68: 8338635699018784007
+      Server_Corridor_69: -1349872342697228475
+      Server_Corridor_7: -6156483343626763224
+      Server_Corridor_70: -4131496581984466328
+      Server_Corridor_71: 3411330897883427407
+      Server_Corridor_72: 7329404742427763435
+      Server_Corridor_73: 758191643209487548
+      Server_Corridor_74: 7399711452134422181
+      Server_Corridor_75: 2852848658597667435
+      Server_Corridor_76: -1851532503874664661
+      Server_Corridor_77: -1506933211271186099
+      Server_Corridor_78: -1413477088160600231
+      Server_Corridor_79: 2931756066871312373
+      Server_Corridor_8: -713422261616102909
+      Server_Corridor_80: -2989088921399152152
+      Server_Corridor_81: 3168808056584259193
+      Server_Corridor_82: -1958509854665833611
+      Server_Corridor_83: 7859686650994066873
+      Server_Corridor_84: 6812042884606167454
+      Server_Corridor_85: -2868799465289705179
+      Server_Corridor_86: 1000001227516496032
+      Server_Corridor_87: -5473154435571602488
+      Server_Corridor_88: 8209410373735724583
+      Server_Corridor_89: 3841883020615214650
+      Server_Corridor_9: -769405657686166193
+      Server_Corridor_90: -1459808522326488512
+      Server_Corridor_91: 6435413727759817333
+      Server_Corridor_92: 7383171744865243442
+      Server_Corridor_93: -7072191878580267281
+      Server_Corridor_94: 7485710359971838280
+      Server_Corridor_95: 3057553635971258638
+      Server_Corridor_96: -8354989077871111696
+      Server_Corridor_97: -8639558358831858045
+      Server_Corridor_98: -212371347149383158
+      Server_Corridor_99: -7909491002341812847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

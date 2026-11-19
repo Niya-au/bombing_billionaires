@@ -11,12 +11,16 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private VineSwing vineSwing;
+    private Animator animator;
+
     private bool isGrounded;
+    private bool isFacingRight = true;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         vineSwing = GetComponent<VineSwing>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -41,6 +45,11 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity =
                 new Vector2(-moveSpeed, rb.linearVelocity.y);
+
+            if (isFacingRight)
+            {
+                Flip();
+            }
         }
 
         // RIGHT
@@ -48,13 +57,18 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity =
                 new Vector2(moveSpeed, rb.linearVelocity.y);
+
+            if (!isFacingRight)
+            {
+                Flip();
+            }
         }
 
         // Stop horizontal movement when grounded
         else if (isGrounded)
         {
             rb.linearVelocity =
-                new Vector2(0, rb.linearVelocity.y);
+                new Vector2(0f, rb.linearVelocity.y);
         }
 
         // JUMP
@@ -67,5 +81,23 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity =
                 new Vector2(rb.linearVelocity.x, jumpForce);
         }
+
+        // ANIMATION
+        if (animator != null)
+        {
+            animator.SetFloat(
+                "Speed",
+                Mathf.Abs(rb.linearVelocity.x)
+            );
+        }
+    }
+
+    void Flip()
+    {
+        isFacingRight = !isFacingRight;
+
+        Vector3 scale = transform.localScale;
+        scale.x *= -1f;
+        transform.localScale = scale;
     }
 }
