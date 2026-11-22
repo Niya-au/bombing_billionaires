@@ -68,6 +68,21 @@ public class LevelEndingController : MonoBehaviour
         StartCoroutine(JaffEscapeSequence());
     }
 
+    public void TriggerPlayerDeath()
+    {
+        if (endingStarted)
+            return;
+
+        endingStarted = true;
+
+        Debug.Log("BK died! Starting mission failed sequence.");
+
+        // Disable movement and other player controls.
+        StopPlayerControls();
+
+        // Reuse the existing fade-to-black and restart.
+        StartCoroutine(FadeToMissionFailed());
+    }
 
     IEnumerator JaffEscapeSequence()
     {
