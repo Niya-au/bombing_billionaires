@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 3ca14ebe801d3964ebb65ec27eb0ffd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7457739208476179629
+    second: Pixel-Art Alon in Metallic Frame_0
+  - first:
+      213: -7478373534482176363
+    second: Pixel-Art Alon in Metallic Frame_1
+  - first:
+      213: -8713244769444381734
+    second: Pixel-Art Alon in Metallic Frame_2
+  - first:
+      213: -5738701352134600248
+    second: Pixel-Art Alon in Metallic Frame_3
+  - first:
+      213: -2207046091790002183
+    second: Pixel-Art Alon in Metallic Frame_4
+  - first:
+      213: 525142899345978907
+    second: Pixel-Art Alon in Metallic Frame_5
+  - first:
+      213: 6545129863573936096
+    second: Pixel-Art Alon in Metallic Frame_6
+  - first:
+      213: 7953757770787052697
+    second: Pixel-Art Alon in Metallic Frame_7
+  - first:
+      213: 6278431611031237334
+    second: Pixel-Art Alon in Metallic Frame_8
+  - first:
+      213: 3210537530099683816
+    second: Pixel-Art Alon in Metallic Frame_9
+  - first:
+      213: -670944300238829340
+    second: Pixel-Art Alon in Metallic Frame_10
+  - first:
+      213: 1674066659343410813
+    second: Pixel-Art Alon in Metallic Frame_11
+  - first:
+      213: 5974318149800688894
+    second: Pixel-Art Alon in Metallic Frame_12
+  - first:
+      213: -2737133876640075113
+    second: Pixel-Art Alon in Metallic Frame_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 289
+        height: 973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3534643e3b9c08890800000000000000
+      internalID: -7457739208476179629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 1145
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596e18b74ea773890800000000000000
+      internalID: -7478373534482176363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_2
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 959
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbbc340c06541780800000000000000
+      internalID: -8713244769444381734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 945
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c996f176890c50b0800000000000000
+      internalID: -5738701352134600248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_4
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 759
+        width: 323
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f751ffd54ffe51e0800000000000000
+      internalID: -2207046091790002183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_5
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 895
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16f5d34faea94700800000000000000
+      internalID: 525142899345978907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_6
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 883
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7102feee8f4da50800000000000000
+      internalID: 6545129863573936096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_7
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 847
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cd34d3d8c616e60800000000000000
+      internalID: 7953757770787052697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_8
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 857
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2b9122948712750800000000000000
+      internalID: 6278431611031237334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_9
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 341
+        width: 147
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1d6ab9fde1e8c20800000000000000
+      internalID: 3210537530099683816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_10
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 535
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e80138b6b350b6f0800000000000000
+      internalID: -670944300238829340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_11
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d762d70d1ca7b3710800000000000000
+      internalID: 1674066659343410813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_12
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 31
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcf90634ba09e250800000000000000
+      internalID: 5974318149800688894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Alon in Metallic Frame_13
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 31
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7923e2cbd3fb30ad0800000000000000
+      internalID: -2737133876640075113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel-Art Alon in Metallic Frame_0: -7457739208476179629
+      Pixel-Art Alon in Metallic Frame_1: -7478373534482176363
+      Pixel-Art Alon in Metallic Frame_10: -670944300238829340
+      Pixel-Art Alon in Metallic Frame_11: 1674066659343410813
+      Pixel-Art Alon in Metallic Frame_12: 5974318149800688894
+      Pixel-Art Alon in Metallic Frame_13: -2737133876640075113
+      Pixel-Art Alon in Metallic Frame_2: -8713244769444381734
+      Pixel-Art Alon in Metallic Frame_3: -5738701352134600248
+      Pixel-Art Alon in Metallic Frame_4: -2207046091790002183
+      Pixel-Art Alon in Metallic Frame_5: 525142899345978907
+      Pixel-Art Alon in Metallic Frame_6: 6545129863573936096
+      Pixel-Art Alon in Metallic Frame_7: 7953757770787052697
+      Pixel-Art Alon in Metallic Frame_8: 6278431611031237334
+      Pixel-Art Alon in Metallic Frame_9: 3210537530099683816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -111,7 +111,7 @@ public class MoneySpawner : MonoBehaviour
         if (moneyText != null)
         {
             moneyText.text =
-                "Money: $" +
+                "Money Collected: $" +
                 collectedMoney +
                 " / $" +
                 collectionGoal;

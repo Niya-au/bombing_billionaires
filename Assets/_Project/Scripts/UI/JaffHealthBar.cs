@@ -4,25 +4,51 @@ using UnityEngine.UI;
 
 public class JaffHealthBar : MonoBehaviour
 {
-    public BossBase jaff;
-    public Slider healthSlider;
+    [Header("Jaff Health")]
+    [SerializeField] private BossBase jaff;
 
-    void Start()
+    [Header("Health Bar UI")]
+    [SerializeField] private Image fillImage;
+    [SerializeField] private float smoothSpeed = 5f;
+
+    private float targetFillAmount;
+
+    private void Start()
     {
-        if (jaff == null || healthSlider == null)
+        if (jaff == null || fillImage == null)
+        {
+            Debug.LogWarning("Jaff Health Bar references are missing!");
+            enabled = false;
             return;
+        }
 
-        healthSlider.minValue = 0;
-        healthSlider.maxValue = jaff.MaxHP;
-        healthSlider.value = jaff.CurrentHP;
+        targetFillAmount = GetHealthPercentage();
+        fillImage.fillAmount = targetFillAmount;
     }
 
-    void Update()
+    private void Update()
     {
-        if (jaff == null || healthSlider == null)
+        if (jaff == null)
             return;
 
-        healthSlider.value = jaff.CurrentHP;
+        // Get Jaff's current health percentage.
+        targetFillAmount = GetHealthPercentage();
+
+        // Smoothly animate the health bar.
+        fillImage.fillAmount = Mathf.Lerp(
+            fillImage.fillAmount,
+            targetFillAmount,
+            Mathf.Clamp01(smoothSpeed * Time.deltaTime)
+        );
+    }
+
+    private float GetHealthPercentage()
+    {
+        if (jaff.MaxHP <= 0)
+            return 0f;
+
+        return Mathf.Clamp01(
+            (float)jaff.CurrentHP / jaff.MaxHP
+        );
     }
 }
-
