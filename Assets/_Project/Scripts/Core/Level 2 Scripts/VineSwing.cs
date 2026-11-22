@@ -20,6 +20,9 @@ public class VineSwing : MonoBehaviour
     [Header("Regrabbing")]
     public float regrabCooldown = 0.3f;
 
+    [Header("Animation")]
+    public Animator animator;
+
     private float regrabTimer;
     private Collider2D lastVineCollider;
 
@@ -39,6 +42,9 @@ public class VineSwing : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        if (animator == null)
+            animator = GetComponentInChildren<Animator>();
 
         joint = GetComponent<DistanceJoint2D>();
 
@@ -242,6 +248,13 @@ public class VineSwing : MonoBehaviour
         attached = true;
         momentumTimer = 0f;
 
+        // Switch to Vine Idle animation.
+        if (animator != null)
+        {
+            animator.SetBool("IsVineJumping", false);
+            animator.SetBool("IsOnVine", true);
+        }
+
         currentVine.AttachPlayer(transform);
         lastVineCollider = vineCollider;
     }
@@ -255,6 +268,13 @@ public class VineSwing : MonoBehaviour
         attached = false;
 
         rb.linearVelocity *= releaseBoost;
+
+        // Play Vine Jump when releasing the vine.
+        if (animator != null)
+        {
+            animator.SetBool("IsOnVine", false);
+            animator.SetBool("IsVineJumping", true);
+        }
 
         momentumTimer = momentumTime;
         regrabTimer = regrabCooldown;
