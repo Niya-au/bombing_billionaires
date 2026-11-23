@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 
 public class BossWinManager : MonoBehaviour
@@ -8,6 +9,9 @@ public class BossWinManager : MonoBehaviour
 
     [Header("Player Controls")]
     public MonoBehaviour[] playerControlScripts;
+
+    [Header("Mission Success")]
+    public float successScreenDuration = 4f;
 
     private bool bossDefeated = false;
 
@@ -45,5 +49,21 @@ public class BossWinManager : MonoBehaviour
 
         // Pause gameplay while the success panel is visible.
         Time.timeScale = 0f;
+
+        // Start the return-to-level select sequence.
+        StartCoroutine(ReturnToLevelSelect());
+
+    }
+
+    private IEnumerator ReturnToLevelSelect()
+    {
+        // Keep the SuccessPanel visible for 4 seconds.
+        yield return new WaitForSecondsRealtime(successScreenDuration);
+
+        // Restore normal game speed.
+        Time.timeScale = 1f;
+
+        // Load the Intro scene.
+        SceneLoader.LoadLevel("LevelSelect");
     }
 }
