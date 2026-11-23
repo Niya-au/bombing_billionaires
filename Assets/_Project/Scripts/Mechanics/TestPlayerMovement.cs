@@ -1,18 +1,22 @@
+
 using UnityEngine;
 
 public class TestPlayerMovement : MonoBehaviour
 {
+    [Header("Movement")]
     public float speed = 5f;
     public float jumpForce = 9f;
 
+    [Header("References")]
     public Rigidbody2D rb;
     public Transform playerVisual;
+    public Animator animator;
 
     private bool isGrounded = false;
 
     void Update()
     {
-        // GÅ VENSTRE / HØJRE
+        // MOVE LEFT / RIGHT
         float horizontal = Input.GetAxisRaw("Horizontal");
 
         rb.linearVelocity = new Vector2(
@@ -20,7 +24,10 @@ public class TestPlayerMovement : MonoBehaviour
             rb.linearVelocity.y
         );
 
-        // HOP MED UP ARROW
+        // UPDATE WALK ANIMATION
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+
+        // JUMP WITH UP ARROW
         if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
         {
             rb.linearVelocity = new Vector2(
@@ -31,7 +38,7 @@ public class TestPlayerMovement : MonoBehaviour
             isGrounded = false;
         }
 
-        // FLIP HØJRE
+        // FLIP RIGHT
         if (horizontal > 0)
         {
             Vector3 scale = playerVisual.localScale;
@@ -39,7 +46,7 @@ public class TestPlayerMovement : MonoBehaviour
             playerVisual.localScale = scale;
         }
 
-        // FLIP VENSTRE
+        // FLIP LEFT
         if (horizontal < 0)
         {
             Vector3 scale = playerVisual.localScale;
