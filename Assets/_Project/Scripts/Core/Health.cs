@@ -14,6 +14,9 @@ public class Health : MonoBehaviour
     [SerializeField] private Image healthBarFill;
     [SerializeField] private HealthBar healthBar;
 
+    [Header("Game Over")]
+    [SerializeField] private GameOverManager gameOverManager;
+
     public int currentHP;
     public int MaxHP => maxHP;
 
@@ -29,6 +32,16 @@ public class Health : MonoBehaviour
 
         UpdateHealthUI();
         UpdateHealthBar();
+    }
+
+    private void Start()
+    {
+        // Find GameOverManager automatisk
+        if (gameOverManager == null)
+        {
+            gameOverManager =
+                FindFirstObjectByType<GameOverManager>();
+        }
     }
 
     public void TakeDamage(int amount)
@@ -52,7 +65,20 @@ public class Health : MonoBehaviour
 
             Debug.Log("PLAYER DIED!");
 
+            // Behold eksisterende døds-events
             OnDied?.Invoke();
+
+            // Vis Game Over-menuen
+            if (gameOverManager != null)
+            {
+                gameOverManager.ShowGameOver();
+            }
+            else
+            {
+                Debug.LogWarning(
+                    "Health: GameOverManager blev ikke fundet!"
+                );
+            }
         }
     }
 
@@ -64,7 +90,7 @@ public class Health : MonoBehaviour
                 currentHP + " / " + maxHP + " HP";
         }
 
-        // Green health bar from main
+        // Eksisterende grøn HP-bar
         if (healthBarFill != null)
         {
             healthBarFill.fillAmount =
@@ -76,7 +102,7 @@ public class Health : MonoBehaviour
 
     private void UpdateHealthBar()
     {
-        // Health bar from her branch
+        // Eksisterende HealthBar-system
         if (healthBar != null)
         {
             healthBar.SetHealth(currentHP, maxHP);

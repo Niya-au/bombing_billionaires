@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -9,6 +10,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Vector2 groundCheckSize = new Vector2(0.4f, 0.1f);
     [SerializeField] private Vector2 groundCheckOffset = new Vector2(0f, -0.5f);
+
+    [Header("BK Visual")]
+    [SerializeField] private SpriteRenderer bkSprite;
 
     [Header("Shooting")]
     [SerializeField] private GameObject projectilePrefab;
@@ -24,26 +28,34 @@ public class PlayerController : MonoBehaviour
     private Transform boss;
     private float shootTimer = 0f;
 
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         vineSwing = GetComponent<VineSwing>();
+
+        // Find BK's SpriteRenderer automatisk
+        if (bkSprite == null)
+        {
+            Transform visual = transform.Find("TyroneVisual");
+
+            if (visual != null)
+            {
+                bkSprite = visual.GetComponent<SpriteRenderer>();
+            }
+        }
 
         FindBoss();
 
         Debug.Log("🔵 BK SHOOTING SYSTEM READY");
     }
 
-
     void Update()
     {
-        // Find Alon hvis han endnu ikke eksisterer
+        // Find bossen, hvis den ikke er fundet
         if (boss == null)
         {
             FindBoss();
         }
-
 
         // ==========================================
         // AUTOMATISK SKYDNING MOD ALON
@@ -60,7 +72,6 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-
         // ==========================================
         // VINE SWING
         // ==========================================
@@ -70,7 +81,6 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-
         // ==========================================
         // GROUND CHECK
         // ==========================================
@@ -78,14 +88,12 @@ public class PlayerController : MonoBehaviour
         Vector2 checkPos =
             (Vector2)transform.position + groundCheckOffset;
 
-        isGrounded =
-            Physics2D.OverlapBox(
-                checkPos,
-                groundCheckSize,
-                0f,
-                groundLayer
-            );
-
+        isGrounded = Physics2D.OverlapBox(
+            checkPos,
+            groundCheckSize,
+            0f,
+            groundLayer
+        );
 
         // ==========================================
         // LEFT
@@ -96,13 +104,17 @@ public class PlayerController : MonoBehaviour
             Input.GetKey(KeyCode.A)
         )
         {
-            rb.linearVelocity =
-                new Vector2(
-                    -moveSpeed,
-                    rb.linearVelocity.y
-                );
-        }
+            rb.linearVelocity = new Vector2(
+                -moveSpeed,
+                rb.linearVelocity.y
+            );
 
+            // BK kigger mod venstre
+            if (bkSprite != null)
+            {
+                bkSprite.flipX = true;
+            }
+        }
 
         // ==========================================
         // RIGHT
@@ -113,13 +125,17 @@ public class PlayerController : MonoBehaviour
             Input.GetKey(KeyCode.D)
         )
         {
-            rb.linearVelocity =
-                new Vector2(
-                    moveSpeed,
-                    rb.linearVelocity.y
-                );
-        }
+            rb.linearVelocity = new Vector2(
+                moveSpeed,
+                rb.linearVelocity.y
+            );
 
+            // BK kigger mod højre
+            if (bkSprite != null)
+            {
+                bkSprite.flipX = false;
+            }
+        }
 
         // ==========================================
         // STOP
@@ -127,13 +143,11 @@ public class PlayerController : MonoBehaviour
 
         else if (isGrounded)
         {
-            rb.linearVelocity =
-                new Vector2(
-                    0f,
-                    rb.linearVelocity.y
-                );
+            rb.linearVelocity = new Vector2(
+                0f,
+                rb.linearVelocity.y
+            );
         }
-
 
         // ==========================================
         // JUMP
@@ -145,14 +159,12 @@ public class PlayerController : MonoBehaviour
 
         if (jumpPressed && isGrounded)
         {
-            rb.linearVelocity =
-                new Vector2(
-                    rb.linearVelocity.x,
-                    jumpForce
-                );
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                jumpForce
+            );
         }
     }
-
 
     // ==========================================
     // FIND ALON
@@ -160,8 +172,7 @@ public class PlayerController : MonoBehaviour
 
     private void FindBoss()
     {
-        GameObject bossObject =
-            GameObject.Find("alon_0");
+        GameObject bossObject = GameObject.Find("alon_0");
 
         if (bossObject != null)
         {
@@ -170,7 +181,6 @@ public class PlayerController : MonoBehaviour
             Debug.Log("🔵 BK FOUND ALON!");
         }
     }
-
 
     // ==========================================
     // SHOOT AT ALON
@@ -187,37 +197,27 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-
         if (boss == null)
         {
             return;
         }
 
-
         Vector2 direction =
-            (
-                boss.position -
-                transform.position
-            ).normalized;
-
+            (boss.position - transform.position).normalized;
 
         // Spawn lidt foran BK
         Vector2 spawnPosition =
             (Vector2)transform.position +
             direction * projectileSpawnDistance;
 
-
-        GameObject projectile =
-            Instantiate(
-                projectilePrefab,
-                spawnPosition,
-                Quaternion.identity
-            );
-
+        GameObject projectile = Instantiate(
+            projectilePrefab,
+            spawnPosition,
+            Quaternion.identity
+        );
 
         Rigidbody2D projectileRb =
             projectile.GetComponent<Rigidbody2D>();
-
 
         if (projectileRb == null)
         {
@@ -229,10 +229,8 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-
         projectileRb.linearVelocity =
             direction * projectileSpeed;
-
 
         Debug.Log("🔵 BK SHOT ALON!");
     }

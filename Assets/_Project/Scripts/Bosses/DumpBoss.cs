@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using System.Collections;
 
@@ -5,6 +6,11 @@ public class DumpBoss : BossBase
 {
     [Header("Animator")]
     [SerializeField] private Animator bossAnimator;
+
+    [Header("Boss Visual")]
+    [SerializeField] private SpriteRenderer bossSprite;
+    [SerializeField] private float bulletSpawnOffset = 0.6f;
+    [SerializeField] private bool spriteFacesRightByDefault = true;
 
     [Header("Riddle Shields")]
     [SerializeField] private GameObject riddleShield;
@@ -14,6 +20,9 @@ public class DumpBoss : BossBase
     [Header("Player")]
     [SerializeField] private Rigidbody2D playerRb;
 
+    [Header("First Riddle Distance")]
+    [SerializeField] private float riddleStartDistance = 3f;
+
     [Header("Security Guards")]
     [SerializeField] private SecurityGuardHealth[] securityGuards;
 
@@ -21,10 +30,18 @@ public class DumpBoss : BossBase
     [SerializeField] private Transform escapeDestination;
     [SerializeField] private float escapeSpeed = 3f;
 
+    [Header("Office Dialogue")]
+    [SerializeField] private GameObject officeTwitterBox;
+    [SerializeField] private float officeDialogueDuration = 4f;
+
     [Header("Shooting")]
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform firepoint;
     [SerializeField] private float shootInterval = 2f;
+
+    [Header("Victory")]
+    [SerializeField] private GameOverManager gameOverManager;
+    [SerializeField] private float victoryDelay = 2f;
 
     [Header("Damage Test")]
     [SerializeField] private bool enableDamageTest = false;
@@ -40,6 +57,7 @@ public class DumpBoss : BossBase
     private bool hasEscaped;
     private bool firstRiddleStarted;
     private bool dialogueActive;
+    private bool officeDialogueStarted;
 
     private int riddleStep;
     private float shootTimer;
@@ -69,12 +87,19 @@ public class DumpBoss : BossBase
         hasEscaped = false;
         firstRiddleStarted = false;
         dialogueActive = false;
+        officeDialogueStarted = false;
 
         riddleStep = 1;
         shootTimer = 0f;
 
         if (bossAnimator == null)
             bossAnimator = GetComponent<Animator>();
+
+        if (bossSprite == null)
+            bossSprite = GetComponent<SpriteRenderer>();
+
+        if (bossSprite == null)
+            bossSprite = GetComponentInChildren<SpriteRenderer>();
 
         if (bossAnimator != null)
             bossAnimator.SetInteger("CurrentPhase", currentPhase);
@@ -87,6 +112,16 @@ public class DumpBoss : BossBase
 
         if (riddlePanel != null)
             riddlePanel.SetActive(false);
+
+        // OfficeTwitterBox skal være skjult fra starten
+        if (officeTwitterBox != null)
+            officeTwitterBox.SetActive(false);
+
+        if (gameOverManager == null)
+        {
+            gameOverManager =
+                FindFirstObjectByType<GameOverManager>();
+        }
 
         if (playerRb == null)
         {
@@ -113,6 +148,19 @@ public class DumpBoss : BossBase
         Debug.Log("DumpBoss waiting for first meeting.");
     }
 
+    private void FacePlayer()
+    {
+        if (playerRb == null || bossSprite == null)
+            return;
+
+        bool playerIsLeft =
+            playerRb.position.x < transform.position.x;
+
+        bossSprite.flipX = spriteFacesRightByDefault
+            ? playerIsLeft
+            : !playerIsLeft;
+    }
+
     public void SetDialogueActive(bool active)
     {
         dialogueActive = active;
@@ -132,7 +180,9 @@ public class DumpBoss : BossBase
         }
         else
         {
-            Debug.LogWarning("Escape Destination is missing!");
+            Debug.LogWarning(
+                "Escape Destination is missing!"
+            );
         }
     }
 
@@ -156,22 +206,43 @@ public class DumpBoss : BossBase
         isEscaping = false;
         hasEscaped = true;
 
-        Debug.Log("DumpBoss reached Level 2 area.");
+        Debug.Log("DumpBoss reached office.");
     }
 
     private bool AllGuardsDefeated()
     {
         if (securityGuards == null ||
             securityGuards.Length == 0)
+        {
             return false;
+        }
 
         foreach (SecurityGuardHealth guard in securityGuards)
         {
-            if (guard != null && guard.gameObject.activeInHierarchy)
+            if (guard != null &&
+                guard.gameObject.activeInHierarchy)
+            {
                 return false;
+            }
         }
 
         return true;
+    }
+
+    public bool AreAllGuardsDefeated()
+    {
+        return AllGuardsDefeated();
+    }
+
+    private bool PlayerIsNearBoss()
+    {
+        if (playerRb == null)
+            return false;
+
+        return Vector2.Distance(
+            playerRb.position,
+            transform.position
+        ) <= riddleStartDistance;
     }
 
     private void Update()
@@ -179,7 +250,8 @@ public class DumpBoss : BossBase
         if (isDefeated || currentHP <= 0)
             return;
 
-        if (enableDamageTest && Input.GetKeyDown(KeyCode.H))
+        if (enableDamageTest &&
+            Input.GetKeyDown(KeyCode.H))
         {
             TakeDamage(testDamage);
         }
@@ -187,11 +259,22 @@ public class DumpBoss : BossBase
         if (!introFinished || isEscaping || !hasEscaped)
             return;
 
-        if (!firstRiddleStarted && AllGuardsDefeated())
+        FacePlayer();
+
+        // Vis OfficeTwitterBox efter alle vagter er døde
+        // og BK kommer tæt på Donald Dump
+        if (!officeDialogueStarted &&
+            !firstRiddleStarted &&
+            AllGuardsDefeated() &&
+            PlayerIsNearBoss() &&
+            !playerIsDead &&
+            !dialogueActive)
         {
-            StartFirstRiddle();
+            officeDialogueStarted = true;
+            StartCoroutine(PlayOfficeDialogue());
         }
 
+        // Første gåde er løst
         if (riddleStep == 1 &&
             riddleShield != null &&
             !riddleShield.activeSelf &&
@@ -201,9 +284,12 @@ public class DumpBoss : BossBase
             shieldProtectingBoss = false;
             shootTimer = 0f;
 
-            Debug.Log("Riddle01 solved! Boss fight begins.");
+            Debug.Log(
+                "Riddle01 solved! Boss fight begins."
+            );
         }
 
+        // Anden gåde er løst
         if (riddleStep == 3 &&
             riddleShield02 != null &&
             !riddleShield02.activeSelf)
@@ -212,25 +298,75 @@ public class DumpBoss : BossBase
             shieldProtectingBoss = false;
             shootTimer = 0f;
 
-            Debug.Log("Riddle02 solved! Boss vulnerable again.");
+            Debug.Log(
+                "Riddle02 solved! Boss vulnerable again."
+            );
         }
 
-        if (CanFight)
+        // Bossen skyder ikke under dialog eller gåder
+        if (!CanFight)
         {
-            shootTimer += Time.deltaTime;
-
-            if (shootTimer >= shootInterval)
-            {
-                shootTimer = 0f;
-                Shoot();
-            }
+            shootTimer = 0f;
+            return;
         }
+
+        shootTimer += Time.deltaTime;
+
+        if (shootTimer >= shootInterval)
+        {
+            shootTimer = 0f;
+            Shoot();
+        }
+    }
+
+    private IEnumerator PlayOfficeDialogue()
+    {
+        // Stop bossens skydning under dialogen
+        SetDialogueActive(true);
+
+        // Vis OfficeTwitterBox
+        if (officeTwitterBox != null)
+        {
+            officeTwitterBox.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning(
+                "DumpBoss: OfficeTwitterBox mangler!"
+            );
+        }
+
+        // Vent, mens Twitter-boksen vises
+        yield return new WaitForSecondsRealtime(
+            officeDialogueDuration
+        );
+
+        // Skjul Twitter-boksen
+        if (officeTwitterBox != null)
+        {
+            officeTwitterBox.SetActive(false);
+        }
+
+        // Start første gåde
+        SetDialogueActive(false);
+        StartFirstRiddle();
     }
 
     public void StartFirstRiddle()
     {
-        if (firstRiddleStarted || isDefeated)
+        if (firstRiddleStarted ||
+            isDefeated ||
+            playerIsDead ||
+            dialogueActive ||
+            !introFinished ||
+            isEscaping ||
+            !hasEscaped ||
+            !officeDialogueStarted ||
+            !AllGuardsDefeated() ||
+            !PlayerIsNearBoss())
+        {
             return;
+        }
 
         firstRiddleStarted = true;
         shieldProtectingBoss = true;
@@ -246,7 +382,9 @@ public class DumpBoss : BossBase
                 firstRiddle.OpenRiddle(playerRb);
         }
 
-        Debug.Log("All guards defeated! Riddle01 opened.");
+        Debug.Log(
+            "Office dialogue finished! Riddle01 opened."
+        );
     }
 
     private void OnPlayerDied()
@@ -260,15 +398,23 @@ public class DumpBoss : BossBase
 
     public override void TakeDamage(int amount)
     {
-        if (isDefeated || currentHP <= 0 || !CanFight)
+        if (isDefeated ||
+            currentHP <= 0 ||
+            !CanFight)
+        {
             return;
+        }
 
+        // Stop ved fase 3, så anden gåde kan starte
         if (currentPhase < 3 &&
             currentHP > maxHP * phaseThresholds[1] &&
-            currentHP - amount <= maxHP * phaseThresholds[1])
+            currentHP - amount <=
+                maxHP * phaseThresholds[1])
         {
             amount = currentHP -
-                Mathf.RoundToInt(maxHP * phaseThresholds[1]);
+                Mathf.RoundToInt(
+                    maxHP * phaseThresholds[1]
+                );
         }
 
         int previousHP = currentHP;
@@ -291,10 +437,17 @@ public class DumpBoss : BossBase
 
         if (bossAnimator != null)
         {
-            bossAnimator.SetInteger("CurrentPhase", newPhase);
-            bossAnimator.SetTrigger("Phase" + newPhase);
+            bossAnimator.SetInteger(
+                "CurrentPhase",
+                newPhase
+            );
+
+            bossAnimator.SetTrigger(
+                "Phase" + newPhase
+            );
         }
 
+        // Anden gåde ved fase 3
         if (newPhase == 3 && riddleStep == 2)
         {
             riddleStep = 3;
@@ -325,7 +478,9 @@ public class DumpBoss : BossBase
             return;
 
         isDefeated = true;
+
         base.OnDefeated();
+
         Die();
     }
 
@@ -344,31 +499,72 @@ public class DumpBoss : BossBase
 
     private IEnumerator DisableAfterDefeat()
     {
-        yield return new WaitForSeconds(2f);
+        // Vent på dødsanimationen
+        yield return new WaitForSeconds(victoryDelay);
+
+        // Skjul Donald Dump
         gameObject.SetActive(false);
+
+        // Find GameOverManager, hvis den ikke er sat
+        if (gameOverManager == null)
+        {
+            gameOverManager =
+                FindFirstObjectByType<GameOverManager>();
+        }
+
+        // Vis VICTORY-menuen
+        if (gameOverManager != null)
+        {
+            gameOverManager.ShowVictory();
+        }
+        else
+        {
+            Debug.LogWarning(
+                "DumpBoss: GameOverManager mangler!"
+            );
+        }
     }
 
     private void Shoot()
     {
         if (!CanFight ||
             projectilePrefab == null ||
-            firepoint == null)
+            firepoint == null ||
+            playerRb == null)
+        {
             return;
+        }
+
+        bool playerIsLeft =
+            playerRb.position.x < transform.position.x;
+
+        FacePlayer();
+
+        Vector3 spawnPosition = firepoint.position;
+
+        float bossCenterX = bossSprite != null
+            ? bossSprite.bounds.center.x
+            : transform.position.x;
+
+        spawnPosition.x = bossCenterX +
+            (playerIsLeft
+                ? -bulletSpawnOffset
+                : bulletSpawnOffset);
 
         GameObject bullet = Instantiate(
             projectilePrefab,
-            firepoint.position,
+            spawnPosition,
             Quaternion.identity
         );
 
         DumpProjectile projectile =
             bullet.GetComponent<DumpProjectile>();
 
-        if (projectile != null && playerRb != null)
+        if (projectile != null)
         {
             Vector2 direction =
                 (playerRb.position -
-                (Vector2)firepoint.position).normalized;
+                (Vector2)spawnPosition).normalized;
 
             projectile.SetDirection(direction);
         }
@@ -377,6 +573,10 @@ public class DumpBoss : BossBase
     private void OnDestroy()
     {
         if (playerHealth != null)
-            playerHealth.OnDied.RemoveListener(OnPlayerDied);
+        {
+            playerHealth.OnDied.RemoveListener(
+                OnPlayerDied
+            );
+        }
     }
 }

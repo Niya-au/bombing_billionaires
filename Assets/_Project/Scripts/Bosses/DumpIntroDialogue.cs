@@ -1,10 +1,11 @@
+
 using UnityEngine;
 using System.Collections;
 
 public class DumpIntroDialogue : MonoBehaviour
 {
-    [Header("Dialogue")]
-    [SerializeField] private DialogueBox dialogueBox;
+    [Header("New Dialogue Image")]
+    [SerializeField] private GameObject dumpDialogueImage;
     [SerializeField] private float dialogueDuration = 4f;
 
     [Header("Player")]
@@ -18,19 +19,26 @@ public class DumpIntroDialogue : MonoBehaviour
     {
         dumpBoss = GetComponent<DumpBoss>();
 
+        if (dumpDialogueImage != null)
+        {
+            dumpDialogueImage.SetActive(false);
+        }
+
         if (player == null)
         {
             GameObject playerObject =
                 GameObject.FindGameObjectWithTag("Player");
 
             if (playerObject != null)
+            {
                 player = playerObject.transform;
+            }
         }
     }
 
     private void Update()
     {
-        if (introStarted || player == null)
+        if (introStarted || player == null || dumpBoss == null)
             return;
 
         float distance = Vector2.Distance(
@@ -47,24 +55,32 @@ public class DumpIntroDialogue : MonoBehaviour
 
     private IEnumerator PlayIntro()
     {
-        if (dumpBoss != null)
-            dumpBoss.SetDialogueActive(true);
+        // Stop bossens handlinger under dialogen
+        dumpBoss.SetDialogueActive(true);
 
-        if (dialogueBox != null)
+        // Vis Donald Dumps nye dialogbillede
+        if (dumpDialogueImage != null)
         {
-            dialogueBox.ShowLine(
-                "Donald Dump: Nobody beats me! Not even China! You're fired!"
+            dumpDialogueImage.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning(
+                "DumpIntroDialogue: Dump Dialogue Image mangler!"
             );
-
-            yield return new WaitForSeconds(dialogueDuration);
-
-            dialogueBox.Hide();
         }
 
-        if (dumpBoss != null)
+        // Vent, mens billedet vises
+        yield return new WaitForSecondsRealtime(dialogueDuration);
+
+        // Skjul billedet igen
+        if (dumpDialogueImage != null)
         {
-            dumpBoss.SetDialogueActive(false);
-            dumpBoss.FinishIntroAndEscape();
+            dumpDialogueImage.SetActive(false);
         }
+
+        // Fortsæt spillet og lad Donald Dump flygte
+        dumpBoss.SetDialogueActive(false);
+        dumpBoss.FinishIntroAndEscape();
     }
 }
