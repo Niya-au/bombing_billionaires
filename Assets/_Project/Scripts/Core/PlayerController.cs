@@ -1,7 +1,9 @@
+
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movement")]
     public float moveSpeed = 5f;
     public float jumpForce = 7f;
 
@@ -9,12 +11,24 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Vector2 groundCheckSize = new Vector2(0.4f, 0.1f);
     [SerializeField] private Vector2 groundCheckOffset = new Vector2(0f, -0.5f);
 
+    [Header("BK Visual")]
+    [SerializeField] private SpriteRenderer bkSprite;
+
+    [Header("Shooting")]
+    [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private float projectileSpeed = 10f;
+    [SerializeField] private float shootInterval = 0.8f;
+    [SerializeField] private float projectileSpawnDistance = 0.6f;
+
     private Rigidbody2D rb;
     private VineSwing vineSwing;
     private Animator animator;
 
     private bool isGrounded;
     private bool isFacingRight = true;
+
+    private Transform boss;
+    private float shootTimer = 0f;
 
     void Start()
     {
@@ -25,10 +39,39 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        // Find bossen, hvis den ikke er fundet
+        if (boss == null)
+        {
+            FindBoss();
+        }
+
+        // ==========================================
+        // AUTOMATISK SKYDNING MOD ALON
+        // ==========================================
+
+        if (boss != null && boss.gameObject.activeInHierarchy)
+        {
+            shootTimer -= Time.deltaTime;
+
+            if (shootTimer <= 0f)
+            {
+                ShootAtBoss();
+                shootTimer = shootInterval;
+            }
+        }
+
+        // ==========================================
+        // VINE SWING
+        // ==========================================
+
         if (vineSwing != null && vineSwing.IsSwinging())
         {
             return;
         }
+
+        // ==========================================
+        // GROUND CHECK
+        // ==========================================
 
         Vector2 checkPos =
             (Vector2)transform.position + groundCheckOffset;
@@ -40,8 +83,14 @@ public class PlayerController : MonoBehaviour
             groundLayer
         );
 
+        // ==========================================
         // LEFT
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        // ==========================================
+
+        if (
+            Input.GetKey(KeyCode.LeftArrow) ||
+            Input.GetKey(KeyCode.A)
+        )
         {
             rb.linearVelocity =
                 new Vector2(-moveSpeed, rb.linearVelocity.y);
@@ -52,8 +101,14 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        // ==========================================
         // RIGHT
-        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        // ==========================================
+
+        else if (
+            Input.GetKey(KeyCode.RightArrow) ||
+            Input.GetKey(KeyCode.D)
+        )
         {
             rb.linearVelocity =
                 new Vector2(moveSpeed, rb.linearVelocity.y);
@@ -64,22 +119,30 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // Stop horizontal movement when grounded
+        // ==========================================
+        // STOP
+        // ==========================================
+
         else if (isGrounded)
         {
             rb.linearVelocity =
                 new Vector2(0f, rb.linearVelocity.y);
         }
 
+        // ==========================================
         // JUMP
+        // ==========================================
+
         bool jumpPressed =
             Input.GetKeyDown(KeyCode.UpArrow) ||
             Input.GetKeyDown(KeyCode.Space);
 
         if (jumpPressed && isGrounded)
         {
-            rb.linearVelocity =
-                new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                jumpForce
+            );
         }
 
         // ANIMATION
@@ -99,5 +162,74 @@ public class PlayerController : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1f;
         transform.localScale = scale;
+    }
+
+    // ==========================================
+    // FIND ALON
+    // ==========================================
+
+    private void FindBoss()
+    {
+        GameObject bossObject = GameObject.Find("alon_0");
+
+        if (bossObject != null)
+        {
+            boss = bossObject.transform;
+
+            Debug.Log("🔵 BK FOUND ALON!");
+        }
+    }
+
+    // ==========================================
+    // SHOOT AT ALON
+    // ==========================================
+
+    private void ShootAtBoss()
+    {
+        if (projectilePrefab == null)
+        {
+            Debug.LogError(
+                "🔵 BK ERROR: Projectile Prefab mangler!"
+            );
+
+            return;
+        }
+
+        if (boss == null)
+        {
+            return;
+        }
+
+        Vector2 direction =
+            (boss.position - transform.position).normalized;
+
+        // Spawn lidt foran BK
+        Vector2 spawnPosition =
+            (Vector2)transform.position +
+            direction * projectileSpawnDistance;
+
+        GameObject projectile = Instantiate(
+            projectilePrefab,
+            spawnPosition,
+            Quaternion.identity
+        );
+
+        Rigidbody2D projectileRb =
+            projectile.GetComponent<Rigidbody2D>();
+
+        if (projectileRb == null)
+        {
+            Debug.LogError(
+                "🔵 BK ERROR: Blå projectile mangler Rigidbody2D!"
+            );
+
+            Destroy(projectile);
+            return;
+        }
+
+        projectileRb.linearVelocity =
+            direction * projectileSpeed;
+
+        Debug.Log("🔵 BK SHOT ALON!");
     }
 }

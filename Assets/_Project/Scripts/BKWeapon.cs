@@ -8,13 +8,43 @@ public class BKWeapon : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private float shootCooldown = 0.3f;
 
+    [Header("Boss")]
+    [SerializeField] private DumpBoss dumpBoss;
+
+    [Header("BK Visual")]
+    [SerializeField] private SpriteRenderer bkSprite;
+
     private float nextShootTime;
 
+    private void Start()
+    {
+        if (dumpBoss == null)
+        {
+            dumpBoss = FindFirstObjectByType<DumpBoss>();
+        }
+
+        if (bkSprite == null)
+        {
+            Transform visual = transform.Find("TyroneVisual");
+
+            if (visual != null)
+            {
+                bkSprite = visual.GetComponent<SpriteRenderer>();
+            }
+        }
+    }
+
     private void Update()
-    {        
-    if (Input.GetKeyDown(KeyCode.F) &&
-    Time.time >= nextShootTime)
-        
+    {
+        // BK må ikke skyde under dialog eller gåder
+        if (dumpBoss != null && dumpBoss.IsInteractionActive)
+        {
+            return;
+        }
+
+        // Skyd med F
+        if (Input.GetKeyDown(KeyCode.F) &&
+            Time.time >= nextShootTime)
         {
             Shoot();
             nextShootTime = Time.time + shootCooldown;
@@ -24,21 +54,40 @@ public class BKWeapon : MonoBehaviour
     private void Shoot()
     {
         if (bulletPrefab == null || firePoint == null)
-            return;
+        {
+            Debug.LogWarning(
+                "BKWeapon: Bullet Prefab eller Fire Point mangler!"
+            );
 
-        Vector2 direction = transform.localScale.x >= 0
+            return;
+        }
+
+        // Find BK's retning ud fra kroppens rotation via scale
+        Vector2 direction = transform.localScale.x >= 0f
             ? Vector2.right
             : Vector2.left;
 
+        // Brug FirePoint, som automatisk følger BK
+        Vector3 spawnPosition = firePoint.position;
+
+        // Opret kuglen
         GameObject bullet = Instantiate(
             bulletPrefab,
-            firePoint.position,
+            spawnPosition,
             Quaternion.identity
         );
 
         BKBullet bulletScript = bullet.GetComponent<BKBullet>();
 
         if (bulletScript != null)
+        {
             bulletScript.SetDirection(direction);
+        }
+        else
+        {
+            Debug.LogWarning(
+                "BKWeapon: BKBullet-script mangler på kuglen!"
+            );
+        }
     }
 }

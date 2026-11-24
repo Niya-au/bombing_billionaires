@@ -1,3 +1,4 @@
+
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -8,6 +9,9 @@ public class HazardSpawner : MonoBehaviour
     [SerializeField] private GameObject asteroidPrefab;
     [SerializeField] private GameObject debrisPrefab;
     [SerializeField] private GameObject laserPrefab;
+
+    [Header("Boss")]
+    [SerializeField] private GameObject alonBoss;
 
     [Header("Spawn Settings")]
     [SerializeField, Min(0.05f)] private float spawnInterval = 1.2f;

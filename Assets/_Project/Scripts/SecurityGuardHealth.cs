@@ -25,7 +25,18 @@ public class SecurityGuardHealth : MonoBehaviour
         if (currentHP == 0)
         {
             isDead = true;
+
             Debug.Log("Security Guard defeated!");
+
+            // Giv besked om, at denne vagt er besejret
+            SecurityClearManager manager =
+                FindFirstObjectByType<SecurityClearManager>();
+
+            if (manager != null)
+            {
+                manager.GuardDefeated();
+            }
+
             Destroy(gameObject);
         }
     }

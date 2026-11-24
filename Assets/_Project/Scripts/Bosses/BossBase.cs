@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,15 +8,15 @@ public abstract class BossBase : MonoBehaviour
     [SerializeField] protected int maxHP = 100;
     protected int currentHP;
 
-    public int CurrentHP => currentHP;
     public int MaxHP => maxHP;
+    public int CurrentHP => currentHP;
 
     [Header("Boss Phase")]
     [SerializeField]
     protected float[] phaseThresholds = { 0.7f, 0.4f };
 
     protected int currentPhase = 1;
-//dette tester vi 
+
     // Event called when any boss is defeated
     public static UnityEvent<string> OnAnyBossDefeated =
         new UnityEvent<string>();
@@ -34,10 +35,6 @@ public abstract class BossBase : MonoBehaviour
         {
             currentHP = 0;
         }
-
-        Debug.Log(
-        "Jaff HP: " + currentHP + "/" + maxHP
-        );
 
         UpdatePhase();
 
