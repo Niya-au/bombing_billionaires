@@ -4,23 +4,25 @@ using System.Collections;
 
 public class DumpIntroDialogue : MonoBehaviour
 {
-    [Header("Dialogue")]
-    [SerializeField] private DialogueBox dialogueBox;
+    [Header("New Dialogue Image")]
+    [SerializeField] private GameObject dumpDialogueImage;
     [SerializeField] private float dialogueDuration = 4f;
 
     [Header("Player")]
     [SerializeField] private Transform player;
     [SerializeField] private float triggerDistance = 4f;
 
-    [Header("Security Guard")]
-    [SerializeField] private SecurityGuardHealth securityGuard;
-
     private DumpBoss dumpBoss;
-    private bool introStarted = false;
+    private bool introStarted;
 
     private void Start()
     {
         dumpBoss = GetComponent<DumpBoss>();
+
+        if (dumpDialogueImage != null)
+        {
+            dumpDialogueImage.SetActive(false);
+        }
 
         if (player == null)
         {
@@ -28,17 +30,15 @@ public class DumpIntroDialogue : MonoBehaviour
                 GameObject.FindGameObjectWithTag("Player");
 
             if (playerObject != null)
+            {
                 player = playerObject.transform;
+            }
         }
     }
 
     private void Update()
     {
-        if (introStarted || player == null)
-            return;
-
-        // Wait until Security Guard is defeated
-        if (securityGuard != null)
+        if (introStarted || player == null || dumpBoss == null)
             return;
 
         float distance = Vector2.Distance(
@@ -55,22 +55,32 @@ public class DumpIntroDialogue : MonoBehaviour
 
     private IEnumerator PlayIntro()
     {
-        if (dialogueBox != null)
+        // Stop bossens handlinger under dialogen
+        dumpBoss.SetDialogueActive(true);
+
+        // Vis Donald Dumps nye dialogbillede
+        if (dumpDialogueImage != null)
         {
-            dialogueBox.ShowLine(
-                "Donald Dump: Welcome, BK! Think you can defeat me?"
-            );
-
-            yield return new WaitForSeconds(dialogueDuration);
-
-            dialogueBox.Hide();
+            dumpDialogueImage.SetActive(true);
         }
         else
         {
-            Debug.LogWarning("DialogueBox is missing!");
+            Debug.LogWarning(
+                "DumpIntroDialogue: Dump Dialogue Image mangler!"
+            );
         }
 
-        if (dumpBoss != null)
-            dumpBoss.StartFirstRiddle();
+        // Vent, mens billedet vises
+        yield return new WaitForSecondsRealtime(dialogueDuration);
+
+        // Skjul billedet igen
+        if (dumpDialogueImage != null)
+        {
+            dumpDialogueImage.SetActive(false);
+        }
+
+        // Fortsæt spillet og lad Donald Dump flygte
+        dumpBoss.SetDialogueActive(false);
+        dumpBoss.FinishIntroAndEscape();
     }
 }

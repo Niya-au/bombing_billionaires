@@ -212,6 +212,8 @@ public class LevelEndingController : MonoBehaviour
         );
     }
 
+    [Header("Mission Success")]
+    public float successScreenDuration = 4f;
 
     public void TriggerMissionSuccess()
     {
@@ -219,11 +221,30 @@ public class LevelEndingController : MonoBehaviour
             return;
 
         endingStarted = true;
+
+        // Stop BK from moving.
         StopPlayerControls();
 
+        // Display the SuccessPanel.
         if (successPanel != null)
             successPanel.SetActive(true);
+
+        // Start the return-to-level select sequence.
+        StartCoroutine(ReturnToLevelSelect());
     }
+
+    private IEnumerator ReturnToLevelSelect()
+    {
+        // Keep the SuccessPanel visible for 4 seconds.
+        yield return new WaitForSecondsRealtime(successScreenDuration);
+
+        // Restore normal game speed.
+        Time.timeScale = 1f;
+
+        // Load the Intro scene.
+        SceneLoader.LoadLevel("LevelSelect");
+    }
+
 
     void StopPlayerControls()
     {
