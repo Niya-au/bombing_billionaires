@@ -7,6 +7,8 @@ public class UploadProgress : MonoBehaviour
     [SerializeField] private Health playerHealth;
 
     [SerializeField] private float uploadSpeed = 0.05f;
+    [SerializeField] private GameObject gameOverUI;
+    [SerializeField] private float gameOverThreshold = 0.9f;
 
     private float progress = 0f;
     private bool isUploading = true;
@@ -15,6 +17,9 @@ public class UploadProgress : MonoBehaviour
     private void Start()
     {
         fillImage.fillAmount = 0f;
+
+        if (gameOverUI != null)
+            gameOverUI.SetActive(false);
     }
 
     private void Update()
@@ -23,12 +28,11 @@ public class UploadProgress : MonoBehaviour
             return;
 
         progress += uploadSpeed * Time.deltaTime;
-
         progress = Mathf.Clamp01(progress);
 
         fillImage.fillAmount = progress;
 
-        if (progress >= 1f)
+        if (progress >= gameOverThreshold)
         {
             UploadCompleted();
         }
@@ -56,11 +60,11 @@ public class UploadProgress : MonoBehaviour
         finished = true;
         isUploading = false;
 
-        Debug.Log("Upload reached 100%! Player dies.");
+        fillImage.fillAmount = 1f;
 
-        if (playerHealth != null)
-        {
-            playerHealth.TakeDamage(playerHealth.MaxHP);
-        }
+        if (gameOverUI != null)
+            gameOverUI.SetActive(true);
+
+        Time.timeScale = 0f;
     }
 }
