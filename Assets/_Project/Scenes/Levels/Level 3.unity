@@ -304,7 +304,7 @@ Transform:
   m_GameObject: {fileID: 134734703}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.028777324, y: -0.10130256, z: 0}
+  m_LocalPosition: {x: -0.028777324, y: 8.46, z: 0}
   m_LocalScale: {x: 0.959245, y: 0.9432273, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -455,9 +455,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.76363635, y: 1.3490909}
+    border: {x: 1.5, y: 3.6999998, z: 0.7, w: 5.1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 8.87, y: 17.74}
     newSize: {x: 0.76363635, y: 1.3490909}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -541,7 +541,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -6078695686351640923, guid: f4ec439bb47b09849a0bebb9ca1af557, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c2d8f93782725b94cb101780a077b64f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -561,8 +561,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.7, y: -2.1326, z: 0}
-  m_LocalScale: {x: 1.0424864, y: 1.0601898, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.2, y: 0.20339638, z: 0.19184902}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 134734704}
   m_Father: {fileID: 0}
@@ -597,6 +597,8 @@ MonoBehaviour:
   maxHP: 100
   healthText: {fileID: 0}
   healthBarFill: {fileID: 0}
+  healthBar: {fileID: 0}
+  dumpGameOverManager: {fileID: 0}
   currentHP: 0
   OnDamaged:
     m_PersistentCalls:
@@ -1205,7 +1207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5450981, g: 0.2705882, b: 0.07450981, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2011,7 +2013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5450981, g: 0.2705882, b: 0.07450981, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2925,7 +2927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1422825583
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3977,6 +3979,7 @@ MonoBehaviour:
   asteroidPrefab: {fileID: 6345502336247977925, guid: db2e5d65a8a5444739d04090ca2806bd, type: 3}
   debrisPrefab: {fileID: 4796058689204729188, guid: 7cedd846a73ed4c54b064ddfb9501b9f, type: 3}
   laserPrefab: {fileID: 464324071649313737, guid: ec2406b96e6d0f7489fa754cf0fb18bb, type: 3}
+  alonBoss: {fileID: 0}
   spawnInterval: 1.2
   spawnWidth: 8
   spawnHeight: 6
