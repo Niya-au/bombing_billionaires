@@ -1,4 +1,4 @@
-
+﻿
 using UnityEngine;
 
 public class DroneBullet : MonoBehaviour
@@ -13,21 +13,32 @@ public class DroneBullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Ignore the drone and other enemies.
-        if (other.GetComponentInParent<DroneController>() != null)
-            return;
-
-        if (other.CompareTag("Player"))
+        // Ignore the boss and drones.
+        if (other.GetComponentInParent<BossBase>() != null ||
+            other.GetComponentInParent<DroneController>() != null)
         {
-            Health health = other.GetComponentInParent<Health>();
+            return;
+        }
 
-            if (health != null)
-                health.TakeDamage(damage);
+        // Look for Health on the object we hit or its parent.
+        Health health = other.GetComponentInParent<Health>();
+
+        if (health != null && health.CompareTag("Player"))
+        {
+            health.TakeDamage(damage);
+
+            Debug.Log(
+                "Drone bullet hit player! HP: " +
+                health.currentHP
+            );
 
             Destroy(gameObject);
+            return;
         }
-        else if (other.gameObject.layer ==
-                 LayerMask.NameToLayer("Ground"))
+
+        // Destroy bullets that hit the ground.
+        if (other.gameObject.layer ==
+            LayerMask.NameToLayer("Ground"))
         {
             Destroy(gameObject);
         }

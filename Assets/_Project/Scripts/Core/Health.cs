@@ -16,13 +16,13 @@ public class Health : MonoBehaviour
 
     [Header("Game Over")]
     [SerializeField] private GameOverManager gameOverManager;
+    [SerializeField] private DumpGameOverManager dumpGameOverManager;
 
     public int currentHP;
     public int MaxHP => maxHP;
 
-    public UnityEvent<int> OnDamaged;
-    public UnityEvent OnDied;
-
+  public UnityEvent<int> OnDamaged = new UnityEvent<int>();
+public UnityEvent OnDied = new UnityEvent();
     private bool isDead;
 
     private void Awake()
@@ -36,7 +36,12 @@ public class Health : MonoBehaviour
 
     private void Start()
     {
-        // Find GameOverManager automatisk
+        if (dumpGameOverManager == null)
+        {
+            dumpGameOverManager =
+                FindFirstObjectByType<DumpGameOverManager>();
+        }
+
         if (gameOverManager == null)
         {
             gameOverManager =
@@ -68,17 +73,16 @@ public class Health : MonoBehaviour
             // Behold eksisterende døds-events
             OnDied?.Invoke();
 
-            // Vis Game Over-menuen
-            if (gameOverManager != null)
+            // Donald Dumps Game Over-menu
+            if (dumpGameOverManager != null)
             {
-                gameOverManager.ShowGameOver();
+                dumpGameOverManager.ShowGameOver();
             }
-            else
-            {
-                Debug.LogWarning(
-                    "Health: GameOverManager blev ikke fundet!"
-                );
-            }
+            // Gruppens Game Over-system
+            if (dumpGameOverManager != null)
+{
+    dumpGameOverManager.ShowGameOver();
+}
         }
     }
 

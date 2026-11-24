@@ -1,6 +1,9 @@
 
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LevelEndingController : MonoBehaviour
 {
@@ -22,6 +25,14 @@ public class LevelEndingController : MonoBehaviour
     public GameObject escapePanel;
     public GameObject successPanel;
 
+    [Header("Mission Failed Fade")]
+    public Image fadeOverlay;
+    public TMP_Text missionFailedText;
+    public float fadeDuration = 2f;
+
+    [Header("Restart")]
+    public float restartDelay = 3f;
+
     private bool endingStarted = false;
 
     void Start()
@@ -34,6 +45,16 @@ public class LevelEndingController : MonoBehaviour
 
         if (escapeJaffDrone != null)
             escapeJaffDrone.SetActive(false);
+
+        if (fadeOverlay != null)
+        {
+            Color color = fadeOverlay.color;
+            color.a = 0f;
+            fadeOverlay.color = color;
+        }
+
+        if (missionFailedText != null)
+            missionFailedText.gameObject.SetActive(false);
     }
 
     public void TriggerJaffEscape()
@@ -47,6 +68,21 @@ public class LevelEndingController : MonoBehaviour
         StartCoroutine(JaffEscapeSequence());
     }
 
+    public void TriggerPlayerDeath()
+    {
+        if (endingStarted)
+            return;
+
+        endingStarted = true;
+
+        Debug.Log("BK died! Starting mission failed sequence.");
+
+        // Disable movement and other player controls.
+        StopPlayerControls();
+
+        // Reuse the existing fade-to-black and restart.
+        StartCoroutine(FadeToMissionFailed());
+    }
 
     IEnumerator JaffEscapeSequence()
     {
@@ -115,11 +151,69 @@ public class LevelEndingController : MonoBehaviour
             yield return null;
         }
 
-        // Show the escape ending.
-        if (escapePanel != null)
-            escapePanel.SetActive(true);
+        // Fade to black and show Mission Failed.
+        yield return StartCoroutine(FadeToMissionFailed());
     }
 
+
+    private IEnumerator FadeToMissionFailed()
+    {
+        if (fadeOverlay == null)
+        {
+            Debug.LogError("FadeOverlay is not assigned!");
+            yield break;
+        }
+
+        // Start with a transparent black overlay.
+        Color color = fadeOverlay.color;
+        color.a = 0f;
+        fadeOverlay.color = color;
+
+        // Hide the text while the screen fades.
+        if (missionFailedText != null)
+            missionFailedText.gameObject.SetActive(false);
+
+        float elapsed = 0f;
+
+        // Gradually fade to black.
+        while (elapsed < fadeDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+
+            float alpha = Mathf.Clamp01(
+                elapsed / Mathf.Max(fadeDuration, 0.01f)
+            );
+
+            color.a = alpha;
+            fadeOverlay.color = color;
+
+            yield return null;
+        }
+
+        // Make sure the screen is completely black.
+        color.a = 1f;
+        fadeOverlay.color = color;
+
+        // Reveal the mission failed message.
+        if (missionFailedText != null)
+            missionFailedText.gameObject.SetActive(true);
+
+        Debug.Log("MISSION FAILED");
+
+        // Let the player read the failure message.
+        yield return new WaitForSecondsRealtime(restartDelay);
+
+        // Resume normal game time.
+        Time.timeScale = 1f;
+
+        // Reload Level 2.
+        SceneManager.LoadScene(
+            SceneManager.GetActiveScene().buildIndex
+        );
+    }
+
+    [Header("Mission Success")]
+    public float successScreenDuration = 4f;
 
     public void TriggerMissionSuccess()
     {
@@ -127,11 +221,30 @@ public class LevelEndingController : MonoBehaviour
             return;
 
         endingStarted = true;
+
+        // Stop BK from moving.
         StopPlayerControls();
 
+        // Display the SuccessPanel.
         if (successPanel != null)
             successPanel.SetActive(true);
+
+        // Start the return-to-level select sequence.
+        StartCoroutine(ReturnToLevelSelect());
     }
+
+    private IEnumerator ReturnToLevelSelect()
+    {
+        // Keep the SuccessPanel visible for 4 seconds.
+        yield return new WaitForSecondsRealtime(successScreenDuration);
+
+        // Restore normal game speed.
+        Time.timeScale = 1f;
+
+        // Load the Intro scene.
+        SceneLoader.LoadLevel("LevelSelect");
+    }
+
 
     void StopPlayerControls()
     {

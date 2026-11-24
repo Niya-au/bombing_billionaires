@@ -18,13 +18,11 @@ public class BKWeapon : MonoBehaviour
 
     private void Start()
     {
-        // Find Donald Dump automatisk
         if (dumpBoss == null)
         {
             dumpBoss = FindFirstObjectByType<DumpBoss>();
         }
 
-        // Find BK's SpriteRenderer automatisk
         if (bkSprite == null)
         {
             Transform visual = transform.Find("TyroneVisual");
@@ -44,7 +42,7 @@ public class BKWeapon : MonoBehaviour
             return;
         }
 
-        // BK må skyde igen, når dialogen eller gåden er slut
+        // Skyd med F
         if (Input.GetKeyDown(KeyCode.F) &&
             Time.time >= nextShootTime)
         {
@@ -60,33 +58,26 @@ public class BKWeapon : MonoBehaviour
             Debug.LogWarning(
                 "BKWeapon: Bullet Prefab eller Fire Point mangler!"
             );
+
             return;
         }
 
-        // Find den retning, BK kigger
-        Vector2 direction =
-            (bkSprite != null && bkSprite.flipX)
-            ? Vector2.left
-            : Vector2.right;
+        // Find BK's retning ud fra kroppens rotation via scale
+        Vector2 direction = transform.localScale.x >= 0f
+            ? Vector2.right
+            : Vector2.left;
 
-        // Placér kuglen foran BK
+        // Brug FirePoint, som automatisk følger BK
         Vector3 spawnPosition = firePoint.position;
 
-        float distance = Mathf.Abs(firePoint.localPosition.x);
-
-        spawnPosition.x = transform.position.x +
-            (direction.x > 0f ? distance : -distance);
-
-        // Opret den blå kugle
+        // Opret kuglen
         GameObject bullet = Instantiate(
             bulletPrefab,
             spawnPosition,
             Quaternion.identity
         );
 
-        // Send kuglen i den rigtige retning
-        BKBullet bulletScript =
-            bullet.GetComponent<BKBullet>();
+        BKBullet bulletScript = bullet.GetComponent<BKBullet>();
 
         if (bulletScript != null)
         {

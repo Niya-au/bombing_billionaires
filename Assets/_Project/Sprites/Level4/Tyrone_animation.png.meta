@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: 30677a3244784844daedd4f016b3110e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2037627912552855183
+    second: Tyrone_animation_0
+  - first:
+      213: -8259778936794821546
+    second: Tyrone_animation_1
+  - first:
+      213: 2115163937691068081
+    second: Tyrone_animation_2
+  - first:
+      213: -7367841533115842742
+    second: Tyrone_animation_3
+  - first:
+      213: -6881446812804554477
+    second: Tyrone_animation_4
+  - first:
+      213: -1297549540408507953
+    second: Tyrone_animation_5
+  - first:
+      213: -5888946735517723883
+    second: Tyrone_animation_6
+  - first:
+      213: -1704505573614239225
+    second: Tyrone_animation_7
+  - first:
+      213: 5264925982741895257
+    second: Tyrone_animation_8
+  - first:
+      213: -3505492978212553378
+    second: Tyrone_animation_9
+  - first:
+      213: 3370576208442371358
+    second: Tyrone_animation_10
+  - first:
+      213: -9170443015440691431
+    second: Tyrone_animation_11
+  - first:
+      213: 4429626330048344064
+    second: Tyrone_animation_12
+  - first:
+      213: 1489646808722861850
+    second: Tyrone_animation_13
+  - first:
+      213: 3798736295051868199
+    second: Tyrone_animation_14
+  - first:
+      213: -8946759981038101336
+    second: Tyrone_animation_15
+  - first:
+      213: 5311878971832722531
+    second: Tyrone_animation_16
+  - first:
+      213: 2704537373790214299
+    second: Tyrone_animation_17
+  - first:
+      213: 6599803284238786721
+    second: Tyrone_animation_18
+  - first:
+      213: 3579556920894625008
+    second: Tyrone_animation_19
+  - first:
+      213: 217744872272826943
+    second: Tyrone_animation_20
+  - first:
+      213: -3738360818685265830
+    second: Tyrone_animation_21
+  - first:
+      213: 6021867937947085143
+    second: Tyrone_animation_22
+  - first:
+      213: -7423769025847170887
+    second: Tyrone_animation_23
+  - first:
+      213: 8705507872459916103
+    second: Tyrone_animation_24
+  - first:
+      213: 100802131959341254
+    second: Tyrone_animation_25
+  - first:
+      213: -3423426771995189100
+    second: Tyrone_animation_26
+  - first:
+      213: -4408874552635443602
+    second: Tyrone_animation_27
+  - first:
+      213: 4598594323704614939
+    second: Tyrone_animation_28
+  - first:
+      213: -2959347043845913699
+    second: Tyrone_animation_29
+  - first:
+      213: 931407401978698820
+    second: Tyrone_animation_30
+  - first:
+      213: -6644243933486941710
+    second: Tyrone_animation_31
+  - first:
+      213: 5392197746654663402
+    second: Tyrone_animation_32
+  - first:
+      213: -4295680088676179481
+    second: Tyrone_animation_33
+  - first:
+      213: -7168256420710853704
+    second: Tyrone_animation_34
+  - first:
+      213: -4078973495394647446
+    second: Tyrone_animation_35
+  - first:
+      213: -3512302813370370676
+    second: Tyrone_animation_36
+  - first:
+      213: -436843910400870422
+    second: Tyrone_animation_37
+  - first:
+      213: -3139375933799811535
+    second: Tyrone_animation_38
+  - first:
+      213: -2661915734700753553
+    second: Tyrone_animation_39
+  - first:
+      213: -623135803190382536
+    second: Tyrone_animation_40
+  - first:
+      213: -1922285392691399892
+    second: Tyrone_animation_41
+  - first:
+      213: 552286924485630819
+    second: Tyrone_animation_42
+  - first:
+      213: 8030801226108872391
+    second: Tyrone_animation_43
+  - first:
+      213: 3813283170808492252
+    second: Tyrone_animation_44
+  - first:
+      213: 4708990673825135343
+    second: Tyrone_animation_45
+  - first:
+      213: -7732029730987990621
+    second: Tyrone_animation_46
+  - first:
+      213: -5865684243434372189
+    second: Tyrone_animation_47
+  - first:
+      213: 3106508350294874259
+    second: Tyrone_animation_48
+  - first:
+      213: -913269354528113759
+    second: Tyrone_animation_49
+  - first:
+      213: 4929357062367313646
+    second: Tyrone_animation_50
+  - first:
+      213: -7055315529578570433
+    second: Tyrone_animation_51
+  - first:
+      213: -6629436406247613975
+    second: Tyrone_animation_52
+  - first:
+      213: -4412149589789043258
+    second: Tyrone_animation_53
+  - first:
+      213: 1265344784357567190
+    second: Tyrone_animation_54
+  - first:
+      213: 6876746176088077555
+    second: Tyrone_animation_55
+  - first:
+      213: -2647283640788684744
+    second: Tyrone_animation_56
+  - first:
+      213: 7685448646674995413
+    second: Tyrone_animation_57
+  - first:
+      213: 67518998478009466
+    second: Tyrone_animation_58
+  - first:
+      213: 9023427485411116623
+    second: Tyrone_animation_59
+  - first:
+      213: 790303744746768247
+    second: Tyrone_animation_60
+  - first:
+      213: -2998251033734122498
+    second: Tyrone_animation_61
+  - first:
+      213: 4553477427077444826
+    second: Tyrone_animation_62
+  - first:
+      213: -8791774867324420514
+    second: Tyrone_animation_63
+  - first:
+      213: 4955059174993277814
+    second: Tyrone_animation_64
+  - first:
+      213: 8456776061869084488
+    second: Tyrone_animation_65
+  - first:
+      213: 7166884193397386828
+    second: Tyrone_animation_66
+  - first:
+      213: -6086810375228964552
+    second: Tyrone_animation_67
+  - first:
+      213: 9142373043094083402
+    second: Tyrone_animation_68
+  - first:
+      213: 7248376165964845548
+    second: Tyrone_animation_69
+  - first:
+      213: -7386695929201478690
+    second: Tyrone_animation_70
+  - first:
+      213: 2257393689849352031
+    second: Tyrone_animation_71
+  - first:
+      213: 2786551789765767954
+    second: Tyrone_animation_72
+  - first:
+      213: -3284361298723812335
+    second: Tyrone_animation_73
+  - first:
+      213: -4052532122419087856
+    second: Tyrone_animation_74
+  - first:
+      213: -2316920447774953900
+    second: Tyrone_animation_75
+  - first:
+      213: -3818108875638622949
+    second: Tyrone_animation_76
+  - first:
+      213: 3620197738401978387
+    second: Tyrone_animation_77
+  - first:
+      213: -22945785113794246
+    second: Tyrone_animation_78
+  - first:
+      213: -2184295426066276797
+    second: Tyrone_animation_79
+  - first:
+      213: -8414007584085546398
+    second: Tyrone_animation_80
+  - first:
+      213: -8449594195069818524
+    second: Tyrone_animation_81
+  - first:
+      213: -2804793977763982981
+    second: Tyrone_animation_82
+  - first:
+      213: 3173105694938098705
+    second: Tyrone_animation_83
+  - first:
+      213: -924095207831933642
+    second: Tyrone_animation_84
+  - first:
+      213: -2533790404706149537
+    second: Tyrone_animation_85
+  - first:
+      213: 6393702614311590496
+    second: Tyrone_animation_86
+  - first:
+      213: 8550648959848711318
+    second: Tyrone_animation_87
+  - first:
+      213: -9194254536955112547
+    second: Tyrone_animation_88
+  - first:
+      213: 1707217344174558820
+    second: Tyrone_animation_89
+  - first:
+      213: 8738270931784009759
+    second: Tyrone_animation_90
+  - first:
+      213: -8143382268359134895
+    second: Tyrone_animation_91
+  - first:
+      213: 8725854033061200977
+    second: Tyrone_animation_92
+  - first:
+      213: 77706520705742005
+    second: Tyrone_animation_93
+  - first:
+      213: 2297862428515844435
+    second: Tyrone_animation_94
+  - first:
+      213: -3341627479507560296
+    second: Tyrone_animation_95
+  - first:
+      213: -5832019009240899067
+    second: Tyrone_animation_96
+  - first:
+      213: 2216069629388027842
+    second: Tyrone_animation_97
+  - first:
+      213: -692198440333291478
+    second: Tyrone_animation_98
+  - first:
+      213: 7326983437104224336
+    second: Tyrone_animation_99
+  - first:
+      213: -1984291744785275687
+    second: Tyrone_animation_100
+  - first:
+      213: 8091663281757614420
+    second: Tyrone_animation_101
+  - first:
+      213: -2546867968528465688
+    second: Tyrone_animation_102
+  - first:
+      213: 392733842039425347
+    second: Tyrone_animation_103
+  - first:
+      213: 3782510293623816939
+    second: Tyrone_animation_104
+  - first:
+      213: 3643199928489431155
+    second: Tyrone_animation_105
+  - first:
+      213: 8614126363527341609
+    second: Tyrone_animation_106
+  - first:
+      213: 4701476891652914917
+    second: Tyrone_animation_107
+  - first:
+      213: 4563873967342141758
+    second: Tyrone_animation_108
+  - first:
+      213: 593711320543547821
+    second: Tyrone_animation_109
+  - first:
+      213: -8280327346763931302
+    second: Tyrone_animation_110
+  - first:
+      213: 4189205853594935185
+    second: Tyrone_animation_111
+  - first:
+      213: -2134291244516145953
+    second: Tyrone_animation_112
+  - first:
+      213: 7678714039482021603
+    second: Tyrone_animation_113
+  - first:
+      213: 1707305482616465336
+    second: Tyrone_animation_114
+  - first:
+      213: 8875507341797792070
+    second: Tyrone_animation_115
+  - first:
+      213: -72037363571226125
+    second: Tyrone_animation_116
+  - first:
+      213: 1068155947744461637
+    second: Tyrone_animation_117
+  - first:
+      213: 2985640799099633186
+    second: Tyrone_animation_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tyrone_animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179cdd79534e8b3e0800000000000000
+      internalID: -2037627912552855183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrone_animation_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c4715b1de5f5d80800000000000000
+      internalID: -8259778936794821546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrone_animation_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6eacb05629a5d10800000000000000
+      internalID: 2115163937691068081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrone_animation_3
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fb241892b20c990800000000000000
+      internalID: -7367841533115842742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrone_animation_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3116a0e45903080a0800000000000000
+      internalID: -6881446812804554477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrone_animation_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1ca75519d2efde0800000000000000
+      internalID: -1297549540408507953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrone_animation_6
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51315402522464ea0800000000000000
+      internalID: -5888946735517723883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrone_animation_7
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702cc0f26316858e0800000000000000
+      internalID: -1704505573614239225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2364d9b8d6c10f948a62b3a84afb8baa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":443.0,"y":443.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Tyrone_animation_0: -2037627912552855183
+      Tyrone_animation_1: -8259778936794821546
+      Tyrone_animation_2: 2115163937691068081
+      Tyrone_animation_3: -7367841533115842742
+      Tyrone_animation_4: -6881446812804554477
+      Tyrone_animation_5: -1297549540408507953
+      Tyrone_animation_6: -5888946735517723883
+      Tyrone_animation_7: -1704505573614239225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

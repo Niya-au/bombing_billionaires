@@ -40,7 +40,7 @@ public class DumpBoss : BossBase
     [SerializeField] private float shootInterval = 2f;
 
     [Header("Victory")]
-    [SerializeField] private GameOverManager gameOverManager;
+    [SerializeField] private DumpGameOverManager gameOverManager;
     [SerializeField] private float victoryDelay = 2f;
 
     [Header("Damage Test")]
@@ -120,7 +120,7 @@ public class DumpBoss : BossBase
         if (gameOverManager == null)
         {
             gameOverManager =
-                FindFirstObjectByType<GameOverManager>();
+                FindFirstObjectByType<DumpGameOverManager>();
         }
 
         if (playerRb == null)
@@ -505,11 +505,11 @@ public class DumpBoss : BossBase
         // Skjul Donald Dump
         gameObject.SetActive(false);
 
-        // Find GameOverManager, hvis den ikke er sat
+        // Find DumpGameOverManager, hvis den ikke er sat
         if (gameOverManager == null)
         {
             gameOverManager =
-                FindFirstObjectByType<GameOverManager>();
+                FindFirstObjectByType<DumpGameOverManager>();
         }
 
         // Vis VICTORY-menuen
@@ -520,7 +520,7 @@ public class DumpBoss : BossBase
         else
         {
             Debug.LogWarning(
-                "DumpBoss: GameOverManager mangler!"
+                "DumpBoss: DumpGameOverManager mangler!"
             );
         }
     }

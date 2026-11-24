@@ -24,7 +24,7 @@ public class AlonProjectile : MonoBehaviour
     {
         // Må ikke ramme Alon selv
         if (
-            other.GetComponentInParent<AlonThruskBoss>() != null
+            other.GetComponentInParent<AlonTruskBoss>() != null
         )
         {
             return;

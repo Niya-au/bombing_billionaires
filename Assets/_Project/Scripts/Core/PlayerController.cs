@@ -22,8 +22,10 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private VineSwing vineSwing;
+    private Animator animator;
 
     private bool isGrounded;
+    private bool isFacingRight = true;
 
     private Transform boss;
     private float shootTimer = 0f;
@@ -32,21 +34,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         vineSwing = GetComponent<VineSwing>();
-
-        // Find BK's SpriteRenderer automatisk
-        if (bkSprite == null)
-        {
-            Transform visual = transform.Find("TyroneVisual");
-
-            if (visual != null)
-            {
-                bkSprite = visual.GetComponent<SpriteRenderer>();
-            }
-        }
-
-        FindBoss();
-
-        Debug.Log("🔵 BK SHOOTING SYSTEM READY");
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -104,15 +92,12 @@ public class PlayerController : MonoBehaviour
             Input.GetKey(KeyCode.A)
         )
         {
-            rb.linearVelocity = new Vector2(
-                -moveSpeed,
-                rb.linearVelocity.y
-            );
+            rb.linearVelocity =
+                new Vector2(-moveSpeed, rb.linearVelocity.y);
 
-            // BK kigger mod venstre
-            if (bkSprite != null)
+            if (isFacingRight)
             {
-                bkSprite.flipX = true;
+                Flip();
             }
         }
 
@@ -125,15 +110,12 @@ public class PlayerController : MonoBehaviour
             Input.GetKey(KeyCode.D)
         )
         {
-            rb.linearVelocity = new Vector2(
-                moveSpeed,
-                rb.linearVelocity.y
-            );
+            rb.linearVelocity =
+                new Vector2(moveSpeed, rb.linearVelocity.y);
 
-            // BK kigger mod højre
-            if (bkSprite != null)
+            if (!isFacingRight)
             {
-                bkSprite.flipX = false;
+                Flip();
             }
         }
 
@@ -143,10 +125,8 @@ public class PlayerController : MonoBehaviour
 
         else if (isGrounded)
         {
-            rb.linearVelocity = new Vector2(
-                0f,
-                rb.linearVelocity.y
-            );
+            rb.linearVelocity =
+                new Vector2(0f, rb.linearVelocity.y);
         }
 
         // ==========================================
@@ -164,6 +144,24 @@ public class PlayerController : MonoBehaviour
                 jumpForce
             );
         }
+
+        // ANIMATION
+        if (animator != null)
+        {
+            animator.SetFloat(
+                "Speed",
+                Mathf.Abs(rb.linearVelocity.x)
+            );
+        }
+    }
+
+    void Flip()
+    {
+        isFacingRight = !isFacingRight;
+
+        Vector3 scale = transform.localScale;
+        scale.x *= -1f;
+        transform.localScale = scale;
     }
 
     // ==========================================

@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 5281560835033974434}
   - component: {fileID: 4089391823878874089}
   - component: {fileID: 1589589642701404910}
-  - component: {fileID: 2027129764697855745}
+  - component: {fileID: 5250500105241022994}
+  - component: {fileID: 648719342408705474}
   m_Layer: 0
   m_Name: AlonBlueProjectile
   m_TagString: Untagged
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 0d563b344670141f59b3cbad364c5195, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -157,7 +158,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &2027129764697855745
+--- !u!114 &5250500105241022994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,8 +167,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 5066721046830138726}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f3049fe3718a4dad80e061265ecd4eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 84295e779cfc548a2a8e665006cee28d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AlonBlueProjectile
-  damage: 10
-  lifetime: 5
+  m_EditorClassIdentifier: Game.Runtime::Hazard
+  damage: 5
+--- !u!114 &648719342408705474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5066721046830138726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b7c1c4946476249a4776cded8f2a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Runtime::HomingHazard
+  moveSpeed: 4
+  continuouslyFollowPlayer: 0
+  turnSpeed: 3
+  lifetime: 8
+  faceMovementDirection: 0
+  rotationOffset: -90

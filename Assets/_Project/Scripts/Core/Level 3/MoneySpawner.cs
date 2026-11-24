@@ -4,50 +4,36 @@ using TMPro;
 
 public class MoneySpawner : MonoBehaviour
 {
-    [Header("Money")]
+    [Header("Money Prefabs")]
     [SerializeField] private GameObject[] moneyPrefabs;
 
     [Header("Spawn Settings")]
     [SerializeField] private float spawnInterval = 1f;
-    [SerializeField] private float spawnWidth = 8f;
+    [SerializeField] private Camera gameCamera;
+    [SerializeField] private float screenPadding = 1f;
 
     [Header("Collection Goal")]
     [SerializeField] private int collectionGoal = 1000;
-
-    [Header("UI")]
-    [SerializeField] private MoneyBar moneyBar;
     [SerializeField] private TMP_Text moneyText;
-
-    [Header("Boss UI")]
-    [SerializeField] private BossUIController bossUI;
 
     private int collectedMoney = 0;
     private float spawnTimer = 0f;
-    private bool levelCompleted = false;
+    private bool isSpawning = true;
 
     public int CollectedMoney => collectedMoney;
-
     public bool GoalReached => collectedMoney >= collectionGoal;
-
 
     private void Start()
     {
-        collectedMoney = 0;
-        levelCompleted = false;
+        if (gameCamera == null)
+            gameCamera = Camera.main;
 
         UpdateMoneyUI();
-
-        if (moneyBar != null)
-        {
-            moneyBar.SetMoney(0, collectionGoal);
-            moneyBar.gameObject.SetActive(true);
-        }
     }
-
 
     private void Update()
     {
-        if (levelCompleted)
+        if (!isSpawning)
             return;
 
         spawnTimer += Time.deltaTime;
@@ -59,46 +45,58 @@ public class MoneySpawner : MonoBehaviour
         }
     }
 
-
     private void SpawnMoney()
     {
         if (moneyPrefabs == null || moneyPrefabs.Length == 0)
         {
-            Debug.LogError("MoneySpawner: No money prefabs assigned!");
+            Debug.LogError("No money prefabs assigned!");
             return;
         }
 
-        float randomX = Random.Range(-spawnWidth, spawnWidth);
+        if (gameCamera == null)
+        {
+            Debug.LogError("MoneySpawner: No camera assigned!");
+            return;
+        }
+
+        float cameraHeight = gameCamera.orthographicSize;
+        float cameraWidth = cameraHeight * gameCamera.aspect;
+
+        Vector3 cameraPosition = gameCamera.transform.position;
+
+        float minX = cameraPosition.x - cameraWidth + screenPadding;
+        float maxX = cameraPosition.x + cameraWidth - screenPadding;
+
+        float minY = cameraPosition.y - cameraHeight + screenPadding;
+        float maxY = cameraPosition.y + cameraHeight - screenPadding;
+
+        if (minX >= maxX || minY >= maxY)
+        {
+            Debug.LogError("MoneySpawner: Screen padding is too large!");
+            return;
+        }
 
         Vector3 spawnPosition = new Vector3(
-            transform.position.x + randomX,
-            transform.position.y,
-            transform.position.z
+            Random.Range(minX, maxX),
+            Random.Range(minY, maxY),
+            0f
         );
 
         GameObject randomMoney =
             moneyPrefabs[Random.Range(0, moneyPrefabs.Length)];
 
-        if (randomMoney != null)
-        {
-            Instantiate(
-                randomMoney,
-                spawnPosition,
-                Quaternion.identity
-            );
-        }
+        Instantiate(
+            randomMoney,
+            spawnPosition,
+            Quaternion.identity
+        );
     }
-
 
     public void CollectMoney(int amount)
     {
-        if (levelCompleted)
-            return;
-
-        if (amount <= 0)
-            return;
-
         collectedMoney += amount;
+
+        UpdateMoneyUI();
 
         Debug.Log(
             "Money collected: $" +
@@ -106,88 +104,40 @@ public class MoneySpawner : MonoBehaviour
             " / $" +
             collectionGoal
         );
-
-        UpdateMoneyUI();
-
-        // Det er ikke nødvendigt at ramme præcis $1000.
-        // Fx 975 + 50 = 1025 → bossfasen starter.
-        if (collectedMoney >= collectionGoal)
-        {
-            CollectionGoalReached();
-        }
     }
-
 
     private void UpdateMoneyUI()
     {
         if (moneyText != null)
         {
             moneyText.text =
-                "Money: $" +
+                "Money Collected: $" +
                 collectedMoney +
                 " / $" +
                 collectionGoal;
         }
-
-        if (moneyBar != null)
-        {
-            moneyBar.SetMoney(
-                collectedMoney,
-                collectionGoal
-            );
-        }
     }
 
-
-    private void CollectionGoalReached()
+    public void StartSpawning()
     {
-        if (levelCompleted)
-            return;
+        isSpawning = true;
+        spawnTimer = 0f;
+    }
 
-        levelCompleted = true;
+    public void StopSpawning()
+    {
+        isSpawning = false;
+    }
 
-        Debug.Log("==============================");
-        Debug.Log(
-            "MONEY GOAL REACHED! $" +
-            collectedMoney
-        );
-        Debug.Log("STARTING BOSS PHASE!");
-        Debug.Log("==============================");
-
-
-        // Fyld moneybaren helt.
-        if (moneyBar != null)
+    public void SetSpawning(bool shouldSpawn)
+    {
+        if (shouldSpawn)
         {
-            moneyBar.SetMoney(
-                collectionGoal,
-                collectionGoal
-            );
-
-            // MoneyBar væk under bosskampen.
-            moneyBar.gameObject.SetActive(false);
-        }
-
-
-        // Gammel Money Text væk.
-        if (moneyText != null)
-        {
-            moneyText.gameObject.SetActive(false);
-        }
-
-
-        // SKIFT UI TIL BOSSFIGHT
-        if (bossUI != null)
-        {
-            bossUI.StartBossUI();
+            StartSpawning();
         }
         else
         {
-            Debug.LogWarning(
-                "MoneySpawner: Boss UI er ikke assigned!"
-            );
+            StopSpawning();
         }
-
-        // HazardSpawner opdager GoalReached
-        // og starter bossfasen.
     }
 }

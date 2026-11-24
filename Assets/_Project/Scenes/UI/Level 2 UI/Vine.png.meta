@@ -1,0 +1,2197 @@
+fileFormatVersion: 2
+guid: 347dc9fcb5f925e4c9bb58b4a14eeb2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4474162981119514172
+    second: Pixel Art Jungle Vine Sprite_0
+  - first:
+      213: -7782685443109766300
+    second: Pixel Art Jungle Vine Sprite_1
+  - first:
+      213: 6733176646312662583
+    second: Pixel Art Jungle Vine Sprite_2
+  - first:
+      213: -4718295606149156221
+    second: Pixel Art Jungle Vine Sprite_3
+  - first:
+      213: 3645348013644304209
+    second: Pixel Art Jungle Vine Sprite_4
+  - first:
+      213: -3560906919099211172
+    second: Pixel Art Jungle Vine Sprite_5
+  - first:
+      213: -7287703148730522176
+    second: Pixel Art Jungle Vine Sprite_6
+  - first:
+      213: -7507636934656375914
+    second: Pixel Art Jungle Vine Sprite_7
+  - first:
+      213: 8466498195684349764
+    second: Pixel Art Jungle Vine Sprite_8
+  - first:
+      213: -6776413618123739150
+    second: Pixel Art Jungle Vine Sprite_9
+  - first:
+      213: -7995080289324595108
+    second: Pixel Art Jungle Vine Sprite_10
+  - first:
+      213: 2209650124329509794
+    second: Pixel Art Jungle Vine Sprite_11
+  - first:
+      213: 8504654508729044869
+    second: Pixel Art Jungle Vine Sprite_12
+  - first:
+      213: -5221967613287796895
+    second: Pixel Art Jungle Vine Sprite_13
+  - first:
+      213: 7695182989076077192
+    second: Pixel Art Jungle Vine Sprite_14
+  - first:
+      213: -3048099263295486483
+    second: Pixel Art Jungle Vine Sprite_15
+  - first:
+      213: -7748389392500575647
+    second: Pixel Art Jungle Vine Sprite_16
+  - first:
+      213: 9090419337971535215
+    second: Pixel Art Jungle Vine Sprite_17
+  - first:
+      213: -1763964165644686036
+    second: Pixel Art Jungle Vine Sprite_18
+  - first:
+      213: 4850945834824963264
+    second: Pixel Art Jungle Vine Sprite_19
+  - first:
+      213: -2381240386868542489
+    second: Pixel Art Jungle Vine Sprite_20
+  - first:
+      213: -2970474107285960321
+    second: Pixel Art Jungle Vine Sprite_21
+  - first:
+      213: 8338135262788680291
+    second: Pixel Art Jungle Vine Sprite_22
+  - first:
+      213: 4914619114845323153
+    second: Pixel Art Jungle Vine Sprite_23
+  - first:
+      213: 1889277672392703294
+    second: Pixel Art Jungle Vine Sprite_24
+  - first:
+      213: -282007835995843824
+    second: Pixel Art Jungle Vine Sprite_25
+  - first:
+      213: -1713866556705600165
+    second: Pixel Art Jungle Vine Sprite_26
+  - first:
+      213: -6411189327050743943
+    second: Pixel Art Jungle Vine Sprite_27
+  - first:
+      213: -356235012564046423
+    second: Pixel Art Jungle Vine Sprite_28
+  - first:
+      213: -1603242300127967409
+    second: Pixel Art Jungle Vine Sprite_29
+  - first:
+      213: 8048648148473453162
+    second: Pixel Art Jungle Vine Sprite_30
+  - first:
+      213: -6979404185277885377
+    second: Pixel Art Jungle Vine Sprite_31
+  - first:
+      213: -1076579157263146911
+    second: Pixel Art Jungle Vine Sprite_32
+  - first:
+      213: 5850182555276186800
+    second: Pixel Art Jungle Vine Sprite_33
+  - first:
+      213: -6991707162944052495
+    second: Pixel Art Jungle Vine Sprite_34
+  - first:
+      213: 4565455151885436868
+    second: Pixel Art Jungle Vine Sprite_35
+  - first:
+      213: -2019528887311459646
+    second: Pixel Art Jungle Vine Sprite_36
+  - first:
+      213: 4897658649786108170
+    second: Pixel Art Jungle Vine Sprite_37
+  - first:
+      213: 6203304181081593271
+    second: Pixel Art Jungle Vine Sprite_38
+  - first:
+      213: -3529913869333627756
+    second: Pixel Art Jungle Vine Sprite_39
+  - first:
+      213: -4459692725843766721
+    second: Pixel Art Jungle Vine Sprite_40
+  - first:
+      213: -7750390036375738775
+    second: Pixel Art Jungle Vine Sprite_41
+  - first:
+      213: 9193910156789747252
+    second: Pixel Art Jungle Vine Sprite_42
+  - first:
+      213: -7048771647634336910
+    second: Pixel Art Jungle Vine Sprite_43
+  - first:
+      213: 5182327238438005651
+    second: Pixel Art Jungle Vine Sprite_44
+  - first:
+      213: 1548849072909204357
+    second: Pixel Art Jungle Vine Sprite_45
+  - first:
+      213: 4521867982311427608
+    second: Pixel Art Jungle Vine Sprite_46
+  - first:
+      213: -8277250399445119328
+    second: Pixel Art Jungle Vine Sprite_47
+  - first:
+      213: -7688211256711141609
+    second: Pixel Art Jungle Vine Sprite_48
+  - first:
+      213: 1333540159747632999
+    second: Pixel Art Jungle Vine Sprite_49
+  - first:
+      213: 1116471014908063340
+    second: Pixel Art Jungle Vine Sprite_50
+  - first:
+      213: -286117473101368051
+    second: Pixel Art Jungle Vine Sprite_51
+  - first:
+      213: -7852359654343185381
+    second: Pixel Art Jungle Vine Sprite_52
+  - first:
+      213: 3134514141299196468
+    second: Pixel Art Jungle Vine Sprite_53
+  - first:
+      213: -4201002742054972709
+    second: Pixel Art Jungle Vine Sprite_54
+  - first:
+      213: -5555322453293674674
+    second: Pixel Art Jungle Vine Sprite_55
+  - first:
+      213: -6373693746609049304
+    second: Pixel Art Jungle Vine Sprite_56
+  - first:
+      213: 6551390026540088381
+    second: Pixel Art Jungle Vine Sprite_57
+  - first:
+      213: -6747995181192413551
+    second: Pixel Art Jungle Vine Sprite_58
+  - first:
+      213: -6905908635141058299
+    second: Pixel Art Jungle Vine Sprite_59
+  - first:
+      213: 5518610830092855514
+    second: Pixel Art Jungle Vine Sprite_60
+  - first:
+      213: 2729474708036422856
+    second: Pixel Art Jungle Vine Sprite_61
+  - first:
+      213: 9172346662892715367
+    second: Pixel Art Jungle Vine Sprite_62
+  - first:
+      213: -6801232380651213029
+    second: Pixel Art Jungle Vine Sprite_63
+  - first:
+      213: 6789741525632229443
+    second: Pixel Art Jungle Vine Sprite_64
+  - first:
+      213: -8878703636080197980
+    second: Pixel Art Jungle Vine Sprite_65
+  - first:
+      213: -4801874960401243718
+    second: Pixel Art Jungle Vine Sprite_66
+  - first:
+      213: 5632862706169338024
+    second: Pixel Art Jungle Vine Sprite_67
+  - first:
+      213: -3491211337034110928
+    second: Pixel Art Jungle Vine Sprite_68
+  - first:
+      213: 7019244526428358485
+    second: Pixel Art Jungle Vine Sprite_69
+  - first:
+      213: 2910062262719526167
+    second: Pixel Art Jungle Vine Sprite_70
+  - first:
+      213: 1321183387308429925
+    second: Pixel Art Jungle Vine Sprite_71
+  - first:
+      213: 8269909432716167742
+    second: Pixel Art Jungle Vine Sprite_72
+  - first:
+      213: 4166790485140069798
+    second: Pixel Art Jungle Vine Sprite_73
+  - first:
+      213: 4748809233108789068
+    second: Pixel Art Jungle Vine Sprite_74
+  - first:
+      213: 8494464182168578736
+    second: Pixel Art Jungle Vine Sprite_75
+  - first:
+      213: -3303819859706556241
+    second: Pixel Art Jungle Vine Sprite_76
+  - first:
+      213: 4564807018574542361
+    second: Pixel Art Jungle Vine Sprite_77
+  - first:
+      213: -8789450997035859715
+    second: Pixel Art Jungle Vine Sprite_78
+  - first:
+      213: -5035580407336488458
+    second: Pixel Art Jungle Vine Sprite_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 555
+        height: 2169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36d4d4b68b671e30800000000000000
+      internalID: 4474162981119514172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2019
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bb6dce2d85ef390800000000000000
+      internalID: -7782685443109766300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2053
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7361c656c7c017d50800000000000000
+      internalID: 6733176646312662583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1935
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3827132152f358eb0800000000000000
+      internalID: -4718295606149156221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1840
+        width: 142
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fc1fb54b0e69230800000000000000
+      internalID: 3645348013644304209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1903
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c526cd8060e159ec0800000000000000
+      internalID: -3560906919099211172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1901
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5eb6f1990ecda90800000000000000
+      internalID: -7287703148730522176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1910
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693443f2cf38fc790800000000000000
+      internalID: -7507636934656375914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1889
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4475045604b0f7570800000000000000
+      internalID: 8466498195684349764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1887
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff6d90a7b755f1a0800000000000000
+      internalID: -6776413618123739150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1728
+        width: 77
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58841c26d4cb0190800000000000000
+      internalID: -7995080289324595108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1849
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3ee82b4114aae10800000000000000
+      internalID: 2209650124329509794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1798
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f0832573a960670800000000000000
+      internalID: 8504654508729044869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1718
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fe2657f18d787b0800000000000000
+      internalID: -5221967613287796895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1619
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a12816828caca60800000000000000
+      internalID: 7695182989076077192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1644
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5842b9ed9f2b5d0800000000000000
+      internalID: -3048099263295486483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1606
+        width: 118
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162399676e0387490800000000000000
+      internalID: -7748389392500575647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1638
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d822b8938a72e70800000000000000
+      internalID: 9090419337971535215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1577
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2dea3eefe32587e0800000000000000
+      internalID: -1763964165644686036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1501
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4176d0985025340800000000000000
+      internalID: 4850945834824963264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1507
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e303e70c7224fed0800000000000000
+      internalID: -2381240386868542489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1456
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7989b4a981c6c6d0800000000000000
+      internalID: -2970474107285960321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1411
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a7dab18d107b370800000000000000
+      internalID: 8338135262788680291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1260
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f33b2db0c343440800000000000000
+      internalID: 4914619114845323153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1238
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d3b018800183a10800000000000000
+      internalID: 1889277672392703294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1188
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01357970e5b161cf0800000000000000
+      internalID: -282007835995843824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1173
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d0427727f1738e0800000000000000
+      internalID: -1713866556705600165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1174
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f5d556641e607a0800000000000000
+      internalID: -6411189327050743943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1146
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad209bb4266e0bf0800000000000000
+      internalID: -356235012564046423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1158
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f470ef35f9320c9e0800000000000000
+      internalID: -1603242300127967409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1077
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a9dd3f8da82bf60800000000000000
+      internalID: 8048648148473453162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1036
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3413a83fdc242f90800000000000000
+      internalID: -6979404185277885377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1035
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160adbed5f83f01f0800000000000000
+      internalID: -1076579157263146911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1030
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b49c66d906003150800000000000000
+      internalID: 5850182555276186800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 963
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f26a23016778fe90800000000000000
+      internalID: -6991707162944052495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 950
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7cb169541cb5f30800000000000000
+      internalID: 4565455151885436868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 955
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca192a4d2139f3e0800000000000000
+      internalID: -2019528887311459646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 891
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09ce93d79af7f340800000000000000
+      internalID: 4897658649786108170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 891
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b550134940961650800000000000000
+      internalID: 6203304181081593271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 883
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cf4a2c90a330fc0800000000000000
+      internalID: -3529913869333627756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 899
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3250b4281dfb12c0800000000000000
+      internalID: -4459692725843766721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 875
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966e8134355117490800000000000000
+      internalID: -7750390036375738775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 859
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e0f408394579f70800000000000000
+      internalID: 9193910156789747252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 808
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27319ef488bbd2e90800000000000000
+      internalID: -7048771647634336910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 790
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39badec8a235be740800000000000000
+      internalID: 5182327238438005651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 778
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b3271960e9e7510800000000000000
+      internalID: 1548849072909204357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 613
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e82e6d8f6e0ce30800000000000000
+      internalID: 4521867982311427608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 600
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae0d10dd9c412d80800000000000000
+      internalID: -8277250399445119328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 595
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717a29d889cfd4590800000000000000
+      internalID: -7688211256711141609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 591
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fa97bb5bfa18210800000000000000
+      internalID: 1333540159747632999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 584
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e6d9509708e7f00800000000000000
+      internalID: 1116471014908063340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 577
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05b2c39ca1870cf0800000000000000
+      internalID: -286117473101368051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 579
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ce34a7f70d60390800000000000000
+      internalID: -7852359654343185381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 581
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432c39f0108008b20800000000000000
+      internalID: 3134514141299196468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 529
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd21f53934a03b5c0800000000000000
+      internalID: -4201002742054972709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 525
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fcdae79a787e2b0800000000000000
+      internalID: -5555322453293674674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 535
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8213d368e471c87a0800000000000000
+      internalID: -6373693746609049304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 496
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c75f4b4863bea50800000000000000
+      internalID: 6551390026540088381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 461
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e7af6922e4a52a0800000000000000
+      internalID: -6747995181192413551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 459
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5015d177fa84920a0800000000000000
+      internalID: -6905908635141058299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 423
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8ee45af4b069c40800000000000000
+      internalID: 5518610830092855514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 418
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc8ceb19ca01e520800000000000000
+      internalID: 2729474708036422856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_62
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 393
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76db57651b8ba4f70800000000000000
+      internalID: 9172346662892715367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_63
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 393
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f666c2f2b2d91a0800000000000000
+      internalID: -6801232380651213029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_64
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 405
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3402708a1f10a3e50800000000000000
+      internalID: 6789741525632229443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_65
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 401
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae7879951288c480800000000000000
+      internalID: -8878703636080197980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_66
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 385
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1e0793a205c5db0800000000000000
+      internalID: -4801874960401243718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_67
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 346
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8d4cd79c2fb2e40800000000000000
+      internalID: 5632862706169338024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_68
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 327
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038e34449c9bc8fc0800000000000000
+      internalID: -3491211337034110928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_69
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 324
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5570e5d05bd596160800000000000000
+      internalID: 7019244526428358485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_70
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 328
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715baa3b53e926820800000000000000
+      internalID: 2910062262719526167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_71
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 288
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5629aa37a49c55210800000000000000
+      internalID: 1321183387308429925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_72
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 187
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a03bd20de94c270800000000000000
+      internalID: 8269909432716167742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_73
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 189
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad5040aed963d930800000000000000
+      internalID: 4166790485140069798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_74
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 171
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c476b8556d827e140800000000000000
+      internalID: 4748809233108789068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_75
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 163
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baef670b2662e570800000000000000
+      internalID: 8494464182168578736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_76
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 144
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa05f4c87597622d0800000000000000
+      internalID: -3303819859706556241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_77
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 136
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916785a4cc3795f30800000000000000
+      internalID: 4564807018574542361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_78
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df089fef2e8950680800000000000000
+      internalID: -8789450997035859715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Jungle Vine Sprite_79
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 114
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1bac69c460e1ab0800000000000000
+      internalID: -5035580407336488458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel Art Jungle Vine Sprite_0: 4474162981119514172
+      Pixel Art Jungle Vine Sprite_1: -7782685443109766300
+      Pixel Art Jungle Vine Sprite_10: -7995080289324595108
+      Pixel Art Jungle Vine Sprite_11: 2209650124329509794
+      Pixel Art Jungle Vine Sprite_12: 8504654508729044869
+      Pixel Art Jungle Vine Sprite_13: -5221967613287796895
+      Pixel Art Jungle Vine Sprite_14: 7695182989076077192
+      Pixel Art Jungle Vine Sprite_15: -3048099263295486483
+      Pixel Art Jungle Vine Sprite_16: -7748389392500575647
+      Pixel Art Jungle Vine Sprite_17: 9090419337971535215
+      Pixel Art Jungle Vine Sprite_18: -1763964165644686036
+      Pixel Art Jungle Vine Sprite_19: 4850945834824963264
+      Pixel Art Jungle Vine Sprite_2: 6733176646312662583
+      Pixel Art Jungle Vine Sprite_20: -2381240386868542489
+      Pixel Art Jungle Vine Sprite_21: -2970474107285960321
+      Pixel Art Jungle Vine Sprite_22: 8338135262788680291
+      Pixel Art Jungle Vine Sprite_23: 4914619114845323153
+      Pixel Art Jungle Vine Sprite_24: 1889277672392703294
+      Pixel Art Jungle Vine Sprite_25: -282007835995843824
+      Pixel Art Jungle Vine Sprite_26: -1713866556705600165
+      Pixel Art Jungle Vine Sprite_27: -6411189327050743943
+      Pixel Art Jungle Vine Sprite_28: -356235012564046423
+      Pixel Art Jungle Vine Sprite_29: -1603242300127967409
+      Pixel Art Jungle Vine Sprite_3: -4718295606149156221
+      Pixel Art Jungle Vine Sprite_30: 8048648148473453162
+      Pixel Art Jungle Vine Sprite_31: -6979404185277885377
+      Pixel Art Jungle Vine Sprite_32: -1076579157263146911
+      Pixel Art Jungle Vine Sprite_33: 5850182555276186800
+      Pixel Art Jungle Vine Sprite_34: -6991707162944052495
+      Pixel Art Jungle Vine Sprite_35: 4565455151885436868
+      Pixel Art Jungle Vine Sprite_36: -2019528887311459646
+      Pixel Art Jungle Vine Sprite_37: 4897658649786108170
+      Pixel Art Jungle Vine Sprite_38: 6203304181081593271
+      Pixel Art Jungle Vine Sprite_39: -3529913869333627756
+      Pixel Art Jungle Vine Sprite_4: 3645348013644304209
+      Pixel Art Jungle Vine Sprite_40: -4459692725843766721
+      Pixel Art Jungle Vine Sprite_41: -7750390036375738775
+      Pixel Art Jungle Vine Sprite_42: 9193910156789747252
+      Pixel Art Jungle Vine Sprite_43: -7048771647634336910
+      Pixel Art Jungle Vine Sprite_44: 5182327238438005651
+      Pixel Art Jungle Vine Sprite_45: 1548849072909204357
+      Pixel Art Jungle Vine Sprite_46: 4521867982311427608
+      Pixel Art Jungle Vine Sprite_47: -8277250399445119328
+      Pixel Art Jungle Vine Sprite_48: -7688211256711141609
+      Pixel Art Jungle Vine Sprite_49: 1333540159747632999
+      Pixel Art Jungle Vine Sprite_5: -3560906919099211172
+      Pixel Art Jungle Vine Sprite_50: 1116471014908063340
+      Pixel Art Jungle Vine Sprite_51: -286117473101368051
+      Pixel Art Jungle Vine Sprite_52: -7852359654343185381
+      Pixel Art Jungle Vine Sprite_53: 3134514141299196468
+      Pixel Art Jungle Vine Sprite_54: -4201002742054972709
+      Pixel Art Jungle Vine Sprite_55: -5555322453293674674
+      Pixel Art Jungle Vine Sprite_56: -6373693746609049304
+      Pixel Art Jungle Vine Sprite_57: 6551390026540088381
+      Pixel Art Jungle Vine Sprite_58: -6747995181192413551
+      Pixel Art Jungle Vine Sprite_59: -6905908635141058299
+      Pixel Art Jungle Vine Sprite_6: -7287703148730522176
+      Pixel Art Jungle Vine Sprite_60: 5518610830092855514
+      Pixel Art Jungle Vine Sprite_61: 2729474708036422856
+      Pixel Art Jungle Vine Sprite_62: 9172346662892715367
+      Pixel Art Jungle Vine Sprite_63: -6801232380651213029
+      Pixel Art Jungle Vine Sprite_64: 6789741525632229443
+      Pixel Art Jungle Vine Sprite_65: -8878703636080197980
+      Pixel Art Jungle Vine Sprite_66: -4801874960401243718
+      Pixel Art Jungle Vine Sprite_67: 5632862706169338024
+      Pixel Art Jungle Vine Sprite_68: -3491211337034110928
+      Pixel Art Jungle Vine Sprite_69: 7019244526428358485
+      Pixel Art Jungle Vine Sprite_7: -7507636934656375914
+      Pixel Art Jungle Vine Sprite_70: 2910062262719526167
+      Pixel Art Jungle Vine Sprite_71: 1321183387308429925
+      Pixel Art Jungle Vine Sprite_72: 8269909432716167742
+      Pixel Art Jungle Vine Sprite_73: 4166790485140069798
+      Pixel Art Jungle Vine Sprite_74: 4748809233108789068
+      Pixel Art Jungle Vine Sprite_75: 8494464182168578736
+      Pixel Art Jungle Vine Sprite_76: -3303819859706556241
+      Pixel Art Jungle Vine Sprite_77: 4564807018574542361
+      Pixel Art Jungle Vine Sprite_78: -8789450997035859715
+      Pixel Art Jungle Vine Sprite_79: -5035580407336488458
+      Pixel Art Jungle Vine Sprite_8: 8466498195684349764
+      Pixel Art Jungle Vine Sprite_9: -6776413618123739150
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

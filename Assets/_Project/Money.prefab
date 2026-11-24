@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2905461154767476743}
   - component: {fileID: 5989089173496671140}
   - component: {fileID: 1165347198025784248}
-  - component: {fileID: 961125244885050708}
+  - component: {fileID: 8352413663308832992}
   m_Layer: 0
   m_Name: Money
   m_TagString: Untagged
@@ -167,7 +167,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &961125244885050708
+--- !u!114 &8352413663308832992
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8908245297023906019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 670b56996370e4a8a9e07728a14b6d9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 464fffb4fe2404465b655f266c7d9df2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MoneyPickup
+  m_EditorClassIdentifier: Game.Runtime::MoneyPickup
   moneyValue: 100
