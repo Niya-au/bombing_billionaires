@@ -6,7 +6,7 @@ public class StartGame : MonoBehaviour
     // Intro → LevelSelect
     public void ContinueButton()
     {
-        SceneManager.LoadScene("LevelSelect");
+        SceneManager.LoadScene("Backstory");
     }
 
     // LevelSelect → Level 1
