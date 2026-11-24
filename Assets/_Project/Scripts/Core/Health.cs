@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -15,14 +14,14 @@ public class Health : MonoBehaviour
     [SerializeField] private HealthBar healthBar;
 
     [Header("Game Over")]
-    [SerializeField] private GameOverManager gameOverManager;
     [SerializeField] private DumpGameOverManager dumpGameOverManager;
 
     public int currentHP;
     public int MaxHP => maxHP;
 
-  public UnityEvent<int> OnDamaged = new UnityEvent<int>();
-public UnityEvent OnDied = new UnityEvent();
+    public UnityEvent<int> OnDamaged = new UnityEvent<int>();
+    public UnityEvent OnDied = new UnityEvent();
+
     private bool isDead;
 
     private void Awake()
@@ -40,12 +39,6 @@ public UnityEvent OnDied = new UnityEvent();
         {
             dumpGameOverManager =
                 FindFirstObjectByType<DumpGameOverManager>();
-        }
-
-        if (gameOverManager == null)
-        {
-            gameOverManager =
-                FindFirstObjectByType<GameOverManager>();
         }
     }
 
@@ -70,19 +63,12 @@ public UnityEvent OnDied = new UnityEvent();
 
             Debug.Log("PLAYER DIED!");
 
-            // Behold eksisterende døds-events
             OnDied?.Invoke();
 
-            // Donald Dumps Game Over-menu
             if (dumpGameOverManager != null)
             {
                 dumpGameOverManager.ShowGameOver();
             }
-            // Gruppens Game Over-system
-            if (dumpGameOverManager != null)
-{
-    dumpGameOverManager.ShowGameOver();
-}
         }
     }
 
@@ -94,7 +80,6 @@ public UnityEvent OnDied = new UnityEvent();
                 currentHP + " / " + maxHP + " HP";
         }
 
-        // Eksisterende grøn HP-bar
         if (healthBarFill != null)
         {
             healthBarFill.fillAmount =
@@ -106,7 +91,6 @@ public UnityEvent OnDied = new UnityEvent();
 
     private void UpdateHealthBar()
     {
-        // Eksisterende HealthBar-system
         if (healthBar != null)
         {
             healthBar.SetHealth(currentHP, maxHP);
