@@ -645,6 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 1
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -2498,6 +2499,8 @@ MonoBehaviour:
   maxHP: 100
   healthText: {fileID: 0}
   healthBarFill: {fileID: 0}
+  healthBar: {fileID: 0}
+  dumpGameOverManager: {fileID: 0}
   currentHP: 0
   OnDamaged:
     m_PersistentCalls:
@@ -2573,6 +2576,11 @@ MonoBehaviour:
     m_Bits: 192
   groundCheckSize: {x: 0.4, y: 0.1}
   groundCheckOffset: {x: 0, y: -0.5}
+  bkSprite: {fileID: 0}
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 10
+  shootInterval: 0.8
+  projectileSpawnDistance: 0.6
 --- !u!50 &194416400
 Rigidbody2D:
   serializedVersion: 5
@@ -3082,6 +3090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -3721,6 +3730,7 @@ MonoBehaviour:
   missionFailedText: {fileID: 788371609}
   fadeDuration: 2
   restartDelay: 3
+  successScreenDuration: 4
 --- !u!4 &257957923
 Transform:
   m_ObjectHideFlags: 0
@@ -5496,6 +5506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 1
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -5511,7 +5522,7 @@ MonoBehaviour:
   - {fileID: 1464603946}
   - {fileID: 111615178}
   - {fileID: 1802828607}
-  retreatDistance: 3.4
+  retreatDistance: 3.6
   jumpDuration: 0.7
   jumpHeight: 2
 --- !u!61 &402891459
@@ -6117,6 +6128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -6499,6 +6511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -6655,6 +6668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -7407,12 +7421,12 @@ MonoBehaviour:
   - {fileID: 1391720432}
   - {fileID: 89703344}
   - {fileID: 1345071313}
-  retreatDistance: 3.3
+  retreatDistance: 3.5
   jumpDuration: 0.8
   jumpHeight: 2
   player: {fileID: 194416402}
   shootPoint: {fileID: 759871136}
-  projectilePrefab: {fileID: 1684072186473813778, guid: 72f4684c4edce464cacbade714c9e535, type: 3}
+  projectilePrefab: {fileID: 1684072186473813778, guid: bd059c9f17bfd8649866920e8a89ccc7, type: 3}
   shootInterval: 2
   projectileSpeed: 8
   shootRange: 15
@@ -7902,6 +7916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -9223,6 +9238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -15383,6 +15399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -15580,6 +15597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -18654,6 +18672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 1
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -19657,6 +19676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -21814,6 +21834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 1
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -22432,6 +22453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -23722,6 +23744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 1
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -23737,7 +23760,7 @@ MonoBehaviour:
   - {fileID: 403010433}
   - {fileID: 1167074454}
   - {fileID: 2012894764}
-  retreatDistance: 3.8
+  retreatDistance: 4
   jumpDuration: 0.7
   jumpHeight: 2
 --- !u!114 &1794984887
@@ -25085,6 +25108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
@@ -25230,14 +25254,13 @@ MonoBehaviour:
   moveSpeed: 2
   arrivalDistance: 0.15
   player: {fileID: 194416402}
-  bulletPrefab: {fileID: 1684072186473813778, guid: 72f4684c4edce464cacbade714c9e535, type: 3}
+  bulletPrefab: {fileID: 1684072186473813778, guid: bd059c9f17bfd8649866920e8a89ccc7, type: 3}
   shootPoint: {fileID: 1362279949}
   shootRange: 10
   shootInterval: 2
   bulletSpeed: 8
   contactDamage: 15
   damageCooldown: 1
-  droneSprite: {fileID: 1050477680}
 --- !u!50 &1932640816
 Rigidbody2D:
   serializedVersion: 5
@@ -25772,6 +25795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6658c8dca9ec44ab65b8c94084b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonkeyController
+  canBeGrabbed: 0
   canRetreat: 0
   player: {fileID: 194416402}
   nutPrefab: {fileID: 618196067148004029, guid: bfb850d2e8c6b1c4eb7a8137ffcaf4cd, type: 3}
