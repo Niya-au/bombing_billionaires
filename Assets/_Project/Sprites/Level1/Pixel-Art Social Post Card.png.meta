@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: a279799c096a34457be8bbbfaa99f288
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -189985940877936897
+    second: Pixel-Art Social Post Card_0
+  - first:
+      213: 1635924354384849229
+    second: Pixel-Art Social Post Card_1
+  - first:
+      213: 1471199700366077553
+    second: Pixel-Art Social Post Card_2
+  - first:
+      213: -4493744948952237455
+    second: Pixel-Art Social Post Card_3
+  - first:
+      213: 7724323858467746142
+    second: Pixel-Art Social Post Card_4
+  - first:
+      213: 4113532524237238557
+    second: Pixel-Art Social Post Card_5
+  - first:
+      213: -4783243092601169343
+    second: Pixel-Art Social Post Card_6
+  - first:
+      213: 5613023902659043730
+    second: Pixel-Art Social Post Card_7
+  - first:
+      213: -4408555620817565818
+    second: Pixel-Art Social Post Card_8
+  - first:
+      213: -395881653637323749
+    second: Pixel-Art Social Post Card_9
+  - first:
+      213: 6645859545199648651
+    second: Pixel-Art Social Post Card_10
+  - first:
+      213: 5229314684944408283
+    second: Pixel-Art Social Post Card_11
+  - first:
+      213: 5317605065141426892
+    second: Pixel-Art Social Post Card_12
+  - first:
+      213: 1888688046884257198
+    second: Pixel-Art Social Post Card_13
+  - first:
+      213: 2232881226635407548
+    second: Pixel-Art Social Post Card_14
+  - first:
+      213: -2921426753387506574
+    second: Pixel-Art Social Post Card_15
+  - first:
+      213: 2264075420887173227
+    second: Pixel-Art Social Post Card_16
+  - first:
+      213: -4016887634848105395
+    second: Pixel-Art Social Post Card_17
+  - first:
+      213: -7176403163256382275
+    second: Pixel-Art Social Post Card_18
+  - first:
+      213: -1790221875663872266
+    second: Pixel-Art Social Post Card_19
+  - first:
+      213: -443717229477008639
+    second: Pixel-Art Social Post Card_20
+  - first:
+      213: 3089575360310577198
+    second: Pixel-Art Social Post Card_21
+  - first:
+      213: -7386268478526753234
+    second: Pixel-Art Social Post Card_22
+  - first:
+      213: -2786449463644100390
+    second: Pixel-Art Social Post Card_23
+  - first:
+      213: 6903875845315064852
+    second: Pixel-Art Social Post Card_24
+  - first:
+      213: 4487861620522134066
+    second: Pixel-Art Social Post Card_25
+  - first:
+      213: -2305034198329300677
+    second: Pixel-Art Social Post Card_26
+  - first:
+      213: 4180062213193714055
+    second: Pixel-Art Social Post Card_27
+  - first:
+      213: 4943280112608536781
+    second: Pixel-Art Social Post Card_28
+  - first:
+      213: -5775061981842807719
+    second: Pixel-Art Social Post Card_29
+  - first:
+      213: -3715673362328219577
+    second: Pixel-Art Social Post Card_30
+  - first:
+      213: 8975171943348373116
+    second: Pixel-Art Social Post Card_31
+  - first:
+      213: -6744131819609844282
+    second: Pixel-Art Social Post Card_32
+  - first:
+      213: 6517891076161754691
+    second: Pixel-Art Social Post Card_33
+  - first:
+      213: 1957735990711771286
+    second: Pixel-Art Social Post Card_34
+  - first:
+      213: -6583066608642460901
+    second: Pixel-Art Social Post Card_35
+  - first:
+      213: -2354135031808599529
+    second: Pixel-Art Social Post Card_36
+  - first:
+      213: 5264999763259260013
+    second: Pixel-Art Social Post Card_37
+  - first:
+      213: -8528264955521097860
+    second: Pixel-Art Social Post Card_38
+  - first:
+      213: -5143358502363392663
+    second: Pixel-Art Social Post Card_39
+  - first:
+      213: -8609665102567874349
+    second: Pixel-Art Social Post Card_40
+  - first:
+      213: -4854860147307266041
+    second: Pixel-Art Social Post Card_41
+  - first:
+      213: 2258059437134722382
+    second: Pixel-Art Social Post Card_42
+  - first:
+      213: 2296010576769432313
+    second: Pixel-Art Social Post Card_43
+  - first:
+      213: -7136942127163632614
+    second: Pixel-Art Social Post Card_44
+  - first:
+      213: -7022559478442192760
+    second: Pixel-Art Social Post Card_45
+  - first:
+      213: -1279208878966368151
+    second: Pixel-Art Social Post Card_46
+  - first:
+      213: 428746282211466176
+    second: Pixel-Art Social Post Card_47
+  - first:
+      213: -2815335277541405069
+    second: Pixel-Art Social Post Card_48
+  - first:
+      213: 4551441994291110748
+    second: Pixel-Art Social Post Card_49
+  - first:
+      213: 4364505486827839336
+    second: Pixel-Art Social Post Card_50
+  - first:
+      213: 4240780664549309818
+    second: Pixel-Art Social Post Card_51
+  - first:
+      213: -6557819430791724117
+    second: Pixel-Art Social Post Card_52
+  - first:
+      213: 8278111814625489483
+    second: Pixel-Art Social Post Card_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 269
+        width: 1372
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6f6a91bc80d5df0800000000000000
+      internalID: -189985940877936897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 912
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49e4866888f3b610800000000000000
+      internalID: 1635924354384849229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 923
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e2bfd2550ca6410800000000000000
+      internalID: 1471199700366077553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 907
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17afe7e17c203a1c0800000000000000
+      internalID: -4493744948952237455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 915
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e517b02cf9f423b60800000000000000
+      internalID: 7724323858467746142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 894
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d113d2f4904361930800000000000000
+      internalID: 4113532524237238557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 910
+        width: 35
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a9a2fffb18e9db0800000000000000
+      internalID: -4783243092601169343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_7
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 866
+        width: 150
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291e4c9108775ed40800000000000000
+      internalID: 5613023902659043730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 907
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6870e98350aa1d2c0800000000000000
+      internalID: -4408555620817565818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_9
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 909
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b146ad5cbbb818af0800000000000000
+      internalID: -395881653637323749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 896
+        width: 45
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f93ca8b06da3c50800000000000000
+      internalID: 6645859545199648651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 907
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde58d6fff1429840800000000000000
+      internalID: 5229314684944408283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_12
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 894
+        width: 33
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca929302adebc940800000000000000
+      internalID: 5317605065141426892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_13
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 879
+        width: 165
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadff0e95c7f53a10800000000000000
+      internalID: 1888688046884257198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_14
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 896
+        width: 438
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0fd3335a9ccfe10800000000000000
+      internalID: 2232881226635407548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_15
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 923
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274d30f98d10577d0800000000000000
+      internalID: -2921426753387506574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 41
+        width: 1374
+        height: 791
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b684ca6899c9b6f10800000000000000
+      internalID: 2264075420887173227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 133
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c383e7af52148c0800000000000000
+      internalID: -4016887634848105395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 131
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc1d11685b486c90800000000000000
+      internalID: -7176403163256382275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 131
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fedbe760bad727e0800000000000000
+      internalID: -1790221875663872266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 129
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b6d4cd78997d9f0800000000000000
+      internalID: -443717229477008639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 131
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e288c12cb6060ea20800000000000000
+      internalID: 3089575360310577198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_22
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 131
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e267fb1f3f3be7990800000000000000
+      internalID: -7386268478526753234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 201
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad86aeed9fa8459d0800000000000000
+      internalID: -2786449463644100390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_24
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 195
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4147765c08e7fcf50800000000000000
+      internalID: 6903875845315064852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_25
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 131
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aa45cbd56184e30800000000000000
+      internalID: 4487861620522134066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_26
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 133
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b396475fb9fd200e0800000000000000
+      internalID: -2305034198329300677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_27
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 129
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789c17c9f60920a30800000000000000
+      internalID: 4180062213193714055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_28
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 128
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8e841621f0a9440800000000000000
+      internalID: 4943280112608536781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_29
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 143
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9546560a9bbdadfa0800000000000000
+      internalID: -5775061981842807719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_30
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 143
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7409b0173c64f6cc0800000000000000
+      internalID: -3715673362328219577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_31
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 202
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76055974573e8c70800000000000000
+      internalID: 8975171943348373116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_32
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 131
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c51fbd87d70862a0800000000000000
+      internalID: -6744131819609844282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_33
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 131
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3465f478663347a50800000000000000
+      internalID: 6517891076161754691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_34
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 120
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6906f52d2864b2b10800000000000000
+      internalID: 1957735990711771286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_35
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 140
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13712b4ccf34a4a0800000000000000
+      internalID: -6583066608642460901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_36
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 116
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71adebb49ae645fd0800000000000000
+      internalID: -2354135031808599529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 151
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c7597b369011940800000000000000
+      internalID: 5264999763259260013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_38
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 120
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f90c7253485a980800000000000000
+      internalID: -8528264955521097860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_39
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 129
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965152a51be1f98b0800000000000000
+      internalID: -5143358502363392663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_40
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 127
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d06d568433548880800000000000000
+      internalID: -8609665102567874349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_41
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 131
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700cc8d0b6210acb0800000000000000
+      internalID: -4854860147307266041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_42
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 201
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e453228281d365f10800000000000000
+      internalID: 2258059437134722382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_43
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 131
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fab1ec64711ddf10800000000000000
+      internalID: 2296010576769432313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_44
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 197
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1414efc2fc74fc90800000000000000
+      internalID: -7136942127163632614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_45
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 131
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88096698c5bda8e90800000000000000
+      internalID: -7022559478442192760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_46
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 129
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9681fa75d465f3ee0800000000000000
+      internalID: -1279208878966368151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_47
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 129
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbdbf9d87633f500800000000000000
+      internalID: 428746282211466176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_48
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 129
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ec48a3b7bede8d0800000000000000
+      internalID: -2815335277541405069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_49
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 131
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5364851168f92f30800000000000000
+      internalID: 4551441994291110748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_50
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 129
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fdd9abd96d19c30800000000000000
+      internalID: 4364505486827839336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_51
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 150
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d7ec8bb874ada30800000000000000
+      internalID: 4240780664549309818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_52
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 137
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba34186f8f1fdf4a0800000000000000
+      internalID: -6557819430791724117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-Art Social Post Card_53
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 144
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4277b906d2c1e270800000000000000
+      internalID: 8278111814625489483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 338989fa17904449fb1b3c2e6719a3cc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel-Art Social Post Card_0: -189985940877936897
+      Pixel-Art Social Post Card_1: 1635924354384849229
+      Pixel-Art Social Post Card_10: 6645859545199648651
+      Pixel-Art Social Post Card_11: 5229314684944408283
+      Pixel-Art Social Post Card_12: 5317605065141426892
+      Pixel-Art Social Post Card_13: 1888688046884257198
+      Pixel-Art Social Post Card_14: 2232881226635407548
+      Pixel-Art Social Post Card_15: -2921426753387506574
+      Pixel-Art Social Post Card_16: 2264075420887173227
+      Pixel-Art Social Post Card_17: -4016887634848105395
+      Pixel-Art Social Post Card_18: -7176403163256382275
+      Pixel-Art Social Post Card_19: -1790221875663872266
+      Pixel-Art Social Post Card_2: 1471199700366077553
+      Pixel-Art Social Post Card_20: -443717229477008639
+      Pixel-Art Social Post Card_21: 3089575360310577198
+      Pixel-Art Social Post Card_22: -7386268478526753234
+      Pixel-Art Social Post Card_23: -2786449463644100390
+      Pixel-Art Social Post Card_24: 6903875845315064852
+      Pixel-Art Social Post Card_25: 4487861620522134066
+      Pixel-Art Social Post Card_26: -2305034198329300677
+      Pixel-Art Social Post Card_27: 4180062213193714055
+      Pixel-Art Social Post Card_28: 4943280112608536781
+      Pixel-Art Social Post Card_29: -5775061981842807719
+      Pixel-Art Social Post Card_3: -4493744948952237455
+      Pixel-Art Social Post Card_30: -3715673362328219577
+      Pixel-Art Social Post Card_31: 8975171943348373116
+      Pixel-Art Social Post Card_32: -6744131819609844282
+      Pixel-Art Social Post Card_33: 6517891076161754691
+      Pixel-Art Social Post Card_34: 1957735990711771286
+      Pixel-Art Social Post Card_35: -6583066608642460901
+      Pixel-Art Social Post Card_36: -2354135031808599529
+      Pixel-Art Social Post Card_37: 5264999763259260013
+      Pixel-Art Social Post Card_38: -8528264955521097860
+      Pixel-Art Social Post Card_39: -5143358502363392663
+      Pixel-Art Social Post Card_4: 7724323858467746142
+      Pixel-Art Social Post Card_40: -8609665102567874349
+      Pixel-Art Social Post Card_41: -4854860147307266041
+      Pixel-Art Social Post Card_42: 2258059437134722382
+      Pixel-Art Social Post Card_43: 2296010576769432313
+      Pixel-Art Social Post Card_44: -7136942127163632614
+      Pixel-Art Social Post Card_45: -7022559478442192760
+      Pixel-Art Social Post Card_46: -1279208878966368151
+      Pixel-Art Social Post Card_47: 428746282211466176
+      Pixel-Art Social Post Card_48: -2815335277541405069
+      Pixel-Art Social Post Card_49: 4551441994291110748
+      Pixel-Art Social Post Card_5: 4113532524237238557
+      Pixel-Art Social Post Card_50: 4364505486827839336
+      Pixel-Art Social Post Card_51: 4240780664549309818
+      Pixel-Art Social Post Card_52: -6557819430791724117
+      Pixel-Art Social Post Card_53: 8278111814625489483
+      Pixel-Art Social Post Card_6: -4783243092601169343
+      Pixel-Art Social Post Card_7: 5613023902659043730
+      Pixel-Art Social Post Card_8: -4408555620817565818
+      Pixel-Art Social Post Card_9: -395881653637323749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
