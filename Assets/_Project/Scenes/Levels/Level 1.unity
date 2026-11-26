@@ -990,7 +990,7 @@ MonoBehaviour:
   playerRb: {fileID: 1396211389}
   victoryPanel: {fileID: 917220435}
   successScreenDuration: 4
-  introSceneName: Intro
+  introSceneName: LevelSelect
   fadeOverlay: {fileID: 480029232}
   missionFailedText: {fileID: 1754352500}
   fadeDuration: 2

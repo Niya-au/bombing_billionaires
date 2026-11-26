@@ -57,6 +57,9 @@ public class BossWinManager : MonoBehaviour
 
     private IEnumerator ReturnToLevelSelect()
     {
+        // Save Level 5 completion 
+        LevelProgression.CompleteLevel(5);
+
         // Keep the SuccessPanel visible for 4 seconds.
         yield return new WaitForSecondsRealtime(successScreenDuration);
 

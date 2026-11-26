@@ -1404,6 +1404,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f54abc491e34d869965afa03e65252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartGame
+  levelCards:
+  - startButton: {fileID: 958520299}
+    lockedOverlay: {fileID: 0}
+  - startButton: {fileID: 862515976}
+    lockedOverlay: {fileID: 1362799034}
+  - startButton: {fileID: 813611893}
+    lockedOverlay: {fileID: 1414947597}
+  - startButton: {fileID: 1946290773}
+    lockedOverlay: {fileID: 322600966}
+  - startButton: {fileID: 264944958}
+    lockedOverlay: {fileID: 1140457502}
 --- !u!4 &889985438
 Transform:
   m_ObjectHideFlags: 0

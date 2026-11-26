@@ -14,7 +14,7 @@ public class DumpGameOverManager : MonoBehaviour
     [Header("Mission Success")]
     [SerializeField] private GameObject victoryPanel;
     [SerializeField] private float successScreenDuration = 4f;
-    [SerializeField] private string introSceneName = "Intro";
+    [SerializeField] private string introSceneName = "LevelSelect";
 
     [Header("Mission Failed")]
     [SerializeField] private Image fadeOverlay;
@@ -114,6 +114,9 @@ public class DumpGameOverManager : MonoBehaviour
 
         Debug.Log("Donald Dump defeated! Mission success.");
 
+        // Save Level 1 completion and unlock Level 2.
+        LevelProgression.CompleteLevel(1);
+
         StopPlayerControls();
 
         if (victoryPanel != null)
@@ -121,6 +124,7 @@ public class DumpGameOverManager : MonoBehaviour
 
         StartCoroutine(ReturnToIntro());
     }
+
 
     private IEnumerator ReturnToIntro()
     {
