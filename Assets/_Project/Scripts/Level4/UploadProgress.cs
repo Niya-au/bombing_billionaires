@@ -1,14 +1,16 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UploadProgress : MonoBehaviour
 {
+    [Header("Upload Progress")]
     [SerializeField] private Image fillImage;
-    [SerializeField] private Health playerHealth;
-
     [SerializeField] private float uploadSpeed = 0.05f;
-    [SerializeField] private GameObject gameOverUI;
-    [SerializeField] private float gameOverThreshold = 0.9f;
+    [SerializeField] private float gameOverThreshold = 1f;
+
+    [Header("Ending Manager")]
+    [SerializeField] private Level4EndingController endingManager;
 
     private float progress = 0f;
     private bool isUploading = true;
@@ -16,10 +18,14 @@ public class UploadProgress : MonoBehaviour
 
     private void Start()
     {
-        fillImage.fillAmount = 0f;
+        if (fillImage != null)
+            fillImage.fillAmount = 0f;
 
-        if (gameOverUI != null)
-            gameOverUI.SetActive(false);
+        if (endingManager == null)
+        {
+            endingManager =
+                FindFirstObjectByType<Level4EndingController>();
+        }
     }
 
     private void Update()
@@ -30,7 +36,8 @@ public class UploadProgress : MonoBehaviour
         progress += uploadSpeed * Time.deltaTime;
         progress = Mathf.Clamp01(progress);
 
-        fillImage.fillAmount = progress;
+        if (fillImage != null)
+            fillImage.fillAmount = progress;
 
         if (progress >= gameOverThreshold)
         {
@@ -60,11 +67,18 @@ public class UploadProgress : MonoBehaviour
         finished = true;
         isUploading = false;
 
-        fillImage.fillAmount = 1f;
+        if (fillImage != null)
+            fillImage.fillAmount = 1f;
 
-        if (gameOverUI != null)
-            gameOverUI.SetActive(true);
+        Debug.Log("Upload completed! Mission failed.");
 
-        Time.timeScale = 0f;
+        if (endingManager != null)
+        {
+            endingManager.TriggerPlayerDeath();
+        }
+        else
+        {
+            Debug.LogError("Level4EndingController is missing!");
+        }
     }
 }

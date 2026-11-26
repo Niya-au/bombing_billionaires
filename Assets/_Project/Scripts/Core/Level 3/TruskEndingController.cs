@@ -175,7 +175,7 @@ public class TruskEndingController : MonoBehaviour
         endingStarted = true;
 
         // Save Level 3 completion and unlock Level 4.
-        LevelProgression.CompleteLevel(3);
+        LevelProgression.CompleteLevel(2);
 
         // Stop BK from moving.
         StopPlayerControls();

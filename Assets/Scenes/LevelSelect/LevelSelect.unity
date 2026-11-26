@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 13867154}
   - component: {fileID: 13867153}
   m_Layer: 5
-  m_Name: Level4Card
+  m_Name: MarpLevelCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -350, y: -200}
+  m_AnchoredPosition: {x: 566, y: 250}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &13867153
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1293866593574648453, guid: 06d651ca825544fa8af0dc44912972a0, type: 3}
+  m_Sprite: {fileID: -1633564810044292216, guid: e5eed8adf2004b343acd54e99d458dcd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 321647412}
   - component: {fileID: 321647411}
   m_Layer: 5
-  m_Name: Level3Card
+  m_Name: AlonLevelCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -639,7 +639,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 600, y: 250}
+  m_AnchoredPosition: {x: 0, y: 250}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321647411
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7219921166428575260, guid: 7fd400e3832614c54b10fd43a2a469f0, type: 3}
+  m_Sprite: {fileID: -100944791540656752, guid: c767ce85f3aa342479722362719ec9d5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1407,14 +1407,14 @@ MonoBehaviour:
   levelCards:
   - startButton: {fileID: 958520299}
     lockedOverlay: {fileID: 0}
-  - startButton: {fileID: 862515976}
-    lockedOverlay: {fileID: 1362799034}
   - startButton: {fileID: 813611893}
     lockedOverlay: {fileID: 1414947597}
   - startButton: {fileID: 1946290773}
     lockedOverlay: {fileID: 322600966}
   - startButton: {fileID: 264944958}
     lockedOverlay: {fileID: 1140457502}
+  - startButton: {fileID: 862515976}
+    lockedOverlay: {fileID: 1362799034}
 --- !u!4 &889985438
 Transform:
   m_ObjectHideFlags: 0
@@ -1442,7 +1442,7 @@ GameObject:
   - component: {fileID: 907277982}
   - component: {fileID: 907277981}
   m_Layer: 5
-  m_Name: Level2Card
+  m_Name: JaffLevelCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1466,7 +1466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 250}
+  m_AnchoredPosition: {x: 266, y: -170}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907277981
@@ -1489,7 +1489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7304276702099818156, guid: 1d33d4a687a05412aa058277dad3202b, type: 3}
+  m_Sprite: {fileID: 9052360802542988439, guid: a08a673951e62c44bba3f5730189cad1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1865,7 +1865,7 @@ GameObject:
   - component: {fileID: 1174637404}
   - component: {fileID: 1174637403}
   m_Layer: 5
-  m_Name: Level5Card
+  m_Name: NepsteinLevelCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1889,7 +1889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: -200}
+  m_AnchoredPosition: {x: -272, y: -170}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174637403
@@ -1912,7 +1912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5377382903389443213, guid: c458fd235966842448aecbd8198a65ad, type: 3}
+  m_Sprite: {fileID: -5233828537351165096, guid: 53dfcf9421b688f49ba48be5b6c2ec28, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3097,7 +3097,7 @@ GameObject:
   - component: {fileID: 2053974294}
   - component: {fileID: 2053974293}
   m_Layer: 5
-  m_Name: Level1Card
+  m_Name: RonaldLevelCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

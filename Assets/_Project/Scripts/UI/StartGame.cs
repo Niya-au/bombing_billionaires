@@ -12,8 +12,18 @@ public class StartGame : MonoBehaviour
         public GameObject lockedOverlay;
     }
 
-    [Header("Level Cards")]
+    [Header("Level Cards - New Campaign Order")]
     [SerializeField] private LevelCard[] levelCards;
+
+    // Maps campaign levels to existing Unity scenes.
+    private static readonly string[] levelSceneNames =
+    {
+        "Level 1", // Ronald Dump
+        "Level 3", // Alon Trusk
+        "Level 4", // Marp Suckerberg
+        "Level 5", // Nepstein
+        "Level 2"  // Jaff Bezor
+    };
 
     private void Start()
     {
@@ -35,14 +45,12 @@ public class StartGame : MonoBehaviour
             if (levelCards[i] == null)
                 continue;
 
-            // Enable or disable the Start Game button.
             if (levelCards[i].startButton != null)
             {
                 levelCards[i].startButton.interactable =
                     isUnlocked;
             }
 
-            // Show or hide the LockedOverlay.
             if (levelCards[i].lockedOverlay != null)
             {
                 levelCards[i].lockedOverlay.SetActive(
@@ -52,7 +60,7 @@ public class StartGame : MonoBehaviour
         }
     }
 
-    // Intro → Backstory
+    // Intro -> Backstory
     public void ContinueButton()
     {
         SceneManager.LoadScene("Backstory");
@@ -85,6 +93,13 @@ public class StartGame : MonoBehaviour
 
     private void LoadLevel(int levelNumber)
     {
+        if (levelNumber < 1 ||
+            levelNumber > levelSceneNames.Length)
+        {
+            Debug.LogError("Invalid level number!");
+            return;
+        }
+
         if (!LevelProgression.IsLevelUnlocked(levelNumber))
         {
             Debug.Log("Level " + levelNumber + " is locked!");
@@ -93,7 +108,12 @@ public class StartGame : MonoBehaviour
 
         Time.timeScale = 1f;
 
-        SceneManager.LoadScene("Level " + levelNumber);
+        string sceneName = levelSceneNames[levelNumber - 1];
+
+        Debug.Log("Loading campaign level " +
+                  levelNumber + ": " + sceneName);
+
+        SceneManager.LoadScene(sceneName);
     }
 
     [ContextMenu("Reset Level Progress")]

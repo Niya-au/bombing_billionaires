@@ -223,7 +223,7 @@ public class LevelEndingController : MonoBehaviour
         endingStarted = true;
 
         // Save Level 2 completion and unlock Level 3.
-        LevelProgression.CompleteLevel(2);
+        LevelProgression.CompleteLevel(5);
 
         // Stop BK from moving.
         StopPlayerControls();
